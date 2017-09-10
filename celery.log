@@ -1,0 +1,6 @@
+[2017-09-10 20:32:41,531: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-09-10 20:32:41,544: INFO/MainProcess] mingle: searching for neighbors
+[2017-09-10 20:32:42,575: INFO/MainProcess] mingle: all alone
+[2017-09-10 20:32:42,609: WARNING/MainProcess] /home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-09-10 20:32:42,610: INFO/MainProcess] celery@povilas ready.
