@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+<gameinfo>
+    <teama>{{ game.team_a.name }}</teama>
+    <teamaflag>{{ game.team_a.flag }}</teamaflag>
+    <teamb>{{ game.team_b.name }}</teamb>
+    <teambflag>{{ game.team_b.flag }}</teambflag>
+    <location>Tunis</location>
+    <quarter>{{ game.current_period }}</quarter>
+    <score>AA-BB</score>
+    <time></time>
+    <teamfoulA></teamfoulA>
+    <teamfoulB></teamfoulB>
+    <q1>AA-BB</q1>
+    <q2>AA-BB</q2>
+    <q3>AA-BB</q3>
+    <q4>AA-BB</q4>
+</gameinfo>
+<playbyplay>
+{% for action in actions %}
+    <event>
+        <Score>{{ action.score }}</Score>
+        <Action> {{ action.action_code }} </Action> 
+        <ActionText>{{ action.action_text }}</ActionText>
+        <PlayerID>{{ action.player.code }}</PlayerID>
+        <PlayerName>{{ action.player.get_full_name }}</PlayerName>
+        <PlayerPic>{{ action.player.headshot }}</PlayerPic>
+        <ScoreTeamA></ScoreTeamA>
+        <ScoreTeamB></ScoreTeamB>
+        <PlusMinus></PlusMinus>
+        <ShotCoordX>{{ action.shot_x }}</ShotCoordX>
+        <ShotCoordY>{{ action.shot_y }}</ShotCoordY>
+        <TeamID></TeamID>
+        <TeamName></TeamName>
+        <ClockTime>{{ action.time }}</ClockTime>
+        <UTCTime>{{ action.get_utc_time }}</UTCTime>
+    </event>
+{% endfor %}
+</playbyplay>
+</document>

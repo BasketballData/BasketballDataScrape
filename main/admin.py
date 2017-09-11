@@ -15,5 +15,5 @@ class PlayerAdmin(admin.ModelAdmin):
 admin.site.register(Player, PlayerAdmin)
 
 class ActionsAdmin(admin.ModelAdmin):
-    list_display = ['action_uid', 'action_code', 'time']
+    list_display = ['game', 'action_uid', 'action_code', 'time']
 admin.site.register(Actions, ActionsAdmin)

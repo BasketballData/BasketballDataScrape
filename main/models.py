@@ -52,6 +52,12 @@ class Game(models.Model):
                 self.team_a_score = info['team_b']['team_b_score']
         super(Game, self).save(force_insert, force_update)
 
+    def __str__(self):
+        return self.code
+
+    def get_actions(self):
+        actions = Actions.objects.filter(game=self.id)
+        return actions
 
 class Player(models.Model):
     code = models.CharField(max_length=300, unique=True)
@@ -59,6 +65,9 @@ class Player(models.Model):
     last_name = models.CharField(max_length=300)
     team = models.ForeignKey(Team, on_delete=models.CASCADE)
     headshot = models.CharField(max_length=500)
+
+    def get_full_name(self):
+        return self.first_name + ' ' + self.last_name
 
 
 class Actions(models.Model):
@@ -76,6 +85,8 @@ class Actions(models.Model):
     subs_in = models.ForeignKey(Player, blank=True, null=True,
                                 related_name='%(class)s_subs_in') # C2 | On SUBS Player field -OUT subs_in +IN
 
+    def get_utc_time(self):
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(self.epoch_time))
 
 @receiver(pre_save, sender=Game)
 def check_status(sender, instance, **kwargs):
@@ -91,6 +102,6 @@ def add_teams(sender, instance, **kwargs):
     game = Fiba_Game(instance.code)
     players = game.get_players()
     for player in players:
-        tasks.add_player.apply_async(player_info=player) # SITA VIETA KNISAS
+        tasks.add_player.apply_async(args=([player]), countdown=10) # SITA VIETA KNISAS
     time.sleep(0.5) # In case not all players created
-    tasks.get_game_actions(instance.code) # Add actions
+    tasks.get_game_actions.apply_async(args=([instance.code]), countdown=15) # Add actions, 

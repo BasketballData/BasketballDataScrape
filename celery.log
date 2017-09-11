@@ -1,6 +1,1134 @@
-[2017-09-10 20:32:41,531: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
-[2017-09-10 20:32:41,544: INFO/MainProcess] mingle: searching for neighbors
-[2017-09-10 20:32:42,575: INFO/MainProcess] mingle: all alone
-[2017-09-10 20:32:42,609: WARNING/MainProcess] /home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
-  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
-[2017-09-10 20:32:42,610: INFO/MainProcess] celery@povilas ready.
+[2017-09-11 11:16:36,016: INFO/MainProcess] Received task: main.tasks.add_player[ec04d168-fbc3-45a9-8d28-3ad44e6c1ef5]  ETA:[2017-09-11 11:16:45.987457+00:00] 
+[2017-09-11 11:16:36,026: INFO/MainProcess] Received task: main.tasks.add_player[4fd15b82-413d-4ef4-8365-996f81ec819f]  ETA:[2017-09-11 11:16:46.015949+00:00] 
+[2017-09-11 11:16:36,027: INFO/MainProcess] Received task: main.tasks.add_player[5543d249-cfca-45ca-9aff-4fd786709b0d]  ETA:[2017-09-11 11:16:46.017987+00:00] 
+[2017-09-11 11:16:36,029: INFO/MainProcess] Received task: main.tasks.add_player[83daa706-2ad3-4386-9771-68ca90052961]  ETA:[2017-09-11 11:16:46.019611+00:00] 
+[2017-09-11 11:16:36,031: INFO/MainProcess] Received task: main.tasks.add_player[0eecf5eb-06b2-48bf-bf3a-cdd52eeade44]  ETA:[2017-09-11 11:16:46.021584+00:00] 
+[2017-09-11 11:16:36,032: INFO/MainProcess] Received task: main.tasks.add_player[f4c9e353-b3ab-43b7-bf31-c68e6c400ce0]  ETA:[2017-09-11 11:16:46.022733+00:00] 
+[2017-09-11 11:16:36,034: INFO/MainProcess] Received task: main.tasks.add_player[e311272c-9150-4af4-8436-d8343608bc18]  ETA:[2017-09-11 11:16:46.023837+00:00] 
+[2017-09-11 11:16:36,035: INFO/MainProcess] Received task: main.tasks.add_player[4c654e9c-1d0b-4a65-b300-bbaad7868fa9]  ETA:[2017-09-11 11:16:46.026139+00:00] 
+[2017-09-11 11:16:36,037: INFO/MainProcess] Received task: main.tasks.add_player[67bb0b5a-d691-45a0-bf8a-ba239d4495df]  ETA:[2017-09-11 11:16:46.028233+00:00] 
+[2017-09-11 11:16:36,039: INFO/MainProcess] Received task: main.tasks.add_player[11046387-d4bf-4213-83fb-b236795aeb6c]  ETA:[2017-09-11 11:16:46.030276+00:00] 
+[2017-09-11 11:16:36,040: INFO/MainProcess] Received task: main.tasks.add_player[9ab424c2-8c55-4d23-b25a-277c4328406a]  ETA:[2017-09-11 11:16:46.032311+00:00] 
+[2017-09-11 11:16:36,042: INFO/MainProcess] Received task: main.tasks.add_player[d14b7e43-d05e-4d48-be6e-5fbd266247dd]  ETA:[2017-09-11 11:16:46.034321+00:00] 
+[2017-09-11 11:16:36,044: INFO/MainProcess] Received task: main.tasks.add_player[2cbe2c12-7c2d-4a51-9a93-c1eb65e346cc]  ETA:[2017-09-11 11:16:46.036411+00:00] 
+[2017-09-11 11:16:36,045: INFO/MainProcess] Received task: main.tasks.add_player[01526842-f1b5-439b-8985-698d8b43de6c]  ETA:[2017-09-11 11:16:46.038522+00:00] 
+[2017-09-11 11:16:36,047: INFO/MainProcess] Received task: main.tasks.add_player[ab12f420-6823-4abf-aa12-53fc837a75d7]  ETA:[2017-09-11 11:16:46.040661+00:00] 
+[2017-09-11 11:16:36,049: INFO/MainProcess] Received task: main.tasks.add_player[d88efec8-9584-461d-aa7e-e1faf1054383]  ETA:[2017-09-11 11:16:46.042782+00:00] 
+[2017-09-11 11:16:36,051: INFO/MainProcess] Received task: main.tasks.add_player[289c9f57-9c21-4212-b0cf-76aeabf99e90]  ETA:[2017-09-11 11:16:46.044947+00:00] 
+[2017-09-11 11:16:36,052: INFO/MainProcess] Received task: main.tasks.add_player[a7c7d387-2350-4f59-af0c-7e50e5389567]  ETA:[2017-09-11 11:16:46.046976+00:00] 
+[2017-09-11 11:16:36,054: INFO/MainProcess] Received task: main.tasks.add_player[9454907c-256b-4bae-b761-3a7c0f5e710a]  ETA:[2017-09-11 11:16:46.049031+00:00] 
+[2017-09-11 11:16:36,055: INFO/MainProcess] Received task: main.tasks.add_player[36caacef-31a3-498e-add3-e152879c9675]  ETA:[2017-09-11 11:16:46.051062+00:00] 
+[2017-09-11 11:16:36,057: INFO/MainProcess] Received task: main.tasks.add_player[6c2003d3-2550-4e76-812d-0e992a529f2b]  ETA:[2017-09-11 11:16:46.053172+00:00] 
+[2017-09-11 11:16:36,059: INFO/MainProcess] Received task: main.tasks.add_player[793a89a2-a03b-4917-b959-51795bb06054]  ETA:[2017-09-11 11:16:46.055225+00:00] 
+[2017-09-11 11:16:36,060: INFO/MainProcess] Received task: main.tasks.add_player[86550fda-719d-45e7-b2d6-9d2130a68bd3]  ETA:[2017-09-11 11:16:46.057292+00:00] 
+[2017-09-11 11:16:36,062: INFO/MainProcess] Received task: main.tasks.add_player[66deb023-8236-4c29-880d-a77f39afee81]  ETA:[2017-09-11 11:16:46.059339+00:00] 
+[2017-09-11 11:16:46,270: ERROR/ForkPoolWorker-4] Task main.tasks.add_player[ec04d168-fbc3-45a9-8d28-3ad44e6c1ef5] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-57836) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-57836) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-57836) already exists.
+
+[2017-09-11 11:16:46,338: ERROR/ForkPoolWorker-3] Task main.tasks.add_player[83daa706-2ad3-4386-9771-68ca90052961] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-57921) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-57921) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-57921) already exists.
+
+[2017-09-11 11:16:46,338: ERROR/ForkPoolWorker-2] Task main.tasks.add_player[5543d249-cfca-45ca-9aff-4fd786709b0d] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-70924) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-70924) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-70924) already exists.
+
+[2017-09-11 11:16:46,339: ERROR/ForkPoolWorker-1] Task main.tasks.add_player[4fd15b82-413d-4ef4-8365-996f81ec819f] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-38703) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-38703) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-38703) already exists.
+
+[2017-09-11 11:16:46,505: ERROR/ForkPoolWorker-4] Task main.tasks.add_player[0eecf5eb-06b2-48bf-bf3a-cdd52eeade44] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-78061) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-78061) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-78061) already exists.
+
+[2017-09-11 11:16:46,596: ERROR/ForkPoolWorker-2] Task main.tasks.add_player[f4c9e353-b3ab-43b7-bf31-c68e6c400ce0] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-43702) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-43702) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-43702) already exists.
+
+[2017-09-11 11:16:46,596: ERROR/ForkPoolWorker-1] Task main.tasks.add_player[e311272c-9150-4af4-8436-d8343608bc18] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-62134) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-62134) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-62134) already exists.
+
+[2017-09-11 11:16:46,596: ERROR/ForkPoolWorker-3] Task main.tasks.add_player[4c654e9c-1d0b-4a65-b300-bbaad7868fa9] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-86168) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-86168) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-86168) already exists.
+
+[2017-09-11 11:16:46,806: ERROR/ForkPoolWorker-4] Task main.tasks.add_player[67bb0b5a-d691-45a0-bf8a-ba239d4495df] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-71167) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-71167) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-71167) already exists.
+
+[2017-09-11 11:16:46,907: ERROR/ForkPoolWorker-2] Task main.tasks.add_player[11046387-d4bf-4213-83fb-b236795aeb6c] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-41392) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-41392) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-41392) already exists.
+
+[2017-09-11 11:16:46,907: ERROR/ForkPoolWorker-1] Task main.tasks.add_player[9ab424c2-8c55-4d23-b25a-277c4328406a] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-57911) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-57911) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-57911) already exists.
+
+[2017-09-11 11:16:46,940: ERROR/ForkPoolWorker-3] Task main.tasks.add_player[d14b7e43-d05e-4d48-be6e-5fbd266247dd] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-44776) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-44776) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-44776) already exists.
+
+[2017-09-11 11:16:47,042: ERROR/ForkPoolWorker-4] Task main.tasks.add_player[2cbe2c12-7c2d-4a51-9a93-c1eb65e346cc] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-93079) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-93079) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-93079) already exists.
+
+[2017-09-11 11:16:47,097: ERROR/ForkPoolWorker-2] Task main.tasks.add_player[01526842-f1b5-439b-8985-698d8b43de6c] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-92127) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-92127) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-92127) already exists.
+
+[2017-09-11 11:16:47,131: ERROR/ForkPoolWorker-1] Task main.tasks.add_player[ab12f420-6823-4abf-aa12-53fc837a75d7] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-53305) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-53305) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-53305) already exists.
+
+[2017-09-11 11:16:47,131: ERROR/ForkPoolWorker-3] Task main.tasks.add_player[d88efec8-9584-461d-aa7e-e1faf1054383] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-55012) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-55012) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-55012) already exists.
+
+[2017-09-11 11:16:47,287: ERROR/ForkPoolWorker-4] Task main.tasks.add_player[289c9f57-9c21-4212-b0cf-76aeabf99e90] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-57910) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-57910) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-57910) already exists.
+
+[2017-09-11 11:16:47,384: ERROR/ForkPoolWorker-2] Task main.tasks.add_player[a7c7d387-2350-4f59-af0c-7e50e5389567] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-57924) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-57924) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-57924) already exists.
+
+[2017-09-11 11:16:47,488: ERROR/ForkPoolWorker-3] Task main.tasks.add_player[36caacef-31a3-498e-add3-e152879c9675] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-62935) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-62935) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-62935) already exists.
+
+[2017-09-11 11:16:47,491: ERROR/ForkPoolWorker-1] Task main.tasks.add_player[9454907c-256b-4bae-b761-3a7c0f5e710a] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-38960) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-38960) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-38960) already exists.
+
+[2017-09-11 11:16:47,644: ERROR/ForkPoolWorker-4] Task main.tasks.add_player[6c2003d3-2550-4e76-812d-0e992a529f2b] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-85767) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-85767) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-85767) already exists.
+
+[2017-09-11 11:16:47,734: ERROR/ForkPoolWorker-2] Task main.tasks.add_player[793a89a2-a03b-4917-b959-51795bb06054] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-69491) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-69491) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-69491) already exists.
+
+[2017-09-11 11:16:47,824: ERROR/ForkPoolWorker-3] Task main.tasks.add_player[86550fda-719d-45e7-b2d6-9d2130a68bd3] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-111449) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-111449) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-111449) already exists.
+
+[2017-09-11 11:16:47,824: ERROR/ForkPoolWorker-1] Task main.tasks.add_player[66deb023-8236-4c29-880d-a77f39afee81] raised unexpected: IntegrityError('duplicate key value violates unique constraint "main_player_code_9716777a_uniq"\nDETAIL:  Key (code)=(BKM400405-47742) already exists.\n',)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-47742) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 22, in add_player
+    player = models.Player(team=team, **player_info)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 807, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 837, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 923, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/base.py", line 962, in _do_insert
+    using=using, raw=raw)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/django/db/backends/utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "main_player_code_9716777a_uniq"
+DETAIL:  Key (code)=(BKM400405-47742) already exists.
+
+[2017-09-11 13:45:51,015: INFO/MainProcess] Received task: main.tasks.add_player[baac8e89-297b-4529-94cc-0e0a55c79b19]  ETA:[2017-09-11 13:46:00.971960+00:00] 
+[2017-09-11 13:45:51,017: INFO/MainProcess] Received task: main.tasks.add_player[fbbd2a40-1fb3-4082-9ab9-eba2d9a541fd]  ETA:[2017-09-11 13:46:01.014683+00:00] 
+[2017-09-11 13:45:51,019: INFO/MainProcess] Received task: main.tasks.add_player[570c5890-59a4-4019-ade3-8ede54977956]  ETA:[2017-09-11 13:46:01.016654+00:00] 
+[2017-09-11 13:45:51,021: INFO/MainProcess] Received task: main.tasks.add_player[53b8035b-6758-4638-8bab-bc85e6bbfd3f]  ETA:[2017-09-11 13:46:01.018589+00:00] 
+[2017-09-11 13:45:51,022: INFO/MainProcess] Received task: main.tasks.add_player[ce3c0838-8e20-4485-8faa-c9b7c765d030]  ETA:[2017-09-11 13:46:01.020643+00:00] 
+[2017-09-11 13:45:51,025: INFO/MainProcess] Received task: main.tasks.add_player[d002232b-cd38-48a2-9575-b72467c7950a]  ETA:[2017-09-11 13:46:01.022256+00:00] 
+[2017-09-11 13:45:51,027: INFO/MainProcess] Received task: main.tasks.add_player[4f3b6555-6bac-4a38-a15b-7ad519cbcf06]  ETA:[2017-09-11 13:46:01.024626+00:00] 
+[2017-09-11 13:45:51,029: INFO/MainProcess] Received task: main.tasks.add_player[5c16e02f-3944-4e53-a435-1611722b7c28]  ETA:[2017-09-11 13:46:01.026771+00:00] 
+[2017-09-11 13:45:51,031: INFO/MainProcess] Received task: main.tasks.add_player[7072e4ee-390a-4a28-882f-e5cfb46a3200]  ETA:[2017-09-11 13:46:01.028606+00:00] 
+[2017-09-11 13:45:51,033: INFO/MainProcess] Received task: main.tasks.add_player[30ed7a72-49b8-406b-a381-4d190fe9c3b3]  ETA:[2017-09-11 13:46:01.030674+00:00] 
+[2017-09-11 13:45:51,041: INFO/MainProcess] Received task: main.tasks.add_player[44b3616f-a627-4aaa-99af-b7f74bd25f0a]  ETA:[2017-09-11 13:46:01.032666+00:00] 
+[2017-09-11 13:45:51,042: INFO/MainProcess] Received task: main.tasks.add_player[3f74b62c-efd1-4d6f-b244-6290d3e97959]  ETA:[2017-09-11 13:46:01.034625+00:00] 
+[2017-09-11 13:45:51,043: INFO/MainProcess] Received task: main.tasks.add_player[0bfe9634-6144-4aaf-abad-23124a083fc7]  ETA:[2017-09-11 13:46:01.036615+00:00] 
+[2017-09-11 13:45:51,045: INFO/MainProcess] Received task: main.tasks.add_player[40775f57-86b0-4e3e-a902-901c17fa34fa]  ETA:[2017-09-11 13:46:01.037947+00:00] 
+[2017-09-11 13:45:51,045: INFO/MainProcess] Received task: main.tasks.add_player[75d38dda-e166-43ad-ad4f-04ae68cd4794]  ETA:[2017-09-11 13:46:01.039236+00:00] 
+[2017-09-11 13:45:51,047: INFO/MainProcess] Received task: main.tasks.add_player[3174e4ef-111b-4edb-ab69-5333cc3dac26]  ETA:[2017-09-11 13:46:01.040576+00:00] 
+[2017-09-11 13:45:51,048: INFO/MainProcess] Received task: main.tasks.add_player[f5300f66-683e-4e81-917a-73702087425a]  ETA:[2017-09-11 13:46:01.042100+00:00] 
+[2017-09-11 13:45:51,049: INFO/MainProcess] Received task: main.tasks.add_player[c16c43fc-afc0-4879-86e8-33ddd57f1b9a]  ETA:[2017-09-11 13:46:01.044278+00:00] 
+[2017-09-11 13:45:51,050: INFO/MainProcess] Received task: main.tasks.add_player[e28b01f6-bb18-4c13-bf12-de3fa6087d13]  ETA:[2017-09-11 13:46:01.046554+00:00] 
+[2017-09-11 13:45:51,051: INFO/MainProcess] Received task: main.tasks.add_player[da0bcd40-c210-4555-b686-872626198ce0]  ETA:[2017-09-11 13:46:01.048714+00:00] 
+[2017-09-11 13:45:51,053: INFO/MainProcess] Received task: main.tasks.add_player[0587ec90-cc74-4f35-8362-e4d17f04345a]  ETA:[2017-09-11 13:46:01.050900+00:00] 
+[2017-09-11 13:45:51,055: INFO/MainProcess] Received task: main.tasks.add_player[f4aca85f-5a3b-4308-a1b3-f052f2f855ea]  ETA:[2017-09-11 13:46:01.053072+00:00] 
+[2017-09-11 13:45:51,057: INFO/MainProcess] Received task: main.tasks.add_player[5fba469e-9f0c-413f-b25e-f357b2ca0b8b]  ETA:[2017-09-11 13:46:01.055242+00:00] 
+[2017-09-11 13:45:51,060: INFO/MainProcess] Received task: main.tasks.add_player[da56af26-37cc-467d-a653-c60c70af051e]  ETA:[2017-09-11 13:46:01.057160+00:00] 
+[2017-09-11 13:45:51,562: INFO/MainProcess] Received task: main.tasks.get_game_actions[a03c8043-234c-453e-b6c1-a469d468d1f0]  ETA:[2017-09-11 13:46:03.559806+00:00] 
+[2017-09-11 13:46:01,321: INFO/ForkPoolWorker-2] Task main.tasks.add_player[baac8e89-297b-4529-94cc-0e0a55c79b19] succeeded in 0.305254942002648s: True
+[2017-09-11 13:46:01,433: INFO/ForkPoolWorker-4] Task main.tasks.add_player[fbbd2a40-1fb3-4082-9ab9-eba2d9a541fd] succeeded in 0.4174247410010139s: True
+[2017-09-11 13:46:01,433: INFO/ForkPoolWorker-1] Task main.tasks.add_player[53b8035b-6758-4638-8bab-bc85e6bbfd3f] succeeded in 0.4129849330020079s: True
+[2017-09-11 13:46:01,487: INFO/ForkPoolWorker-3] Task main.tasks.add_player[570c5890-59a4-4019-ade3-8ede54977956] succeeded in 0.4664065399992978s: True
+[2017-09-11 13:46:01,634: INFO/ForkPoolWorker-2] Task main.tasks.add_player[ce3c0838-8e20-4485-8faa-c9b7c765d030] succeeded in 0.3091899540013401s: True
+[2017-09-11 13:46:01,708: INFO/ForkPoolWorker-1] Task main.tasks.add_player[4f3b6555-6bac-4a38-a15b-7ad519cbcf06] succeeded in 0.27226743400024134s: True
+[2017-09-11 13:46:01,823: INFO/ForkPoolWorker-4] Task main.tasks.add_player[d002232b-cd38-48a2-9575-b72467c7950a] succeeded in 0.38854459399954067s: True
+[2017-09-11 13:46:01,875: INFO/ForkPoolWorker-3] Task main.tasks.add_player[5c16e02f-3944-4e53-a435-1611722b7c28] succeeded in 0.3843235580025066s: True
+[2017-09-11 13:46:01,969: INFO/ForkPoolWorker-2] Task main.tasks.add_player[7072e4ee-390a-4a28-882f-e5cfb46a3200] succeeded in 0.33308361699891975s: True
+[2017-09-11 13:46:02,029: INFO/ForkPoolWorker-1] Task main.tasks.add_player[30ed7a72-49b8-406b-a381-4d190fe9c3b3] succeeded in 0.3180679590004729s: True
+[2017-09-11 13:46:02,192: INFO/ForkPoolWorker-3] Task main.tasks.add_player[3f74b62c-efd1-4d6f-b244-6290d3e97959] succeeded in 0.314071116001287s: True
+[2017-09-11 13:46:02,193: INFO/ForkPoolWorker-4] Task main.tasks.add_player[44b3616f-a627-4aaa-99af-b7f74bd25f0a] succeeded in 0.36662854899986996s: True
+[2017-09-11 13:46:02,239: INFO/ForkPoolWorker-2] Task main.tasks.add_player[0bfe9634-6144-4aaf-abad-23124a083fc7] succeeded in 0.26854190299854963s: True
+[2017-09-11 13:46:02,360: INFO/ForkPoolWorker-1] Task main.tasks.add_player[40775f57-86b0-4e3e-a902-901c17fa34fa] succeeded in 0.32877483799893525s: True
+[2017-09-11 13:46:02,505: INFO/ForkPoolWorker-4] Task main.tasks.add_player[75d38dda-e166-43ad-ad4f-04ae68cd4794] succeeded in 0.30969904599987785s: True
+[2017-09-11 13:46:02,560: INFO/ForkPoolWorker-2] Task main.tasks.add_player[f5300f66-683e-4e81-917a-73702087425a] succeeded in 0.3186357019985735s: True
+[2017-09-11 13:46:02,561: INFO/ForkPoolWorker-3] Task main.tasks.add_player[3174e4ef-111b-4edb-ab69-5333cc3dac26] succeeded in 0.3645761570005561s: True
+[2017-09-11 13:46:02,716: INFO/ForkPoolWorker-1] Task main.tasks.add_player[c16c43fc-afc0-4879-86e8-33ddd57f1b9a] succeeded in 0.352897054002824s: True
+[2017-09-11 13:46:03,019: INFO/ForkPoolWorker-3] Task main.tasks.add_player[da0bcd40-c210-4555-b686-872626198ce0] succeeded in 0.453065625999443s: True
+[2017-09-11 13:46:03,019: INFO/ForkPoolWorker-4] Task main.tasks.add_player[e28b01f6-bb18-4c13-bf12-de3fa6087d13] succeeded in 0.5120362319976266s: True
+[2017-09-11 13:46:03,069: INFO/ForkPoolWorker-1] Task main.tasks.add_player[f4aca85f-5a3b-4308-a1b3-f052f2f855ea] succeeded in 0.3494935060007265s: True
+[2017-09-11 13:46:03,071: INFO/ForkPoolWorker-2] Task main.tasks.add_player[0587ec90-cc74-4f35-8362-e4d17f04345a] succeeded in 0.5036194960011926s: True
+[2017-09-11 13:46:03,254: INFO/ForkPoolWorker-3] Task main.tasks.add_player[5fba469e-9f0c-413f-b25e-f357b2ca0b8b] succeeded in 0.23368161200050963s: True
+[2017-09-11 13:46:03,369: INFO/ForkPoolWorker-4] Task main.tasks.add_player[da56af26-37cc-467d-a653-c60c70af051e] succeeded in 0.34546744000181207s: True
+[2017-09-11 13:46:05,291: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q1_JSON.json?s=534&t=0
+[2017-09-11 13:46:05,879: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q2_JSON.json?s=534&t=0
+[2017-09-11 13:46:06,459: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q3_JSON.json?s=534&t=0
+[2017-09-11 13:46:07,153: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q4_JSON.json?s=534&t=0
+[2017-09-11 13:46:12,851: INFO/ForkPoolWorker-3] Task main.tasks.get_game_actions[a03c8043-234c-453e-b6c1-a469d468d1f0] succeeded in 7.576385353997466s: None

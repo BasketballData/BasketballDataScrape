@@ -1,5 +1,7 @@
 import logging
 
+from django.db import IntegrityError
+
 from celery import shared_task
 
 from main import models
@@ -13,13 +15,18 @@ def add_player(player_info):
     try:
         team = models.Team.objects.get(code=player_info['team_unique_id'])
     except Exception as e:
-        logger.error('TEAM_CODE: %s ' % player_info['team_unique_id'])
-        logger.error('Failed to add new player. Error: %s' % e)
-        logger.error(player_info)
+        logger.error('ERROR Creating new team. MSG: %s' % e)
         return False
     del player_info['team_unique_id']
-    player = models.Player(team=team, **player_info)
-    player.save()
+    try:
+        player = models.Player(team=team, **player_info)
+        player.save()
+    except IntegrityError:
+        logger.info('Player %s already exists in database' % player_info['code'])
+        return True
+    except Exception as e:
+        logger.error('ERROR Creating new player. MSG: %s' % e)
+        return False
     return True
 
 
@@ -29,9 +36,12 @@ def get_game_actions(code):
     current_game = models.Game.objects.get(code=code)
     game = Fiba_Game(code)
     actions = game.get_actions()
-    teams = models.Team.objects.filter(code=code)
+    #teams = models.Team.objects.filter(code=code)
+    teams = []
+    teams.append(current_game.team_a)
+    teams.append(current_game.team_b)
     players = models.Player.objects.filter(team__in=teams)
-
+    logger.info('FILTERED PLAYERS: %s' % players)
     def _get_player(player_code):
         if player_code:
             for player in players:
