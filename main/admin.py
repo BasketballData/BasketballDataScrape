@@ -1,5 +1,5 @@
 from django.contrib import admin
-from main.models import Game, Player, Team, Actions
+from main.models import Game, Player, Team, Actions, Location
 
 # Register your models here.
 class GameAdmin(admin.ModelAdmin):
@@ -17,3 +17,7 @@ admin.site.register(Player, PlayerAdmin)
 class ActionsAdmin(admin.ModelAdmin):
     list_display = ['game', 'action_uid', 'action_code', 'time']
 admin.site.register(Actions, ActionsAdmin)
+
+class LocationAdmin(admin.ModelAdmin):
+    list_display = ['city', 'code', 'title']
+admin.site.register(Location, LocationAdmin)

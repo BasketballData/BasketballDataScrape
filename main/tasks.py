@@ -42,6 +42,7 @@ def get_game_actions(code):
     teams.append(current_game.team_b)
     players = models.Player.objects.filter(team__in=teams)
     logger.info('FILTERED PLAYERS: %s' % players)
+
     def _get_player(player_code):
         if player_code:
             for player in players:
@@ -49,20 +50,46 @@ def get_game_actions(code):
                     return player
         else:
             return None
+    
+    def _get_team(team_code):
+        if team_code:
+            for team in teams:
+                if team.code == team_code:
+                    return team
+        else:
+            return None
+
 
     all_actions = models.Actions.objects.values_list('action_uid', flat=True)
     for action in actions:
         if not action['Id'] in all_actions:
+            # Maybe add this to separate Celery tasks (?)
             models.Actions.objects.create(
                 game=current_game,
-                action_code=action.get('AC', None),
-                action_text=action.get('Action', None),
-                action_uid=int(action.get('Id', "0").replace(':', "")),
-                time=action.get('Time', None),
-                epoch_time=action.get('GT', None),
-                shot_x=action.get('SX', None),
-                shot_y=action.get('SY', None),
-                score=action.get('Score', None),
-                subs_in=_get_player(action.get('C2', None)),
-                player=_get_player(action.get('C1', None))
-            ) 
+                action_code=action.get('AC', ''),
+                action_text=action.get('Action', ''),
+                action_uid=int(action.get('Id', "0").replace(':', '')),
+                time=action.get('Time', ''),
+                epoch_time=action.get('GT', ''),
+                shot_x=action.get('SX', 0),
+                shot_y=action.get('SY', 0),
+                score=action.get('Score', ''),
+                subs_in=_get_player(action.get('C2', '')),
+                player=_get_player(action.get('C1', '')),
+                plus_minus=action.get('SU', ''),
+                team=_get_team(action.get('T1', '')),
+            )
+
+@shared_task
+def init_locations(code):
+    """ Populates database with locations """
+    game = Fiba_Game(code)
+    locations = game.get_locations()
+    for location in locations:
+        _, _ = models.Location.objects.get_or_create(
+                    code=locations[location]['Code'],
+                    defaults={
+                        'city': locations[location]['City'],
+                        'title': locations[location]['Title']                        
+                    }
+        )

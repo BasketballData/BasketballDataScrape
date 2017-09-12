@@ -5,16 +5,13 @@
     <teamaflag>{{ game.team_a.flag }}</teamaflag>
     <teamb>{{ game.team_b.name }}</teamb>
     <teambflag>{{ game.team_b.flag }}</teambflag>
-    <location>Tunis</location>
+    <location>{{ game.location.city }}</location>
     <quarter>{{ game.current_period }}</quarter>
-    <score>AA-BB</score>
-    <time></time>
-    <teamfoulA></teamfoulA>
-    <teamfoulB></teamfoulB>
-    <q1>AA-BB</q1>
-    <q2>AA-BB</q2>
-    <q3>AA-BB</q3>
-    <q4>AA-BB</q4>
+    <score>{{ game.get_score }}</score>
+    <time>{{ game.time }}</time>
+    <teamfoulA>{{ game.team_a_foul }}</teamfoulA>
+    <teamfoulB>{{ game.team_b_foul }}</teamfoulB>
+    {{ game.get_periods_score |safe}}
 </gameinfo>
 <playbyplay>
 {% for action in actions %}
@@ -30,8 +27,8 @@
         <PlusMinus></PlusMinus>
         <ShotCoordX>{{ action.shot_x }}</ShotCoordX>
         <ShotCoordY>{{ action.shot_y }}</ShotCoordY>
-        <TeamID></TeamID>
-        <TeamName></TeamName>
+        <TeamID>{{ action.team.code }}</TeamID>
+        <TeamName>{{ action.team.name }}</TeamName>
         <ClockTime>{{ action.time }}</ClockTime>
         <UTCTime>{{ action.get_utc_time }}</UTCTime>
     </event>

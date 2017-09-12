@@ -1,7 +1,7 @@
 FIBA WEBSITE LIVE SCORE SCRAPER
 
 
-URLS:
+[ALL URLS]
 https://livecache.sportresult.com/node/db/FIBASTATS_PROD/TRANSLATION_JSON.json?s=unknown&t=0
 http://www.fiba.basketball/svc/EventStatus?eventID=13229
 https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_SCHEDULE_JSON.json?s=unknown&t=0
@@ -10,12 +10,15 @@ https://livecache.sportresult.com/node/db/FIBASTATS_PROD/13229_GAME_13554-A-2_JS
 https://livecache.sportresult.com/node/db/FIBASTATS_PROD/13229_COMPDETAILS_13554-A-2_JSON.json?s=1&t=0
 https://livecache.sportresult.com/node/db/FIBASTATS_PROD/13229_GAMEACTIONS_13554-A-2_OT1_JSON.json?s=75&t=0
 
-
+[TESTING URLS]
 https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_STANDINGDATA_JSON.json?s=unknown&t=0
 https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_COMPDETAILS_BKM400407_JSON.json?s=1&t=0
 https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400407_JSON.json?s=534&t=0
 https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_SCHEDULE_JSON.json?s=unknown&t=0
+https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q1_JSON.json?s=75&t=0
 
+
+[TEST GAME CODE]
 12105&BKM400405
 https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q1_JSON.json?s=75&t=0
 

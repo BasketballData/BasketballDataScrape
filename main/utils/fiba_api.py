@@ -4,10 +4,11 @@ import requests
 logger = logging.getLogger(__name__)
 
 
-BASE_URL = "https://livecache.sportresult.com/node/db/FIBASTATS_PROD/%s_%s_%s_%sJSON.json?s=534&t=0"
-BASE_GAME_INFO = "GAME"
-BASE_ACTIONS_INFO = "GAMEACTIONS"
-BASE_COMP_DETAILS = "COMPDETAILS"
+BASE_URL = "https://livecache.sportresult.com/node/db/FIBASTATS_PROD/%s%s%s%sJSON.json?s=534&t=0"
+BASE_GAME_INFO = "GAME_"
+BASE_ACTIONS_INFO = "GAMEACTIONS_"
+BASE_COMP_DETAILS = "COMPDETAILS_"
+BASE_STANDINGDATA = "STANDINGDATA_"
 STATUSES = {
     'Event-1-': 'future',
     'Event-2-': 'future',
@@ -30,33 +31,57 @@ class Fiba_Game:
     def __init__(self, code):
         self.code = code
         self.league, self.game = code.split('&')
+        self.league += '_'
+        self.game += '_'
         
     
     def get_info(self):
-        """ Returns status of the game (Future, Playing, Finished) """
+        """ Returns information of the game """
         response = self._make_request(BASE_GAME_INFO, self.league, self.game)
         try:
-            team_b_score = int(response['content']['full']['Competitors'][0]['Score'])
-            team_a_score = int(response['content']['full']['Competitors'][1]['Score'])
+            team_a_score = int(response['content']['full']['Competitors'][0]['Score'])
+            team_b_score = int(response['content']['full']['Competitors'][1]['Score'])
         except Exception as e:
             print('ERROR: %s' % e)
             team_a_score = 0
             team_b_score = 0
         
+        tmp_a_scores = response['content']['full']['Competitors'][0]['Periods']
+        team_a_scores = ''
+        for q in tmp_a_scores:
+            team_a_scores +=  q['Score'] + ' '
+        
+        tmp_b_scores = response['content']['full']['Competitors'][1]['Periods']
+        team_b_scores = ''
+        for q in tmp_b_scores:
+            team_b_scores +=  q['Score'] + ' '
+        
         information = {
             'status': STATUSES[response['content']['full']['Status']],
             'team_a': {
-                'team_a_uid': response['content']['full']['Competitors'][1]['Id'],
-                'team_a_score': team_a_score
+                'team_a_uid': response['content']['full']['Competitors'][0]['Id'],
+                'team_a_score': team_a_score,
+                'team_a_foul': response['content']['full']['Competitors'][0]['Stats']['A_FOUL'],
+                'team_a_scores': team_a_scores,
             }, 
             'team_b': {
-                'team_b_uid': response['content']['full']['Competitors'][0]['Id'],
-                'team_b_score': team_b_score
+                'team_b_uid': response['content']['full']['Competitors'][1]['Id'],
+                'team_b_score': team_b_score,
+                'team_b_foul':  response['content']['full']['Competitors'][1]['Stats']['A_FOUL'],
+                'team_b_scores': team_b_scores,
             },
             'current_period': response['content']['full']['CurrentPeriod'],
-            'start_time': response['content']['full']['StartTime']
+            'start_time': response['content']['full']['StartTime'],
+            'location': response['content']['full']['Location'],
+            'time': response['content']['full']['RC'],
         }
         return information
+    
+    def get_locations(self):
+        """ Returns a list of locations """
+        response = self._make_request(BASE_STANDINGDATA, self.league)
+        return response['content']['full']['Locations']
+
 
     def get_teams(self):
         """ Returns information about competitors of the game """
@@ -150,7 +175,7 @@ class Fiba_Game:
             return actions
 
 
-    def _make_request(self, endpoint, league, game, period=''):
+    def _make_request(self, endpoint, league, game='', period=''):
         """ Base function for making requests to FIBA """
         good_status = [200, 304]
         url = BASE_URL % (league, endpoint, game, period)

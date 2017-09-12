@@ -19,6 +19,15 @@ class Team(models.Model):
         return self.name    
 
 
+class Location(models.Model):
+    city = models.CharField(max_length=300)
+    code = models.CharField(max_length=100, primary_key=True)
+    title = models.CharField(max_length=300)
+
+    def __str__(self):
+        return self.city
+
+
 class Game(models.Model):
     code = models.CharField(max_length=300, unique=True)
     status = models.CharField(max_length=300, blank=True)
@@ -28,8 +37,14 @@ class Game(models.Model):
                                 blank=True, null=True, on_delete=models.CASCADE)
     team_a_score = models.IntegerField(default=0, blank=True)
     team_b_score = models.IntegerField(default=0, blank=True)
+    team_a_foul = models.IntegerField(default=0, blank=True)
+    team_b_foul = models.IntegerField(default=0, blank=True)
+    team_a_period_scores = models.CharField(max_length=300, blank=True)
+    team_b_period_scores = models.CharField(max_length=300, blank=True)
     current_period = models.CharField(max_length=10, blank=True)
     start_time = models.BigIntegerField(default=0, blank=True)
+    location = models.ForeignKey(Location, blank=True, null=True)
+    time = models.CharField(max_length=30, blank=True)
 
     def save(self, force_insert=False, force_update=False):
         if not self.team_a or not self.team_b:
@@ -58,6 +73,20 @@ class Game(models.Model):
     def get_actions(self):
         actions = Actions.objects.filter(game=self.id)
         return actions
+    
+    def get_score(self):
+        return "%s-%s" % (self.team_a_score, self.team_b_score)
+
+    def get_periods_score(self):
+        full_xml = ""
+        team_a_scores = self.team_a_period_scores.split()
+        team_b_scores = self.team_b_period_scores.split()
+        q = 1
+        for a, b in zip(team_a_scores, team_b_scores):
+            full_xml += "<q%s>%s-%s</q%s>" % (q, a, b, q)
+            q += 1
+        return full_xml
+
 
 class Player(models.Model):
     code = models.CharField(max_length=300, unique=True)
@@ -84,9 +113,12 @@ class Actions(models.Model):
     score = models.CharField(max_length=30,blank=True, null=True) # Score
     subs_in = models.ForeignKey(Player, blank=True, null=True,
                                 related_name='%(class)s_subs_in') # C2 | On SUBS Player field -OUT subs_in +IN
+    plus_minus = models.CharField(max_length=30,blank=True, null=True)
+    team = models.ForeignKey(Team, blank=True, null=True)
 
     def get_utc_time(self):
         return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(self.epoch_time))
+
 
 @receiver(pre_save, sender=Game)
 def check_status(sender, instance, **kwargs):
@@ -94,14 +126,27 @@ def check_status(sender, instance, **kwargs):
     info = game.get_info()
     instance.status = info['status']
     instance.start_time = info['start_time']
-    # instance.team_b_score = info['team_b_score']
+    instance.team_a_score = info['team_a']['team_a_score']
+    instance.team_a_foul = info['team_a']['team_a_foul']
+    instance.team_b_score = info['team_b']['team_b_score']
+    instance.team_b_foul = info['team_b']['team_b_foul']
     instance.current_period = info['current_period']
+    instance.time = info['time']
+    instance.team_a_period_scores = info['team_a']['team_a_scores']
+    instance.team_b_period_scores = info['team_b']['team_b_scores']
+    tasks.init_locations(instance.code)
+    try:
+        location = Location.objects.get(code=info['location'])
+        instance.location = location
+    except:
+        pass
 
 @receiver(post_save, sender=Game)
-def add_teams(sender, instance, **kwargs):
-    game = Fiba_Game(instance.code)
-    players = game.get_players()
-    for player in players:
-        tasks.add_player.apply_async(args=([player]), countdown=10) # SITA VIETA KNISAS
-    time.sleep(0.5) # In case not all players created
-    tasks.get_game_actions.apply_async(args=([instance.code]), countdown=15) # Add actions, 
+def add_teams(sender, instance, created, **kwargs):
+    if created:
+        game = Fiba_Game(instance.code)
+        players = game.get_players()
+        for player in players:
+            tasks.add_player.apply_async(args=([player]), countdown=10)
+        # time.sleep(0.5) # In case not all players created
+        tasks.get_game_actions.apply_async(args=([instance.code]), countdown=15) # Add actions, 
