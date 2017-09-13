@@ -22,9 +22,9 @@
         <PlayerID>{{ action.player.code }}</PlayerID>
         <PlayerName>{{ action.player.get_full_name }}</PlayerName>
         <PlayerPic>{{ action.player.headshot }}</PlayerPic>
-        <ScoreTeamA></ScoreTeamA>
-        <ScoreTeamB></ScoreTeamB>
-        <PlusMinus></PlusMinus>
+        <ScoreTeamA>{{ action.team_a_score }}</ScoreTeamA>
+        <ScoreTeamB>{{ action.team_b_score }}</ScoreTeamB>
+        <PlusMinus>{{ action.plus_minus }}</PlusMinus>
         <ShotCoordX>{{ action.shot_x }}</ShotCoordX>
         <ShotCoordY>{{ action.shot_y }}</ShotCoordY>
         <TeamID>{{ action.team.code }}</TeamID>

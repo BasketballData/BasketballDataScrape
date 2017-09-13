@@ -58,10 +58,22 @@ def get_game_actions(code):
                     return team
         else:
             return None
+    
+    def _clean_time(time):
+        if time:
+            return int(str(time)[:10])
+        else:
+            return ""
 
 
     all_actions = models.Actions.objects.values_list('action_uid', flat=True)
+    current_score = {'team_a':0, 'team_b': 0}
     for action in actions:
+        score = action.get('Score', None)
+        if score:
+            splited_score = score.split('-')
+            current_score['team_a'] = splited_score[0]
+            current_score['team_b'] = splited_score[1]
         if not action['Id'] in all_actions:
             # Maybe add this to separate Celery tasks (?)
             models.Actions.objects.create(
@@ -70,7 +82,7 @@ def get_game_actions(code):
                 action_text=action.get('Action', ''),
                 action_uid=int(action.get('Id', "0").replace(':', '')),
                 time=action.get('Time', ''),
-                epoch_time=action.get('GT', ''),
+                epoch_time=_clean_time(action.get('GT', '')),
                 shot_x=action.get('SX', 0),
                 shot_y=action.get('SY', 0),
                 score=action.get('Score', ''),
@@ -78,6 +90,8 @@ def get_game_actions(code):
                 player=_get_player(action.get('C1', '')),
                 plus_minus=action.get('SU', ''),
                 team=_get_team(action.get('T1', '')),
+                team_a_score=current_score['team_a'],
+                team_b_score=current_score['team_b'],
             )
 
 @shared_task

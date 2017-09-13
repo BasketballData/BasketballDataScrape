@@ -1,0 +1,193 @@
+[2017-09-13 19:45:59,496: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-09-13 19:45:59,516: INFO/MainProcess] mingle: searching for neighbors
+[2017-09-13 19:46:00,603: INFO/MainProcess] mingle: all alone
+[2017-09-13 19:46:00,666: WARNING/MainProcess] /home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-09-13 19:46:00,666: INFO/MainProcess] celery@netcrime-Inspiron-5558 ready.
+[2017-09-13 19:46:13,661: INFO/MainProcess] Received task: main.tasks.add_player[da602d04-c408-4c58-a0f6-2b00699ea88c]  ETA:[2017-09-13 19:46:23.610291+00:00] 
+[2017-09-13 19:46:13,663: INFO/MainProcess] Received task: main.tasks.add_player[84eb6227-e702-466f-982f-800a69aea01f]  ETA:[2017-09-13 19:46:23.638320+00:00] 
+[2017-09-13 19:46:13,664: INFO/MainProcess] Received task: main.tasks.add_player[b75c05c5-4645-4583-a8cf-cc5f3d96bb8f]  ETA:[2017-09-13 19:46:23.640733+00:00] 
+[2017-09-13 19:46:13,666: INFO/MainProcess] Received task: main.tasks.add_player[d95c1d4f-d7d9-4c92-a775-54fb8ccd77ef]  ETA:[2017-09-13 19:46:23.641924+00:00] 
+[2017-09-13 19:46:13,667: INFO/MainProcess] Received task: main.tasks.add_player[e56849f9-82e4-406c-82d5-691ccf4fe0b4]  ETA:[2017-09-13 19:46:23.643048+00:00] 
+[2017-09-13 19:46:13,669: INFO/MainProcess] Received task: main.tasks.add_player[7b3b5583-2e9e-47b6-9c14-875b3831a16e]  ETA:[2017-09-13 19:46:23.644219+00:00] 
+[2017-09-13 19:46:13,687: INFO/MainProcess] Received task: main.tasks.add_player[7aaed4a6-93d0-4926-9f54-a8f78ae20719]  ETA:[2017-09-13 19:46:23.645347+00:00] 
+[2017-09-13 19:46:13,688: INFO/MainProcess] Received task: main.tasks.add_player[250c7705-4b53-46b8-9196-149650d073bf]  ETA:[2017-09-13 19:46:23.646465+00:00] 
+[2017-09-13 19:46:13,690: INFO/MainProcess] Received task: main.tasks.add_player[d1d842ab-2bcd-483a-86e8-5d8dd9543c69]  ETA:[2017-09-13 19:46:23.647615+00:00] 
+[2017-09-13 19:46:13,692: INFO/MainProcess] Received task: main.tasks.add_player[4d1a0e7e-5e0e-4100-a143-20196d681984]  ETA:[2017-09-13 19:46:23.648750+00:00] 
+[2017-09-13 19:46:13,693: INFO/MainProcess] Received task: main.tasks.add_player[4cf628bb-5e0a-4a99-88a5-49a50631aae7]  ETA:[2017-09-13 19:46:23.649878+00:00] 
+[2017-09-13 19:46:13,694: INFO/MainProcess] Received task: main.tasks.add_player[f3197f95-b2de-4458-8a40-395ecdc62026]  ETA:[2017-09-13 19:46:23.650995+00:00] 
+[2017-09-13 19:46:13,695: INFO/MainProcess] Received task: main.tasks.add_player[b4509cbf-48f3-448a-ba2a-4732134d795f]  ETA:[2017-09-13 19:46:23.652142+00:00] 
+[2017-09-13 19:46:13,696: INFO/MainProcess] Received task: main.tasks.add_player[854de247-4a60-4e7f-b782-0dc1f0ed8de0]  ETA:[2017-09-13 19:46:23.653287+00:00] 
+[2017-09-13 19:46:13,696: INFO/MainProcess] Received task: main.tasks.add_player[7f7f4f1b-3d39-4f74-a523-8ceac55e4d59]  ETA:[2017-09-13 19:46:23.654468+00:00] 
+[2017-09-13 19:46:13,697: INFO/MainProcess] Received task: main.tasks.add_player[998a08c1-07be-4534-b04d-2cb586808873]  ETA:[2017-09-13 19:46:23.655607+00:00] 
+[2017-09-13 19:46:13,698: INFO/MainProcess] Received task: main.tasks.add_player[2673efcf-d70b-40d6-83fc-29982a5d876b]  ETA:[2017-09-13 19:46:23.656774+00:00] 
+[2017-09-13 19:46:13,700: INFO/MainProcess] Received task: main.tasks.add_player[79b86c8a-8cc6-4482-bf52-f33649fc328d]  ETA:[2017-09-13 19:46:23.657927+00:00] 
+[2017-09-13 19:46:13,701: INFO/MainProcess] Received task: main.tasks.add_player[efb87a85-e830-4efd-b5d6-b9a8dbae8b16]  ETA:[2017-09-13 19:46:23.659307+00:00] 
+[2017-09-13 19:46:13,703: INFO/MainProcess] Received task: main.tasks.add_player[b53b8c83-57af-40e3-a071-2589f3744cf4]  ETA:[2017-09-13 19:46:23.661983+00:00] 
+[2017-09-13 19:46:13,704: INFO/MainProcess] Received task: main.tasks.add_player[73ac1975-9da7-4ac1-92a4-89a802b087b1]  ETA:[2017-09-13 19:46:23.664169+00:00] 
+[2017-09-13 19:46:13,705: INFO/MainProcess] Received task: main.tasks.add_player[86e3e37d-5e47-40b9-9225-870216303532]  ETA:[2017-09-13 19:46:23.666296+00:00] 
+[2017-09-13 19:46:13,706: INFO/MainProcess] Received task: main.tasks.add_player[84e22b27-dc22-41ef-90b9-f1426633d12c]  ETA:[2017-09-13 19:46:23.667779+00:00] 
+[2017-09-13 19:46:13,706: INFO/MainProcess] Received task: main.tasks.add_player[7d70ba5a-0cbe-4f4b-b481-293cc7df970d]  ETA:[2017-09-13 19:46:23.669000+00:00] 
+[2017-09-13 19:46:13,707: INFO/MainProcess] Received task: main.tasks.get_game_actions[59f542bb-aa5a-4475-8324-0d7f69dfdff2]  ETA:[2017-09-13 19:46:28.670754+00:00] 
+[2017-09-13 19:46:24,155: INFO/ForkPoolWorker-4] Task main.tasks.add_player[d95c1d4f-d7d9-4c92-a775-54fb8ccd77ef] succeeded in 0.5095703109982423s: True
+[2017-09-13 19:46:24,155: INFO/ForkPoolWorker-3] Task main.tasks.add_player[84eb6227-e702-466f-982f-800a69aea01f] succeeded in 0.514881939991028s: True
+[2017-09-13 19:46:24,213: INFO/ForkPoolWorker-1] Task main.tasks.add_player[b75c05c5-4645-4583-a8cf-cc5f3d96bb8f] succeeded in 0.5682794300082605s: True
+[2017-09-13 19:46:24,213: INFO/ForkPoolWorker-2] Task main.tasks.add_player[da602d04-c408-4c58-a0f6-2b00699ea88c] succeeded in 0.573372240003664s: True
+[2017-09-13 19:46:24,522: INFO/ForkPoolWorker-3] Task main.tasks.add_player[e56849f9-82e4-406c-82d5-691ccf4fe0b4] succeeded in 0.3614952100033406s: True
+[2017-09-13 19:46:24,611: INFO/ForkPoolWorker-4] Task main.tasks.add_player[7b3b5583-2e9e-47b6-9c14-875b3831a16e] succeeded in 0.4504727349994937s: True
+[2017-09-13 19:46:24,612: INFO/ForkPoolWorker-1] Task main.tasks.add_player[7aaed4a6-93d0-4926-9f54-a8f78ae20719] succeeded in 0.3961125140049262s: True
+[2017-09-13 19:46:24,611: INFO/ForkPoolWorker-2] Task main.tasks.add_player[250c7705-4b53-46b8-9196-149650d073bf] succeeded in 0.39300807799736504s: True
+[2017-09-13 19:46:24,733: INFO/ForkPoolWorker-3] Task main.tasks.add_player[d1d842ab-2bcd-483a-86e8-5d8dd9543c69] succeeded in 0.20892461300536525s: True
+[2017-09-13 19:46:25,001: INFO/ForkPoolWorker-4] Task main.tasks.add_player[4d1a0e7e-5e0e-4100-a143-20196d681984] succeeded in 0.38745631999336183s: True
+[2017-09-13 19:46:25,088: INFO/ForkPoolWorker-2] Task main.tasks.add_player[f3197f95-b2de-4458-8a40-395ecdc62026] succeeded in 0.4718203490047017s: True
+[2017-09-13 19:46:25,088: INFO/ForkPoolWorker-1] Task main.tasks.add_player[4cf628bb-5e0a-4a99-88a5-49a50631aae7] succeeded in 0.4698763110063737s: True
+[2017-09-13 19:46:25,154: INFO/ForkPoolWorker-3] Task main.tasks.add_player[b4509cbf-48f3-448a-ba2a-4732134d795f] succeeded in 0.4186884840019047s: True
+[2017-09-13 19:46:25,361: INFO/ForkPoolWorker-4] Task main.tasks.add_player[854de247-4a60-4e7f-b782-0dc1f0ed8de0] succeeded in 0.3577181879954878s: True
+[2017-09-13 19:46:25,431: INFO/ForkPoolWorker-1] Task main.tasks.add_player[7f7f4f1b-3d39-4f74-a523-8ceac55e4d59] succeeded in 0.3389816940034507s: True
+[2017-09-13 19:46:25,431: INFO/ForkPoolWorker-2] Task main.tasks.add_player[998a08c1-07be-4534-b04d-2cb586808873] succeeded in 0.34015834900492337s: True
+[2017-09-13 19:46:25,548: INFO/ForkPoolWorker-3] Task main.tasks.add_player[2673efcf-d70b-40d6-83fc-29982a5d876b] succeeded in 0.3911004349938594s: True
+[2017-09-13 19:46:25,931: INFO/ForkPoolWorker-4] Task main.tasks.add_player[79b86c8a-8cc6-4482-bf52-f33649fc328d] succeeded in 0.5683890450018225s: True
+[2017-09-13 19:46:26,040: INFO/ForkPoolWorker-1] Task main.tasks.add_player[efb87a85-e830-4efd-b5d6-b9a8dbae8b16] succeeded in 0.604802509988076s: True
+[2017-09-13 19:46:26,040: INFO/ForkPoolWorker-3] Task main.tasks.add_player[73ac1975-9da7-4ac1-92a4-89a802b087b1] succeeded in 0.49066705600125715s: True
+[2017-09-13 19:46:26,040: INFO/ForkPoolWorker-2] Task main.tasks.add_player[b53b8c83-57af-40e3-a071-2589f3744cf4] succeeded in 0.6048245840065647s: True
+[2017-09-13 19:46:26,517: INFO/ForkPoolWorker-4] Task main.tasks.add_player[86e3e37d-5e47-40b9-9225-870216303532] succeeded in 0.5841034759941977s: True
+[2017-09-13 19:46:26,650: INFO/ForkPoolWorker-1] Task main.tasks.add_player[84e22b27-dc22-41ef-90b9-f1426633d12c] succeeded in 0.6071074030041927s: True
+[2017-09-13 19:46:26,836: INFO/ForkPoolWorker-2] Task main.tasks.add_player[7d70ba5a-0cbe-4f4b-b481-293cc7df970d] succeeded in 0.7912901259987848s: True
+[2017-09-13 19:46:30,665: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q1_JSON.json?s=534&t=0
+[2017-09-13 19:46:30,960: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q2_JSON.json?s=534&t=0
+[2017-09-13 19:46:31,167: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q3_JSON.json?s=534&t=0
+[2017-09-13 19:46:31,369: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q4_JSON.json?s=534&t=0
+[2017-09-13 19:46:31,593: INFO/ForkPoolWorker-4] FILTERED PLAYERS: <QuerySet [<Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, '...(remaining elements truncated)...']>
+[2017-09-13 19:46:55,582: INFO/ForkPoolWorker-4] Task main.tasks.get_game_actions[59f542bb-aa5a-4475-8324-0d7f69dfdff2] succeeded in 24.937055025991867s: None
+[2017-09-13 19:57:14,329: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-09-13 19:57:14,348: INFO/MainProcess] mingle: searching for neighbors
+[2017-09-13 19:57:15,381: INFO/MainProcess] mingle: all alone
+[2017-09-13 19:57:15,422: WARNING/MainProcess] /home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-09-13 19:57:15,422: INFO/MainProcess] celery@netcrime-Inspiron-5558 ready.
+[2017-09-13 20:00:22,544: INFO/MainProcess] Received task: main.tasks.add_player[12a3aef9-e6e3-4eca-ac34-e2850c69ac87]  ETA:[2017-09-13 20:00:32.511103+00:00] 
+[2017-09-13 20:00:22,547: INFO/MainProcess] Received task: main.tasks.add_player[012fc123-5343-4bd3-858e-c76f55fff0f7]  ETA:[2017-09-13 20:00:32.543977+00:00] 
+[2017-09-13 20:00:22,548: INFO/MainProcess] Received task: main.tasks.add_player[b90ec57b-5700-400a-9aed-da579ac74924]  ETA:[2017-09-13 20:00:32.545350+00:00] 
+[2017-09-13 20:00:22,550: INFO/MainProcess] Received task: main.tasks.add_player[ed7a8e10-c608-4206-9e08-643241c25a5d]  ETA:[2017-09-13 20:00:32.547328+00:00] 
+[2017-09-13 20:00:22,552: INFO/MainProcess] Received task: main.tasks.add_player[56ae79d2-4ba9-4a4f-90ab-76dbfe46d406]  ETA:[2017-09-13 20:00:32.548711+00:00] 
+[2017-09-13 20:00:22,553: INFO/MainProcess] Received task: main.tasks.add_player[549814ed-003d-4df1-bbc8-ebc690ee368e]  ETA:[2017-09-13 20:00:32.550086+00:00] 
+[2017-09-13 20:00:22,555: INFO/MainProcess] Received task: main.tasks.add_player[1c72bb38-d5e0-4bde-99d6-a64261899a51]  ETA:[2017-09-13 20:00:32.551398+00:00] 
+[2017-09-13 20:00:22,556: INFO/MainProcess] Received task: main.tasks.add_player[341ae048-5dae-4af1-8940-bf480a92192b]  ETA:[2017-09-13 20:00:32.552727+00:00] 
+[2017-09-13 20:00:22,557: INFO/MainProcess] Received task: main.tasks.add_player[96bbbd5a-397c-46b0-a294-7df2a881e46b]  ETA:[2017-09-13 20:00:32.553980+00:00] 
+[2017-09-13 20:00:22,558: INFO/MainProcess] Received task: main.tasks.add_player[74ceaef3-0194-4d63-b796-ed6ffd9d3c0d]  ETA:[2017-09-13 20:00:32.555330+00:00] 
+[2017-09-13 20:00:22,559: INFO/MainProcess] Received task: main.tasks.add_player[391b5bee-529b-43b8-8b3a-6a0ff084930e]  ETA:[2017-09-13 20:00:32.556662+00:00] 
+[2017-09-13 20:00:22,560: INFO/MainProcess] Received task: main.tasks.add_player[22824f95-4e40-43a2-8105-c177c4830697]  ETA:[2017-09-13 20:00:32.557854+00:00] 
+[2017-09-13 20:00:22,562: INFO/MainProcess] Received task: main.tasks.add_player[e45536f0-526d-4754-887d-5c8f57361b4e]  ETA:[2017-09-13 20:00:32.559042+00:00] 
+[2017-09-13 20:00:22,563: INFO/MainProcess] Received task: main.tasks.add_player[9734e6f9-9ff6-4fc0-93ef-e46bb336b7ed]  ETA:[2017-09-13 20:00:32.560267+00:00] 
+[2017-09-13 20:00:22,564: INFO/MainProcess] Received task: main.tasks.add_player[b685e080-1441-4a85-96c2-d5da689ecb72]  ETA:[2017-09-13 20:00:32.561788+00:00] 
+[2017-09-13 20:00:22,565: INFO/MainProcess] Received task: main.tasks.add_player[3f17ca40-f716-4fa0-9eb3-f68465e96db9]  ETA:[2017-09-13 20:00:32.563014+00:00] 
+[2017-09-13 20:00:22,566: INFO/MainProcess] Received task: main.tasks.add_player[c72137ed-004d-475d-9910-3459181b1e53]  ETA:[2017-09-13 20:00:32.564246+00:00] 
+[2017-09-13 20:00:22,567: INFO/MainProcess] Received task: main.tasks.add_player[dc24f730-7295-466f-9756-0d13abb96cfe]  ETA:[2017-09-13 20:00:32.565591+00:00] 
+[2017-09-13 20:00:22,568: INFO/MainProcess] Received task: main.tasks.add_player[de4be691-c921-4969-93c6-241a2a2fe9f9]  ETA:[2017-09-13 20:00:32.566799+00:00] 
+[2017-09-13 20:00:22,570: INFO/MainProcess] Received task: main.tasks.add_player[b93e7c55-6454-4da9-ab9b-66b61e7aefa8]  ETA:[2017-09-13 20:00:32.568046+00:00] 
+[2017-09-13 20:00:22,572: INFO/MainProcess] Received task: main.tasks.add_player[6d1c71bb-4a5a-4e36-9a12-fadf15da5e80]  ETA:[2017-09-13 20:00:32.569284+00:00] 
+[2017-09-13 20:00:22,574: INFO/MainProcess] Received task: main.tasks.add_player[da3ae599-afb7-4a80-93c5-192c2dd1561f]  ETA:[2017-09-13 20:00:32.570496+00:00] 
+[2017-09-13 20:00:22,576: INFO/MainProcess] Received task: main.tasks.add_player[e6b8030c-5dc3-492e-b648-e02d51538b75]  ETA:[2017-09-13 20:00:32.572628+00:00] 
+[2017-09-13 20:00:22,579: INFO/MainProcess] Received task: main.tasks.add_player[e202661a-d428-423d-9535-26f5b7a1ca94]  ETA:[2017-09-13 20:00:32.576378+00:00] 
+[2017-09-13 20:00:22,581: INFO/MainProcess] Received task: main.tasks.get_game_actions[e0419f66-498f-4688-be1b-b6da68a30532]  ETA:[2017-09-13 20:00:37.578231+00:00] 
+[2017-09-13 20:00:32,876: INFO/ForkPoolWorker-3] Task main.tasks.add_player[012fc123-5343-4bd3-858e-c76f55fff0f7] succeeded in 0.33082502700563055s: True
+[2017-09-13 20:00:32,935: INFO/ForkPoolWorker-1] Task main.tasks.add_player[12a3aef9-e6e3-4eca-ac34-e2850c69ac87] succeeded in 0.38956316499388777s: True
+[2017-09-13 20:00:32,935: INFO/ForkPoolWorker-4] Task main.tasks.add_player[b90ec57b-5700-400a-9aed-da579ac74924] succeeded in 0.38768335299391765s: True
+[2017-09-13 20:00:32,939: INFO/ForkPoolWorker-2] Task main.tasks.add_player[ed7a8e10-c608-4206-9e08-643241c25a5d] succeeded in 0.38093792300787754s: True
+[2017-09-13 20:00:33,072: INFO/ForkPoolWorker-3] Task main.tasks.add_player[56ae79d2-4ba9-4a4f-90ab-76dbfe46d406] succeeded in 0.19108030200004578s: True
+[2017-09-13 20:00:33,212: INFO/ForkPoolWorker-1] Task main.tasks.add_player[341ae048-5dae-4af1-8940-bf480a92192b] succeeded in 0.26461664598900825s: True
+[2017-09-13 20:00:33,212: INFO/ForkPoolWorker-2] Task main.tasks.add_player[1c72bb38-d5e0-4bde-99d6-a64261899a51] succeeded in 0.2649198470026022s: True
+[2017-09-13 20:00:33,246: INFO/ForkPoolWorker-4] Task main.tasks.add_player[549814ed-003d-4df1-bbc8-ebc690ee368e] succeeded in 0.2988076860056026s: True
+[2017-09-13 20:00:33,435: INFO/ForkPoolWorker-3] Task main.tasks.add_player[96bbbd5a-397c-46b0-a294-7df2a881e46b] succeeded in 0.3602921010024147s: True
+[2017-09-13 20:00:33,612: INFO/ForkPoolWorker-1] Task main.tasks.add_player[74ceaef3-0194-4d63-b796-ed6ffd9d3c0d] succeeded in 0.3966821960057132s: True
+[2017-09-13 20:00:33,612: INFO/ForkPoolWorker-2] Task main.tasks.add_player[391b5bee-529b-43b8-8b3a-6a0ff084930e] succeeded in 0.3976034429942956s: True
+[2017-09-13 20:00:33,612: INFO/ForkPoolWorker-4] Task main.tasks.add_player[22824f95-4e40-43a2-8105-c177c4830697] succeeded in 0.36473240799386986s: True
+[2017-09-13 20:00:33,682: INFO/ForkPoolWorker-3] Task main.tasks.add_player[e45536f0-526d-4754-887d-5c8f57361b4e] succeeded in 0.2439244300039718s: True
+[2017-09-13 20:00:33,958: INFO/ForkPoolWorker-1] Task main.tasks.add_player[9734e6f9-9ff6-4fc0-93ef-e46bb336b7ed] succeeded in 0.3434381970000686s: True
+[2017-09-13 20:00:34,047: INFO/ForkPoolWorker-2] Task main.tasks.add_player[3f17ca40-f716-4fa0-9eb3-f68465e96db9] succeeded in 0.43059686799824703s: True
+[2017-09-13 20:00:34,047: INFO/ForkPoolWorker-4] Task main.tasks.add_player[b685e080-1441-4a85-96c2-d5da689ecb72] succeeded in 0.42999692299054004s: True
+[2017-09-13 20:00:34,125: INFO/ForkPoolWorker-3] Task main.tasks.add_player[c72137ed-004d-475d-9910-3459181b1e53] succeeded in 0.43946236099873204s: True
+[2017-09-13 20:00:34,359: INFO/ForkPoolWorker-1] Task main.tasks.add_player[dc24f730-7295-466f-9756-0d13abb96cfe] succeeded in 0.3985463540011551s: True
+[2017-09-13 20:00:34,470: INFO/ForkPoolWorker-2] Task main.tasks.add_player[b93e7c55-6454-4da9-ab9b-66b61e7aefa8] succeeded in 0.41599155800940935s: True
+[2017-09-13 20:00:34,471: INFO/ForkPoolWorker-4] Task main.tasks.add_player[de4be691-c921-4969-93c6-241a2a2fe9f9] succeeded in 0.4171005590033019s: True
+[2017-09-13 20:00:34,584: INFO/ForkPoolWorker-3] Task main.tasks.add_player[6d1c71bb-4a5a-4e36-9a12-fadf15da5e80] succeeded in 0.456502429995453s: True
+[2017-09-13 20:00:34,685: INFO/ForkPoolWorker-1] Task main.tasks.add_player[da3ae599-afb7-4a80-93c5-192c2dd1561f] succeeded in 0.3234460479870904s: True
+[2017-09-13 20:00:34,834: INFO/ForkPoolWorker-2] Task main.tasks.add_player[e202661a-d428-423d-9535-26f5b7a1ca94] succeeded in 0.35910222299571615s: True
+[2017-09-13 20:00:34,897: INFO/ForkPoolWorker-4] Task main.tasks.add_player[e6b8030c-5dc3-492e-b648-e02d51538b75] succeeded in 0.42365385599259753s: True
+[2017-09-13 20:00:37,691: WARNING/ForkPoolWorker-1] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q1_JSON.json?s=534&t=0
+[2017-09-13 20:00:37,961: WARNING/ForkPoolWorker-1] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q2_JSON.json?s=534&t=0
+[2017-09-13 20:00:38,166: WARNING/ForkPoolWorker-1] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q3_JSON.json?s=534&t=0
+[2017-09-13 20:00:38,377: WARNING/ForkPoolWorker-1] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q4_JSON.json?s=534&t=0
+[2017-09-13 20:00:42,026: INFO/ForkPoolWorker-1] FILTERED PLAYERS: <QuerySet [<Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, '...(remaining elements truncated)...']>
+[2017-09-13 20:00:42,200: ERROR/ForkPoolWorker-1] Task main.tasks.get_game_actions[e0419f66-498f-4688-be1b-b6da68a30532] raised unexpected: TypeError("'int' object is not subscriptable",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 79, in get_game_actions
+    epoch_time=_clean_time(action.get('GT', '')),
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 64, in _clean_time
+    return time[:10]
+TypeError: 'int' object is not subscriptable
+[2017-09-13 20:01:42,471: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-09-13 20:01:42,489: INFO/MainProcess] mingle: searching for neighbors
+[2017-09-13 20:01:43,525: INFO/MainProcess] mingle: all alone
+[2017-09-13 20:01:43,565: WARNING/MainProcess] /home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-09-13 20:01:43,566: INFO/MainProcess] celery@netcrime-Inspiron-5558 ready.
+[2017-09-13 20:02:15,359: INFO/MainProcess] Received task: main.tasks.add_player[3c5163be-3f8d-480c-8386-975842a80e3e]  ETA:[2017-09-13 20:02:25.323836+00:00] 
+[2017-09-13 20:02:15,362: INFO/MainProcess] Received task: main.tasks.add_player[e3309852-b6f8-45be-92e0-0d825d77b34d]  ETA:[2017-09-13 20:02:25.358062+00:00] 
+[2017-09-13 20:02:15,363: INFO/MainProcess] Received task: main.tasks.add_player[d4b95ff8-d446-42e8-a519-83a0012abb8f]  ETA:[2017-09-13 20:02:25.360321+00:00] 
+[2017-09-13 20:02:15,364: INFO/MainProcess] Received task: main.tasks.add_player[66f79217-b32a-42e0-bcb0-ffd7693422b3]  ETA:[2017-09-13 20:02:25.361901+00:00] 
+[2017-09-13 20:02:15,366: INFO/MainProcess] Received task: main.tasks.add_player[d67e6bba-d227-4fa7-ada7-b103c7a5d8c0]  ETA:[2017-09-13 20:02:25.364131+00:00] 
+[2017-09-13 20:02:15,369: INFO/MainProcess] Received task: main.tasks.add_player[e1305732-0a8d-403f-8da3-d84c867376e8]  ETA:[2017-09-13 20:02:25.365969+00:00] 
+[2017-09-13 20:02:15,371: INFO/MainProcess] Received task: main.tasks.add_player[85dba8a0-c662-4dce-a2cb-72476ff028e8]  ETA:[2017-09-13 20:02:25.368527+00:00] 
+[2017-09-13 20:02:15,373: INFO/MainProcess] Received task: main.tasks.add_player[f2bc2ad9-1bad-4cdb-80fa-ff4819188060]  ETA:[2017-09-13 20:02:25.370701+00:00] 
+[2017-09-13 20:02:15,375: INFO/MainProcess] Received task: main.tasks.add_player[2ef7ad3b-e29e-438d-aaca-4fcf031e69de]  ETA:[2017-09-13 20:02:25.372577+00:00] 
+[2017-09-13 20:02:15,377: INFO/MainProcess] Received task: main.tasks.add_player[326a16a2-be2a-408e-acb8-376964c3b93a]  ETA:[2017-09-13 20:02:25.374713+00:00] 
+[2017-09-13 20:02:15,379: INFO/MainProcess] Received task: main.tasks.add_player[3c40f973-9499-43c7-9912-db1e82b42bf3]  ETA:[2017-09-13 20:02:25.376725+00:00] 
+[2017-09-13 20:02:15,382: INFO/MainProcess] Received task: main.tasks.add_player[982eba58-4905-41cc-bbc3-a77dd7e07d05]  ETA:[2017-09-13 20:02:25.378566+00:00] 
+[2017-09-13 20:02:15,385: INFO/MainProcess] Received task: main.tasks.add_player[4c589414-0409-4886-bac4-39448793ff22]  ETA:[2017-09-13 20:02:25.380146+00:00] 
+[2017-09-13 20:02:15,386: INFO/MainProcess] Received task: main.tasks.add_player[df06b63a-0226-4b26-b252-38b7af5bdd6e]  ETA:[2017-09-13 20:02:25.381462+00:00] 
+[2017-09-13 20:02:15,388: INFO/MainProcess] Received task: main.tasks.add_player[1e18bef0-f604-4b24-88e2-3f496ee64406]  ETA:[2017-09-13 20:02:25.382819+00:00] 
+[2017-09-13 20:02:15,389: INFO/MainProcess] Received task: main.tasks.add_player[386f0ef4-62a7-4c4e-95df-f3491dd49b41]  ETA:[2017-09-13 20:02:25.385242+00:00] 
+[2017-09-13 20:02:15,401: INFO/MainProcess] Received task: main.tasks.add_player[748eab7f-929a-4f85-a73d-2693ff597f4c]  ETA:[2017-09-13 20:02:25.387446+00:00] 
+[2017-09-13 20:02:15,402: INFO/MainProcess] Received task: main.tasks.add_player[f75832b4-155a-4228-9a17-0990e1ec738f]  ETA:[2017-09-13 20:02:25.388971+00:00] 
+[2017-09-13 20:02:15,404: INFO/MainProcess] Received task: main.tasks.add_player[d389e9bf-d0ad-4d4f-b7c9-2153f7089110]  ETA:[2017-09-13 20:02:25.390619+00:00] 
+[2017-09-13 20:02:15,404: INFO/MainProcess] Received task: main.tasks.add_player[e7f3f7a9-0f72-4c1e-a596-23d453d72f83]  ETA:[2017-09-13 20:02:25.391916+00:00] 
+[2017-09-13 20:02:15,406: INFO/MainProcess] Received task: main.tasks.add_player[6f68e83a-a7ff-41c2-87d3-e5a5a2ce34c9]  ETA:[2017-09-13 20:02:25.393095+00:00] 
+[2017-09-13 20:02:15,407: INFO/MainProcess] Received task: main.tasks.add_player[fee2c3e6-0ee3-4507-a9bc-1885b56a46eb]  ETA:[2017-09-13 20:02:25.394227+00:00] 
+[2017-09-13 20:02:15,408: INFO/MainProcess] Received task: main.tasks.add_player[5e7ebf8b-54fa-4b61-ab2a-99e38b3b0bcd]  ETA:[2017-09-13 20:02:25.395528+00:00] 
+[2017-09-13 20:02:15,409: INFO/MainProcess] Received task: main.tasks.add_player[7edb6847-7ea6-404c-bda4-152581a17f0c]  ETA:[2017-09-13 20:02:25.396673+00:00] 
+[2017-09-13 20:02:15,410: INFO/MainProcess] Received task: main.tasks.get_game_actions[0d09bc8f-6d2b-4336-8a65-b988799bffc0]  ETA:[2017-09-13 20:02:30.397815+00:00] 
+[2017-09-13 20:02:25,668: INFO/ForkPoolWorker-2] Task main.tasks.add_player[3c5163be-3f8d-480c-8386-975842a80e3e] succeeded in 0.3084418999933405s: True
+[2017-09-13 20:02:25,734: INFO/ForkPoolWorker-4] Task main.tasks.add_player[e3309852-b6f8-45be-92e0-0d825d77b34d] succeeded in 0.3750416490074713s: True
+[2017-09-13 20:02:25,735: INFO/ForkPoolWorker-3] Task main.tasks.add_player[d4b95ff8-d446-42e8-a519-83a0012abb8f] succeeded in 0.3715486580040306s: True
+[2017-09-13 20:02:25,735: INFO/ForkPoolWorker-1] Task main.tasks.add_player[66f79217-b32a-42e0-bcb0-ffd7693422b3] succeeded in 0.37162811199959833s: True
+[2017-09-13 20:02:25,902: INFO/ForkPoolWorker-2] Task main.tasks.add_player[d67e6bba-d227-4fa7-ada7-b103c7a5d8c0] succeeded in 0.2312462459958624s: True
+[2017-09-13 20:02:25,960: INFO/ForkPoolWorker-4] Task main.tasks.add_player[85dba8a0-c662-4dce-a2cb-72476ff028e8] succeeded in 0.2182665879954584s: True
+[2017-09-13 20:02:26,103: INFO/ForkPoolWorker-1] Task main.tasks.add_player[f2bc2ad9-1bad-4cdb-80fa-ff4819188060] succeeded in 0.36278607399435714s: True
+[2017-09-13 20:02:26,103: INFO/ForkPoolWorker-3] Task main.tasks.add_player[e1305732-0a8d-403f-8da3-d84c867376e8] succeeded in 0.36227042799873743s: True
+[2017-09-13 20:02:26,572: INFO/ForkPoolWorker-4] Task main.tasks.add_player[326a16a2-be2a-408e-acb8-376964c3b93a] succeeded in 0.6066101469914429s: True
+[2017-09-13 20:02:26,574: INFO/ForkPoolWorker-2] Task main.tasks.add_player[2ef7ad3b-e29e-438d-aaca-4fcf031e69de] succeeded in 0.6686190419859486s: True
+[2017-09-13 20:02:26,636: INFO/ForkPoolWorker-3] Task main.tasks.add_player[3c40f973-9499-43c7-9912-db1e82b42bf3] succeeded in 0.5291008009953657s: True
+[2017-09-13 20:02:26,701: INFO/ForkPoolWorker-1] Task main.tasks.add_player[982eba58-4905-41cc-bbc3-a77dd7e07d05] succeeded in 0.5954575840005418s: True
+[2017-09-13 20:02:26,895: INFO/ForkPoolWorker-4] Task main.tasks.add_player[4c589414-0409-4886-bac4-39448793ff22] succeeded in 0.32069732798845507s: True
+[2017-09-13 20:02:26,895: INFO/ForkPoolWorker-2] Task main.tasks.add_player[df06b63a-0226-4b26-b252-38b7af5bdd6e] succeeded in 0.3172898310003802s: True
+[2017-09-13 20:02:27,000: INFO/ForkPoolWorker-3] Task main.tasks.add_player[1e18bef0-f604-4b24-88e2-3f496ee64406] succeeded in 0.362426024992601s: True
+[2017-09-13 20:02:27,073: INFO/ForkPoolWorker-1] Task main.tasks.add_player[386f0ef4-62a7-4c4e-95df-f3491dd49b41] succeeded in 0.36897561700607184s: True
+[2017-09-13 20:02:27,312: INFO/ForkPoolWorker-2] Task main.tasks.add_player[f75832b4-155a-4228-9a17-0990e1ec738f] succeeded in 0.41410029100370593s: True
+[2017-09-13 20:02:27,408: INFO/ForkPoolWorker-4] Task main.tasks.add_player[748eab7f-929a-4f85-a73d-2693ff597f4c] succeeded in 0.5107889949867968s: True
+[2017-09-13 20:02:27,466: INFO/ForkPoolWorker-3] Task main.tasks.add_player[d389e9bf-d0ad-4d4f-b7c9-2153f7089110] succeeded in 0.46352507299161516s: True
+[2017-09-13 20:02:27,468: INFO/ForkPoolWorker-1] Task main.tasks.add_player[e7f3f7a9-0f72-4c1e-a596-23d453d72f83] succeeded in 0.3927422779961489s: True
+[2017-09-13 20:02:27,620: INFO/ForkPoolWorker-2] Task main.tasks.add_player[6f68e83a-a7ff-41c2-87d3-e5a5a2ce34c9] succeeded in 0.3065868580015376s: True
+[2017-09-13 20:02:27,789: INFO/ForkPoolWorker-1] Task main.tasks.add_player[7edb6847-7ea6-404c-bda4-152581a17f0c] succeeded in 0.31766842800425366s: True
+[2017-09-13 20:02:27,789: INFO/ForkPoolWorker-4] Task main.tasks.add_player[fee2c3e6-0ee3-4507-a9bc-1885b56a46eb] succeeded in 0.3791990769968834s: True
+[2017-09-13 20:02:27,833: INFO/ForkPoolWorker-3] Task main.tasks.add_player[5e7ebf8b-54fa-4b61-ab2a-99e38b3b0bcd] succeeded in 0.3639605520002078s: True
+[2017-09-13 20:02:31,645: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q1_JSON.json?s=534&t=0
+[2017-09-13 20:02:31,913: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q2_JSON.json?s=534&t=0
+[2017-09-13 20:02:32,087: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q3_JSON.json?s=534&t=0
+[2017-09-13 20:02:32,285: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q4_JSON.json?s=534&t=0
+[2017-09-13 20:02:32,507: INFO/ForkPoolWorker-3] FILTERED PLAYERS: <QuerySet [<Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, <Player: Player object>, '...(remaining elements truncated)...']>
+[2017-09-13 20:02:37,905: INFO/ForkPoolWorker-3] Task main.tasks.get_game_actions[0d09bc8f-6d2b-4336-8a65-b988799bffc0] succeeded in 6.27723259900813s: None

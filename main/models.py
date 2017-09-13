@@ -110,6 +110,8 @@ class Actions(models.Model):
                                 related_name='%(class)s_player') # C1
     shot_x = models.IntegerField(blank=True, null=True) # SX
     shot_y = models.IntegerField(blank=True, null=True) # SY
+    team_a_score = models.IntegerField(blank=True, null=True)
+    team_b_score = models.IntegerField(blank=True, null=True)
     score = models.CharField(max_length=30,blank=True, null=True) # Score
     subs_in = models.ForeignKey(Player, blank=True, null=True,
                                 related_name='%(class)s_subs_in') # C2 | On SUBS Player field -OUT subs_in +IN
