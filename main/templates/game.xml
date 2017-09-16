@@ -21,6 +21,8 @@
         <ActionText>{{ action.action_text }}</ActionText>
         <PlayerID>{{ action.player.code }}</PlayerID>
         <PlayerName>{{ action.player.get_full_name }}</PlayerName>
+        <Player2ID>{{ action.subs_in.code }}</Player2ID>
+        <Player2Name>{{ action.subs_in.get_full_name }}</Player2Name>
         <PlayerPic>{{ action.player.headshot }}</PlayerPic>
         <ScoreTeamA>{{ action.team_a_score }}</ScoreTeamA>
         <ScoreTeamB>{{ action.team_b_score }}</ScoreTeamB>
