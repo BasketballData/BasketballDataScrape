@@ -121,27 +121,39 @@ class Actions(models.Model):
     def get_utc_time(self):
         return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(self.epoch_time))
 
+    def get_shot_x(self):
+        if self.shot_x:
+            return self.shot_x
+        else:
+            return ""
+
+    def get_shot_y(self):
+        if self.shot_y:
+            return self.shot_y
+        else:
+            return ""
 
 @receiver(pre_save, sender=Game)
 def check_status(sender, instance, **kwargs):
-    game = Fiba_Game(instance.code)
-    info = game.get_info()
-    instance.status = info['status']
-    instance.start_time = info['start_time']
-    instance.team_a_score = info['team_a']['team_a_score']
-    instance.team_a_foul = info['team_a']['team_a_foul']
-    instance.team_b_score = info['team_b']['team_b_score']
-    instance.team_b_foul = info['team_b']['team_b_foul']
-    instance.current_period = info['current_period']
-    instance.time = info['time']
-    instance.team_a_period_scores = info['team_a']['team_a_scores']
-    instance.team_b_period_scores = info['team_b']['team_b_scores']
-    tasks.init_locations(instance.code)
-    try:
-        location = Location.objects.get(code=info['location'])
-        instance.location = location
-    except:
-        pass
+    if instance._state.adding:
+        game = Fiba_Game(instance.code)
+        info = game.get_info()
+        instance.status = info['status']
+        instance.start_time = info['start_time']
+        instance.team_a_score = info['team_a']['team_a_score']
+        instance.team_a_foul = info['team_a']['team_a_foul']
+        instance.team_b_score = info['team_b']['team_b_score']
+        instance.team_b_foul = info['team_b']['team_b_foul']
+        instance.current_period = info['current_period']
+        instance.time = info['time']
+        instance.team_a_period_scores = info['team_a']['team_a_scores']
+        instance.team_b_period_scores = info['team_b']['team_b_scores']
+        tasks.init_locations(instance.code)
+        try:
+            location = Location.objects.get(code=info['location'])
+            instance.location = location
+        except:
+            pass
 
 @receiver(post_save, sender=Game)
 def add_teams(sender, instance, created, **kwargs):

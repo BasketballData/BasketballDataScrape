@@ -12,6 +12,7 @@ admin.site.register(Team, TeamAdmin)
 
 class PlayerAdmin(admin.ModelAdmin):
     list_display = ['first_name', 'last_name', 'team']
+    search_fields = ('first_name', 'last_name', 'team', 'code')
 admin.site.register(Player, PlayerAdmin)
 
 class ActionsAdmin(admin.ModelAdmin):

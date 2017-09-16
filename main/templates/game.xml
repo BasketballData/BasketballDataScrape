@@ -25,8 +25,8 @@
         <ScoreTeamA>{{ action.team_a_score }}</ScoreTeamA>
         <ScoreTeamB>{{ action.team_b_score }}</ScoreTeamB>
         <PlusMinus>{{ action.plus_minus }}</PlusMinus>
-        <ShotCoordX>{{ action.shot_x }}</ShotCoordX>
-        <ShotCoordY>{{ action.shot_y }}</ShotCoordY>
+        <ShotCoordX>{{ action.get_shot_x }}</ShotCoordX>
+        <ShotCoordY>{{ action.get_shot_y }}</ShotCoordY>
         <TeamID>{{ action.team.code }}</TeamID>
         <TeamName>{{ action.team.name }}</TeamName>
         <ClockTime>{{ action.time }}</ClockTime>

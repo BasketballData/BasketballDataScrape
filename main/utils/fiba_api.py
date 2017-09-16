@@ -37,7 +37,14 @@ class Fiba_Game:
     
     def get_info(self):
         """ Returns information of the game """
+
         response = self._make_request(BASE_GAME_INFO, self.league, self.game)
+
+        def _get_time():
+            try:
+                return response['content']['full']['RC']
+            except:
+                return ""
         try:
             team_a_score = int(response['content']['full']['Competitors'][0]['Score'])
             team_b_score = int(response['content']['full']['Competitors'][1]['Score'])
@@ -73,7 +80,7 @@ class Fiba_Game:
             'current_period': response['content']['full']['CurrentPeriod'],
             'start_time': response['content']['full']['StartTime'],
             'location': response['content']['full']['Location'],
-            'time': response['content']['full']['RC'],
+            'time': _get_time(),
         }
         return information
     
@@ -170,6 +177,7 @@ class Fiba_Game:
             return actions
         else:
             # Get particular period
+            period = period + '_'
             response = self._make_request(BASE_ACTIONS_INFO, self.league, self.game, period)
             actions = response['content']['full']['Items']
             return actions

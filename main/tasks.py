@@ -31,17 +31,16 @@ def add_player(player_info):
 
 
 @shared_task
-def get_game_actions(code):
+def get_game_actions(code, period=None):
     """ Gets all actions and stores to database """
     current_game = models.Game.objects.get(code=code)
     game = Fiba_Game(code)
-    actions = game.get_actions()
+    actions = game.get_actions(period)
     #teams = models.Team.objects.filter(code=code)
     teams = []
     teams.append(current_game.team_a)
     teams.append(current_game.team_b)
     players = models.Player.objects.filter(team__in=teams)
-    logger.info('FILTERED PLAYERS: %s' % players)
 
     def _get_player(player_code):
         if player_code:
@@ -65,9 +64,9 @@ def get_game_actions(code):
         else:
             return ""
 
+    current_score = {'team_a': 0, 'team_b': 0}
 
     all_actions = models.Actions.objects.values_list('action_uid', flat=True)
-    current_score = {'team_a':0, 'team_b': 0}
     for action in actions:
         score = action.get('Score', None)
         if score:
@@ -107,3 +106,36 @@ def init_locations(code):
                         'title': locations[location]['Title']                        
                     }
         )
+
+
+@shared_task
+def check_future():
+    games = models.Game.objects.filter(status="future")
+
+@shared_task
+def check_playing():
+    games = models.Game.objects.filter(status="playing")
+    logger.info('Checking for games in PLAYING state. FOUND: %s' % len(games))
+    for game in games:
+        update_game_info.delay(game.pk)
+        get_game_actions.delay(game.code, game.current_period)
+
+
+@shared_task
+def update_game_info(pk):
+    game_model = models.Game.objects.get(pk=pk)
+    logger.info('Updating game information. GAME: %s' % game_model.code)
+    game = Fiba_Game(game_model.code)
+    info = game.get_info()
+    game_model.status = info['status']
+    game_model.start_time = info['start_time']
+    game_model.team_a_score = info['team_a']['team_a_score']
+    game_model.team_a_foul = info['team_a']['team_a_foul']
+    game_model.team_b_score = info['team_b']['team_b_score']
+    game_model.team_b_foul = info['team_b']['team_b_foul']
+    game_model.current_period = info['current_period']
+    game_model.time = info['time']
+    game_model.team_a_period_scores = info['team_a']['team_a_scores']
+    game_model.team_b_period_scores = info['team_b']['team_b_scores']
+    #tasks.init_locations(game_model.code)
+    game_model.save()

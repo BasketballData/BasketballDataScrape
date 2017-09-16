@@ -1,0 +1,54 @@
+[2017-09-14 20:34:29,636: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-09-14 20:34:29,658: INFO/MainProcess] mingle: searching for neighbors
+[2017-09-14 20:34:30,689: INFO/MainProcess] mingle: all alone
+[2017-09-14 20:34:30,747: WARNING/MainProcess] /home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-09-14 20:34:30,748: INFO/MainProcess] celery@netcrime-Inspiron-5558 ready.
+[2017-09-14 20:34:32,565: INFO/MainProcess] Received task: main.tasks.check_playing[f78a8404-6e2b-44b1-b763-2ca7d69e279a]  
+[2017-09-14 20:34:32,590: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 1
+[2017-09-14 20:34:32,616: INFO/MainProcess] Received task: main.tasks.update_game_info[63755c56-ec25-4c3b-b788-5596722abef4]  
+[2017-09-14 20:34:32,618: INFO/MainProcess] Received task: main.tasks.get_game_actions[4bc5fed6-9eb4-4b50-be4b-2d08f65a5c96]  
+[2017-09-14 20:34:32,661: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/13229_GAMEACTIONS_13556-28-A_Q2_JSON.json?s=534&t=0
+[2017-09-14 20:34:32,737: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[f78a8404-6e2b-44b1-b763-2ca7d69e279a] succeeded in 0.16976804899968556s: None
+[2017-09-14 20:34:33,202: ERROR/ForkPoolWorker-1] Task main.tasks.update_game_info[63755c56-ec25-4c3b-b788-5596722abef4] raised unexpected: NameError("name 'game_mode' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 127, in update_game_info
+    logger.info('Updating game information. GAME: %s' % game_mode.code)
+NameError: name 'game_mode' is not defined
+[2017-09-14 20:34:35,119: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[4bc5fed6-9eb4-4b50-be4b-2d08f65a5c96] succeeded in 2.485469514002034s: None
+[2017-09-14 20:34:35,536: INFO/MainProcess] Received task: main.tasks.check_playing[5e86cfe2-acf6-4d0e-9fc9-458fb0927f47]  
+[2017-09-14 20:34:35,548: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-14 20:34:35,556: INFO/MainProcess] Received task: main.tasks.update_game_info[010183c0-644c-4d08-bf2b-da25d4a8820d]  
+[2017-09-14 20:34:35,562: INFO/MainProcess] Received task: main.tasks.get_game_actions[9e816229-9095-4d9d-8d3f-6db7d515a0ef]  
+[2017-09-14 20:34:35,585: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/13229_GAMEACTIONS_13556-28-A_Q2_JSON.json?s=534&t=0
+[2017-09-14 20:34:35,696: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[5e86cfe2-acf6-4d0e-9fc9-458fb0927f47] succeeded in 0.15961027299999841s: None
+[2017-09-14 20:34:35,740: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[010183c0-644c-4d08-bf2b-da25d4a8820d] raised unexpected: NameError("name 'game_mode' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 127, in update_game_info
+    logger.info('Updating game information. GAME: %s' % game_mode.code)
+NameError: name 'game_mode' is not defined
+[2017-09-14 20:34:38,101: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[9e816229-9095-4d9d-8d3f-6db7d515a0ef] succeeded in 2.5348377820009773s: None
+[2017-09-14 20:34:38,539: INFO/MainProcess] Received task: main.tasks.check_playing[32be8d51-38ea-4605-9e6c-8bb4a7d79b3a]  
+[2017-09-14 20:34:38,552: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-14 20:34:38,555: INFO/MainProcess] Received task: main.tasks.update_game_info[ee41a30f-cb13-4219-9ebe-270019d8c10a]  
+[2017-09-14 20:34:38,557: INFO/MainProcess] Received task: main.tasks.get_game_actions[b04e8263-3715-4308-ad7c-e34deaef6f02]  
+[2017-09-14 20:34:38,581: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/13229_GAMEACTIONS_13556-28-A_Q2_JSON.json?s=534&t=0
+[2017-09-14 20:34:38,710: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[32be8d51-38ea-4605-9e6c-8bb4a7d79b3a] succeeded in 0.17019953799899668s: None
+[2017-09-14 20:34:38,799: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[ee41a30f-cb13-4219-9ebe-270019d8c10a] raised unexpected: NameError("name 'game_mode' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/BasketballDataScrape/main/tasks.py", line 127, in update_game_info
+    logger.info('Updating game information. GAME: %s' % game_mode.code)
+NameError: name 'game_mode' is not defined
+[2017-09-14 20:34:41,395: INFO/ForkPoolWorker-4] Task main.tasks.get_game_actions[b04e8263-3715-4308-ad7c-e34deaef6f02] succeeded in 2.8353028890014684s: None
