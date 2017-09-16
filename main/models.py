@@ -30,19 +30,19 @@ class Location(models.Model):
 
 class Game(models.Model):
     code = models.CharField(max_length=300, unique=True)
-    status = models.CharField(max_length=300, blank=True)
+    status = models.CharField(default="future", max_length=300, blank=True)
     team_a = models.ForeignKey(Team, related_name='%(class)s_team_a', 
                                 blank=True, null=True, on_delete=models.CASCADE)
     team_b = models.ForeignKey(Team, related_name='%(class)s_team_b',
                                 blank=True, null=True, on_delete=models.CASCADE)
-    team_a_score = models.IntegerField(default=0, blank=True)
-    team_b_score = models.IntegerField(default=0, blank=True)
+    team_a_score = models.IntegerField(blank=True, null=True)
+    team_b_score = models.IntegerField(blank=True, null=True)
     team_a_foul = models.IntegerField(default=0, blank=True)
     team_b_foul = models.IntegerField(default=0, blank=True)
     team_a_period_scores = models.CharField(max_length=300, blank=True)
     team_b_period_scores = models.CharField(max_length=300, blank=True)
     current_period = models.CharField(max_length=10, blank=True)
-    start_time = models.BigIntegerField(default=0, blank=True)
+    start_time = models.BigIntegerField(default=0, blank=True, null=True)
     location = models.ForeignKey(Location, blank=True, null=True)
     time = models.CharField(max_length=30, blank=True)
 
@@ -58,6 +58,8 @@ class Game(models.Model):
             team_b.save()
             self.team_a = team_a
             self.team_b = team_b
+        if self.team_a_score == "" or self.team_b_score == "":
+            game = Fiba_Game(self.code)
             info = game.get_info()
             if self.team_a.code == info['team_a']['team_a_uid']:
                 self.team_a_score = info['team_a']['team_a_score']
@@ -118,6 +120,9 @@ class Actions(models.Model):
     plus_minus = models.CharField(max_length=30,blank=True, null=True)
     team = models.ForeignKey(Team, blank=True, null=True)
 
+    class Meta:
+        ordering = ['-action_uid']
+
     def get_utc_time(self):
         return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(self.epoch_time))
 
@@ -137,30 +142,38 @@ class Actions(models.Model):
 def check_status(sender, instance, **kwargs):
     if instance._state.adding:
         game = Fiba_Game(instance.code)
-        info = game.get_info()
-        instance.status = info['status']
-        instance.start_time = info['start_time']
-        instance.team_a_score = info['team_a']['team_a_score']
-        instance.team_a_foul = info['team_a']['team_a_foul']
-        instance.team_b_score = info['team_b']['team_b_score']
-        instance.team_b_foul = info['team_b']['team_b_foul']
-        instance.current_period = info['current_period']
-        instance.time = info['time']
-        instance.team_a_period_scores = info['team_a']['team_a_scores']
-        instance.team_b_period_scores = info['team_b']['team_b_scores']
-        tasks.init_locations(instance.code)
-        try:
-            location = Location.objects.get(code=info['location'])
-            instance.location = location
-        except:
-            pass
+        available = game.data_available()
+        if available['game_info'] and available['game_actions']:
+            #info = game.get_info()
+            #instance.status = info['status']
+            # instance.start_time = info['start_time']
+            # instance.team_a_score = info['team_a']['team_a_score']
+            # instance.team_a_foul = info['team_a']['team_a_foul']
+            # instance.team_b_score = info['team_b']['team_b_score']
+            # instance.team_b_foul = info['team_b']['team_b_foul']
+            # instance.current_period = info['current_period']
+            # instance.time = info['time']
+            # instance.team_a_period_scores = info['team_a']['team_a_scores']
+            # instance.team_b_period_scores = info['team_b']['team_b_scores']
 
-@receiver(post_save, sender=Game)
-def add_teams(sender, instance, created, **kwargs):
-    if created:
-        game = Fiba_Game(instance.code)
-        players = game.get_players()
-        for player in players:
-            tasks.add_player.apply_async(args=([player]), countdown=10)
-        # time.sleep(0.5) # In case not all players created
-        tasks.get_game_actions.apply_async(args=([instance.code]), countdown=15) # Add actions, 
+            tasks.init_locations(instance.code)
+            try:
+                location = Location.objects.get(code=info['location'])
+                instance.location = location
+            except:
+                pass
+        else:
+            instance.start_time = game.get_start_time()
+            instance.status = "future"
+
+# @receiver(post_save, sender=Game)
+# def add_teams(sender, instance, created, **kwargs):
+#     if created:
+#         game = Fiba_Game(instance.code)
+#         available = game.data_available()
+#         if available['game_info'] and available['game_actions']:
+#             players = game.get_players()
+#             for player in players:
+#                 tasks.add_player.apply_async(args=([player]), countdown=10)
+#             # time.sleep(0.5) # In case not all players created
+#             #tasks.get_game_actions.apply_async(args=([instance.code]), countdown=15) # Add actions, 

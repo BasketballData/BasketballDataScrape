@@ -1,4 +1,5 @@
 import logging
+import time
 
 from django.db import IntegrityError
 
@@ -63,23 +64,34 @@ def get_game_actions(code, period=None):
             return int(str(time)[:10])
         else:
             return ""
+    
+    def _get_action_uid(action):
+        action_uid = None
+        try:
+            return int(action['ListIndex'])
+        except Exception as e:
+            logger.info("ERROR IN ACTION UID. %s" % e)
+            return int(action['Id'])
 
     current_score = {'team_a': 0, 'team_b': 0}
 
-    all_actions = models.Actions.objects.values_list('action_uid', flat=True)
+    all_actions = models.Actions.objects.filter(game=current_game).values_list('action_uid', flat=True)
     for action in actions:
         score = action.get('Score', None)
         if score:
             splited_score = score.split('-')
             current_score['team_a'] = splited_score[0]
             current_score['team_b'] = splited_score[1]
-        if not action['Id'] in all_actions:
+        
+        action_uid = _get_action_uid(action)
+        if not action_uid in all_actions: # ERROR HERE. NEED TO GET ACTION FIRST
+            logger.info('ACTION ID: %s ALL ACTIONS: %s' % (action_uid, all_actions))
             # Maybe add this to separate Celery tasks (?)
             models.Actions.objects.create(
                 game=current_game,
                 action_code=action.get('AC', ''),
                 action_text=action.get('Action', ''),
-                action_uid=int(action.get('Id', "0").replace(':', '')),
+                action_uid=action_uid,
                 time=action.get('Time', ''),
                 epoch_time=_clean_time(action.get('GT', '')),
                 shot_x=action.get('SX', 0),
@@ -111,6 +123,38 @@ def init_locations(code):
 @shared_task
 def check_future():
     games = models.Game.objects.filter(status="future")
+    for current_game in games:
+        time_now = int(time.time())
+        time_game = current_game.start_time / 1000
+        time_difference = time_game - time_now
+        if time_difference < 60:
+            game = Fiba_Game(current_game.code)
+            available = game.data_available()
+            if available['game_info']:
+                info = game.get_info()
+                current_game.start_time = info['start_time']
+                current_game.team_a_score = info['team_a']['team_a_score']
+                current_game.team_a_foul = info['team_a']['team_a_foul']
+                current_game.team_b_score = info['team_b']['team_b_score']
+                current_game.team_b_foul = info['team_b']['team_b_foul']
+                current_game.current_period = info['current_period']
+                current_game.time = info['time']
+                current_game.team_a_period_scores = info['team_a']['team_a_scores']
+                current_game.team_b_period_scores = info['team_b']['team_b_scores']
+                init_locations(current_game.code)
+                try:
+                    location = Location.objects.get(code=info['location'])
+                    current_game.location = location
+                except:
+                    pass
+            players = game.get_players()
+            if len(players) > 9:
+                for player in players:
+                    add_player.apply([player])
+                current_game.status = "playing"
+
+            current_game.save()
+
 
 @shared_task
 def check_playing():
@@ -138,4 +182,11 @@ def update_game_info(pk):
     game_model.team_a_period_scores = info['team_a']['team_a_scores']
     game_model.team_b_period_scores = info['team_b']['team_b_scores']
     #tasks.init_locations(game_model.code)
+    if not game_model.location:
+        init_locations(game_model.code)
+        try:
+            location = models.Location.objects.get(code=info['location'])
+            game_model.location = location
+        except:
+            pass
     game_model.save()

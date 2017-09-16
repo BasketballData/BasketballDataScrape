@@ -9,6 +9,7 @@ BASE_GAME_INFO = "GAME_"
 BASE_ACTIONS_INFO = "GAMEACTIONS_"
 BASE_COMP_DETAILS = "COMPDETAILS_"
 BASE_STANDINGDATA = "STANDINGDATA_"
+BASE_SCHEDULE = "SCHEDULE_"
 STATUSES = {
     'Event-1-': 'future',
     'Event-2-': 'future',
@@ -157,7 +158,6 @@ class Fiba_Game:
             while not finished:
                 response = self._make_request(BASE_ACTIONS_INFO, self.league, self.game, start_period)
                 if not response:
-                    print('BAD RESPONSE')
                     break
                 actions = actions + response['content']['full']['Items']
                 for item in response['content']['full']['Items']:
@@ -181,7 +181,39 @@ class Fiba_Game:
             response = self._make_request(BASE_ACTIONS_INFO, self.league, self.game, period)
             actions = response['content']['full']['Items']
             return actions
+    
+    def data_available(self):
+        """ 
+        Returns dict with status of availability of requests 
+        to GAME INFO and GAME ACTIONS pages
+        """
+        available = {
+            'game_info': False,
+            'game_actions': False
+        }
+        response_game_actions = self._make_request(BASE_ACTIONS_INFO, self.league, self.game, "Q1_")
+        response_game = self._make_request(BASE_GAME_INFO, self.league, self.game)
+        if response_game_actions:
+            available['game_actions'] = True
+        if response_game:
+            available['game_info'] = True
+        return available
+    
+    def get_schedule(self):
+        """ Returns dict with league game schedule """
+        return self._make_request(BASE_SCHEDULE, self.league)
 
+    def get_start_time(self):
+        """ Returns particular game start time """
+        response = self._make_request(BASE_SCHEDULE, self.league)
+        game_list = response['content']['full']['Units']
+        
+        team = game_list.get(self.game[:-1], '')
+        if team:
+            return team.get('StartTimeUtc', None)
+        else:
+            return None
+        
 
     def _make_request(self, endpoint, league, game='', period=''):
         """ Base function for making requests to FIBA """

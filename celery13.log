@@ -1,0 +1,907 @@
+[2017-09-16 19:18:34,515: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-09-16 19:18:34,529: INFO/MainProcess] mingle: searching for neighbors
+[2017-09-16 19:18:35,556: INFO/MainProcess] mingle: all alone
+[2017-09-16 19:18:35,580: WARNING/MainProcess] /home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-09-16 19:18:35,580: INFO/MainProcess] celery@povilas ready.
+[2017-09-16 19:18:35,581: INFO/MainProcess] Received task: main.tasks.check_future[21942c78-07ac-497f-b055-6dd376b98cbc]  
+[2017-09-16 19:18:35,583: INFO/MainProcess] Received task: main.tasks.check_playing[7c594269-c9ff-4f49-b169-05a891e4a150]  
+[2017-09-16 19:18:35,585: INFO/MainProcess] Received task: main.tasks.check_playing[b2a85d2a-d622-4e12-b676-0a5deaf959d9]  
+[2017-09-16 19:18:35,586: INFO/MainProcess] Received task: main.tasks.check_future[a69ad776-f15b-461a-8424-c9065e3495aa]  
+[2017-09-16 19:18:35,587: INFO/MainProcess] Received task: main.tasks.check_future[1a3f351e-2fdc-4f47-af6a-e93d5f75378d]  
+[2017-09-16 19:18:35,587: INFO/MainProcess] Received task: main.tasks.check_playing[caff464e-f1ec-408c-8002-961d45b674af]  
+[2017-09-16 19:18:35,588: INFO/MainProcess] Received task: main.tasks.check_playing[3c409380-5e50-4a75-b861-ad968978a6a1]  
+[2017-09-16 19:18:35,589: INFO/MainProcess] Received task: main.tasks.check_future[22a544c2-238b-45b3-a7c7-65227764f363]  
+[2017-09-16 19:18:35,589: INFO/MainProcess] Received task: main.tasks.check_future[7cde0800-498d-4684-8673-cc63bafa46f0]  
+[2017-09-16 19:18:35,590: INFO/MainProcess] Received task: main.tasks.check_playing[cbedb087-c42e-4425-b047-c9e2ae477c12]  
+[2017-09-16 19:18:35,590: INFO/MainProcess] Received task: main.tasks.check_playing[dbcb4b40-0ac4-4a79-aace-bfe3253e6bb8]  
+[2017-09-16 19:18:35,591: INFO/MainProcess] Received task: main.tasks.check_future[2a4e157f-50dc-4465-9ed1-1df3e8c2f9ac]  
+[2017-09-16 19:18:35,592: INFO/MainProcess] Received task: main.tasks.check_future[3ca7e73b-abd9-49c3-a9c5-7dc0b2d21651]  
+[2017-09-16 19:18:35,592: INFO/MainProcess] Received task: main.tasks.check_playing[23a78cf9-08f8-48e5-8c27-df398053fc21]  
+[2017-09-16 19:18:35,593: INFO/MainProcess] Received task: main.tasks.check_playing[b71e3408-7ec5-4290-bd5f-e8867cb97319]  
+[2017-09-16 19:18:35,593: INFO/MainProcess] Received task: main.tasks.check_future[d44b159f-0581-4790-872d-f1313d5119af]  
+[2017-09-16 19:18:35,713: INFO/MainProcess] Received task: main.tasks.check_future[559e6131-968d-4567-afce-58216b59980a]  
+[2017-09-16 19:18:35,719: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:35,720: INFO/MainProcess] Received task: main.tasks.check_playing[4b2d8df8-4d36-44c0-9a26-b3ba4a8a2b4d]  
+[2017-09-16 19:18:35,729: INFO/MainProcess] Received task: main.tasks.check_playing[b3c1e11b-e3a3-4e18-a750-9ffb23dd197c]  
+[2017-09-16 19:18:35,730: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:35,731: INFO/MainProcess] Received task: main.tasks.check_future[29aa9271-957e-4ff7-90f0-af83d02e9982]  
+[2017-09-16 19:18:35,775: INFO/ForkPoolWorker-1] Task main.tasks.check_future[21942c78-07ac-497f-b055-6dd376b98cbc] succeeded in 0.08074475399916992s: None
+[2017-09-16 19:18:35,780: INFO/MainProcess] Received task: main.tasks.check_future[c3d52f0a-c1da-433e-af5f-b21bb75398fa]  
+[2017-09-16 19:18:35,780: INFO/ForkPoolWorker-2] Task main.tasks.check_future[a69ad776-f15b-461a-8424-c9065e3495aa] succeeded in 0.07896226199954981s: None
+[2017-09-16 19:18:35,781: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[b2a85d2a-d622-4e12-b676-0a5deaf959d9] succeeded in 0.08655664500111016s: None
+[2017-09-16 19:18:35,783: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[7c594269-c9ff-4f49-b169-05a891e4a150] succeeded in 0.08854997099842876s: None
+[2017-09-16 19:18:35,791: INFO/MainProcess] Received task: main.tasks.check_playing[7df6738d-9cdc-4a8f-88b4-9d21f83933d5]  
+[2017-09-16 19:18:35,794: INFO/MainProcess] Received task: main.tasks.check_playing[c93f9fd8-76d6-4b55-80b7-7e1253610588]  
+[2017-09-16 19:18:35,794: INFO/MainProcess] Received task: main.tasks.check_future[ed6b9dcd-0652-4850-9354-49dbaa8ca93a]  
+[2017-09-16 19:18:35,808: INFO/ForkPoolWorker-1] Task main.tasks.check_future[1a3f351e-2fdc-4f47-af6a-e93d5f75378d] succeeded in 0.029998241996509023s: None
+[2017-09-16 19:18:35,809: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:35,811: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:35,816: INFO/MainProcess] Received task: main.tasks.check_future[e1d81f4a-3bb2-4461-a097-4838eb832f5f]  
+[2017-09-16 19:18:35,850: INFO/ForkPoolWorker-2] Task main.tasks.check_future[22a544c2-238b-45b3-a7c7-65227764f363] succeeded in 0.05499679000058677s: None
+[2017-09-16 19:18:35,857: INFO/MainProcess] Received task: main.tasks.check_playing[0d295288-6748-4f24-9fdb-c1b3d19239af]  
+[2017-09-16 19:18:35,857: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[caff464e-f1ec-408c-8002-961d45b674af] succeeded in 0.06789589700201759s: None
+[2017-09-16 19:18:35,857: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[3c409380-5e50-4a75-b861-ad968978a6a1] succeeded in 0.06227442099770997s: None
+[2017-09-16 19:18:35,863: INFO/ForkPoolWorker-1] Task main.tasks.check_future[7cde0800-498d-4684-8673-cc63bafa46f0] succeeded in 0.04865247900306713s: None
+[2017-09-16 19:18:35,866: INFO/MainProcess] Received task: main.tasks.check_playing[59cc282c-d179-490b-84ab-021d5a621459]  
+[2017-09-16 19:18:35,873: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:35,874: INFO/MainProcess] Received task: main.tasks.check_future[e84d2f07-fc90-46b1-b0b5-640c10432268]  
+[2017-09-16 19:18:35,878: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:35,881: INFO/MainProcess] Received task: main.tasks.check_future[76f6fba5-014f-4f96-a713-70bedccafbbd]  
+[2017-09-16 19:18:35,905: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[cbedb087-c42e-4425-b047-c9e2ae477c12] succeeded in 0.05139597699599108s: None
+[2017-09-16 19:18:35,910: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[dbcb4b40-0ac4-4a79-aace-bfe3253e6bb8] succeeded in 0.04941813999903388s: None
+[2017-09-16 19:18:35,916: INFO/ForkPoolWorker-4] Task main.tasks.check_future[2a4e157f-50dc-4465-9ed1-1df3e8c2f9ac] succeeded in 0.052134839999780525s: None
+[2017-09-16 19:18:35,918: INFO/MainProcess] Received task: main.tasks.check_playing[eb78aa08-de91-4744-858d-72c464333dec]  
+[2017-09-16 19:18:35,923: INFO/ForkPoolWorker-1] Task main.tasks.check_future[3ca7e73b-abd9-49c3-a9c5-7dc0b2d21651] succeeded in 0.0547084560021176s: None
+[2017-09-16 19:18:35,926: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:35,933: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:35,946: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[23a78cf9-08f8-48e5-8c27-df398053fc21] succeeded in 0.039641755996854044s: None
+[2017-09-16 19:18:35,951: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[b71e3408-7ec5-4290-bd5f-e8867cb97319] succeeded in 0.03894073999981629s: None
+[2017-09-16 19:18:35,956: INFO/ForkPoolWorker-1] Task main.tasks.check_future[559e6131-968d-4567-afce-58216b59980a] succeeded in 0.029578804002085235s: None
+[2017-09-16 19:18:35,962: INFO/ForkPoolWorker-4] Task main.tasks.check_future[d44b159f-0581-4790-872d-f1313d5119af] succeeded in 0.04158844700577902s: None
+[2017-09-16 19:18:35,970: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:35,975: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:35,991: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[b3c1e11b-e3a3-4e18-a750-9ffb23dd197c] succeeded in 0.037291763997927774s: None
+[2017-09-16 19:18:36,006: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:36,006: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[4b2d8df8-4d36-44c0-9a26-b3ba4a8a2b4d] succeeded in 0.058940395996614825s: None
+[2017-09-16 19:18:36,011: INFO/ForkPoolWorker-1] Task main.tasks.check_future[29aa9271-957e-4ff7-90f0-af83d02e9982] succeeded in 0.053464278993487824s: None
+[2017-09-16 19:18:36,016: INFO/ForkPoolWorker-4] Task main.tasks.check_future[c3d52f0a-c1da-433e-af5f-b21bb75398fa] succeeded in 0.0527743820057367s: None
+[2017-09-16 19:18:36,033: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:36,038: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[7df6738d-9cdc-4a8f-88b4-9d21f83933d5] succeeded in 0.04331243700289633s: None
+[2017-09-16 19:18:36,051: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:36,056: INFO/ForkPoolWorker-1] Task main.tasks.check_future[ed6b9dcd-0652-4850-9354-49dbaa8ca93a] succeeded in 0.04347471799701452s: None
+[2017-09-16 19:18:36,069: INFO/ForkPoolWorker-4] Task main.tasks.check_future[e1d81f4a-3bb2-4461-a097-4838eb832f5f] succeeded in 0.05150203799712472s: None
+[2017-09-16 19:18:36,070: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[c93f9fd8-76d6-4b55-80b7-7e1253610588] succeeded in 0.06238876999850618s: None
+[2017-09-16 19:18:36,070: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:36,085: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[0d295288-6748-4f24-9fdb-c1b3d19239af] succeeded in 0.045462707996193785s: None
+[2017-09-16 19:18:36,100: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:36,106: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[59cc282c-d179-490b-84ab-021d5a621459] succeeded in 0.048822454002220184s: None
+[2017-09-16 19:18:36,112: INFO/ForkPoolWorker-2] Task main.tasks.check_future[76f6fba5-014f-4f96-a713-70bedccafbbd] succeeded in 0.04039362499315757s: None
+[2017-09-16 19:18:36,121: INFO/ForkPoolWorker-4] Task main.tasks.check_future[e84d2f07-fc90-46b1-b0b5-640c10432268] succeeded in 0.04702769099822035s: None
+[2017-09-16 19:18:36,128: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[eb78aa08-de91-4744-858d-72c464333dec] succeeded in 0.04155848400114337s: None
+[2017-09-16 19:18:40,709: INFO/MainProcess] Received task: main.tasks.check_playing[8cb75a7a-2e31-4b1d-abca-f428b80211a1]  
+[2017-09-16 19:18:40,715: INFO/MainProcess] Received task: main.tasks.check_future[0d3f30c5-61c9-40c8-95bd-7fd2236f6251]  
+[2017-09-16 19:18:40,724: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:40,742: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[8cb75a7a-2e31-4b1d-abca-f428b80211a1] succeeded in 0.03137541899923235s: None
+[2017-09-16 19:18:40,746: INFO/ForkPoolWorker-4] Task main.tasks.check_future[0d3f30c5-61c9-40c8-95bd-7fd2236f6251] succeeded in 0.029702785999688786s: None
+[2017-09-16 19:18:50,715: INFO/MainProcess] Received task: main.tasks.check_future[f568b488-9df2-4f2e-a144-2eefb2a2b0ca]  
+[2017-09-16 19:18:50,721: INFO/MainProcess] Received task: main.tasks.check_playing[ceacda5a-d9d1-4a69-afbb-05ba678ec9c3]  
+[2017-09-16 19:18:50,734: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:18:50,752: INFO/ForkPoolWorker-1] Task main.tasks.check_future[f568b488-9df2-4f2e-a144-2eefb2a2b0ca] succeeded in 0.03561562600225443s: None
+[2017-09-16 19:18:50,758: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[ceacda5a-d9d1-4a69-afbb-05ba678ec9c3] succeeded in 0.035574800000176765s: None
+[2017-09-16 19:19:00,720: INFO/MainProcess] Received task: main.tasks.check_playing[45a61f73-0ab1-46ad-9e89-d9ce95597072]  
+[2017-09-16 19:19:00,727: INFO/MainProcess] Received task: main.tasks.check_future[c4eb8bdf-66fd-4050-a61e-260498ea4019]  
+[2017-09-16 19:19:00,731: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:19:00,739: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q1_JSON.json?s=534&t=0
+[2017-09-16 19:19:00,761: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[45a61f73-0ab1-46ad-9e89-d9ce95597072] succeeded in 0.04034570100338897s: None
+[2017-09-16 19:19:00,899: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:19:01,051: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:19:01,248: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_STANDINGDATA_JSON.json?s=534&t=0
+[2017-09-16 19:19:01,439: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_COMPDETAILS_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:19:01,598: INFO/ForkPoolWorker-4] Player BKM400302-61689 already exists in database
+[2017-09-16 19:19:01,599: INFO/ForkPoolWorker-4] Task main.tasks.add_player[c2da40e9-e4b3-4d1f-8d0b-312d514d7993] succeeded in 0.0045008560045971535s: True
+[2017-09-16 19:19:01,601: INFO/ForkPoolWorker-4] Player BKM400302-32751 already exists in database
+[2017-09-16 19:19:01,601: INFO/ForkPoolWorker-4] Task main.tasks.add_player[8a03c628-7b2d-4584-a29b-3aaf0a4c85c3] succeeded in 0.0023558889952255413s: True
+[2017-09-16 19:19:01,604: INFO/ForkPoolWorker-4] Player BKM400302-89949 already exists in database
+[2017-09-16 19:19:01,604: INFO/ForkPoolWorker-4] Task main.tasks.add_player[586bb8dc-d734-4b94-86d3-5b328dac03df] succeeded in 0.0021384949941420928s: True
+[2017-09-16 19:19:01,607: INFO/ForkPoolWorker-4] Player BKM400302-108886 already exists in database
+[2017-09-16 19:19:01,607: INFO/ForkPoolWorker-4] Task main.tasks.add_player[faf04c1f-a76c-481c-8e95-beb53b1b064b] succeeded in 0.0027777889990829863s: True
+[2017-09-16 19:19:01,610: INFO/ForkPoolWorker-4] Player BKM400302-30004 already exists in database
+[2017-09-16 19:19:01,610: INFO/ForkPoolWorker-4] Task main.tasks.add_player[5f92f9d3-5ea6-4a05-9e7d-7d995e10cf10] succeeded in 0.002580214997578878s: True
+[2017-09-16 19:19:01,613: INFO/ForkPoolWorker-4] Player BKM400302-91620 already exists in database
+[2017-09-16 19:19:01,613: INFO/ForkPoolWorker-4] Task main.tasks.add_player[e07dc3af-8499-409e-b50d-c190d7a00768] succeeded in 0.0026315450013498776s: True
+[2017-09-16 19:19:01,616: INFO/ForkPoolWorker-4] Player BKM400302-86246 already exists in database
+[2017-09-16 19:19:01,616: INFO/ForkPoolWorker-4] Task main.tasks.add_player[043df9fa-aeb5-4365-a563-72c26981a663] succeeded in 0.0026674699984141625s: True
+[2017-09-16 19:19:01,619: INFO/ForkPoolWorker-4] Player BKM400302-46941 already exists in database
+[2017-09-16 19:19:01,619: INFO/ForkPoolWorker-4] Task main.tasks.add_player[98c54ef0-c7cf-4b40-a80e-48ff10c07393] succeeded in 0.0026794890000019222s: True
+[2017-09-16 19:19:01,622: INFO/ForkPoolWorker-4] Player BKM400302-39593 already exists in database
+[2017-09-16 19:19:01,623: INFO/ForkPoolWorker-4] Task main.tasks.add_player[5b95e3e5-96ae-4cef-b466-add4a10232a4] succeeded in 0.002645558000949677s: True
+[2017-09-16 19:19:01,627: INFO/ForkPoolWorker-4] Player BKM400302-41848 already exists in database
+[2017-09-16 19:19:01,628: INFO/ForkPoolWorker-4] Task main.tasks.add_player[938e7626-9f89-4b08-adde-97513bb107db] succeeded in 0.004383293999126181s: True
+[2017-09-16 19:19:01,633: INFO/ForkPoolWorker-4] Player BKM400302-76812 already exists in database
+[2017-09-16 19:19:01,633: INFO/ForkPoolWorker-4] Task main.tasks.add_player[faba6d1b-1edc-4237-a198-c6ea7de1e468] succeeded in 0.004575430000841152s: True
+[2017-09-16 19:19:01,640: INFO/ForkPoolWorker-4] Player BKM400302-81343 already exists in database
+[2017-09-16 19:19:01,641: INFO/ForkPoolWorker-4] Task main.tasks.add_player[9ef95e2d-20cc-4a1e-9d2c-c571375be982] succeeded in 0.007050692998745944s: True
+[2017-09-16 19:19:01,644: INFO/ForkPoolWorker-4] Player BKM400302-70640 already exists in database
+[2017-09-16 19:19:01,644: INFO/ForkPoolWorker-4] Task main.tasks.add_player[a100ac45-51c4-4837-a57c-89b2b4096553] succeeded in 0.0024370160026592202s: True
+[2017-09-16 19:19:01,647: INFO/ForkPoolWorker-4] Player BKM400302-53173 already exists in database
+[2017-09-16 19:19:01,647: INFO/ForkPoolWorker-4] Task main.tasks.add_player[f7ec8ccc-b0cd-4596-9528-a65fa4f981df] succeeded in 0.0025305479939561337s: True
+[2017-09-16 19:19:01,649: INFO/ForkPoolWorker-4] Player BKM400302-57853 already exists in database
+[2017-09-16 19:19:01,649: INFO/ForkPoolWorker-4] Task main.tasks.add_player[fba4349c-98c4-4e01-9742-507f96869bdb] succeeded in 0.002061964994936716s: True
+[2017-09-16 19:19:01,652: INFO/ForkPoolWorker-4] Player BKM400302-71634 already exists in database
+[2017-09-16 19:19:01,652: INFO/ForkPoolWorker-4] Task main.tasks.add_player[7e6a73d8-7114-4287-839c-c8e2a1fc8995] succeeded in 0.0023376820026896894s: True
+[2017-09-16 19:19:01,654: INFO/ForkPoolWorker-4] Player BKM400302-58116 already exists in database
+[2017-09-16 19:19:01,655: INFO/ForkPoolWorker-4] Task main.tasks.add_player[f58f43ee-668d-4053-bc03-3308f073f09d] succeeded in 0.002267653006128967s: True
+[2017-09-16 19:19:01,658: INFO/ForkPoolWorker-4] Player BKM400302-85831 already exists in database
+[2017-09-16 19:19:01,658: INFO/ForkPoolWorker-4] Task main.tasks.add_player[fcb244f8-5d70-44ac-9ed7-ffa6002a6097] succeeded in 0.002774131004116498s: True
+[2017-09-16 19:19:01,660: INFO/ForkPoolWorker-4] Player BKM400302-86251 already exists in database
+[2017-09-16 19:19:01,661: INFO/ForkPoolWorker-4] Task main.tasks.add_player[c8e77d80-a840-4ad6-b803-0d56075cfb48] succeeded in 0.002477895002812147s: True
+[2017-09-16 19:19:01,663: INFO/ForkPoolWorker-4] Player BKM400302-63005 already exists in database
+[2017-09-16 19:19:01,663: INFO/ForkPoolWorker-4] Task main.tasks.add_player[e911589a-a631-4a64-9313-05f2c1cfebbb] succeeded in 0.0022378089997801s: True
+[2017-09-16 19:19:01,666: INFO/ForkPoolWorker-4] Player BKM400302-71637 already exists in database
+[2017-09-16 19:19:01,666: INFO/ForkPoolWorker-4] Task main.tasks.add_player[5fe2104a-af69-416d-86f5-3c9627deee77] succeeded in 0.0022651649996987544s: True
+[2017-09-16 19:19:01,669: INFO/ForkPoolWorker-4] Player BKM400302-61799 already exists in database
+[2017-09-16 19:19:01,669: INFO/ForkPoolWorker-4] Task main.tasks.add_player[9839f671-de84-4e25-a6b3-de2b880265ef] succeeded in 0.0027304940012982115s: True
+[2017-09-16 19:19:01,672: INFO/ForkPoolWorker-4] Player BKM400302-100019 already exists in database
+[2017-09-16 19:19:01,672: INFO/ForkPoolWorker-4] Task main.tasks.add_player[61c4abb4-5eee-41e5-8bb6-3a7ded0a7a66] succeeded in 0.002323415996215772s: True
+[2017-09-16 19:19:01,674: INFO/ForkPoolWorker-4] Player BKM400302-78231 already exists in database
+[2017-09-16 19:19:01,675: INFO/ForkPoolWorker-4] Task main.tasks.add_player[65c79e85-87d9-4766-b9f7-9dac0767e119] succeeded in 0.002425667000352405s: True
+[2017-09-16 19:19:01,704: INFO/ForkPoolWorker-4] Task main.tasks.check_future[c4eb8bdf-66fd-4050-a61e-260498ea4019] succeeded in 0.9759341009994387s: None
+[2017-09-16 19:19:10,725: INFO/MainProcess] Received task: main.tasks.check_future[6b61e29b-6601-45f0-98fb-bd23f3c8b625]  
+[2017-09-16 19:19:10,733: INFO/MainProcess] Received task: main.tasks.check_playing[7042afb0-b320-4993-941c-b44415290772]  
+[2017-09-16 19:19:10,746: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:19:10,769: INFO/ForkPoolWorker-1] Task main.tasks.check_future[6b61e29b-6601-45f0-98fb-bd23f3c8b625] succeeded in 0.043553016999794636s: None
+[2017-09-16 19:19:10,774: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[7042afb0-b320-4993-941c-b44415290772] succeeded in 0.039895653004350606s: None
+[2017-09-16 19:19:20,731: INFO/MainProcess] Received task: main.tasks.check_playing[50f212e1-8f67-4a8e-8c69-19f6e88f8a35]  
+[2017-09-16 19:19:20,737: INFO/MainProcess] Received task: main.tasks.check_future[a2d29f6b-cc1f-4b59-b40c-1f8a44bb2d8c]  
+[2017-09-16 19:19:20,745: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:19:20,769: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[50f212e1-8f67-4a8e-8c69-19f6e88f8a35] succeeded in 0.03683752999495482s: None
+[2017-09-16 19:19:20,772: INFO/ForkPoolWorker-4] Task main.tasks.check_future[a2d29f6b-cc1f-4b59-b40c-1f8a44bb2d8c] succeeded in 0.032669776999682654s: None
+[2017-09-16 19:19:30,738: INFO/MainProcess] Received task: main.tasks.check_future[38b20072-b6de-4f23-8cc3-90d7c12f75d8]  
+[2017-09-16 19:19:30,747: INFO/MainProcess] Received task: main.tasks.check_playing[450a6873-7f93-427a-89e9-082953ab2785]  
+[2017-09-16 19:19:30,762: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-16 19:19:30,775: INFO/ForkPoolWorker-1] Task main.tasks.check_future[38b20072-b6de-4f23-8cc3-90d7c12f75d8] succeeded in 0.0357872620006674s: None
+[2017-09-16 19:19:30,778: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[450a6873-7f93-427a-89e9-082953ab2785] succeeded in 0.029880078000132926s: None
+[2017-09-16 19:19:40,742: INFO/MainProcess] Received task: main.tasks.check_playing[9cc3a063-0f64-4bef-84cd-48c555a23e3c]  
+[2017-09-16 19:19:40,747: INFO/MainProcess] Received task: main.tasks.check_future[cf2f0a16-d636-4f4f-88df-8b6298158a19]  
+[2017-09-16 19:19:40,753: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:19:40,762: INFO/MainProcess] Received task: main.tasks.update_game_info[55fd7bac-16ba-4f6d-96e5-8a87006b0bca]  
+[2017-09-16 19:19:40,765: INFO/MainProcess] Received task: main.tasks.get_game_actions[99ef0a6d-3de6-4b75-b608-057b234a390a]  
+[2017-09-16 19:19:40,777: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:19:40,777: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:19:40,779: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:19:40,787: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[9cc3a063-0f64-4bef-84cd-48c555a23e3c] succeeded in 0.044193132998771034s: None
+[2017-09-16 19:19:40,790: INFO/ForkPoolWorker-4] Task main.tasks.check_future[cf2f0a16-d636-4f4f-88df-8b6298158a19] succeeded in 0.04243137699813815s: None
+[2017-09-16 19:19:41,002: INFO/ForkPoolWorker-2] ACTION ID: 0:0041 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,004: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[55fd7bac-16ba-4f6d-96e5-8a87006b0bca] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(instance.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:19:41,008: INFO/ForkPoolWorker-2] ACTION ID: 2:0409 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,013: INFO/ForkPoolWorker-2] ACTION ID: 2:0410 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,020: INFO/ForkPoolWorker-2] ACTION ID: 2:0411 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,025: INFO/ForkPoolWorker-2] ACTION ID: 2:0412 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,030: INFO/ForkPoolWorker-2] ACTION ID: 2:0413 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,041: INFO/ForkPoolWorker-2] ACTION ID: 2:0414 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,046: INFO/ForkPoolWorker-2] ACTION ID: 2:0415 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,051: INFO/ForkPoolWorker-2] ACTION ID: 2:0416 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,055: INFO/ForkPoolWorker-2] ACTION ID: 2:0417 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,059: INFO/ForkPoolWorker-2] ACTION ID: 2:0418 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,063: INFO/ForkPoolWorker-2] ACTION ID: 2:0419 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,067: INFO/ForkPoolWorker-2] ACTION ID: 2:0420 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,071: INFO/ForkPoolWorker-2] ACTION ID: 2:0421 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,075: INFO/ForkPoolWorker-2] ACTION ID: 2:0422 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,079: INFO/ForkPoolWorker-2] ACTION ID: 2:0423 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,083: INFO/ForkPoolWorker-2] ACTION ID: 2:0424 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,087: INFO/ForkPoolWorker-2] ACTION ID: 2:0425 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,091: INFO/ForkPoolWorker-2] ACTION ID: 2:0426 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,096: INFO/ForkPoolWorker-2] ACTION ID: 2:0427 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,100: INFO/ForkPoolWorker-2] ACTION ID: 2:0428 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,104: INFO/ForkPoolWorker-2] ACTION ID: 2:0429 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,108: INFO/ForkPoolWorker-2] ACTION ID: 2:0430 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,114: INFO/ForkPoolWorker-2] ACTION ID: 2:0431 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,118: INFO/ForkPoolWorker-2] ACTION ID: 2:0432 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,121: INFO/ForkPoolWorker-2] ACTION ID: 2:0433 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,132: INFO/ForkPoolWorker-2] ACTION ID: 2:0434 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,137: INFO/ForkPoolWorker-2] ACTION ID: 2:0435 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,141: INFO/ForkPoolWorker-2] ACTION ID: 2:0436 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,146: INFO/ForkPoolWorker-2] ACTION ID: 2:0437 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,150: INFO/ForkPoolWorker-2] ACTION ID: 2:0438 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,161: INFO/ForkPoolWorker-2] ACTION ID: 2:0439 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,165: INFO/ForkPoolWorker-2] ACTION ID: 2:0440 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,169: INFO/ForkPoolWorker-2] ACTION ID: 2:0441 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,173: INFO/ForkPoolWorker-2] ACTION ID: 2:0442 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,177: INFO/ForkPoolWorker-2] ACTION ID: 2:0443 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,180: INFO/ForkPoolWorker-2] ACTION ID: 2:0444 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,185: INFO/ForkPoolWorker-2] ACTION ID: 2:0445 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,189: INFO/ForkPoolWorker-2] ACTION ID: 2:0446 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,194: INFO/ForkPoolWorker-2] ACTION ID: 2:0447 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,198: INFO/ForkPoolWorker-2] ACTION ID: 2:0448 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,202: INFO/ForkPoolWorker-2] ACTION ID: 2:0449 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,206: INFO/ForkPoolWorker-2] ACTION ID: 2:0450 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,210: INFO/ForkPoolWorker-2] ACTION ID: 2:0451 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,222: INFO/ForkPoolWorker-2] ACTION ID: 2:0452 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,226: INFO/ForkPoolWorker-2] ACTION ID: 2:0453 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,231: INFO/ForkPoolWorker-2] ACTION ID: 2:0454 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,235: INFO/ForkPoolWorker-2] ACTION ID: 2:0455 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,239: INFO/ForkPoolWorker-2] ACTION ID: 2:0456 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,243: INFO/ForkPoolWorker-2] ACTION ID: 2:0457 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,254: INFO/ForkPoolWorker-2] ACTION ID: 2:0458 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,258: INFO/ForkPoolWorker-2] ACTION ID: 2:0459 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,262: INFO/ForkPoolWorker-2] ACTION ID: 2:0460 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,266: INFO/ForkPoolWorker-2] ACTION ID: 2:0461 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,271: INFO/ForkPoolWorker-2] ACTION ID: 2:0462 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,275: INFO/ForkPoolWorker-2] ACTION ID: 2:0463 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,280: INFO/ForkPoolWorker-2] ACTION ID: 2:0464 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,284: INFO/ForkPoolWorker-2] ACTION ID: 2:0465 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,288: INFO/ForkPoolWorker-2] ACTION ID: 2:0466 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,292: INFO/ForkPoolWorker-2] ACTION ID: 2:0467 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,303: INFO/ForkPoolWorker-2] ACTION ID: 2:0468 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,308: INFO/ForkPoolWorker-2] ACTION ID: 2:0469 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,312: INFO/ForkPoolWorker-2] ACTION ID: 2:0470 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,316: INFO/ForkPoolWorker-2] ACTION ID: 2:0471 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,320: INFO/ForkPoolWorker-2] ACTION ID: 2:0472 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,325: INFO/ForkPoolWorker-2] ACTION ID: 2:0473 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,330: INFO/ForkPoolWorker-2] ACTION ID: 2:0474 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,334: INFO/ForkPoolWorker-2] ACTION ID: 2:0475 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,338: INFO/ForkPoolWorker-2] ACTION ID: 2:0476 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,342: INFO/ForkPoolWorker-2] ACTION ID: 2:0477 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,346: INFO/ForkPoolWorker-2] ACTION ID: 2:0478 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,350: INFO/ForkPoolWorker-2] ACTION ID: 2:0479 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,353: INFO/ForkPoolWorker-2] ACTION ID: 2:0480 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,358: INFO/ForkPoolWorker-2] ACTION ID: 2:0481 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,362: INFO/ForkPoolWorker-2] ACTION ID: 2:0482 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,367: INFO/ForkPoolWorker-2] ACTION ID: 2:0483 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,371: INFO/ForkPoolWorker-2] ACTION ID: 2:0484 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,376: INFO/ForkPoolWorker-2] ACTION ID: 2:0485 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,381: INFO/ForkPoolWorker-2] ACTION ID: 2:0486 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,385: INFO/ForkPoolWorker-2] ACTION ID: 2:0487 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,389: INFO/ForkPoolWorker-2] ACTION ID: 2:0488 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,401: INFO/ForkPoolWorker-2] ACTION ID: 2:0489 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,406: INFO/ForkPoolWorker-2] ACTION ID: 2:0490 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,410: INFO/ForkPoolWorker-2] ACTION ID: 2:0491 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,415: INFO/ForkPoolWorker-2] ACTION ID: 2:0492 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,419: INFO/ForkPoolWorker-2] ACTION ID: 2:0493 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,424: INFO/ForkPoolWorker-2] ACTION ID: 2:0494 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,428: INFO/ForkPoolWorker-2] ACTION ID: 2:0495 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,433: INFO/ForkPoolWorker-2] ACTION ID: 1:0004 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,438: INFO/ForkPoolWorker-2] ACTION ID: 1:0005 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,442: INFO/ForkPoolWorker-2] ACTION ID: 2:0496 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,446: INFO/ForkPoolWorker-2] ACTION ID: 2:0497 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,450: INFO/ForkPoolWorker-2] ACTION ID: 2:0498 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,455: INFO/ForkPoolWorker-2] ACTION ID: 2:0499 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,459: INFO/ForkPoolWorker-2] ACTION ID: 2:0500 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,470: INFO/ForkPoolWorker-2] ACTION ID: 2:0501 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,474: INFO/ForkPoolWorker-2] ACTION ID: 2:0502 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,479: INFO/ForkPoolWorker-2] ACTION ID: 2:0503 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,483: INFO/ForkPoolWorker-2] ACTION ID: 2:0504 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,488: INFO/ForkPoolWorker-2] ACTION ID: 2:0505 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,493: INFO/ForkPoolWorker-2] ACTION ID: 2:0506 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,499: INFO/ForkPoolWorker-2] ACTION ID: 2:0507 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,503: INFO/ForkPoolWorker-2] ACTION ID: 2:0508 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,507: INFO/ForkPoolWorker-2] ACTION ID: 2:0509 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,511: INFO/ForkPoolWorker-2] ACTION ID: 2:0510 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,516: INFO/ForkPoolWorker-2] ACTION ID: 2:0511 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,520: INFO/ForkPoolWorker-2] ACTION ID: 2:0512 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,525: INFO/ForkPoolWorker-2] ACTION ID: 2:0513 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,529: INFO/ForkPoolWorker-2] ACTION ID: 2:0514 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,533: INFO/ForkPoolWorker-2] ACTION ID: 2:0515 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,537: INFO/ForkPoolWorker-2] ACTION ID: 2:0516 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,541: INFO/ForkPoolWorker-2] ACTION ID: 2:0517 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,545: INFO/ForkPoolWorker-2] ACTION ID: 2:0518 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,549: INFO/ForkPoolWorker-2] ACTION ID: 2:0519 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,553: INFO/ForkPoolWorker-2] ACTION ID: 2:0520 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,558: INFO/ForkPoolWorker-2] ACTION ID: 2:0521 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,562: INFO/ForkPoolWorker-2] ACTION ID: 2:0522 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,566: INFO/ForkPoolWorker-2] ACTION ID: 2:0523 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,571: INFO/ForkPoolWorker-2] ACTION ID: 2:0524 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,575: INFO/ForkPoolWorker-2] ACTION ID: 2:0525 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,579: INFO/ForkPoolWorker-2] ACTION ID: 2:0526 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,583: INFO/ForkPoolWorker-2] ACTION ID: 2:0527 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,588: INFO/ForkPoolWorker-2] ACTION ID: 2:0528 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,592: INFO/ForkPoolWorker-2] ACTION ID: 2:0529 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,597: INFO/ForkPoolWorker-2] ACTION ID: 2:0530 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,601: INFO/ForkPoolWorker-2] ACTION ID: 2:0531 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,611: INFO/ForkPoolWorker-2] ACTION ID: 2:0532 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,615: INFO/ForkPoolWorker-2] ACTION ID: 2:0533 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,619: INFO/ForkPoolWorker-2] ACTION ID: 2:0534 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,623: INFO/ForkPoolWorker-2] ACTION ID: 2:0535 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,627: INFO/ForkPoolWorker-2] ACTION ID: 2:0536 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,635: INFO/ForkPoolWorker-2] ACTION ID: 2:0537 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,648: INFO/ForkPoolWorker-2] ACTION ID: 2:0538 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,653: INFO/ForkPoolWorker-2] ACTION ID: 2:0539 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,657: INFO/ForkPoolWorker-2] ACTION ID: 2:0540 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,662: INFO/ForkPoolWorker-2] ACTION ID: 2:0541 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,666: INFO/ForkPoolWorker-2] ACTION ID: 2:0542 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,670: INFO/ForkPoolWorker-2] ACTION ID: 2:0543 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,674: INFO/ForkPoolWorker-2] ACTION ID: 2:0544 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,678: INFO/ForkPoolWorker-2] ACTION ID: 2:0545 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,683: INFO/ForkPoolWorker-2] ACTION ID: 2:0546 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,687: INFO/ForkPoolWorker-2] ACTION ID: 2:0547 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,691: INFO/ForkPoolWorker-2] ACTION ID: 0:0052 ALL ACTIONS: <QuerySet []>
+[2017-09-16 19:19:41,708: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[99ef0a6d-3de6-4b75-b608-057b234a390a] succeeded in 0.9425061420042766s: None
+[2017-09-16 19:19:50,747: INFO/MainProcess] Received task: main.tasks.check_future[e7c001a1-5678-409f-bc99-3f522d85dc5c]  
+[2017-09-16 19:19:50,757: INFO/MainProcess] Received task: main.tasks.check_playing[6c9b07bb-e0b2-4366-852c-4834bdaf2898]  
+[2017-09-16 19:19:50,768: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:19:50,775: INFO/MainProcess] Received task: main.tasks.update_game_info[aeb9483f-1c53-453f-a599-15c326dece38]  
+[2017-09-16 19:19:50,780: INFO/MainProcess] Received task: main.tasks.get_game_actions[eda58dba-77aa-4580-9b86-290a01dbd18b]  
+[2017-09-16 19:19:50,783: INFO/ForkPoolWorker-1] Task main.tasks.check_future[e7c001a1-5678-409f-bc99-3f522d85dc5c] succeeded in 0.03475894100120058s: None
+[2017-09-16 19:19:50,790: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:19:50,790: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:19:50,794: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:19:50,800: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[6c9b07bb-e0b2-4366-852c-4834bdaf2898] succeeded in 0.04125185499287909s: None
+[2017-09-16 19:19:50,959: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[aeb9483f-1c53-453f-a599-15c326dece38] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(instance.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:19:50,982: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[eda58dba-77aa-4580-9b86-290a01dbd18b] succeeded in 0.20080363799934275s: None
+[2017-09-16 19:20:00,752: INFO/MainProcess] Received task: main.tasks.check_playing[8de06895-1bd7-4957-b031-c1732ebef631]  
+[2017-09-16 19:20:00,758: INFO/MainProcess] Received task: main.tasks.check_future[3da0f169-b8d9-432b-aa74-3eb9b975ec13]  
+[2017-09-16 19:20:00,765: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:20:00,770: INFO/MainProcess] Received task: main.tasks.update_game_info[407ac575-3ead-42d2-acb4-08fb0862577d]  
+[2017-09-16 19:20:00,771: INFO/MainProcess] Received task: main.tasks.get_game_actions[dc1be92a-8a1f-4de7-97ac-8b1a724ca4c6]  
+[2017-09-16 19:20:00,785: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:20:00,785: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:20:00,788: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:20:00,801: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[8de06895-1bd7-4957-b031-c1732ebef631] succeeded in 0.04764799199620029s: None
+[2017-09-16 19:20:00,805: INFO/ForkPoolWorker-4] Task main.tasks.check_future[3da0f169-b8d9-432b-aa74-3eb9b975ec13] succeeded in 0.046575404005125165s: None
+[2017-09-16 19:20:00,957: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[407ac575-3ead-42d2-acb4-08fb0862577d] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(instance.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:20:00,970: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[dc1be92a-8a1f-4de7-97ac-8b1a724ca4c6] succeeded in 0.19656648999807658s: None
+[2017-09-16 19:20:10,759: INFO/MainProcess] Received task: main.tasks.check_future[66c0d431-81b9-443b-b89f-8c083e08ca84]  
+[2017-09-16 19:20:10,765: INFO/MainProcess] Received task: main.tasks.check_playing[a9256673-3e68-4408-ac40-0e44dec1b997]  
+[2017-09-16 19:20:10,778: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:20:10,781: INFO/MainProcess] Received task: main.tasks.update_game_info[f173af69-29bc-448f-942e-d69619181f5f]  
+[2017-09-16 19:20:10,782: INFO/MainProcess] Received task: main.tasks.get_game_actions[751e6b15-6983-4006-9936-176fb291f185]  
+[2017-09-16 19:20:10,797: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:20:10,797: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:20:10,798: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:20:10,804: INFO/ForkPoolWorker-1] Task main.tasks.check_future[66c0d431-81b9-443b-b89f-8c083e08ca84] succeeded in 0.043259742997179274s: None
+[2017-09-16 19:20:10,814: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[a9256673-3e68-4408-ac40-0e44dec1b997] succeeded in 0.048234287001832854s: None
+[2017-09-16 19:20:11,037: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[f173af69-29bc-448f-942e-d69619181f5f] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(instance.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:20:11,056: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[751e6b15-6983-4006-9936-176fb291f185] succeeded in 0.2731086240019067s: None
+[2017-09-16 19:20:20,765: INFO/MainProcess] Received task: main.tasks.check_playing[e0618633-27e4-4c93-8843-219b29fd0cb9]  
+[2017-09-16 19:20:20,771: INFO/MainProcess] Received task: main.tasks.check_future[3c117d51-22d4-4ca9-bf92-64dadd006058]  
+[2017-09-16 19:20:20,779: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:20:20,783: INFO/MainProcess] Received task: main.tasks.update_game_info[021010d4-d287-4634-a7d6-e18bab822dd3]  
+[2017-09-16 19:20:20,784: INFO/MainProcess] Received task: main.tasks.get_game_actions[54aa137f-f4af-40cf-9bd1-31b89c8ad571]  
+[2017-09-16 19:20:20,799: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:20:20,803: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:20:20,803: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:20:20,807: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[e0618633-27e4-4c93-8843-219b29fd0cb9] succeeded in 0.04023710299952654s: None
+[2017-09-16 19:20:20,812: INFO/ForkPoolWorker-4] Task main.tasks.check_future[3c117d51-22d4-4ca9-bf92-64dadd006058] succeeded in 0.03994331399735529s: None
+[2017-09-16 19:20:20,976: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[54aa137f-f4af-40cf-9bd1-31b89c8ad571] succeeded in 0.18814128899975913s: None
+[2017-09-16 19:20:20,981: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[021010d4-d287-4634-a7d6-e18bab822dd3] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(instance.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:20:30,771: INFO/MainProcess] Received task: main.tasks.check_future[ba20ccad-d509-4f01-b6e1-1f79ad14afe0]  
+[2017-09-16 19:20:30,778: INFO/MainProcess] Received task: main.tasks.check_playing[ee0c9af9-7ec1-4e15-b8e0-a356e7afa776]  
+[2017-09-16 19:20:30,791: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:20:30,793: INFO/MainProcess] Received task: main.tasks.update_game_info[62f302e6-d485-475f-b640-a590148589b7]  
+[2017-09-16 19:20:30,794: INFO/MainProcess] Received task: main.tasks.get_game_actions[de638421-3df8-431f-818b-6ac1ae3557c0]  
+[2017-09-16 19:20:30,806: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:20:30,806: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:20:30,808: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:20:30,816: INFO/ForkPoolWorker-1] Task main.tasks.check_future[ba20ccad-d509-4f01-b6e1-1f79ad14afe0] succeeded in 0.043751959994551726s: None
+[2017-09-16 19:20:30,820: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[ee0c9af9-7ec1-4e15-b8e0-a356e7afa776] succeeded in 0.04127328200411284s: None
+[2017-09-16 19:20:30,994: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[62f302e6-d485-475f-b640-a590148589b7] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(instance.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:20:30,998: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[de638421-3df8-431f-818b-6ac1ae3557c0] succeeded in 0.2018094840022968s: None
+[2017-09-16 19:20:40,777: INFO/MainProcess] Received task: main.tasks.check_playing[592716a5-61ba-442c-a31a-a0f77f0ff7be]  
+[2017-09-16 19:20:40,783: INFO/MainProcess] Received task: main.tasks.check_future[f2a4700e-e6c3-448c-9bd8-83b96cc996b4]  
+[2017-09-16 19:20:40,791: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:20:40,796: INFO/MainProcess] Received task: main.tasks.update_game_info[f230f398-9b07-4e74-88a7-59812f0ec22a]  
+[2017-09-16 19:20:40,797: INFO/MainProcess] Received task: main.tasks.get_game_actions[84bef49c-0a3e-4fb1-a828-9348ed68670c]  
+[2017-09-16 19:20:40,809: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:20:40,809: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:20:40,809: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:20:40,823: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[592716a5-61ba-442c-a31a-a0f77f0ff7be] succeeded in 0.044789822000893764s: None
+[2017-09-16 19:20:40,827: INFO/ForkPoolWorker-4] Task main.tasks.check_future[f2a4700e-e6c3-448c-9bd8-83b96cc996b4] succeeded in 0.04252996799914399s: None
+[2017-09-16 19:20:41,088: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[f230f398-9b07-4e74-88a7-59812f0ec22a] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(instance.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:20:41,109: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[84bef49c-0a3e-4fb1-a828-9348ed68670c] succeeded in 0.31020160600019153s: None
+[2017-09-16 19:20:50,780: INFO/MainProcess] Received task: main.tasks.check_future[40e05f95-6371-424a-8d8d-05bcc6b54504]  
+[2017-09-16 19:20:50,785: INFO/MainProcess] Received task: main.tasks.check_playing[d99861c6-ee4b-4e56-8884-1e3c28b5f751]  
+[2017-09-16 19:20:50,800: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:20:50,803: INFO/MainProcess] Received task: main.tasks.update_game_info[1d5eb91c-ae83-4c13-aed0-c18fff164849]  
+[2017-09-16 19:20:50,804: INFO/MainProcess] Received task: main.tasks.get_game_actions[e4e9a88a-9f53-4168-8c06-98889a410718]  
+[2017-09-16 19:20:50,808: INFO/ForkPoolWorker-1] Task main.tasks.check_future[40e05f95-6371-424a-8d8d-05bcc6b54504] succeeded in 0.02746902099897852s: None
+[2017-09-16 19:20:50,819: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:20:50,819: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:20:50,820: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:20:50,820: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[d99861c6-ee4b-4e56-8884-1e3c28b5f751] succeeded in 0.033966416005569045s: None
+[2017-09-16 19:20:51,002: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[1d5eb91c-ae83-4c13-aed0-c18fff164849] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(instance.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:20:51,005: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[e4e9a88a-9f53-4168-8c06-98889a410718] succeeded in 0.2009049199987203s: None
+[2017-09-16 19:21:00,787: INFO/MainProcess] Received task: main.tasks.check_playing[331761a4-f0f1-4aa3-b6a9-87fdac04c1f1]  
+[2017-09-16 19:21:00,791: INFO/MainProcess] Received task: main.tasks.check_future[53e841e6-68b6-4c27-8a3c-adc4f4bde434]  
+[2017-09-16 19:21:00,803: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:21:00,807: INFO/MainProcess] Received task: main.tasks.update_game_info[c07ece7a-7427-48db-ac19-e10ccdf5a17a]  
+[2017-09-16 19:21:00,808: INFO/MainProcess] Received task: main.tasks.get_game_actions[0fda1577-f123-4005-911d-66d4e05ca0d7]  
+[2017-09-16 19:21:00,820: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:21:00,820: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:21:00,821: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:21:00,836: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[331761a4-f0f1-4aa3-b6a9-87fdac04c1f1] succeeded in 0.04848542200488737s: None
+[2017-09-16 19:21:00,841: INFO/ForkPoolWorker-4] Task main.tasks.check_future[53e841e6-68b6-4c27-8a3c-adc4f4bde434] succeeded in 0.048479422002856154s: None
+[2017-09-16 19:21:01,006: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[c07ece7a-7427-48db-ac19-e10ccdf5a17a] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:21:01,017: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[0fda1577-f123-4005-911d-66d4e05ca0d7] succeeded in 0.20764421400235733s: None
+[2017-09-16 19:21:10,791: INFO/MainProcess] Received task: main.tasks.check_future[6b4b2af9-0744-41ff-969f-c1905083d507]  
+[2017-09-16 19:21:10,801: INFO/MainProcess] Received task: main.tasks.check_playing[9bbea674-bea5-4f93-baa6-427a52509f86]  
+[2017-09-16 19:21:10,815: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:21:10,819: INFO/MainProcess] Received task: main.tasks.update_game_info[8136d4e0-64b1-467e-a3e1-12bf73d0c0f4]  
+[2017-09-16 19:21:10,820: INFO/MainProcess] Received task: main.tasks.get_game_actions[73ae292b-59b3-4627-97f7-d706143065a3]  
+[2017-09-16 19:21:10,829: INFO/ForkPoolWorker-1] Task main.tasks.check_future[6b4b2af9-0744-41ff-969f-c1905083d507] succeeded in 0.037437393999425694s: None
+[2017-09-16 19:21:10,835: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:21:10,835: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:21:10,838: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:21:10,853: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[9bbea674-bea5-4f93-baa6-427a52509f86] succeeded in 0.05101188499975251s: None
+[2017-09-16 19:21:11,018: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[8136d4e0-64b1-467e-a3e1-12bf73d0c0f4] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:21:11,022: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[73ae292b-59b3-4627-97f7-d706143065a3] succeeded in 0.20077379800204653s: None
+[2017-09-16 19:21:20,811: INFO/MainProcess] Received task: main.tasks.check_playing[b825a14e-5f3a-42e8-91aa-78be8bbe0e20]  
+[2017-09-16 19:21:20,817: INFO/MainProcess] Received task: main.tasks.check_future[f6a07e47-6d1d-4ae6-9cdc-652598e65190]  
+[2017-09-16 19:21:20,826: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:21:20,829: INFO/MainProcess] Received task: main.tasks.update_game_info[9c66e30c-d833-4570-8a6f-d42f31e8cb96]  
+[2017-09-16 19:21:20,830: INFO/MainProcess] Received task: main.tasks.get_game_actions[4280feeb-f5f9-432a-b5cd-00cf88410f38]  
+[2017-09-16 19:21:20,843: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:21:20,844: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:21:20,847: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:21:20,854: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[b825a14e-5f3a-42e8-91aa-78be8bbe0e20] succeeded in 0.04179996300081257s: None
+[2017-09-16 19:21:20,861: INFO/ForkPoolWorker-4] Task main.tasks.check_future[f6a07e47-6d1d-4ae6-9cdc-652598e65190] succeeded in 0.04291029800515389s: None
+[2017-09-16 19:21:21,073: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[9c66e30c-d833-4570-8a6f-d42f31e8cb96] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:21:21,087: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[4280feeb-f5f9-432a-b5cd-00cf88410f38] succeeded in 0.2538482239979203s: None
+[2017-09-16 19:21:30,815: INFO/MainProcess] Received task: main.tasks.check_future[b1c05fd3-45ea-4896-a8a9-207e71717b45]  
+[2017-09-16 19:21:30,819: INFO/MainProcess] Received task: main.tasks.check_playing[f5a777ee-1a29-4956-92f4-a1c8f910d3b8]  
+[2017-09-16 19:21:30,831: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:21:30,834: INFO/MainProcess] Received task: main.tasks.update_game_info[55eecc9f-911e-40c2-86fb-5c22a8a63e31]  
+[2017-09-16 19:21:30,835: INFO/MainProcess] Received task: main.tasks.get_game_actions[f6315043-1a4e-4f8b-8c1c-fad8659fb2c0]  
+[2017-09-16 19:21:30,849: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:21:30,849: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:21:30,851: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:21:30,854: INFO/ForkPoolWorker-1] Task main.tasks.check_future[b1c05fd3-45ea-4896-a8a9-207e71717b45] succeeded in 0.0382854839990614s: None
+[2017-09-16 19:21:30,859: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[f5a777ee-1a29-4956-92f4-a1c8f910d3b8] succeeded in 0.03849835100118071s: None
+[2017-09-16 19:21:31,034: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[55eecc9f-911e-40c2-86fb-5c22a8a63e31] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:21:31,037: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[f6315043-1a4e-4f8b-8c1c-fad8659fb2c0] succeeded in 0.20148028399853501s: None
+[2017-09-16 19:21:40,821: INFO/MainProcess] Received task: main.tasks.check_playing[327fef0a-1d39-4c63-839f-010b54d946d3]  
+[2017-09-16 19:21:40,827: INFO/MainProcess] Received task: main.tasks.check_future[77ff414d-617c-43cf-a922-5adc6f47cc81]  
+[2017-09-16 19:21:40,834: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:21:40,837: INFO/MainProcess] Received task: main.tasks.update_game_info[d997cee9-9d73-44ac-a8b9-43d382f149ed]  
+[2017-09-16 19:21:40,839: INFO/MainProcess] Received task: main.tasks.get_game_actions[0c6f9b3c-e1c6-45fe-be94-48992a076d23]  
+[2017-09-16 19:21:40,851: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:21:40,852: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:21:40,856: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:21:40,876: INFO/ForkPoolWorker-4] Task main.tasks.check_future[77ff414d-617c-43cf-a922-5adc6f47cc81] succeeded in 0.04825413700018544s: None
+[2017-09-16 19:21:40,886: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[327fef0a-1d39-4c63-839f-010b54d946d3] succeeded in 0.06444837900198763s: None
+[2017-09-16 19:21:41,226: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[d997cee9-9d73-44ac-a8b9-43d382f149ed] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:21:41,237: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[0c6f9b3c-e1c6-45fe-be94-48992a076d23] succeeded in 0.3956469199983985s: None
+[2017-09-16 19:21:50,829: INFO/MainProcess] Received task: main.tasks.check_future[ceb5faf7-6daf-4171-af08-94439474b584]  
+[2017-09-16 19:21:50,838: INFO/MainProcess] Received task: main.tasks.check_playing[0f26a43b-efd1-4c2f-a83e-28250064bc47]  
+[2017-09-16 19:21:50,851: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:21:50,855: INFO/MainProcess] Received task: main.tasks.update_game_info[89368d6b-7245-461c-b674-a637757e9314]  
+[2017-09-16 19:21:50,856: INFO/MainProcess] Received task: main.tasks.get_game_actions[e0aa1755-466e-42a0-baba-71fb9fbf9124]  
+[2017-09-16 19:21:50,865: INFO/ForkPoolWorker-1] Task main.tasks.check_future[ceb5faf7-6daf-4171-af08-94439474b584] succeeded in 0.03512117599893827s: None
+[2017-09-16 19:21:50,872: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:21:50,872: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:21:50,872: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:21:50,880: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[0f26a43b-efd1-4c2f-a83e-28250064bc47] succeeded in 0.040901179003412835s: None
+[2017-09-16 19:21:51,100: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[e0aa1755-466e-42a0-baba-71fb9fbf9124] succeeded in 0.24177971100289142s: None
+[2017-09-16 19:21:51,101: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[89368d6b-7245-461c-b674-a637757e9314] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:22:00,836: INFO/MainProcess] Received task: main.tasks.check_playing[eeb4f0bc-3983-49e4-99c4-099d2c51f8a7]  
+[2017-09-16 19:22:00,844: INFO/MainProcess] Received task: main.tasks.check_future[2e306974-0105-4f4d-bd54-7563e0d4d6c1]  
+[2017-09-16 19:22:00,849: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:22:00,852: INFO/MainProcess] Received task: main.tasks.update_game_info[d099d22c-36a4-4e9b-a100-8300e704fc6b]  
+[2017-09-16 19:22:00,853: INFO/MainProcess] Received task: main.tasks.get_game_actions[2e41fbfe-3f66-41ff-a1e2-f397b94dfe71]  
+[2017-09-16 19:22:00,868: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:22:00,868: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:22:00,868: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:22:00,880: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[eeb4f0bc-3983-49e4-99c4-099d2c51f8a7] succeeded in 0.04296423100458924s: None
+[2017-09-16 19:22:00,884: INFO/ForkPoolWorker-4] Task main.tasks.check_future[2e306974-0105-4f4d-bd54-7563e0d4d6c1] succeeded in 0.039119678003771696s: None
+[2017-09-16 19:22:01,062: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[2e41fbfe-3f66-41ff-a1e2-f397b94dfe71] succeeded in 0.20698017100221477s: None
+[2017-09-16 19:22:01,066: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[d099d22c-36a4-4e9b-a100-8300e704fc6b] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:22:10,843: INFO/MainProcess] Received task: main.tasks.check_future[ac3126e8-2934-4ee8-a303-d09028747e35]  
+[2017-09-16 19:22:10,850: INFO/MainProcess] Received task: main.tasks.check_playing[d59740e3-d13b-40ea-a74d-20d53c56c33c]  
+[2017-09-16 19:22:10,862: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:22:10,865: INFO/MainProcess] Received task: main.tasks.update_game_info[0d674697-1647-440b-b9b2-dbc236b3a704]  
+[2017-09-16 19:22:10,866: INFO/MainProcess] Received task: main.tasks.get_game_actions[47c38679-7445-4a87-8df4-c451d4b1f8a8]  
+[2017-09-16 19:22:10,878: INFO/ForkPoolWorker-1] Task main.tasks.check_future[ac3126e8-2934-4ee8-a303-d09028747e35] succeeded in 0.03420940900105052s: None
+[2017-09-16 19:22:10,881: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:22:10,883: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:22:10,883: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:22:10,885: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[d59740e3-d13b-40ea-a74d-20d53c56c33c] succeeded in 0.034045603999402374s: None
+[2017-09-16 19:22:11,060: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[47c38679-7445-4a87-8df4-c451d4b1f8a8] succeeded in 0.19277422899904195s: None
+[2017-09-16 19:22:11,070: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[0d674697-1647-440b-b9b2-dbc236b3a704] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:22:20,852: INFO/MainProcess] Received task: main.tasks.check_playing[b3b78f34-20c7-47cf-8d55-d2b188ab0b76]  
+[2017-09-16 19:22:20,859: INFO/MainProcess] Received task: main.tasks.check_future[f4c723f5-93fd-44a1-bc88-4fe4be1d7e8f]  
+[2017-09-16 19:22:20,867: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:22:20,871: INFO/MainProcess] Received task: main.tasks.update_game_info[0fb2f972-2da7-41b2-a401-016d802c8675]  
+[2017-09-16 19:22:20,872: INFO/MainProcess] Received task: main.tasks.get_game_actions[8cc9d28b-b845-4fd7-b85f-fbd78e9dd30f]  
+[2017-09-16 19:22:20,888: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:22:20,889: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:22:20,891: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:22:20,892: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[b3b78f34-20c7-47cf-8d55-d2b188ab0b76] succeeded in 0.038647002998914104s: None
+[2017-09-16 19:22:20,901: INFO/ForkPoolWorker-4] Task main.tasks.check_future[f4c723f5-93fd-44a1-bc88-4fe4be1d7e8f] succeeded in 0.04078841100272257s: None
+[2017-09-16 19:22:21,125: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[0fb2f972-2da7-41b2-a401-016d802c8675] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:22:21,130: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[8cc9d28b-b845-4fd7-b85f-fbd78e9dd30f] succeeded in 0.2507995679989108s: None
+[2017-09-16 19:22:30,861: INFO/MainProcess] Received task: main.tasks.check_future[aeb50f7d-ff3f-4dee-9bcf-fea30868fc09]  
+[2017-09-16 19:22:30,866: INFO/MainProcess] Received task: main.tasks.check_playing[6efc2caf-1f02-4e0f-a9da-426b5f77bfc4]  
+[2017-09-16 19:22:30,877: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:22:30,879: INFO/MainProcess] Received task: main.tasks.update_game_info[43099508-2d82-4caf-a516-0cec9e14c0af]  
+[2017-09-16 19:22:30,882: INFO/MainProcess] Received task: main.tasks.get_game_actions[998f0952-d61a-459c-9a5f-88843f78af37]  
+[2017-09-16 19:22:30,891: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:22:30,892: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:22:30,896: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:22:30,905: INFO/ForkPoolWorker-1] Task main.tasks.check_future[aeb50f7d-ff3f-4dee-9bcf-fea30868fc09] succeeded in 0.04289917000278365s: None
+[2017-09-16 19:22:30,909: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[6efc2caf-1f02-4e0f-a9da-426b5f77bfc4] succeeded in 0.042805463999684434s: None
+[2017-09-16 19:22:31,072: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[43099508-2d82-4caf-a516-0cec9e14c0af] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:22:31,083: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[998f0952-d61a-459c-9a5f-88843f78af37] succeeded in 0.20098272699397057s: None
+[2017-09-16 19:22:40,867: INFO/MainProcess] Received task: main.tasks.check_playing[9b14944a-206a-4585-a545-70c8bf0e3866]  
+[2017-09-16 19:22:40,874: INFO/MainProcess] Received task: main.tasks.check_future[25088d6d-dc7c-4eab-9579-ce2c4408fd1b]  
+[2017-09-16 19:22:40,880: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:22:40,885: INFO/MainProcess] Received task: main.tasks.update_game_info[5eab1d02-2810-4730-94bd-5a84141b176f]  
+[2017-09-16 19:22:40,886: INFO/MainProcess] Received task: main.tasks.get_game_actions[0362f744-8b52-413c-82e1-ff54f2405611]  
+[2017-09-16 19:22:40,899: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:22:40,899: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:22:40,900: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:22:40,903: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[9b14944a-206a-4585-a545-70c8bf0e3866] succeeded in 0.035368226999707986s: None
+[2017-09-16 19:22:40,909: INFO/ForkPoolWorker-4] Task main.tasks.check_future[25088d6d-dc7c-4eab-9579-ce2c4408fd1b] succeeded in 0.03446985199843766s: None
+[2017-09-16 19:22:41,085: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[0362f744-8b52-413c-82e1-ff54f2405611] succeeded in 0.19869429399841465s: None
+[2017-09-16 19:22:41,089: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[5eab1d02-2810-4730-94bd-5a84141b176f] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:22:50,876: INFO/MainProcess] Received task: main.tasks.check_future[754a8c3e-9305-43d4-9a00-0667f0227498]  
+[2017-09-16 19:22:50,883: INFO/MainProcess] Received task: main.tasks.check_playing[b17a13f2-6502-405a-ba3b-43157dc83265]  
+[2017-09-16 19:22:50,895: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:22:50,897: INFO/MainProcess] Received task: main.tasks.update_game_info[be741a05-63c5-4699-9359-75227622bf46]  
+[2017-09-16 19:22:50,898: INFO/MainProcess] Received task: main.tasks.get_game_actions[5d3db11e-201f-4543-9eaa-03547394f5bb]  
+[2017-09-16 19:22:50,910: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:22:50,910: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:22:50,911: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:22:50,920: INFO/ForkPoolWorker-1] Task main.tasks.check_future[754a8c3e-9305-43d4-9a00-0667f0227498] succeeded in 0.04123262900247937s: None
+[2017-09-16 19:22:50,923: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[b17a13f2-6502-405a-ba3b-43157dc83265] succeeded in 0.03893189499649452s: None
+[2017-09-16 19:22:51,151: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[be741a05-63c5-4699-9359-75227622bf46] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:22:51,161: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[5d3db11e-201f-4543-9eaa-03547394f5bb] succeeded in 0.26294481600052677s: None
+[2017-09-16 19:23:00,882: INFO/MainProcess] Received task: main.tasks.check_playing[cc32bb59-037c-43a2-ad76-eb53fc9b17d2]  
+[2017-09-16 19:23:00,891: INFO/MainProcess] Received task: main.tasks.check_future[b680e0f4-4106-46d8-a3a9-bf61bdda3a29]  
+[2017-09-16 19:23:00,895: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:23:00,899: INFO/MainProcess] Received task: main.tasks.update_game_info[e50876c6-75f8-4886-975b-39a2a3a50e97]  
+[2017-09-16 19:23:00,900: INFO/MainProcess] Received task: main.tasks.get_game_actions[6cb59a7a-f583-452f-9668-891ba445c1ef]  
+[2017-09-16 19:23:00,912: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:23:00,912: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:23:00,916: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:23:00,921: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[cc32bb59-037c-43a2-ad76-eb53fc9b17d2] succeeded in 0.038188078004168347s: None
+[2017-09-16 19:23:00,935: INFO/ForkPoolWorker-4] Task main.tasks.check_future[b680e0f4-4106-46d8-a3a9-bf61bdda3a29] succeeded in 0.04232380399480462s: None
+[2017-09-16 19:23:01,089: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[e50876c6-75f8-4886-975b-39a2a3a50e97] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:23:01,100: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[6cb59a7a-f583-452f-9668-891ba445c1ef] succeeded in 0.19637238600262208s: None
+[2017-09-16 19:23:10,888: INFO/MainProcess] Received task: main.tasks.check_future[554c5257-9d19-476e-8447-799acd95275a]  
+[2017-09-16 19:23:10,898: INFO/MainProcess] Received task: main.tasks.check_playing[930d0cf5-27e0-4c9f-8f5f-b701c94d3d7e]  
+[2017-09-16 19:23:10,912: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:23:10,915: INFO/MainProcess] Received task: main.tasks.update_game_info[be51e696-3920-4a52-839a-53d7506f26a7]  
+[2017-09-16 19:23:10,916: INFO/MainProcess] Received task: main.tasks.get_game_actions[9c5ee739-9158-4d61-b26a-b699849fc0cb]  
+[2017-09-16 19:23:10,931: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:23:10,931: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:23:10,932: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:23:10,938: INFO/ForkPoolWorker-1] Task main.tasks.check_future[554c5257-9d19-476e-8447-799acd95275a] succeeded in 0.04909552699973574s: None
+[2017-09-16 19:23:10,948: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[930d0cf5-27e0-4c9f-8f5f-b701c94d3d7e] succeeded in 0.04810723899572622s: None
+[2017-09-16 19:23:11,108: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[be51e696-3920-4a52-839a-53d7506f26a7] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:23:11,125: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[9c5ee739-9158-4d61-b26a-b699849fc0cb] succeeded in 0.20864200800133403s: None
+[2017-09-16 19:23:20,893: INFO/MainProcess] Received task: main.tasks.check_playing[da8d2fe3-b6e5-4bf2-aa30-d780cad2ca92]  
+[2017-09-16 19:23:20,899: INFO/MainProcess] Received task: main.tasks.check_future[44c514d2-8f5c-40b6-8f60-25b9d66df431]  
+[2017-09-16 19:23:20,910: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:23:20,916: INFO/MainProcess] Received task: main.tasks.update_game_info[9aef0309-202c-4fc8-9613-b800e737dd32]  
+[2017-09-16 19:23:20,917: INFO/MainProcess] Received task: main.tasks.get_game_actions[62335377-555c-4d58-a9ec-a0ea313a27e1]  
+[2017-09-16 19:23:20,932: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:23:20,932: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:23:20,937: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:23:20,940: INFO/ForkPoolWorker-4] Task main.tasks.check_future[44c514d2-8f5c-40b6-8f60-25b9d66df431] succeeded in 0.04016079899884062s: None
+[2017-09-16 19:23:20,943: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[da8d2fe3-b6e5-4bf2-aa30-d780cad2ca92] succeeded in 0.049074340000515804s: None
+[2017-09-16 19:23:21,138: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[9aef0309-202c-4fc8-9613-b800e737dd32] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:23:21,212: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[62335377-555c-4d58-a9ec-a0ea313a27e1] succeeded in 0.28976029800105607s: None
+[2017-09-16 19:23:30,898: INFO/MainProcess] Received task: main.tasks.check_future[a9b683cc-e710-41ce-9e29-389f5f437b68]  
+[2017-09-16 19:23:30,903: INFO/MainProcess] Received task: main.tasks.check_playing[20b296e6-b228-489f-909d-d29acdf13a26]  
+[2017-09-16 19:23:30,918: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:23:30,921: INFO/MainProcess] Received task: main.tasks.update_game_info[054696e2-dcbe-4b51-a1e3-ce03f1bfe384]  
+[2017-09-16 19:23:30,922: INFO/MainProcess] Received task: main.tasks.get_game_actions[857a434e-50d1-45c2-ab57-cc9e6c08f790]  
+[2017-09-16 19:23:30,934: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:23:30,935: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:23:30,936: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:23:30,940: INFO/ForkPoolWorker-1] Task main.tasks.check_future[a9b683cc-e710-41ce-9e29-389f5f437b68] succeeded in 0.0408817809948232s: None
+[2017-09-16 19:23:30,943: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[20b296e6-b228-489f-909d-d29acdf13a26] succeeded in 0.038660129001073074s: None
+[2017-09-16 19:23:31,113: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[857a434e-50d1-45c2-ab57-cc9e6c08f790] succeeded in 0.1912069280006108s: None
+[2017-09-16 19:23:31,151: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[054696e2-dcbe-4b51-a1e3-ce03f1bfe384] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:23:40,902: INFO/MainProcess] Received task: main.tasks.check_playing[2e25face-5d5b-4cbc-bca2-92c08715857f]  
+[2017-09-16 19:23:40,907: INFO/MainProcess] Received task: main.tasks.check_future[1f0e77ab-64a3-4f39-aa3c-0960b3883ea4]  
+[2017-09-16 19:23:40,918: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:23:40,920: INFO/MainProcess] Received task: main.tasks.update_game_info[060f6d33-5815-402a-8a24-0d24e13823cc]  
+[2017-09-16 19:23:40,921: INFO/MainProcess] Received task: main.tasks.get_game_actions[f8c417a5-9bbb-4f31-beeb-af5055e482a6]  
+[2017-09-16 19:23:40,932: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:23:40,934: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:23:40,940: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:23:40,962: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[2e25face-5d5b-4cbc-bca2-92c08715857f] succeeded in 0.059301518005668186s: None
+[2017-09-16 19:23:40,970: INFO/ForkPoolWorker-4] Task main.tasks.check_future[1f0e77ab-64a3-4f39-aa3c-0960b3883ea4] succeeded in 0.061530380000476725s: None
+[2017-09-16 19:23:41,102: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[060f6d33-5815-402a-8a24-0d24e13823cc] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:23:41,123: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[f8c417a5-9bbb-4f31-beeb-af5055e482a6] succeeded in 0.1992725820018677s: None
+[2017-09-16 19:23:50,908: INFO/MainProcess] Received task: main.tasks.check_future[5798e9cd-ac85-4fe9-8730-88cf019dd89b]  
+[2017-09-16 19:23:50,913: INFO/MainProcess] Received task: main.tasks.check_playing[1f74c55f-e606-4d42-86b2-bccfc2376200]  
+[2017-09-16 19:23:50,927: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:23:50,931: INFO/MainProcess] Received task: main.tasks.update_game_info[e775bf29-da14-4596-b383-4e62de68cef2]  
+[2017-09-16 19:23:50,932: INFO/MainProcess] Received task: main.tasks.get_game_actions[e8cb7e46-5619-4915-8a4e-bdb827fd7ae9]  
+[2017-09-16 19:23:50,943: INFO/ForkPoolWorker-1] Task main.tasks.check_future[5798e9cd-ac85-4fe9-8730-88cf019dd89b] succeeded in 0.03463483000086853s: None
+[2017-09-16 19:23:50,945: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:23:50,945: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:23:50,946: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:23:50,947: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[1f74c55f-e606-4d42-86b2-bccfc2376200] succeeded in 0.032578245001786854s: None
+[2017-09-16 19:23:51,150: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[e775bf29-da14-4596-b383-4e62de68cef2] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:23:51,219: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[e8cb7e46-5619-4915-8a4e-bdb827fd7ae9] succeeded in 0.2855601389965159s: None
+[2017-09-16 19:24:00,914: INFO/MainProcess] Received task: main.tasks.check_playing[0d3c32ef-7af9-4752-806b-4947744e8863]  
+[2017-09-16 19:24:00,918: INFO/MainProcess] Received task: main.tasks.check_future[b4a4d5b9-7d21-4692-85e1-715ab9f55d7f]  
+[2017-09-16 19:24:00,928: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:24:00,934: INFO/MainProcess] Received task: main.tasks.update_game_info[9ecb933b-815b-4974-adb4-1345dafb01f5]  
+[2017-09-16 19:24:00,935: INFO/MainProcess] Received task: main.tasks.get_game_actions[498ba8a5-054e-41f7-91f1-badc872e55b9]  
+[2017-09-16 19:24:00,950: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:24:00,950: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:24:00,953: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:24:00,957: INFO/ForkPoolWorker-4] Task main.tasks.check_future[b4a4d5b9-7d21-4692-85e1-715ab9f55d7f] succeeded in 0.038362764003977645s: None
+[2017-09-16 19:24:00,961: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[0d3c32ef-7af9-4752-806b-4947744e8863] succeeded in 0.04624072799924761s: None
+[2017-09-16 19:24:01,138: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[498ba8a5-054e-41f7-91f1-badc872e55b9] succeeded in 0.20223311700101476s: None
+[2017-09-16 19:24:01,172: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[9ecb933b-815b-4974-adb4-1345dafb01f5] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:24:10,920: INFO/MainProcess] Received task: main.tasks.check_future[beda4c5e-a2df-4880-8b80-a9254ae9c2f6]  
+[2017-09-16 19:24:10,925: INFO/MainProcess] Received task: main.tasks.check_playing[2fe5f4c1-6335-46a3-84bc-f9b577019253]  
+[2017-09-16 19:24:10,938: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:24:10,941: INFO/MainProcess] Received task: main.tasks.update_game_info[ebd385ca-c3b6-49fb-a45e-32a66f85bd5d]  
+[2017-09-16 19:24:10,942: INFO/MainProcess] Received task: main.tasks.get_game_actions[8a42dc35-23c5-4029-b98a-d6292bd54db1]  
+[2017-09-16 19:24:10,957: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:24:10,957: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:24:10,957: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:24:10,971: INFO/ForkPoolWorker-1] Task main.tasks.check_future[beda4c5e-a2df-4880-8b80-a9254ae9c2f6] succeeded in 0.05051503999857232s: None
+[2017-09-16 19:24:10,976: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[2fe5f4c1-6335-46a3-84bc-f9b577019253] succeeded in 0.050660637993132696s: None
+[2017-09-16 19:24:11,172: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[ebd385ca-c3b6-49fb-a45e-32a66f85bd5d] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:24:11,176: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[8a42dc35-23c5-4029-b98a-d6292bd54db1] succeeded in 0.23128382099821465s: None
+[2017-09-16 19:24:20,933: INFO/MainProcess] Received task: main.tasks.check_playing[26c6bc12-64aa-4fd2-a11a-dedec6072058]  
+[2017-09-16 19:24:20,936: INFO/MainProcess] Received task: main.tasks.check_future[23160d0e-f3b3-4a70-be7d-39f8cef69ac1]  
+[2017-09-16 19:24:20,945: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:24:20,950: INFO/MainProcess] Received task: main.tasks.update_game_info[e6bac84d-c92f-41a6-8409-231457811226]  
+[2017-09-16 19:24:20,952: INFO/MainProcess] Received task: main.tasks.get_game_actions[d103c64d-f555-4069-b44e-2f18319bbac2]  
+[2017-09-16 19:24:20,963: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:24:20,963: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:24:20,967: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:24:20,971: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[26c6bc12-64aa-4fd2-a11a-dedec6072058] succeeded in 0.037239333003526554s: None
+[2017-09-16 19:24:20,981: INFO/ForkPoolWorker-4] Task main.tasks.check_future[23160d0e-f3b3-4a70-be7d-39f8cef69ac1] succeeded in 0.044565384996531066s: None
+[2017-09-16 19:24:21,139: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[e6bac84d-c92f-41a6-8409-231457811226] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined
+[2017-09-16 19:24:21,195: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[d103c64d-f555-4069-b44e-2f18319bbac2] succeeded in 0.24079984599666204s: None
+[2017-09-16 19:24:30,937: INFO/MainProcess] Received task: main.tasks.check_future[14a57e08-b342-4895-923f-9ab6d476cc02]  
+[2017-09-16 19:24:30,944: INFO/MainProcess] Received task: main.tasks.check_playing[d956ac74-165f-4427-a65a-53818bc7a3ca]  
+[2017-09-16 19:24:30,957: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 1
+[2017-09-16 19:24:30,959: INFO/MainProcess] Received task: main.tasks.update_game_info[bbdf532a-0a42-4db5-9496-7a2f8e734a8f]  
+[2017-09-16 19:24:30,960: INFO/MainProcess] Received task: main.tasks.get_game_actions[01e487ee-f256-4380-b2e5-9e7926cb3183]  
+[2017-09-16 19:24:30,976: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400302_Q4_JSON.json?s=534&t=0
+[2017-09-16 19:24:30,977: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400302
+[2017-09-16 19:24:30,977: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400302_JSON.json?s=534&t=0
+[2017-09-16 19:24:30,986: INFO/ForkPoolWorker-1] Task main.tasks.check_future[14a57e08-b342-4895-923f-9ab6d476cc02] succeeded in 0.047549048002110794s: None
+[2017-09-16 19:24:30,994: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[d956ac74-165f-4427-a65a-53818bc7a3ca] succeeded in 0.0495622349990299s: None
+[2017-09-16 19:24:31,163: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[01e487ee-f256-4380-b2e5-9e7926cb3183] succeeded in 0.20176236699626315s: None
+[2017-09-16 19:24:31,198: ERROR/ForkPoolWorker-3] Task main.tasks.update_game_info[bbdf532a-0a42-4db5-9496-7a2f8e734a8f] raised unexpected: NameError("name 'instance' is not defined",)
+Traceback (most recent call last):
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/netcrime/Development/fiba/main/tasks.py", line 185, in update_game_info
+    init_locations(game_model.code)
+NameError: name 'instance' is not defined

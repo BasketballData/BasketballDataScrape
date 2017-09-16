@@ -21,30 +21,10 @@ https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM40
 Future: 12105&BKM400202
 https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_COMPDETAILS_BKM400405_JSON.json?s=1&t=0
 https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400202_JSON.json?s=534&t=0
-
-
 https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_STANDINGDATA_JSON.json?s=unknown&t=0
 
+TODO:
+1. NEED TO TEST CHECK_FUTURE FUNCTIONS
 
-WORKFLOW:
-1. Add new Game
-2. Check if game is LIVE or OVER
-3. Add TEAMS to database
-4. Add PLAYERS to database
-
-
-GAME STATE:
-1. Future - Do nothing
-2. Playing - Scrape every X seconds
-3. Finished - If not scraped do the scraping. Respond XML
-
-
-
-PROBLEMS:
-1. If player anounced later on not on instantinating the Game/Team we won't get him in database.
-
-
-START DJANGO CELERY BEAT: celery -A proj beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
-
-
-/home/root/fiba_base/env/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/root/fiba_base/fiba.sock fiba.wsgi:application
+BUGS:
+1. Location not added after adding game in playing state.
