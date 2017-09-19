@@ -2,8 +2,11 @@
 Live fiba game data scraper and XML exporter
 
 ## CREDENTIALS
+
 SERVER IP ADDRESS: 138.68.68.33
+
 ROOT: root
+
 ROOT PASSWORD: fiba#2017
 
 ADMIN PANEL: http://138.68.68.33/admin
