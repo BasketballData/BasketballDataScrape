@@ -17,13 +17,15 @@
 {% for action in actions %}
     <event>
         <Score>{{ action.score }}</Score>
-        <Action> {{ action.action_code }} </Action> 
+        <Action>{{ action.action_code }}</Action> 
         <ActionText>{{ action.action_text }}</ActionText>
         <PlayerID>{{ action.player.code }}</PlayerID>
         <PlayerName>{{ action.player.get_full_name }}</PlayerName>
+        <PlayerNo>{{ action.player.shirt_number }}</PlayerNo>
+        <PlayerPic>{{ action.player.headshot }}</PlayerPic>
         <Player2ID>{{ action.subs_in.code }}</Player2ID>
         <Player2Name>{{ action.subs_in.get_full_name }}</Player2Name>
-        <PlayerPic>{{ action.player.headshot }}</PlayerPic>
+        <Player2No>{{ action.subs_in.shirt_number }}</Player2No>   
         <ScoreTeamA>{{ action.team_a_score }}</ScoreTeamA>
         <ScoreTeamB>{{ action.team_b_score }}</ScoreTeamB>
         <PlusMinus>{{ action.plus_minus }}</PlusMinus>
@@ -33,6 +35,7 @@
         <TeamName>{{ action.team.name }}</TeamName>
         <ClockTime>{{ action.time }}</ClockTime>
         <UTCTime>{{ action.get_utc_time }}</UTCTime>
+        <Quarter>{{ action.period }}</Quarter>
     </event>
 {% endfor %}
 </playbyplay>

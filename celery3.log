@@ -1,0 +1,1671 @@
+[2017-09-19 10:31:01,670: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2017-09-19 10:31:02,607: INFO/MainProcess] mingle: searching for neighbors
+[2017-09-19 10:31:03,661: INFO/MainProcess] mingle: all alone
+[2017-09-19 10:31:03,684: WARNING/MainProcess] /home/netcrime/.virtualenvs/fiba/lib/python3.5/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-09-19 10:31:03,684: INFO/MainProcess] celery@netcrime-Inspiron-5558 ready.
+[2017-09-19 10:31:03,685: INFO/MainProcess] Received task: main.tasks.check_playing[614c4520-3a88-43d0-a427-f674ef12d97f]  
+[2017-09-19 10:31:03,686: INFO/MainProcess] Received task: main.tasks.check_future[9c5b5d2d-0adc-4052-b953-d4805fb1596a]  
+[2017-09-19 10:31:03,687: INFO/MainProcess] Received task: main.tasks.check_future[bf0dca3c-0dea-4e06-9631-8394be097946]  
+[2017-09-19 10:31:03,688: INFO/MainProcess] Received task: main.tasks.check_playing[d31e7c0c-d6bd-4e5c-b13b-fcd7e63f7bde]  
+[2017-09-19 10:31:03,844: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:03,850: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:03,994: INFO/ForkPoolWorker-3] Task main.tasks.check_future[9c5b5d2d-0adc-4052-b953-d4805fb1596a] succeeded in 0.2039158799998404s: None
+[2017-09-19 10:31:04,049: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[d31e7c0c-d6bd-4e5c-b13b-fcd7e63f7bde] succeeded in 0.25761117700039904s: None
+[2017-09-19 10:31:04,049: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[614c4520-3a88-43d0-a427-f674ef12d97f] succeeded in 0.25956818499980727s: None
+[2017-09-19 10:31:04,049: INFO/ForkPoolWorker-4] Task main.tasks.check_future[bf0dca3c-0dea-4e06-9631-8394be097946] succeeded in 0.25199668200002634s: None
+[2017-09-19 10:31:05,935: INFO/MainProcess] Received task: main.tasks.check_playing[5a1af749-085d-4c03-9288-bae87eede8dd]  
+[2017-09-19 10:31:05,943: INFO/MainProcess] Received task: main.tasks.check_future[2e0b6fa5-22ea-46dc-ab9f-4cb66f189c3a]  
+[2017-09-19 10:31:05,954: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:06,069: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[5a1af749-085d-4c03-9288-bae87eede8dd] succeeded in 0.13097504300003493s: None
+[2017-09-19 10:31:06,102: INFO/ForkPoolWorker-4] Task main.tasks.check_future[2e0b6fa5-22ea-46dc-ab9f-4cb66f189c3a] succeeded in 0.15715522300070006s: None
+[2017-09-19 10:31:08,943: INFO/MainProcess] Received task: main.tasks.check_future[baacf85f-24b4-4485-adc0-c0a220924c9f]  
+[2017-09-19 10:31:08,949: INFO/MainProcess] Received task: main.tasks.check_playing[e73a89f9-a4a0-434d-8d2c-1106b71ab342]  
+[2017-09-19 10:31:08,964: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:09,061: INFO/ForkPoolWorker-1] Task main.tasks.check_future[baacf85f-24b4-4485-adc0-c0a220924c9f] succeeded in 0.11672631399960665s: None
+[2017-09-19 10:31:09,094: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[e73a89f9-a4a0-434d-8d2c-1106b71ab342] succeeded in 0.14391922799950407s: None
+[2017-09-19 10:31:11,947: INFO/MainProcess] Received task: main.tasks.check_playing[cf15d204-a72b-44e1-bcc9-9c29e39fe775]  
+[2017-09-19 10:31:11,955: INFO/MainProcess] Received task: main.tasks.check_future[b236978b-050e-45a4-9415-8e9a5f705e06]  
+[2017-09-19 10:31:11,962: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:12,225: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[cf15d204-a72b-44e1-bcc9-9c29e39fe775] succeeded in 0.27650544100015395s: None
+[2017-09-19 10:31:12,292: INFO/ForkPoolWorker-4] Task main.tasks.check_future[b236978b-050e-45a4-9415-8e9a5f705e06] succeeded in 0.33576761100084695s: None
+[2017-09-19 10:31:14,953: INFO/MainProcess] Received task: main.tasks.check_future[fc6f68da-50ed-44af-aff3-8fc9d1457308]  
+[2017-09-19 10:31:14,958: INFO/MainProcess] Received task: main.tasks.check_playing[b2bcf7aa-8e96-4bef-a997-1bdb9c971a57]  
+[2017-09-19 10:31:14,973: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:15,170: INFO/ForkPoolWorker-1] Task main.tasks.check_future[fc6f68da-50ed-44af-aff3-8fc9d1457308] succeeded in 0.21581444200000988s: None
+[2017-09-19 10:31:15,249: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[b2bcf7aa-8e96-4bef-a997-1bdb9c971a57] succeeded in 0.2894476550000036s: None
+[2017-09-19 10:31:17,957: INFO/MainProcess] Received task: main.tasks.check_playing[7865bfd0-8cc2-41c1-bd07-5b5ebde3fe60]  
+[2017-09-19 10:31:17,966: INFO/MainProcess] Received task: main.tasks.check_future[ea99310a-227b-4d92-acad-7ae415cf30ea]  
+[2017-09-19 10:31:17,973: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:18,096: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[7865bfd0-8cc2-41c1-bd07-5b5ebde3fe60] succeeded in 0.13796516899947164s: None
+[2017-09-19 10:31:18,130: INFO/ForkPoolWorker-4] Task main.tasks.check_future[ea99310a-227b-4d92-acad-7ae415cf30ea] succeeded in 0.16288777200043114s: None
+[2017-09-19 10:31:20,962: INFO/MainProcess] Received task: main.tasks.check_future[353ae5d5-55c8-44e3-bacf-c2b5c0d999b6]  
+[2017-09-19 10:31:20,968: INFO/MainProcess] Received task: main.tasks.check_playing[3de2d9aa-b031-445b-997e-45de3e78b45f]  
+[2017-09-19 10:31:20,981: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:21,099: INFO/ForkPoolWorker-1] Task main.tasks.check_future[353ae5d5-55c8-44e3-bacf-c2b5c0d999b6] succeeded in 0.1359623999996984s: None
+[2017-09-19 10:31:21,144: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[3de2d9aa-b031-445b-997e-45de3e78b45f] succeeded in 0.17428356200070994s: None
+[2017-09-19 10:31:23,969: INFO/MainProcess] Received task: main.tasks.check_playing[27db5e2f-d449-4e86-a082-e28010e07507]  
+[2017-09-19 10:31:23,976: INFO/MainProcess] Received task: main.tasks.check_future[ea831b56-f94a-4085-b917-b44ec0debb4b]  
+[2017-09-19 10:31:23,983: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:24,116: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[27db5e2f-d449-4e86-a082-e28010e07507] succeeded in 0.14590702800069266s: None
+[2017-09-19 10:31:24,184: INFO/ForkPoolWorker-4] Task main.tasks.check_future[ea831b56-f94a-4085-b917-b44ec0debb4b] succeeded in 0.2068992429994978s: None
+[2017-09-19 10:31:26,975: INFO/MainProcess] Received task: main.tasks.check_future[82a67296-a34b-43a1-ab5b-8798e47c99b8]  
+[2017-09-19 10:31:26,980: INFO/MainProcess] Received task: main.tasks.check_playing[fde6fe21-6a35-4ef7-aa0e-b53ff840b3fb]  
+[2017-09-19 10:31:26,996: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:27,097: INFO/ForkPoolWorker-1] Task main.tasks.check_future[82a67296-a34b-43a1-ab5b-8798e47c99b8] succeeded in 0.12096137899970927s: None
+[2017-09-19 10:31:27,131: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[fde6fe21-6a35-4ef7-aa0e-b53ff840b3fb] succeeded in 0.149265681999168s: None
+[2017-09-19 10:31:29,981: INFO/MainProcess] Received task: main.tasks.check_playing[3b82a223-c46c-45c9-b190-dd6a100b34f1]  
+[2017-09-19 10:31:29,993: INFO/MainProcess] Received task: main.tasks.check_future[9168eaee-f376-46cc-8942-74b6468fa1c8]  
+[2017-09-19 10:31:30,001: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:30,247: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[3b82a223-c46c-45c9-b190-dd6a100b34f1] succeeded in 0.264991538000686s: None
+[2017-09-19 10:31:30,357: INFO/ForkPoolWorker-4] Task main.tasks.check_future[9168eaee-f376-46cc-8942-74b6468fa1c8] succeeded in 0.3631956499993976s: None
+[2017-09-19 10:31:32,989: INFO/MainProcess] Received task: main.tasks.check_future[54bfffef-a10d-4368-9185-0e022c200207]  
+[2017-09-19 10:31:32,995: INFO/MainProcess] Received task: main.tasks.check_playing[fea683a3-050e-4070-9b2d-b005d090eb11]  
+[2017-09-19 10:31:33,013: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:33,138: INFO/ForkPoolWorker-1] Task main.tasks.check_future[54bfffef-a10d-4368-9185-0e022c200207] succeeded in 0.14703052900040348s: None
+[2017-09-19 10:31:33,200: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[fea683a3-050e-4070-9b2d-b005d090eb11] succeeded in 0.20346428100037883s: None
+[2017-09-19 10:31:35,996: INFO/MainProcess] Received task: main.tasks.check_playing[8135c6bb-f55b-46c2-89b6-68ca75f24162]  
+[2017-09-19 10:31:36,006: INFO/MainProcess] Received task: main.tasks.check_future[82457bcc-4429-4486-bc23-0c8444ff37cf]  
+[2017-09-19 10:31:36,013: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:36,021: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q1_JSON.json?s=534&t=0
+[2017-09-19 10:31:36,115: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400405_JSON.json?s=534&t=0
+[2017-09-19 10:31:36,176: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[8135c6bb-f55b-46c2-89b6-68ca75f24162] succeeded in 0.17891092199988634s: None
+[2017-09-19 10:31:36,241: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400405_JSON.json?s=534&t=0
+[2017-09-19 10:31:36,326: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_STANDINGDATA_JSON.json?s=534&t=0
+[2017-09-19 10:31:36,443: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_COMPDETAILS_BKM400405_JSON.json?s=534&t=0
+[2017-09-19 10:31:36,555: INFO/ForkPoolWorker-4] Task main.tasks.add_player[39c3db6a-9f72-4bf6-b175-f7523dad2e1b] succeeded in 0.026467758000762842s: True
+[2017-09-19 10:31:36,565: INFO/ForkPoolWorker-4] Task main.tasks.add_player[13de209b-fe47-443c-a866-9893d5b47089] succeeded in 0.010154083999623253s: True
+[2017-09-19 10:31:36,577: INFO/ForkPoolWorker-4] Task main.tasks.add_player[fdbab8f0-a6c5-4a9b-b695-28e68ffe4845] succeeded in 0.0106442779997451s: True
+[2017-09-19 10:31:36,588: INFO/ForkPoolWorker-4] Task main.tasks.add_player[36218f44-3e54-4331-a9da-07aac7cd05e0] succeeded in 0.0104136740001195s: True
+[2017-09-19 10:31:36,599: INFO/ForkPoolWorker-4] Task main.tasks.add_player[8e44fb4f-c571-4856-b384-3edfdad73405] succeeded in 0.01051850700059731s: True
+[2017-09-19 10:31:36,610: INFO/ForkPoolWorker-4] Task main.tasks.add_player[64a6ff76-442d-450e-a37f-50417325248b] succeeded in 0.010468102000231738s: True
+[2017-09-19 10:31:36,621: INFO/ForkPoolWorker-4] Task main.tasks.add_player[cf775fa7-4587-41ec-a104-9ef6201cec3c] succeeded in 0.010367208999923605s: True
+[2017-09-19 10:31:36,632: INFO/ForkPoolWorker-4] Task main.tasks.add_player[2de68d11-2dec-4c46-85c8-abe39d21acac] succeeded in 0.010450855999806663s: True
+[2017-09-19 10:31:36,643: INFO/ForkPoolWorker-4] Task main.tasks.add_player[7e81fd24-3763-49be-97f8-ac415786f61e] succeeded in 0.010448893999637221s: True
+[2017-09-19 10:31:36,654: INFO/ForkPoolWorker-4] Task main.tasks.add_player[2de82a3a-9e4e-45e4-b0d7-e252dcb3d9c5] succeeded in 0.010487297000508988s: True
+[2017-09-19 10:31:36,665: INFO/ForkPoolWorker-4] Task main.tasks.add_player[dd33ce64-5775-4fcd-bccc-0b39efe297fb] succeeded in 0.00996276299974852s: True
+[2017-09-19 10:31:36,676: INFO/ForkPoolWorker-4] Task main.tasks.add_player[23e1c015-400c-4873-a542-ba879cd9aee6] succeeded in 0.01022586199997022s: True
+[2017-09-19 10:31:36,687: INFO/ForkPoolWorker-4] Task main.tasks.add_player[56749f13-5c3e-4b49-9638-a97ecaef6b18] succeeded in 0.010429422999550297s: True
+[2017-09-19 10:31:36,698: INFO/ForkPoolWorker-4] Task main.tasks.add_player[216f1bcb-5710-4fb5-af82-6b8660cf9fcd] succeeded in 0.010204747999523534s: True
+[2017-09-19 10:31:36,709: INFO/ForkPoolWorker-4] Task main.tasks.add_player[df386a38-c635-46ff-9622-84c003381458] succeeded in 0.010371955000664457s: True
+[2017-09-19 10:31:36,721: INFO/ForkPoolWorker-4] Task main.tasks.add_player[56d530f1-1473-4087-949b-cc28e89c7c24] succeeded in 0.010435334999783663s: True
+[2017-09-19 10:31:36,732: INFO/ForkPoolWorker-4] Task main.tasks.add_player[a02e6f59-1e02-48fd-9b8f-b94127d591f9] succeeded in 0.010454897000272467s: True
+[2017-09-19 10:31:36,743: INFO/ForkPoolWorker-4] Task main.tasks.add_player[80ecb28b-296f-4f4b-b1c8-a21a0377f0f2] succeeded in 0.010284427999977197s: True
+[2017-09-19 10:31:36,754: INFO/ForkPoolWorker-4] Task main.tasks.add_player[9ac47306-a7ea-4842-8f91-e2dc25c5925f] succeeded in 0.010513899000216043s: True
+[2017-09-19 10:31:36,765: INFO/ForkPoolWorker-4] Task main.tasks.add_player[be97a162-fcc4-4836-8734-13478c26c376] succeeded in 0.010487708000255225s: True
+[2017-09-19 10:31:36,776: INFO/ForkPoolWorker-4] Task main.tasks.add_player[4835b628-372c-476d-83ba-54ffe28d83c1] succeeded in 0.010437419000481896s: True
+[2017-09-19 10:31:36,787: INFO/ForkPoolWorker-4] Task main.tasks.add_player[41a0a8b8-e23a-44bf-84f0-93227120d1af] succeeded in 0.010471329999745649s: True
+[2017-09-19 10:31:36,798: INFO/ForkPoolWorker-4] Task main.tasks.add_player[e7b3b328-bc33-4acb-8fc5-013ecf6b49c0] succeeded in 0.010281217999363435s: True
+[2017-09-19 10:31:36,809: INFO/ForkPoolWorker-4] Task main.tasks.add_player[8f727c69-3713-41d8-bd36-7bc3b276850e] succeeded in 0.01061746600043989s: True
+[2017-09-19 10:31:36,930: INFO/ForkPoolWorker-4] Task main.tasks.check_future[82457bcc-4429-4486-bc23-0c8444ff37cf] succeeded in 0.9232463110001845s: None
+[2017-09-19 10:31:38,995: INFO/MainProcess] Received task: main.tasks.check_playing[a0010f3e-bc48-44a7-964f-46fbd45b2572]  
+[2017-09-19 10:31:39,002: INFO/MainProcess] Received task: main.tasks.check_future[8f579d56-bde3-4836-8ae4-d98720012e53]  
+[2017-09-19 10:31:39,014: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 1
+[2017-09-19 10:31:39,024: INFO/MainProcess] Received task: main.tasks.update_game_info[a47b462d-1444-4305-9b3f-94dfd2fc2c7d]  
+[2017-09-19 10:31:39,030: INFO/MainProcess] Received task: main.tasks.get_game_actions[0ae43bfb-dde5-4784-8da6-5129bb4cff19]  
+[2017-09-19 10:31:39,041: INFO/ForkPoolWorker-3] Updating game information. GAME: 12105&BKM400405
+[2017-09-19 10:31:39,042: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400405_JSON.json?s=534&t=0
+[2017-09-19 10:31:39,125: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q1_JSON.json?s=534&t=0
+[2017-09-19 10:31:39,133: WARNING/ForkPoolWorker-3] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_STANDINGDATA_JSON.json?s=534&t=0
+[2017-09-19 10:31:39,213: INFO/ForkPoolWorker-4] Task main.tasks.check_future[8f579d56-bde3-4836-8ae4-d98720012e53] succeeded in 0.21031741199931275s: None
+[2017-09-19 10:31:39,228: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q2_JSON.json?s=534&t=0
+[2017-09-19 10:31:39,353: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q3_JSON.json?s=534&t=0
+[2017-09-19 10:31:39,369: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[a0010f3e-bc48-44a7-964f-46fbd45b2572] succeeded in 0.37271977399996103s: None
+[2017-09-19 10:31:39,458: INFO/ForkPoolWorker-3] Task main.tasks.update_game_info[a47b462d-1444-4305-9b3f-94dfd2fc2c7d] succeeded in 0.43136787099956564s: None
+[2017-09-19 10:31:39,526: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400405_Q4_JSON.json?s=534&t=0
+[2017-09-19 10:31:39,671: INFO/ForkPoolWorker-2] ACTION ID: 0 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,732: INFO/ForkPoolWorker-2] ACTION ID: 1 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,743: INFO/ForkPoolWorker-2] ACTION ID: 2 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,754: INFO/ForkPoolWorker-2] ACTION ID: 3 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,765: INFO/ForkPoolWorker-2] ACTION ID: 4 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,776: INFO/ForkPoolWorker-2] ACTION ID: 5 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,787: INFO/ForkPoolWorker-2] ACTION ID: 6 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,798: INFO/ForkPoolWorker-2] ACTION ID: 7 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,810: INFO/ForkPoolWorker-2] ACTION ID: 8 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,820: INFO/ForkPoolWorker-2] ACTION ID: 9 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,831: INFO/ForkPoolWorker-2] ACTION ID: 10 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,843: INFO/ForkPoolWorker-2] ACTION ID: 11 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,853: INFO/ForkPoolWorker-2] ACTION ID: 12 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,865: INFO/ForkPoolWorker-2] ACTION ID: 13 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,876: INFO/ForkPoolWorker-2] ACTION ID: 14 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,887: INFO/ForkPoolWorker-2] ACTION ID: 15 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,898: INFO/ForkPoolWorker-2] ACTION ID: 16 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,909: INFO/ForkPoolWorker-2] ACTION ID: 17 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,920: INFO/ForkPoolWorker-2] ACTION ID: 18 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,931: INFO/ForkPoolWorker-2] ACTION ID: 19 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,942: INFO/ForkPoolWorker-2] ACTION ID: 20 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,953: INFO/ForkPoolWorker-2] ACTION ID: 21 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,964: INFO/ForkPoolWorker-2] ACTION ID: 22 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,975: INFO/ForkPoolWorker-2] ACTION ID: 23 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,986: INFO/ForkPoolWorker-2] ACTION ID: 24 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:39,998: INFO/ForkPoolWorker-2] ACTION ID: 25 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,009: INFO/ForkPoolWorker-2] ACTION ID: 26 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,020: INFO/ForkPoolWorker-2] ACTION ID: 27 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,031: INFO/ForkPoolWorker-2] ACTION ID: 28 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,042: INFO/ForkPoolWorker-2] ACTION ID: 29 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,053: INFO/ForkPoolWorker-2] ACTION ID: 30 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,064: INFO/ForkPoolWorker-2] ACTION ID: 31 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,075: INFO/ForkPoolWorker-2] ACTION ID: 32 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,086: INFO/ForkPoolWorker-2] ACTION ID: 33 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,097: INFO/ForkPoolWorker-2] ACTION ID: 34 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,108: INFO/ForkPoolWorker-2] ACTION ID: 35 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,119: INFO/ForkPoolWorker-2] ACTION ID: 36 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,130: INFO/ForkPoolWorker-2] ACTION ID: 37 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,141: INFO/ForkPoolWorker-2] ACTION ID: 38 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,152: INFO/ForkPoolWorker-2] ACTION ID: 39 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,164: INFO/ForkPoolWorker-2] ACTION ID: 40 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,175: INFO/ForkPoolWorker-2] ACTION ID: 41 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,186: INFO/ForkPoolWorker-2] ACTION ID: 42 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,197: INFO/ForkPoolWorker-2] ACTION ID: 43 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,208: INFO/ForkPoolWorker-2] ACTION ID: 44 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,219: INFO/ForkPoolWorker-2] ACTION ID: 45 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,230: INFO/ForkPoolWorker-2] ACTION ID: 46 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,241: INFO/ForkPoolWorker-2] ACTION ID: 47 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,252: INFO/ForkPoolWorker-2] ACTION ID: 48 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,263: INFO/ForkPoolWorker-2] ACTION ID: 49 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,274: INFO/ForkPoolWorker-2] ACTION ID: 50 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,285: INFO/ForkPoolWorker-2] ACTION ID: 51 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,297: INFO/ForkPoolWorker-2] ACTION ID: 52 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,308: INFO/ForkPoolWorker-2] ACTION ID: 53 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,319: INFO/ForkPoolWorker-2] ACTION ID: 54 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,330: INFO/ForkPoolWorker-2] ACTION ID: 55 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,341: INFO/ForkPoolWorker-2] ACTION ID: 56 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,352: INFO/ForkPoolWorker-2] ACTION ID: 57 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,363: INFO/ForkPoolWorker-2] ACTION ID: 58 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,374: INFO/ForkPoolWorker-2] ACTION ID: 59 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,385: INFO/ForkPoolWorker-2] ACTION ID: 60 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,396: INFO/ForkPoolWorker-2] ACTION ID: 61 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,407: INFO/ForkPoolWorker-2] ACTION ID: 62 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,418: INFO/ForkPoolWorker-2] ACTION ID: 63 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,429: INFO/ForkPoolWorker-2] ACTION ID: 64 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,440: INFO/ForkPoolWorker-2] ACTION ID: 65 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,452: INFO/ForkPoolWorker-2] ACTION ID: 66 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,463: INFO/ForkPoolWorker-2] ACTION ID: 67 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,540: INFO/ForkPoolWorker-2] ACTION ID: 68 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,551: INFO/ForkPoolWorker-2] ACTION ID: 69 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,562: INFO/ForkPoolWorker-2] ACTION ID: 70 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,573: INFO/ForkPoolWorker-2] ACTION ID: 71 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,584: INFO/ForkPoolWorker-2] ACTION ID: 72 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,595: INFO/ForkPoolWorker-2] ACTION ID: 73 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,607: INFO/ForkPoolWorker-2] ACTION ID: 74 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,618: INFO/ForkPoolWorker-2] ACTION ID: 75 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,684: INFO/ForkPoolWorker-2] ACTION ID: 76 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,695: INFO/ForkPoolWorker-2] ACTION ID: 77 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,706: INFO/ForkPoolWorker-2] ACTION ID: 78 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,717: INFO/ForkPoolWorker-2] ACTION ID: 79 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,729: INFO/ForkPoolWorker-2] ACTION ID: 80 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,739: INFO/ForkPoolWorker-2] ACTION ID: 81 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,806: INFO/ForkPoolWorker-2] ACTION ID: 82 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,817: INFO/ForkPoolWorker-2] ACTION ID: 83 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,828: INFO/ForkPoolWorker-2] ACTION ID: 84 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,839: INFO/ForkPoolWorker-2] ACTION ID: 85 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,850: INFO/ForkPoolWorker-2] ACTION ID: 86 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,861: INFO/ForkPoolWorker-2] ACTION ID: 87 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,872: INFO/ForkPoolWorker-2] ACTION ID: 88 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,884: INFO/ForkPoolWorker-2] ACTION ID: 89 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,895: INFO/ForkPoolWorker-2] ACTION ID: 90 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,906: INFO/ForkPoolWorker-2] ACTION ID: 91 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,917: INFO/ForkPoolWorker-2] ACTION ID: 92 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,928: INFO/ForkPoolWorker-2] ACTION ID: 93 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,939: INFO/ForkPoolWorker-2] ACTION ID: 94 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,950: INFO/ForkPoolWorker-2] ACTION ID: 95 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,961: INFO/ForkPoolWorker-2] ACTION ID: 96 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,972: INFO/ForkPoolWorker-2] ACTION ID: 97 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,983: INFO/ForkPoolWorker-2] ACTION ID: 98 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:40,994: INFO/ForkPoolWorker-2] ACTION ID: 0 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,005: INFO/ForkPoolWorker-2] ACTION ID: 1 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,016: INFO/ForkPoolWorker-2] ACTION ID: 2 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,028: INFO/ForkPoolWorker-2] ACTION ID: 3 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,039: INFO/ForkPoolWorker-2] ACTION ID: 4 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,050: INFO/ForkPoolWorker-2] ACTION ID: 5 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,061: INFO/ForkPoolWorker-2] ACTION ID: 6 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,072: INFO/ForkPoolWorker-2] ACTION ID: 7 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,083: INFO/ForkPoolWorker-2] ACTION ID: 8 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,094: INFO/ForkPoolWorker-2] ACTION ID: 9 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,105: INFO/ForkPoolWorker-2] ACTION ID: 10 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,116: INFO/ForkPoolWorker-2] ACTION ID: 11 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,127: INFO/ForkPoolWorker-2] ACTION ID: 12 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,138: INFO/ForkPoolWorker-2] ACTION ID: 13 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,149: INFO/ForkPoolWorker-2] ACTION ID: 14 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,160: INFO/ForkPoolWorker-2] ACTION ID: 15 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,171: INFO/ForkPoolWorker-2] ACTION ID: 16 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,182: INFO/ForkPoolWorker-2] ACTION ID: 17 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,194: INFO/ForkPoolWorker-2] ACTION ID: 18 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,205: INFO/ForkPoolWorker-2] ACTION ID: 19 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,216: INFO/ForkPoolWorker-2] ACTION ID: 20 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,227: INFO/ForkPoolWorker-2] ACTION ID: 21 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,238: INFO/ForkPoolWorker-2] ACTION ID: 22 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,249: INFO/ForkPoolWorker-2] ACTION ID: 23 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,260: INFO/ForkPoolWorker-2] ACTION ID: 24 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,271: INFO/ForkPoolWorker-2] ACTION ID: 25 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,282: INFO/ForkPoolWorker-2] ACTION ID: 26 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,293: INFO/ForkPoolWorker-2] ACTION ID: 27 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,304: INFO/ForkPoolWorker-2] ACTION ID: 28 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,315: INFO/ForkPoolWorker-2] ACTION ID: 29 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,326: INFO/ForkPoolWorker-2] ACTION ID: 30 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,337: INFO/ForkPoolWorker-2] ACTION ID: 31 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,349: INFO/ForkPoolWorker-2] ACTION ID: 32 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,360: INFO/ForkPoolWorker-2] ACTION ID: 33 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,371: INFO/ForkPoolWorker-2] ACTION ID: 34 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,382: INFO/ForkPoolWorker-2] ACTION ID: 35 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,393: INFO/ForkPoolWorker-2] ACTION ID: 36 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,404: INFO/ForkPoolWorker-2] ACTION ID: 37 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,415: INFO/ForkPoolWorker-2] ACTION ID: 38 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,426: INFO/ForkPoolWorker-2] ACTION ID: 39 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,437: INFO/ForkPoolWorker-2] ACTION ID: 40 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,448: INFO/ForkPoolWorker-2] ACTION ID: 41 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,459: INFO/ForkPoolWorker-2] ACTION ID: 42 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,471: INFO/ForkPoolWorker-2] ACTION ID: 43 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,482: INFO/ForkPoolWorker-2] ACTION ID: 44 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,493: INFO/ForkPoolWorker-2] ACTION ID: 45 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,504: INFO/ForkPoolWorker-2] ACTION ID: 46 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,515: INFO/ForkPoolWorker-2] ACTION ID: 47 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,526: INFO/ForkPoolWorker-2] ACTION ID: 48 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,537: INFO/ForkPoolWorker-2] ACTION ID: 49 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,548: INFO/ForkPoolWorker-2] ACTION ID: 50 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,559: INFO/ForkPoolWorker-2] ACTION ID: 51 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,570: INFO/ForkPoolWorker-2] ACTION ID: 52 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,581: INFO/ForkPoolWorker-2] ACTION ID: 53 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,592: INFO/ForkPoolWorker-2] ACTION ID: 54 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,603: INFO/ForkPoolWorker-2] ACTION ID: 55 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,614: INFO/ForkPoolWorker-2] ACTION ID: 56 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,625: INFO/ForkPoolWorker-2] ACTION ID: 57 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,637: INFO/ForkPoolWorker-2] ACTION ID: 58 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,648: INFO/ForkPoolWorker-2] ACTION ID: 59 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,659: INFO/ForkPoolWorker-2] ACTION ID: 60 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,670: INFO/ForkPoolWorker-2] ACTION ID: 61 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,681: INFO/ForkPoolWorker-2] ACTION ID: 62 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,692: INFO/ForkPoolWorker-2] ACTION ID: 63 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,703: INFO/ForkPoolWorker-2] ACTION ID: 64 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,714: INFO/ForkPoolWorker-2] ACTION ID: 65 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,725: INFO/ForkPoolWorker-2] ACTION ID: 66 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,736: INFO/ForkPoolWorker-2] ACTION ID: 67 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,747: INFO/ForkPoolWorker-2] ACTION ID: 68 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,758: INFO/ForkPoolWorker-2] ACTION ID: 69 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,770: INFO/ForkPoolWorker-2] ACTION ID: 70 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,781: INFO/ForkPoolWorker-2] ACTION ID: 71 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,792: INFO/ForkPoolWorker-2] ACTION ID: 72 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,803: INFO/ForkPoolWorker-2] ACTION ID: 73 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,814: INFO/ForkPoolWorker-2] ACTION ID: 74 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,825: INFO/ForkPoolWorker-2] ACTION ID: 75 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,836: INFO/ForkPoolWorker-2] ACTION ID: 76 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,847: INFO/ForkPoolWorker-2] ACTION ID: 77 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,858: INFO/ForkPoolWorker-2] ACTION ID: 78 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,869: INFO/ForkPoolWorker-2] ACTION ID: 79 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,880: INFO/ForkPoolWorker-2] ACTION ID: 80 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,891: INFO/ForkPoolWorker-2] ACTION ID: 81 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,902: INFO/ForkPoolWorker-2] ACTION ID: 82 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,914: INFO/ForkPoolWorker-2] ACTION ID: 83 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,925: INFO/ForkPoolWorker-2] ACTION ID: 84 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,936: INFO/ForkPoolWorker-2] ACTION ID: 85 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:41,998: INFO/MainProcess] Received task: main.tasks.check_playing[17279e0c-5090-47b3-9004-df4fb2ecb803]  
+[2017-09-19 10:31:42,006: INFO/MainProcess] Received task: main.tasks.check_future[5df8a4d8-efc2-47eb-ab1d-d9089c6dae2f]  
+[2017-09-19 10:31:42,014: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:42,019: INFO/ForkPoolWorker-2] ACTION ID: 86 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,080: INFO/ForkPoolWorker-2] ACTION ID: 87 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,146: INFO/ForkPoolWorker-2] ACTION ID: 88 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,224: INFO/ForkPoolWorker-2] ACTION ID: 89 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,224: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[17279e0c-5090-47b3-9004-df4fb2ecb803] succeeded in 0.22480144900055166s: None
+[2017-09-19 10:31:42,301: INFO/ForkPoolWorker-2] ACTION ID: 90 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,345: INFO/ForkPoolWorker-2] ACTION ID: 91 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,346: INFO/ForkPoolWorker-4] Task main.tasks.check_future[5df8a4d8-efc2-47eb-ab1d-d9089c6dae2f] succeeded in 0.337919609999517s: None
+[2017-09-19 10:31:42,356: INFO/ForkPoolWorker-2] ACTION ID: 92 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,367: INFO/ForkPoolWorker-2] ACTION ID: 93 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,378: INFO/ForkPoolWorker-2] ACTION ID: 94 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,390: INFO/ForkPoolWorker-2] ACTION ID: 95 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,401: INFO/ForkPoolWorker-2] ACTION ID: 96 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,412: INFO/ForkPoolWorker-2] ACTION ID: 97 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,423: INFO/ForkPoolWorker-2] ACTION ID: 98 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,500: INFO/ForkPoolWorker-2] ACTION ID: 99 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,511: INFO/ForkPoolWorker-2] ACTION ID: 100 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,522: INFO/ForkPoolWorker-2] ACTION ID: 101 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,533: INFO/ForkPoolWorker-2] ACTION ID: 102 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,545: INFO/ForkPoolWorker-2] ACTION ID: 103 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,556: INFO/ForkPoolWorker-2] ACTION ID: 104 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,622: INFO/ForkPoolWorker-2] ACTION ID: 105 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,633: INFO/ForkPoolWorker-2] ACTION ID: 106 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,644: INFO/ForkPoolWorker-2] ACTION ID: 107 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,655: INFO/ForkPoolWorker-2] ACTION ID: 0 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,666: INFO/ForkPoolWorker-2] ACTION ID: 1 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,677: INFO/ForkPoolWorker-2] ACTION ID: 2 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,689: INFO/ForkPoolWorker-2] ACTION ID: 3 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,700: INFO/ForkPoolWorker-2] ACTION ID: 4 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,711: INFO/ForkPoolWorker-2] ACTION ID: 5 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,722: INFO/ForkPoolWorker-2] ACTION ID: 6 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,733: INFO/ForkPoolWorker-2] ACTION ID: 7 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,744: INFO/ForkPoolWorker-2] ACTION ID: 8 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,755: INFO/ForkPoolWorker-2] ACTION ID: 9 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,766: INFO/ForkPoolWorker-2] ACTION ID: 10 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,777: INFO/ForkPoolWorker-2] ACTION ID: 11 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,788: INFO/ForkPoolWorker-2] ACTION ID: 12 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,799: INFO/ForkPoolWorker-2] ACTION ID: 13 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,810: INFO/ForkPoolWorker-2] ACTION ID: 14 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,821: INFO/ForkPoolWorker-2] ACTION ID: 15 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,832: INFO/ForkPoolWorker-2] ACTION ID: 16 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,844: INFO/ForkPoolWorker-2] ACTION ID: 17 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,855: INFO/ForkPoolWorker-2] ACTION ID: 18 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,866: INFO/ForkPoolWorker-2] ACTION ID: 19 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,877: INFO/ForkPoolWorker-2] ACTION ID: 20 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,888: INFO/ForkPoolWorker-2] ACTION ID: 21 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,899: INFO/ForkPoolWorker-2] ACTION ID: 22 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,910: INFO/ForkPoolWorker-2] ACTION ID: 23 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,921: INFO/ForkPoolWorker-2] ACTION ID: 24 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,932: INFO/ForkPoolWorker-2] ACTION ID: 25 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,943: INFO/ForkPoolWorker-2] ACTION ID: 26 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,954: INFO/ForkPoolWorker-2] ACTION ID: 27 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,965: INFO/ForkPoolWorker-2] ACTION ID: 28 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,976: INFO/ForkPoolWorker-2] ACTION ID: 29 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,987: INFO/ForkPoolWorker-2] ACTION ID: 30 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:42,999: INFO/ForkPoolWorker-2] ACTION ID: 31 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,010: INFO/ForkPoolWorker-2] ACTION ID: 32 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,021: INFO/ForkPoolWorker-2] ACTION ID: 33 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,032: INFO/ForkPoolWorker-2] ACTION ID: 34 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,043: INFO/ForkPoolWorker-2] ACTION ID: 35 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,054: INFO/ForkPoolWorker-2] ACTION ID: 36 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,065: INFO/ForkPoolWorker-2] ACTION ID: 37 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,076: INFO/ForkPoolWorker-2] ACTION ID: 38 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,087: INFO/ForkPoolWorker-2] ACTION ID: 39 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,098: INFO/ForkPoolWorker-2] ACTION ID: 40 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,109: INFO/ForkPoolWorker-2] ACTION ID: 41 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,120: INFO/ForkPoolWorker-2] ACTION ID: 42 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,131: INFO/ForkPoolWorker-2] ACTION ID: 43 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,143: INFO/ForkPoolWorker-2] ACTION ID: 44 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,154: INFO/ForkPoolWorker-2] ACTION ID: 45 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,165: INFO/ForkPoolWorker-2] ACTION ID: 46 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,176: INFO/ForkPoolWorker-2] ACTION ID: 47 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,187: INFO/ForkPoolWorker-2] ACTION ID: 48 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,198: INFO/ForkPoolWorker-2] ACTION ID: 49 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,209: INFO/ForkPoolWorker-2] ACTION ID: 50 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,220: INFO/ForkPoolWorker-2] ACTION ID: 51 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,231: INFO/ForkPoolWorker-2] ACTION ID: 52 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,242: INFO/ForkPoolWorker-2] ACTION ID: 53 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,253: INFO/ForkPoolWorker-2] ACTION ID: 54 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,264: INFO/ForkPoolWorker-2] ACTION ID: 55 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,276: INFO/ForkPoolWorker-2] ACTION ID: 56 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,287: INFO/ForkPoolWorker-2] ACTION ID: 57 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,298: INFO/ForkPoolWorker-2] ACTION ID: 58 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,309: INFO/ForkPoolWorker-2] ACTION ID: 59 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,320: INFO/ForkPoolWorker-2] ACTION ID: 60 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,331: INFO/ForkPoolWorker-2] ACTION ID: 61 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,342: INFO/ForkPoolWorker-2] ACTION ID: 62 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,354: INFO/ForkPoolWorker-2] ACTION ID: 63 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,364: INFO/ForkPoolWorker-2] ACTION ID: 64 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,375: INFO/ForkPoolWorker-2] ACTION ID: 65 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,387: INFO/ForkPoolWorker-2] ACTION ID: 66 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,397: INFO/ForkPoolWorker-2] ACTION ID: 67 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,408: INFO/ForkPoolWorker-2] ACTION ID: 68 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,420: INFO/ForkPoolWorker-2] ACTION ID: 69 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,431: INFO/ForkPoolWorker-2] ACTION ID: 70 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,442: INFO/ForkPoolWorker-2] ACTION ID: 71 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,453: INFO/ForkPoolWorker-2] ACTION ID: 72 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,464: INFO/ForkPoolWorker-2] ACTION ID: 73 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,475: INFO/ForkPoolWorker-2] ACTION ID: 74 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,487: INFO/ForkPoolWorker-2] ACTION ID: 75 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,497: INFO/ForkPoolWorker-2] ACTION ID: 76 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,508: INFO/ForkPoolWorker-2] ACTION ID: 77 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,586: INFO/ForkPoolWorker-2] ACTION ID: 78 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,597: INFO/ForkPoolWorker-2] ACTION ID: 79 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,608: INFO/ForkPoolWorker-2] ACTION ID: 80 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,619: INFO/ForkPoolWorker-2] ACTION ID: 81 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,630: INFO/ForkPoolWorker-2] ACTION ID: 82 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,696: INFO/ForkPoolWorker-2] ACTION ID: 83 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,707: INFO/ForkPoolWorker-2] ACTION ID: 84 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,718: INFO/ForkPoolWorker-2] ACTION ID: 85 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,729: INFO/ForkPoolWorker-2] ACTION ID: 86 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,741: INFO/ForkPoolWorker-2] ACTION ID: 87 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,752: INFO/ForkPoolWorker-2] ACTION ID: 88 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,763: INFO/ForkPoolWorker-2] ACTION ID: 89 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,774: INFO/ForkPoolWorker-2] ACTION ID: 90 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,785: INFO/ForkPoolWorker-2] ACTION ID: 91 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,796: INFO/ForkPoolWorker-2] ACTION ID: 92 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,807: INFO/ForkPoolWorker-2] ACTION ID: 93 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,818: INFO/ForkPoolWorker-2] ACTION ID: 94 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,829: INFO/ForkPoolWorker-2] ACTION ID: 95 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,840: INFO/ForkPoolWorker-2] ACTION ID: 96 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,851: INFO/ForkPoolWorker-2] ACTION ID: 97 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,863: INFO/ForkPoolWorker-2] ACTION ID: 98 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,874: INFO/ForkPoolWorker-2] ACTION ID: 99 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,884: INFO/ForkPoolWorker-2] ACTION ID: 100 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,896: INFO/ForkPoolWorker-2] ACTION ID: 101 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,907: INFO/ForkPoolWorker-2] ACTION ID: 102 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,918: INFO/ForkPoolWorker-2] ACTION ID: 103 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,929: INFO/ForkPoolWorker-2] ACTION ID: 104 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,940: INFO/ForkPoolWorker-2] ACTION ID: 105 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,951: INFO/ForkPoolWorker-2] ACTION ID: 0 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,962: INFO/ForkPoolWorker-2] ACTION ID: 1 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,973: INFO/ForkPoolWorker-2] ACTION ID: 2 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,984: INFO/ForkPoolWorker-2] ACTION ID: 3 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:43,995: INFO/ForkPoolWorker-2] ACTION ID: 4 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,006: INFO/ForkPoolWorker-2] ACTION ID: 5 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,018: INFO/ForkPoolWorker-2] ACTION ID: 6 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,029: INFO/ForkPoolWorker-2] ACTION ID: 7 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,040: INFO/ForkPoolWorker-2] ACTION ID: 8 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,051: INFO/ForkPoolWorker-2] ACTION ID: 9 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,062: INFO/ForkPoolWorker-2] ACTION ID: 10 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,073: INFO/ForkPoolWorker-2] ACTION ID: 11 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,084: INFO/ForkPoolWorker-2] ACTION ID: 12 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,095: INFO/ForkPoolWorker-2] ACTION ID: 13 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,106: INFO/ForkPoolWorker-2] ACTION ID: 14 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,117: INFO/ForkPoolWorker-2] ACTION ID: 15 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,128: INFO/ForkPoolWorker-2] ACTION ID: 16 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,140: INFO/ForkPoolWorker-2] ACTION ID: 17 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,150: INFO/ForkPoolWorker-2] ACTION ID: 18 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,161: INFO/ForkPoolWorker-2] ACTION ID: 19 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,172: INFO/ForkPoolWorker-2] ACTION ID: 20 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,184: INFO/ForkPoolWorker-2] ACTION ID: 21 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,195: INFO/ForkPoolWorker-2] ACTION ID: 22 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,206: INFO/ForkPoolWorker-2] ACTION ID: 23 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,217: INFO/ForkPoolWorker-2] ACTION ID: 24 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,228: INFO/ForkPoolWorker-2] ACTION ID: 25 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,239: INFO/ForkPoolWorker-2] ACTION ID: 26 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,250: INFO/ForkPoolWorker-2] ACTION ID: 27 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,261: INFO/ForkPoolWorker-2] ACTION ID: 28 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,272: INFO/ForkPoolWorker-2] ACTION ID: 29 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,283: INFO/ForkPoolWorker-2] ACTION ID: 30 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,294: INFO/ForkPoolWorker-2] ACTION ID: 31 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,306: INFO/ForkPoolWorker-2] ACTION ID: 32 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,317: INFO/ForkPoolWorker-2] ACTION ID: 33 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,328: INFO/ForkPoolWorker-2] ACTION ID: 34 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,339: INFO/ForkPoolWorker-2] ACTION ID: 35 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,350: INFO/ForkPoolWorker-2] ACTION ID: 36 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,361: INFO/ForkPoolWorker-2] ACTION ID: 37 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,372: INFO/ForkPoolWorker-2] ACTION ID: 38 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,383: INFO/ForkPoolWorker-2] ACTION ID: 39 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,394: INFO/ForkPoolWorker-2] ACTION ID: 40 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,405: INFO/ForkPoolWorker-2] ACTION ID: 41 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,417: INFO/ForkPoolWorker-2] ACTION ID: 42 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,427: INFO/ForkPoolWorker-2] ACTION ID: 43 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,440: INFO/ForkPoolWorker-2] ACTION ID: 44 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,451: INFO/ForkPoolWorker-2] ACTION ID: 45 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,462: INFO/ForkPoolWorker-2] ACTION ID: 46 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,473: INFO/ForkPoolWorker-2] ACTION ID: 47 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,484: INFO/ForkPoolWorker-2] ACTION ID: 48 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,495: INFO/ForkPoolWorker-2] ACTION ID: 49 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,506: INFO/ForkPoolWorker-2] ACTION ID: 50 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,517: INFO/ForkPoolWorker-2] ACTION ID: 51 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,528: INFO/ForkPoolWorker-2] ACTION ID: 52 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,539: INFO/ForkPoolWorker-2] ACTION ID: 53 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,550: INFO/ForkPoolWorker-2] ACTION ID: 54 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,561: INFO/ForkPoolWorker-2] ACTION ID: 55 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,573: INFO/ForkPoolWorker-2] ACTION ID: 56 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,584: INFO/ForkPoolWorker-2] ACTION ID: 57 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,595: INFO/ForkPoolWorker-2] ACTION ID: 58 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,606: INFO/ForkPoolWorker-2] ACTION ID: 59 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,617: INFO/ForkPoolWorker-2] ACTION ID: 60 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,628: INFO/ForkPoolWorker-2] ACTION ID: 61 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,639: INFO/ForkPoolWorker-2] ACTION ID: 62 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,650: INFO/ForkPoolWorker-2] ACTION ID: 63 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,683: INFO/ForkPoolWorker-2] ACTION ID: 64 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,694: INFO/ForkPoolWorker-2] ACTION ID: 65 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,705: INFO/ForkPoolWorker-2] ACTION ID: 66 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,739: INFO/ForkPoolWorker-2] ACTION ID: 67 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,750: INFO/ForkPoolWorker-2] ACTION ID: 68 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,761: INFO/ForkPoolWorker-2] ACTION ID: 69 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,794: INFO/ForkPoolWorker-2] ACTION ID: 70 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,805: INFO/ForkPoolWorker-2] ACTION ID: 71 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,816: INFO/ForkPoolWorker-2] ACTION ID: 72 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,849: INFO/ForkPoolWorker-2] ACTION ID: 73 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,860: INFO/ForkPoolWorker-2] ACTION ID: 74 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,871: INFO/ForkPoolWorker-2] ACTION ID: 75 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,894: INFO/ForkPoolWorker-2] ACTION ID: 76 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,905: INFO/ForkPoolWorker-2] ACTION ID: 77 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,916: INFO/ForkPoolWorker-2] ACTION ID: 78 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,927: INFO/ForkPoolWorker-2] ACTION ID: 79 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,938: INFO/ForkPoolWorker-2] ACTION ID: 80 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,949: INFO/ForkPoolWorker-2] ACTION ID: 81 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,960: INFO/ForkPoolWorker-2] ACTION ID: 82 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,971: INFO/ForkPoolWorker-2] ACTION ID: 83 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,982: INFO/ForkPoolWorker-2] ACTION ID: 84 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,993: INFO/ForkPoolWorker-2] ACTION ID: 85 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:44,998: INFO/MainProcess] Received task: main.tasks.check_playing[fed66bee-f214-4dc0-b0f9-61c683f07887]  
+[2017-09-19 10:31:45,004: INFO/ForkPoolWorker-2] ACTION ID: 86 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,005: INFO/MainProcess] Received task: main.tasks.check_future[055f67c4-7fc6-4f99-bd3a-05a9f98689aa]  
+[2017-09-19 10:31:45,016: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:45,015: INFO/ForkPoolWorker-2] ACTION ID: 87 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,093: INFO/ForkPoolWorker-2] ACTION ID: 88 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,159: INFO/ForkPoolWorker-2] ACTION ID: 89 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,226: INFO/ForkPoolWorker-2] ACTION ID: 90 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,226: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[fed66bee-f214-4dc0-b0f9-61c683f07887] succeeded in 0.22721898800045892s: None
+[2017-09-19 10:31:45,303: INFO/ForkPoolWorker-2] ACTION ID: 91 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,348: INFO/ForkPoolWorker-2] ACTION ID: 92 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,348: INFO/ForkPoolWorker-3] Task main.tasks.check_future[055f67c4-7fc6-4f99-bd3a-05a9f98689aa] succeeded in 0.34195300999999745s: None
+[2017-09-19 10:31:45,359: INFO/ForkPoolWorker-2] ACTION ID: 93 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,370: INFO/ForkPoolWorker-2] ACTION ID: 94 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,381: INFO/ForkPoolWorker-2] ACTION ID: 95 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,392: INFO/ForkPoolWorker-2] ACTION ID: 96 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,403: INFO/ForkPoolWorker-2] ACTION ID: 97 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,414: INFO/ForkPoolWorker-2] ACTION ID: 98 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,425: INFO/ForkPoolWorker-2] ACTION ID: 99 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,436: INFO/ForkPoolWorker-2] ACTION ID: 100 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,514: INFO/ForkPoolWorker-2] ACTION ID: 101 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,525: INFO/ForkPoolWorker-2] ACTION ID: 102 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,536: INFO/ForkPoolWorker-2] ACTION ID: 103 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,547: INFO/ForkPoolWorker-2] ACTION ID: 104 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,558: INFO/ForkPoolWorker-2] ACTION ID: 105 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,624: INFO/ForkPoolWorker-2] ACTION ID: 106 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,635: INFO/ForkPoolWorker-2] ACTION ID: 107 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,688: INFO/ForkPoolWorker-2] ACTION ID: 108 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,699: INFO/ForkPoolWorker-2] ACTION ID: 109 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:31:45,833: INFO/ForkPoolWorker-2] Task main.tasks.get_game_actions[0ae43bfb-dde5-4784-8da6-5129bb4cff19] succeeded in 6.801002778000111s: None
+[2017-09-19 10:31:48,000: INFO/MainProcess] Received task: main.tasks.check_playing[19930f0b-42a7-4785-9218-c9f4b26ddbc0]  
+[2017-09-19 10:31:48,009: INFO/MainProcess] Received task: main.tasks.check_future[2f86ef13-d207-41ae-82ca-1b35805e11a5]  
+[2017-09-19 10:31:48,017: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:48,149: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[19930f0b-42a7-4785-9218-c9f4b26ddbc0] succeeded in 0.1484981820003668s: None
+[2017-09-19 10:31:48,205: INFO/ForkPoolWorker-2] Task main.tasks.check_future[2f86ef13-d207-41ae-82ca-1b35805e11a5] succeeded in 0.19488092199935636s: None
+[2017-09-19 10:31:51,002: INFO/MainProcess] Received task: main.tasks.check_playing[d0cdaaa0-5e73-49f8-b2eb-359a403e0285]  
+[2017-09-19 10:31:51,008: INFO/MainProcess] Received task: main.tasks.check_future[bcec0111-4cae-4bc4-82a5-4a7843d21900]  
+[2017-09-19 10:31:51,045: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:51,208: INFO/ForkPoolWorker-2] Task main.tasks.check_future[bcec0111-4cae-4bc4-82a5-4a7843d21900] succeeded in 0.19855484100025933s: None
+[2017-09-19 10:31:51,263: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[d0cdaaa0-5e73-49f8-b2eb-359a403e0285] succeeded in 0.25901114599946595s: None
+[2017-09-19 10:31:54,003: INFO/MainProcess] Received task: main.tasks.check_playing[64c51092-25b2-4dcf-ac91-3428cf2d55d7]  
+[2017-09-19 10:31:54,017: INFO/MainProcess] Received task: main.tasks.check_future[45f5e1da-16c5-404b-8a38-e74fddce365f]  
+[2017-09-19 10:31:54,022: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:54,189: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[64c51092-25b2-4dcf-ac91-3428cf2d55d7] succeeded in 0.18423179900037212s: None
+[2017-09-19 10:31:54,244: INFO/ForkPoolWorker-2] Task main.tasks.check_future[45f5e1da-16c5-404b-8a38-e74fddce365f] succeeded in 0.22580073700009962s: None
+[2017-09-19 10:31:57,013: INFO/MainProcess] Received task: main.tasks.check_future[c50e61ce-4c0f-47b5-8b27-b515e4ab70bc]  
+[2017-09-19 10:31:57,019: INFO/MainProcess] Received task: main.tasks.check_playing[21e206fb-397a-4a9c-8ce9-01dfb64386b0]  
+[2017-09-19 10:31:57,035: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:31:57,181: INFO/ForkPoolWorker-3] Task main.tasks.check_future[c50e61ce-4c0f-47b5-8b27-b515e4ab70bc] succeeded in 0.16660710999985895s: None
+[2017-09-19 10:31:57,225: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[21e206fb-397a-4a9c-8ce9-01dfb64386b0] succeeded in 0.20430342100007692s: None
+[2017-09-19 10:32:00,018: INFO/MainProcess] Received task: main.tasks.check_playing[6bb20a83-7ff2-4f84-8f99-4d542a97f8c5]  
+[2017-09-19 10:32:00,023: INFO/MainProcess] Received task: main.tasks.check_future[75a00bff-e847-4ab8-a2f5-d64f5e0175e1]  
+[2017-09-19 10:32:00,071: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:00,217: INFO/ForkPoolWorker-2] Task main.tasks.check_future[75a00bff-e847-4ab8-a2f5-d64f5e0175e1] succeeded in 0.1923379070003648s: None
+[2017-09-19 10:32:00,273: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[6bb20a83-7ff2-4f84-8f99-4d542a97f8c5] succeeded in 0.25389925699982996s: None
+[2017-09-19 10:32:03,027: INFO/MainProcess] Received task: main.tasks.check_future[d0c54c05-0e80-4145-8221-66f22d75af35]  
+[2017-09-19 10:32:03,035: INFO/MainProcess] Received task: main.tasks.check_playing[693a9d0d-9a00-4afb-8e63-19bf92092e77]  
+[2017-09-19 10:32:03,053: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:03,197: INFO/ForkPoolWorker-3] Task main.tasks.check_future[d0c54c05-0e80-4145-8221-66f22d75af35] succeeded in 0.1692629749995831s: None
+[2017-09-19 10:32:03,253: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[693a9d0d-9a00-4afb-8e63-19bf92092e77] succeeded in 0.2154484920001778s: None
+[2017-09-19 10:32:06,033: INFO/MainProcess] Received task: main.tasks.check_playing[3037a9a9-fa3e-4a83-9cc0-e9445eafdea8]  
+[2017-09-19 10:32:06,044: INFO/MainProcess] Received task: main.tasks.check_future[9de75790-d434-4267-b6da-3e231bb8e43c]  
+[2017-09-19 10:32:06,054: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:06,235: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[3037a9a9-fa3e-4a83-9cc0-e9445eafdea8] succeeded in 0.1991146000000299s: None
+[2017-09-19 10:32:06,290: INFO/ForkPoolWorker-2] Task main.tasks.check_future[9de75790-d434-4267-b6da-3e231bb8e43c] succeeded in 0.24406015000022308s: None
+[2017-09-19 10:32:09,041: INFO/MainProcess] Received task: main.tasks.check_future[a84a821d-3b0d-4161-8227-0a3773b1bb49]  
+[2017-09-19 10:32:09,054: INFO/MainProcess] Received task: main.tasks.check_playing[72797aaf-ab24-4622-9b2c-2d7d04d5f1a1]  
+[2017-09-19 10:32:09,069: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:09,194: INFO/ForkPoolWorker-3] Task main.tasks.check_future[a84a821d-3b0d-4161-8227-0a3773b1bb49] succeeded in 0.15074006099985127s: None
+[2017-09-19 10:32:09,238: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[72797aaf-ab24-4622-9b2c-2d7d04d5f1a1] succeeded in 0.1829034030006369s: None
+[2017-09-19 10:32:12,049: INFO/MainProcess] Received task: main.tasks.check_playing[65e6a073-f2d4-4212-b1b1-0e107bc700d2]  
+[2017-09-19 10:32:12,054: INFO/MainProcess] Received task: main.tasks.check_future[07964adb-6dbf-4650-961f-86c58067d6f0]  
+[2017-09-19 10:32:12,063: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:12,208: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[65e6a073-f2d4-4212-b1b1-0e107bc700d2] succeeded in 0.15790439400007017s: None
+[2017-09-19 10:32:12,241: INFO/ForkPoolWorker-2] Task main.tasks.check_future[07964adb-6dbf-4650-961f-86c58067d6f0] succeeded in 0.18508113000007143s: None
+[2017-09-19 10:32:15,054: INFO/MainProcess] Received task: main.tasks.check_future[a8dbd2b0-c98c-420f-95ac-1b335176e43c]  
+[2017-09-19 10:32:15,061: INFO/MainProcess] Received task: main.tasks.check_playing[59d46fa1-632f-49a1-b118-8c6067d94512]  
+[2017-09-19 10:32:15,073: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:15,190: INFO/ForkPoolWorker-3] Task main.tasks.check_future[a8dbd2b0-c98c-420f-95ac-1b335176e43c] succeeded in 0.13448404099926847s: None
+[2017-09-19 10:32:15,234: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[59d46fa1-632f-49a1-b118-8c6067d94512] succeeded in 0.17100430699974822s: None
+[2017-09-19 10:32:18,060: INFO/MainProcess] Received task: main.tasks.check_playing[156d5642-849a-493e-864b-3edb799fad1a]  
+[2017-09-19 10:32:18,066: INFO/MainProcess] Received task: main.tasks.check_future[d231d5f0-c986-4de9-9345-332530ffa6b0]  
+[2017-09-19 10:32:18,075: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:18,214: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[156d5642-849a-493e-864b-3edb799fad1a] succeeded in 0.15293078099966806s: None
+[2017-09-19 10:32:18,259: INFO/ForkPoolWorker-2] Task main.tasks.check_future[d231d5f0-c986-4de9-9345-332530ffa6b0] succeeded in 0.19134366100024636s: None
+[2017-09-19 10:32:21,066: INFO/MainProcess] Received task: main.tasks.check_future[e76a94fa-3959-4560-9ebe-1aefd077a32b]  
+[2017-09-19 10:32:21,075: INFO/MainProcess] Received task: main.tasks.check_playing[bd86add7-6a9c-4c1f-a40c-0d584e08096f]  
+[2017-09-19 10:32:21,089: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:21,184: INFO/ForkPoolWorker-3] Task main.tasks.check_future[e76a94fa-3959-4560-9ebe-1aefd077a32b] succeeded in 0.11703241000031994s: None
+[2017-09-19 10:32:21,217: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[bd86add7-6a9c-4c1f-a40c-0d584e08096f] succeeded in 0.14116728599947237s: None
+[2017-09-19 10:32:24,071: INFO/MainProcess] Received task: main.tasks.check_playing[48743059-8f34-45ed-b016-f7aa19cbfe6e]  
+[2017-09-19 10:32:24,077: INFO/MainProcess] Received task: main.tasks.check_future[3cbc9787-957d-452d-a547-0dfac575f0c5]  
+[2017-09-19 10:32:24,085: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:24,187: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[48743059-8f34-45ed-b016-f7aa19cbfe6e] succeeded in 0.11479300200062426s: None
+[2017-09-19 10:32:24,220: INFO/ForkPoolWorker-2] Task main.tasks.check_future[3cbc9787-957d-452d-a547-0dfac575f0c5] succeeded in 0.1418160049997823s: None
+[2017-09-19 10:32:27,080: INFO/MainProcess] Received task: main.tasks.check_future[8b22f3f5-5e5e-4a68-9016-2e594477ea6a]  
+[2017-09-19 10:32:27,095: INFO/MainProcess] Received task: main.tasks.check_playing[a9ddfbb4-5400-463c-9fef-342e82ae1cea]  
+[2017-09-19 10:32:27,120: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:27,479: INFO/ForkPoolWorker-3] Task main.tasks.check_future[8b22f3f5-5e5e-4a68-9016-2e594477ea6a] succeeded in 0.3966738629997053s: None
+[2017-09-19 10:32:27,523: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[a9ddfbb4-5400-463c-9fef-342e82ae1cea] succeeded in 0.42644202200062864s: None
+[2017-09-19 10:32:30,086: INFO/MainProcess] Received task: main.tasks.check_playing[7754a214-50e7-45f4-bd03-886ba4af9eeb]  
+[2017-09-19 10:32:30,092: INFO/MainProcess] Received task: main.tasks.check_future[8812f0aa-852f-4ff4-9d68-727e684026cb]  
+[2017-09-19 10:32:30,101: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:30,206: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[7754a214-50e7-45f4-bd03-886ba4af9eeb] succeeded in 0.11891595700035396s: None
+[2017-09-19 10:32:30,238: INFO/ForkPoolWorker-2] Task main.tasks.check_future[8812f0aa-852f-4ff4-9d68-727e684026cb] succeeded in 0.1452902869996251s: None
+[2017-09-19 10:32:33,091: INFO/MainProcess] Received task: main.tasks.check_future[f47dd549-1680-4b2c-a976-a0cb7690ea0e]  
+[2017-09-19 10:32:33,098: INFO/MainProcess] Received task: main.tasks.check_playing[be13d519-400c-4c3a-ac7d-315c6d14f20f]  
+[2017-09-19 10:32:33,120: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:33,279: INFO/ForkPoolWorker-3] Task main.tasks.check_future[f47dd549-1680-4b2c-a976-a0cb7690ea0e] succeeded in 0.18700572200032184s: None
+[2017-09-19 10:32:33,336: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[be13d519-400c-4c3a-ac7d-315c6d14f20f] succeeded in 0.234756501999982s: None
+[2017-09-19 10:32:36,098: INFO/MainProcess] Received task: main.tasks.check_playing[d0527e7a-2322-4f93-a5d3-74fe041e827a]  
+[2017-09-19 10:32:36,108: INFO/MainProcess] Received task: main.tasks.check_future[ec1b6504-993e-47e2-9ad9-d21f3e363cc0]  
+[2017-09-19 10:32:36,116: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:36,247: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[d0527e7a-2322-4f93-a5d3-74fe041e827a] succeeded in 0.1471720510007799s: None
+[2017-09-19 10:32:36,291: INFO/ForkPoolWorker-2] Task main.tasks.check_future[ec1b6504-993e-47e2-9ad9-d21f3e363cc0] succeeded in 0.18224763099988195s: None
+[2017-09-19 10:32:39,107: INFO/MainProcess] Received task: main.tasks.check_future[cefe6aea-5829-4826-9e56-7c80081da1fd]  
+[2017-09-19 10:32:39,121: INFO/MainProcess] Received task: main.tasks.check_playing[93d9594c-e27b-4cc0-8d37-214319bf2963]  
+[2017-09-19 10:32:39,138: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:39,227: INFO/ForkPoolWorker-3] Task main.tasks.check_future[cefe6aea-5829-4826-9e56-7c80081da1fd] succeeded in 0.11839598199912871s: None
+[2017-09-19 10:32:39,261: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[93d9594c-e27b-4cc0-8d37-214319bf2963] succeeded in 0.13793006299965782s: None
+[2017-09-19 10:32:42,111: INFO/MainProcess] Received task: main.tasks.check_playing[d5a840ca-bd40-49c7-a95f-dbaac5c3ecd2]  
+[2017-09-19 10:32:42,117: INFO/MainProcess] Received task: main.tasks.check_future[63a637cf-b31f-4ca7-aeb5-7ff2da374794]  
+[2017-09-19 10:32:42,125: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:42,230: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[d5a840ca-bd40-49c7-a95f-dbaac5c3ecd2] succeeded in 0.11711188800018135s: None
+[2017-09-19 10:32:42,263: INFO/ForkPoolWorker-2] Task main.tasks.check_future[63a637cf-b31f-4ca7-aeb5-7ff2da374794] succeeded in 0.14484918000016478s: None
+[2017-09-19 10:32:45,120: INFO/MainProcess] Received task: main.tasks.check_future[e12aa25a-3c97-40a1-ae43-1579f5d672d7]  
+[2017-09-19 10:32:45,130: INFO/MainProcess] Received task: main.tasks.check_playing[68ed992f-c692-454b-b66b-7102fa2baa1a]  
+[2017-09-19 10:32:45,146: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:45,243: INFO/ForkPoolWorker-3] Task main.tasks.check_future[e12aa25a-3c97-40a1-ae43-1579f5d672d7] succeeded in 0.12155839199931506s: None
+[2017-09-19 10:32:45,277: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[68ed992f-c692-454b-b66b-7102fa2baa1a] succeeded in 0.14489606299957813s: None
+[2017-09-19 10:32:48,126: INFO/MainProcess] Received task: main.tasks.check_playing[a3c3890a-ca09-428a-a8a8-ef6dd2262213]  
+[2017-09-19 10:32:48,134: INFO/MainProcess] Received task: main.tasks.check_future[4cfd1970-4e68-4198-968b-2c0be2f1bf7d]  
+[2017-09-19 10:32:48,140: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:48,268: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[a3c3890a-ca09-428a-a8a8-ef6dd2262213] succeeded in 0.14046156499989593s: None
+[2017-09-19 10:32:48,312: INFO/ForkPoolWorker-2] Task main.tasks.check_future[4cfd1970-4e68-4198-968b-2c0be2f1bf7d] succeeded in 0.17696439800056396s: None
+[2017-09-19 10:32:51,130: INFO/MainProcess] Received task: main.tasks.check_future[357d9f99-a2a9-49aa-aad2-5004cb0f5806]  
+[2017-09-19 10:32:51,138: INFO/MainProcess] Received task: main.tasks.check_playing[7a0928b7-279d-4c1b-9f51-26c889422369]  
+[2017-09-19 10:32:51,152: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:51,249: INFO/ForkPoolWorker-3] Task main.tasks.check_future[357d9f99-a2a9-49aa-aad2-5004cb0f5806] succeeded in 0.11776023099992017s: None
+[2017-09-19 10:32:51,282: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[7a0928b7-279d-4c1b-9f51-26c889422369] succeeded in 0.14286080900001252s: None
+[2017-09-19 10:32:54,135: INFO/MainProcess] Received task: main.tasks.check_playing[e56ec4cb-cdfc-42f2-bdb4-02b3e3d3f742]  
+[2017-09-19 10:32:54,141: INFO/MainProcess] Received task: main.tasks.check_future[fb5a9407-4a94-4b7a-9f08-05559621ac6c]  
+[2017-09-19 10:32:54,151: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:54,265: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[e56ec4cb-cdfc-42f2-bdb4-02b3e3d3f742] succeeded in 0.1287306449994503s: None
+[2017-09-19 10:32:54,299: INFO/ForkPoolWorker-2] Task main.tasks.check_future[fb5a9407-4a94-4b7a-9f08-05559621ac6c] succeeded in 0.15648806800072634s: None
+[2017-09-19 10:32:57,137: INFO/MainProcess] Received task: main.tasks.check_playing[9b8d3bf0-b1d3-457a-a2a2-e77f58d8db09]  
+[2017-09-19 10:32:57,142: INFO/MainProcess] Received task: main.tasks.check_future[d85e5222-28fc-4d30-b57c-74bbc93c0380]  
+[2017-09-19 10:32:57,157: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:32:57,290: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[9b8d3bf0-b1d3-457a-a2a2-e77f58d8db09] succeeded in 0.15138004699929297s: None
+[2017-09-19 10:32:57,334: INFO/ForkPoolWorker-2] Task main.tasks.check_future[d85e5222-28fc-4d30-b57c-74bbc93c0380] succeeded in 0.19010098000035214s: None
+[2017-09-19 10:33:00,140: INFO/MainProcess] Received task: main.tasks.check_future[3e29e8cd-41f2-4e21-8f72-e2751de256f5]  
+[2017-09-19 10:33:00,146: INFO/MainProcess] Received task: main.tasks.check_playing[f05b1198-8fd9-4fb6-aa0c-935012178810]  
+[2017-09-19 10:33:00,161: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:00,393: INFO/ForkPoolWorker-3] Task main.tasks.check_future[3e29e8cd-41f2-4e21-8f72-e2751de256f5] succeeded in 0.2517745240002114s: None
+[2017-09-19 10:33:00,449: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[f05b1198-8fd9-4fb6-aa0c-935012178810] succeeded in 0.30069872200056125s: None
+[2017-09-19 10:33:03,165: INFO/MainProcess] Received task: main.tasks.check_playing[4cfe7f30-72b1-4f4c-902c-8a2bfabcdf7b]  
+[2017-09-19 10:33:03,174: INFO/MainProcess] Received task: main.tasks.check_future[964c1ec7-55d9-4c87-a2d9-2ef35344e117]  
+[2017-09-19 10:33:03,188: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:03,319: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[4cfe7f30-72b1-4f4c-902c-8a2bfabcdf7b] succeeded in 0.15250259500044194s: None
+[2017-09-19 10:33:03,352: INFO/ForkPoolWorker-2] Task main.tasks.check_future[964c1ec7-55d9-4c87-a2d9-2ef35344e117] succeeded in 0.17612441500023124s: None
+[2017-09-19 10:33:06,173: INFO/MainProcess] Received task: main.tasks.check_future[dc05e8ea-b35a-4a24-9dae-d883ef8d7b60]  
+[2017-09-19 10:33:06,183: INFO/MainProcess] Received task: main.tasks.check_playing[81fc3c1e-e9f6-4206-9616-cc3e8a723723]  
+[2017-09-19 10:33:06,203: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:06,310: INFO/ForkPoolWorker-3] Task main.tasks.check_future[dc05e8ea-b35a-4a24-9dae-d883ef8d7b60] succeeded in 0.13548997399993823s: None
+[2017-09-19 10:33:06,344: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[81fc3c1e-e9f6-4206-9616-cc3e8a723723] succeeded in 0.15875037299974792s: None
+[2017-09-19 10:33:09,181: INFO/MainProcess] Received task: main.tasks.check_playing[5a0276ef-c3c5-47f5-8962-80a9636eb877]  
+[2017-09-19 10:33:09,191: INFO/MainProcess] Received task: main.tasks.check_future[4a6b4ea5-f92b-4147-9ad3-928b12e423a0]  
+[2017-09-19 10:33:09,203: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:09,347: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[5a0276ef-c3c5-47f5-8962-80a9636eb877] succeeded in 0.16313370100033353s: None
+[2017-09-19 10:33:09,391: INFO/ForkPoolWorker-2] Task main.tasks.check_future[4a6b4ea5-f92b-4147-9ad3-928b12e423a0] succeeded in 0.19615663700005825s: None
+[2017-09-19 10:33:12,190: INFO/MainProcess] Received task: main.tasks.check_future[3f60d1e0-daee-4ce5-a390-7afb28c56df6]  
+[2017-09-19 10:33:12,198: INFO/MainProcess] Received task: main.tasks.check_playing[5a4014b9-12dc-409e-a07e-38afe8268cde]  
+[2017-09-19 10:33:12,213: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:12,306: INFO/ForkPoolWorker-3] Task main.tasks.check_future[3f60d1e0-daee-4ce5-a390-7afb28c56df6] succeeded in 0.11479299000075116s: None
+[2017-09-19 10:33:12,340: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[5a4014b9-12dc-409e-a07e-38afe8268cde] succeeded in 0.13990514800025267s: None
+[2017-09-19 10:33:15,197: INFO/MainProcess] Received task: main.tasks.check_playing[c28a683b-4a77-43d0-8612-e9fa73a1d05f]  
+[2017-09-19 10:33:15,202: INFO/MainProcess] Received task: main.tasks.check_future[58b81e66-1166-42e4-a79a-5547b92ac437]  
+[2017-09-19 10:33:15,211: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:15,309: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[c28a683b-4a77-43d0-8612-e9fa73a1d05f] succeeded in 0.1106738629996471s: None
+[2017-09-19 10:33:15,342: INFO/ForkPoolWorker-2] Task main.tasks.check_future[58b81e66-1166-42e4-a79a-5547b92ac437] succeeded in 0.1385028560007413s: None
+[2017-09-19 10:33:18,202: INFO/MainProcess] Received task: main.tasks.check_future[56935220-a884-4624-89d9-0f958546e900]  
+[2017-09-19 10:33:18,209: INFO/MainProcess] Received task: main.tasks.check_playing[6a32f623-345d-48a1-a146-49a915af002f]  
+[2017-09-19 10:33:18,223: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:18,389: INFO/ForkPoolWorker-3] Task main.tasks.check_future[56935220-a884-4624-89d9-0f958546e900] succeeded in 0.18537093499980983s: None
+[2017-09-19 10:33:18,422: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[6a32f623-345d-48a1-a146-49a915af002f] succeeded in 0.2122752280001805s: None
+[2017-09-19 10:33:21,211: INFO/MainProcess] Received task: main.tasks.check_playing[35a04fec-81c0-48c5-8a15-78f17e8803af]  
+[2017-09-19 10:33:21,219: INFO/MainProcess] Received task: main.tasks.check_future[d90f4974-e153-45ff-911b-9762f5c6eda8]  
+[2017-09-19 10:33:21,225: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:21,348: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[35a04fec-81c0-48c5-8a15-78f17e8803af] succeeded in 0.13574693999999s: None
+[2017-09-19 10:33:21,381: INFO/ForkPoolWorker-2] Task main.tasks.check_future[d90f4974-e153-45ff-911b-9762f5c6eda8] succeeded in 0.16050893400006316s: None
+[2017-09-19 10:33:24,217: INFO/MainProcess] Received task: main.tasks.check_future[004573b0-7bbe-40c9-9122-3f2d8c2dacd0]  
+[2017-09-19 10:33:24,224: INFO/MainProcess] Received task: main.tasks.check_playing[02fd6fd7-3513-448b-b59e-52df8c572a3d]  
+[2017-09-19 10:33:24,237: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:24,376: INFO/ForkPoolWorker-3] Task main.tasks.check_future[004573b0-7bbe-40c9-9122-3f2d8c2dacd0] succeeded in 0.15683188900038658s: None
+[2017-09-19 10:33:24,418: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[02fd6fd7-3513-448b-b59e-52df8c572a3d] succeeded in 0.19329212100001314s: None
+[2017-09-19 10:33:27,225: INFO/MainProcess] Received task: main.tasks.check_playing[56c88c07-2483-464f-97f8-b6b28aa14ff6]  
+[2017-09-19 10:33:27,232: INFO/MainProcess] Received task: main.tasks.check_future[18dee607-7cdb-44eb-8013-132f2b54111b]  
+[2017-09-19 10:33:27,243: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:27,343: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[56c88c07-2483-464f-97f8-b6b28aa14ff6] succeeded in 0.1162746039999547s: None
+[2017-09-19 10:33:27,376: INFO/ForkPoolWorker-2] Task main.tasks.check_future[18dee607-7cdb-44eb-8013-132f2b54111b] succeeded in 0.142862989000605s: None
+[2017-09-19 10:33:30,230: INFO/MainProcess] Received task: main.tasks.check_future[b5877097-368d-40bf-bfb0-0643bfe73ce4]  
+[2017-09-19 10:33:30,235: INFO/MainProcess] Received task: main.tasks.check_playing[dcebf0f2-0f2d-4353-a1e4-9f1bc9578443]  
+[2017-09-19 10:33:30,248: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:30,357: INFO/ForkPoolWorker-3] Task main.tasks.check_future[b5877097-368d-40bf-bfb0-0643bfe73ce4] succeeded in 0.12579376200028491s: None
+[2017-09-19 10:33:30,390: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[dcebf0f2-0f2d-4353-a1e4-9f1bc9578443] succeeded in 0.15388142000028893s: None
+[2017-09-19 10:33:33,235: INFO/MainProcess] Received task: main.tasks.check_playing[43f0b4b3-5332-471d-8f2d-a39479094c6e]  
+[2017-09-19 10:33:33,241: INFO/MainProcess] Received task: main.tasks.check_future[08d8721f-a22a-42c8-a077-775a5e873c18]  
+[2017-09-19 10:33:33,249: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:33,359: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[43f0b4b3-5332-471d-8f2d-a39479094c6e] succeeded in 0.12308541199945466s: None
+[2017-09-19 10:33:33,392: INFO/ForkPoolWorker-2] Task main.tasks.check_future[08d8721f-a22a-42c8-a077-775a5e873c18] succeeded in 0.1498578250002538s: None
+[2017-09-19 10:33:36,244: INFO/MainProcess] Received task: main.tasks.check_future[6f2a978e-c5d5-4be4-ba45-104fd33bac49]  
+[2017-09-19 10:33:36,254: INFO/MainProcess] Received task: main.tasks.check_playing[9aa8f6a9-bb82-444b-9ab7-1fc4bc614e4d]  
+[2017-09-19 10:33:36,272: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:36,418: INFO/ForkPoolWorker-3] Task main.tasks.check_future[6f2a978e-c5d5-4be4-ba45-104fd33bac49] succeeded in 0.17259226199985278s: None
+[2017-09-19 10:33:36,463: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[9aa8f6a9-bb82-444b-9ab7-1fc4bc614e4d] succeeded in 0.207346033000249s: None
+[2017-09-19 10:33:39,249: INFO/MainProcess] Received task: main.tasks.check_playing[7becb86f-552c-4791-b882-d0e5ff30d59f]  
+[2017-09-19 10:33:39,254: INFO/MainProcess] Received task: main.tasks.check_future[4f83faf8-c46d-4b69-a14a-da058ff88752]  
+[2017-09-19 10:33:39,265: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:39,656: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[7becb86f-552c-4791-b882-d0e5ff30d59f] succeeded in 0.4055243960001462s: None
+[2017-09-19 10:33:39,700: INFO/ForkPoolWorker-2] Task main.tasks.check_future[4f83faf8-c46d-4b69-a14a-da058ff88752] succeeded in 0.4444532559991785s: None
+[2017-09-19 10:33:42,255: INFO/MainProcess] Received task: main.tasks.check_future[ee428c0b-6a29-4445-bb9f-05749690015d]  
+[2017-09-19 10:33:42,269: INFO/MainProcess] Received task: main.tasks.check_playing[86cf096d-dcbd-418b-9348-9a4bec9be165]  
+[2017-09-19 10:33:42,290: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:42,437: INFO/ForkPoolWorker-3] Task main.tasks.check_future[ee428c0b-6a29-4445-bb9f-05749690015d] succeeded in 0.1800680790001934s: None
+[2017-09-19 10:33:42,470: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[86cf096d-dcbd-418b-9348-9a4bec9be165] succeeded in 0.2000692399997206s: None
+[2017-09-19 10:33:45,260: INFO/MainProcess] Received task: main.tasks.check_playing[2fc3610e-f50f-451a-ab9e-221d0af0a069]  
+[2017-09-19 10:33:45,269: INFO/MainProcess] Received task: main.tasks.check_future[b7840d30-0cbd-470b-b86a-d5ff4f3808c3]  
+[2017-09-19 10:33:45,280: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:45,517: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[2fc3610e-f50f-451a-ab9e-221d0af0a069] succeeded in 0.2555501220003862s: None
+[2017-09-19 10:33:45,552: INFO/ForkPoolWorker-2] Task main.tasks.check_future[b7840d30-0cbd-470b-b86a-d5ff4f3808c3] succeeded in 0.2820301850006217s: None
+[2017-09-19 10:33:48,266: INFO/MainProcess] Received task: main.tasks.check_future[5e1c70e9-7bf0-4dac-b742-185b237acb8a]  
+[2017-09-19 10:33:48,271: INFO/MainProcess] Received task: main.tasks.check_playing[e8ca3c43-db16-4f9d-992d-0541d273f10d]  
+[2017-09-19 10:33:48,286: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:48,579: INFO/ForkPoolWorker-3] Task main.tasks.check_future[5e1c70e9-7bf0-4dac-b742-185b237acb8a] succeeded in 0.3119491489997017s: None
+[2017-09-19 10:33:48,721: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[e8ca3c43-db16-4f9d-992d-0541d273f10d] succeeded in 0.44820167099987884s: None
+[2017-09-19 10:33:51,273: INFO/MainProcess] Received task: main.tasks.check_playing[d42bac33-c2bb-429d-a485-abc7cb6aa16c]  
+[2017-09-19 10:33:51,281: INFO/MainProcess] Received task: main.tasks.check_future[60291909-6f50-49a1-a4a3-d44e74dcd3df]  
+[2017-09-19 10:33:51,291: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:51,436: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[d42bac33-c2bb-429d-a485-abc7cb6aa16c] succeeded in 0.1610439079995558s: None
+[2017-09-19 10:33:51,470: INFO/ForkPoolWorker-2] Task main.tasks.check_future[60291909-6f50-49a1-a4a3-d44e74dcd3df] succeeded in 0.1873004540002512s: None
+[2017-09-19 10:33:54,280: INFO/MainProcess] Received task: main.tasks.check_future[7cf07749-9341-4651-a796-c36ba0274f4a]  
+[2017-09-19 10:33:54,287: INFO/MainProcess] Received task: main.tasks.check_playing[b5d61590-1b06-4b57-bb9a-f731565d3a4d]  
+[2017-09-19 10:33:54,300: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:54,427: INFO/ForkPoolWorker-3] Task main.tasks.check_future[7cf07749-9341-4651-a796-c36ba0274f4a] succeeded in 0.14513381400047365s: None
+[2017-09-19 10:33:54,471: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[b5d61590-1b06-4b57-bb9a-f731565d3a4d] succeeded in 0.18325886399998126s: None
+[2017-09-19 10:33:57,286: INFO/MainProcess] Received task: main.tasks.check_playing[3b412ba7-c235-411f-9e8b-32a2c8c6fb14]  
+[2017-09-19 10:33:57,292: INFO/MainProcess] Received task: main.tasks.check_future[0bc85368-0f19-4e86-b8cb-1122856326c3]  
+[2017-09-19 10:33:57,303: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:33:57,475: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[3b412ba7-c235-411f-9e8b-32a2c8c6fb14] succeeded in 0.18609901899981196s: None
+[2017-09-19 10:33:57,524: INFO/ForkPoolWorker-2] Task main.tasks.check_future[0bc85368-0f19-4e86-b8cb-1122856326c3] succeeded in 0.23098954299985053s: None
+[2017-09-19 10:34:00,291: INFO/MainProcess] Received task: main.tasks.check_future[91437732-4351-434d-8868-4c7853e49f7a]  
+[2017-09-19 10:34:00,300: INFO/MainProcess] Received task: main.tasks.check_playing[3d98531c-c594-40c3-a1c4-3454ece8a22d]  
+[2017-09-19 10:34:00,313: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:00,424: INFO/ForkPoolWorker-3] Task main.tasks.check_future[91437732-4351-434d-8868-4c7853e49f7a] succeeded in 0.13112987400018028s: None
+[2017-09-19 10:34:00,457: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[3d98531c-c594-40c3-a1c4-3454ece8a22d] succeeded in 0.15583594200052175s: None
+[2017-09-19 10:34:03,298: INFO/MainProcess] Received task: main.tasks.check_playing[1f5a775b-6caa-4bb5-8504-72cb6680728a]  
+[2017-09-19 10:34:03,311: INFO/MainProcess] Received task: main.tasks.check_future[8c26224e-e14f-4038-a3b1-b6debd5f1c3b]  
+[2017-09-19 10:34:03,318: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:03,437: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[1f5a775b-6caa-4bb5-8504-72cb6680728a] succeeded in 0.13758907499959605s: None
+[2017-09-19 10:34:03,482: INFO/ForkPoolWorker-2] Task main.tasks.check_future[8c26224e-e14f-4038-a3b1-b6debd5f1c3b] succeeded in 0.16961910300051386s: None
+[2017-09-19 10:34:06,303: INFO/MainProcess] Received task: main.tasks.check_future[a316de5e-7f5f-4b27-99a2-51cbf41a6939]  
+[2017-09-19 10:34:06,311: INFO/MainProcess] Received task: main.tasks.check_playing[7a3f8ccb-2a9c-47fa-bb65-33be257770b1]  
+[2017-09-19 10:34:06,324: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:06,451: INFO/ForkPoolWorker-3] Task main.tasks.check_future[a316de5e-7f5f-4b27-99a2-51cbf41a6939] succeeded in 0.14615988500008825s: None
+[2017-09-19 10:34:06,495: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[7a3f8ccb-2a9c-47fa-bb65-33be257770b1] succeeded in 0.18260623199967085s: None
+[2017-09-19 10:34:09,308: INFO/MainProcess] Received task: main.tasks.check_playing[afaad984-efc4-4a21-9b26-c849456c2eeb]  
+[2017-09-19 10:34:09,317: INFO/MainProcess] Received task: main.tasks.check_future[7730b81f-6e29-439c-8331-9a7c96cf5eaf]  
+[2017-09-19 10:34:09,325: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:09,431: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[afaad984-efc4-4a21-9b26-c849456c2eeb] succeeded in 0.12237761699998373s: None
+[2017-09-19 10:34:09,466: INFO/ForkPoolWorker-2] Task main.tasks.check_future[7730b81f-6e29-439c-8331-9a7c96cf5eaf] succeeded in 0.14739479700074298s: None
+[2017-09-19 10:34:12,313: INFO/MainProcess] Received task: main.tasks.check_future[c31704df-88b3-4685-ad3a-e32fd39e2e1a]  
+[2017-09-19 10:34:12,318: INFO/MainProcess] Received task: main.tasks.check_playing[d61e69ce-cbab-46a1-8183-439f0fbd3753]  
+[2017-09-19 10:34:12,334: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:12,701: INFO/ForkPoolWorker-3] Task main.tasks.check_future[c31704df-88b3-4685-ad3a-e32fd39e2e1a] succeeded in 0.3871109820001948s: None
+[2017-09-19 10:34:12,734: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[d61e69ce-cbab-46a1-8183-439f0fbd3753] succeeded in 0.41473926799972105s: None
+[2017-09-19 10:34:15,321: INFO/MainProcess] Received task: main.tasks.check_playing[41bf3cc1-daa5-4889-aebf-9aff95d35167]  
+[2017-09-19 10:34:15,325: INFO/MainProcess] Received task: main.tasks.check_future[11b6157d-ba95-4cca-9867-66ca10474db2]  
+[2017-09-19 10:34:15,336: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:15,473: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[41bf3cc1-daa5-4889-aebf-9aff95d35167] succeeded in 0.15113219999966532s: None
+[2017-09-19 10:34:15,517: INFO/ForkPoolWorker-2] Task main.tasks.check_future[11b6157d-ba95-4cca-9867-66ca10474db2] succeeded in 0.19061051799963025s: None
+[2017-09-19 10:34:18,326: INFO/MainProcess] Received task: main.tasks.check_future[4ca7a5d0-eb33-4e94-8461-822992ac6eff]  
+[2017-09-19 10:34:18,332: INFO/MainProcess] Received task: main.tasks.check_playing[4248b194-7ac7-4f4a-8633-7c54e299b6b1]  
+[2017-09-19 10:34:18,351: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:18,487: INFO/ForkPoolWorker-3] Task main.tasks.check_future[4ca7a5d0-eb33-4e94-8461-822992ac6eff] succeeded in 0.1593398420000085s: None
+[2017-09-19 10:34:18,530: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[4248b194-7ac7-4f4a-8633-7c54e299b6b1] succeeded in 0.19620879699959914s: None
+[2017-09-19 10:34:21,330: INFO/MainProcess] Received task: main.tasks.check_playing[73aeb8fc-e555-4c81-80e8-ee1b5c670f4c]  
+[2017-09-19 10:34:21,340: INFO/MainProcess] Received task: main.tasks.check_future[106ab178-de24-4580-932c-b8bc54b9e57e]  
+[2017-09-19 10:34:21,348: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:21,501: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[73aeb8fc-e555-4c81-80e8-ee1b5c670f4c] succeeded in 0.16934928899991064s: None
+[2017-09-19 10:34:21,568: INFO/ForkPoolWorker-2] Task main.tasks.check_future[106ab178-de24-4580-932c-b8bc54b9e57e] succeeded in 0.22692981500040332s: None
+[2017-09-19 10:34:24,337: INFO/MainProcess] Received task: main.tasks.check_future[3b7f89d2-24fc-49c7-8ba7-c2d72d8654a3]  
+[2017-09-19 10:34:24,344: INFO/MainProcess] Received task: main.tasks.check_playing[c079d072-03f4-48a2-8026-f54f52a9a887]  
+[2017-09-19 10:34:24,368: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:24,526: INFO/ForkPoolWorker-3] Task main.tasks.check_future[3b7f89d2-24fc-49c7-8ba7-c2d72d8654a3] succeeded in 0.18740141200032667s: None
+[2017-09-19 10:34:24,592: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[c079d072-03f4-48a2-8026-f54f52a9a887] succeeded in 0.24546176999956515s: None
+[2017-09-19 10:34:27,342: INFO/MainProcess] Received task: main.tasks.check_playing[f7013a53-2250-46ba-92e6-b285e80fdb9b]  
+[2017-09-19 10:34:27,348: INFO/MainProcess] Received task: main.tasks.check_future[1d593a13-79ae-466d-8e69-8d425fcdf7c9]  
+[2017-09-19 10:34:27,358: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:27,495: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[f7013a53-2250-46ba-92e6-b285e80fdb9b] succeeded in 0.15179917300065426s: None
+[2017-09-19 10:34:27,495: INFO/ForkPoolWorker-2] Task main.tasks.check_future[1d593a13-79ae-466d-8e69-8d425fcdf7c9] succeeded in 0.14604888500070956s: None
+[2017-09-19 10:34:30,349: INFO/MainProcess] Received task: main.tasks.check_future[636db0a3-e6c8-4f62-a331-be192924ad82]  
+[2017-09-19 10:34:30,357: INFO/MainProcess] Received task: main.tasks.check_playing[058e719a-d569-41bf-b2b7-46be1d0538ad]  
+[2017-09-19 10:34:30,381: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:30,508: INFO/ForkPoolWorker-3] Task main.tasks.check_future[636db0a3-e6c8-4f62-a331-be192924ad82] succeeded in 0.15761424700031057s: None
+[2017-09-19 10:34:30,553: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[058e719a-d569-41bf-b2b7-46be1d0538ad] succeeded in 0.1945456359999298s: None
+[2017-09-19 10:34:33,356: INFO/MainProcess] Received task: main.tasks.check_playing[e04a4556-1042-449e-82d1-b5c203b630fa]  
+[2017-09-19 10:34:33,361: INFO/MainProcess] Received task: main.tasks.check_future[32f57ac4-6d0e-4cef-9e6c-b951494b14d3]  
+[2017-09-19 10:34:33,369: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:33,526: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[e04a4556-1042-449e-82d1-b5c203b630fa] succeeded in 0.16925397999966663s: None
+[2017-09-19 10:34:33,567: INFO/ForkPoolWorker-2] Task main.tasks.check_future[32f57ac4-6d0e-4cef-9e6c-b951494b14d3] succeeded in 0.20508668200000102s: None
+[2017-09-19 10:34:36,361: INFO/MainProcess] Received task: main.tasks.check_future[d69107b5-ab9e-4a52-9b87-7635e19fc760]  
+[2017-09-19 10:34:36,366: INFO/MainProcess] Received task: main.tasks.check_playing[793157f7-c043-46e5-8ab7-0791be24834b]  
+[2017-09-19 10:34:36,379: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:36,548: INFO/ForkPoolWorker-3] Task main.tasks.check_future[d69107b5-ab9e-4a52-9b87-7635e19fc760] succeeded in 0.18648251299964613s: None
+[2017-09-19 10:34:36,615: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[793157f7-c043-46e5-8ab7-0791be24834b] succeeded in 0.247525852999388s: None
+[2017-09-19 10:34:39,368: INFO/MainProcess] Received task: main.tasks.check_playing[911d498b-b983-4c74-9a6a-5156c823ec22]  
+[2017-09-19 10:34:39,376: INFO/MainProcess] Received task: main.tasks.check_future[dc406dcf-3422-4387-b74a-ed7c9bdc9a9b]  
+[2017-09-19 10:34:39,386: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:39,517: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[911d498b-b983-4c74-9a6a-5156c823ec22] succeeded in 0.14740826500019466s: None
+[2017-09-19 10:34:39,573: INFO/ForkPoolWorker-2] Task main.tasks.check_future[dc406dcf-3422-4387-b74a-ed7c9bdc9a9b] succeeded in 0.1952274639997995s: None
+[2017-09-19 10:34:42,373: INFO/MainProcess] Received task: main.tasks.check_future[29b367ed-e4b7-4e7a-9582-3038da628a9f]  
+[2017-09-19 10:34:42,380: INFO/MainProcess] Received task: main.tasks.check_playing[53f126ae-9363-4716-95d8-2aa42dea8b8b]  
+[2017-09-19 10:34:42,395: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:42,487: INFO/ForkPoolWorker-3] Task main.tasks.check_future[29b367ed-e4b7-4e7a-9582-3038da628a9f] succeeded in 0.11332001199934894s: None
+[2017-09-19 10:34:42,521: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[53f126ae-9363-4716-95d8-2aa42dea8b8b] succeeded in 0.13879090899990842s: None
+[2017-09-19 10:34:45,379: INFO/MainProcess] Received task: main.tasks.check_playing[e8eeb256-08ee-4224-9abf-d4b4c585e4ff]  
+[2017-09-19 10:34:45,385: INFO/MainProcess] Received task: main.tasks.check_future[025c62c5-2865-4d44-848a-97d49afd457f]  
+[2017-09-19 10:34:45,398: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:45,558: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[e8eeb256-08ee-4224-9abf-d4b4c585e4ff] succeeded in 0.1774128910001309s: None
+[2017-09-19 10:34:45,602: INFO/ForkPoolWorker-2] Task main.tasks.check_future[025c62c5-2865-4d44-848a-97d49afd457f] succeeded in 0.21540755400019407s: None
+[2017-09-19 10:34:48,385: INFO/MainProcess] Received task: main.tasks.check_future[cff17702-4774-4d4e-acaa-50c87403060a]  
+[2017-09-19 10:34:48,393: INFO/MainProcess] Received task: main.tasks.check_playing[706d7ac9-7d64-4a08-b374-b9fe39e1de6d]  
+[2017-09-19 10:34:48,405: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:48,583: INFO/ForkPoolWorker-3] Task main.tasks.check_future[cff17702-4774-4d4e-acaa-50c87403060a] succeeded in 0.19663232400034758s: None
+[2017-09-19 10:34:48,649: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[706d7ac9-7d64-4a08-b374-b9fe39e1de6d] succeeded in 0.25466730300013296s: None
+[2017-09-19 10:34:51,394: INFO/MainProcess] Received task: main.tasks.check_playing[64bdc9d6-ea37-4167-998e-9f40e31414f0]  
+[2017-09-19 10:34:51,408: INFO/MainProcess] Received task: main.tasks.check_future[a63a810e-77a8-44a6-8ced-5def7b884930]  
+[2017-09-19 10:34:51,421: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:51,585: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[64bdc9d6-ea37-4167-998e-9f40e31414f0] succeeded in 0.18894285100031993s: None
+[2017-09-19 10:34:51,629: INFO/ForkPoolWorker-2] Task main.tasks.check_future[a63a810e-77a8-44a6-8ced-5def7b884930] succeeded in 0.2188586709999072s: None
+[2017-09-19 10:34:54,403: INFO/MainProcess] Received task: main.tasks.check_future[26c3b6d5-7687-40d9-bde3-cae81a9b0daa]  
+[2017-09-19 10:34:54,411: INFO/MainProcess] Received task: main.tasks.check_playing[0c1bc18b-d2c0-4066-9758-e98a6354ce80]  
+[2017-09-19 10:34:54,424: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:54,544: INFO/ForkPoolWorker-3] Task main.tasks.check_future[26c3b6d5-7687-40d9-bde3-cae81a9b0daa] succeeded in 0.14018433900037053s: None
+[2017-09-19 10:34:54,589: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[0c1bc18b-d2c0-4066-9758-e98a6354ce80] succeeded in 0.17625143399982335s: None
+[2017-09-19 10:34:57,411: INFO/MainProcess] Received task: main.tasks.check_playing[c5d0086b-1ef2-4a6f-815d-8f357fc8df54]  
+[2017-09-19 10:34:57,417: INFO/MainProcess] Received task: main.tasks.check_future[a08be498-e3a8-4011-a088-c79135da149c]  
+[2017-09-19 10:34:57,432: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:34:57,570: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[c5d0086b-1ef2-4a6f-815d-8f357fc8df54] succeeded in 0.15729696400012472s: None
+[2017-09-19 10:34:57,604: INFO/ForkPoolWorker-2] Task main.tasks.check_future[a08be498-e3a8-4011-a088-c79135da149c] succeeded in 0.18246142999942094s: None
+[2017-09-19 10:35:00,418: INFO/MainProcess] Received task: main.tasks.check_future[ac161d9f-8767-448c-92b9-79da49da1e19]  
+[2017-09-19 10:35:00,426: INFO/MainProcess] Received task: main.tasks.check_playing[38ca20ea-9e00-4d42-b143-8490ec0f6d4f]  
+[2017-09-19 10:35:00,439: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:00,584: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[38ca20ea-9e00-4d42-b143-8490ec0f6d4f] succeeded in 0.15666543099996488s: None
+[2017-09-19 10:35:00,628: INFO/ForkPoolWorker-3] Task main.tasks.check_future[ac161d9f-8767-448c-92b9-79da49da1e19] succeeded in 0.20930494499953056s: None
+[2017-09-19 10:35:03,424: INFO/MainProcess] Received task: main.tasks.check_playing[664d5aff-2165-4bde-a8bb-42d76bbb4c05]  
+[2017-09-19 10:35:03,430: INFO/MainProcess] Received task: main.tasks.check_future[4083f7bb-ffa4-4f20-8eeb-8bcb0d1a22b5]  
+[2017-09-19 10:35:03,438: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:03,587: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[664d5aff-2165-4bde-a8bb-42d76bbb4c05] succeeded in 0.16167572399990604s: None
+[2017-09-19 10:35:03,631: INFO/ForkPoolWorker-2] Task main.tasks.check_future[4083f7bb-ffa4-4f20-8eeb-8bcb0d1a22b5] succeeded in 0.20034667599975364s: None
+[2017-09-19 10:35:06,429: INFO/MainProcess] Received task: main.tasks.check_future[4d8f1608-a1ed-49d5-b218-cf741642a805]  
+[2017-09-19 10:35:06,435: INFO/MainProcess] Received task: main.tasks.check_playing[03d80a0e-3336-456e-9004-d2617cf63890]  
+[2017-09-19 10:35:06,451: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:06,590: INFO/ForkPoolWorker-3] Task main.tasks.check_future[4d8f1608-a1ed-49d5-b218-cf741642a805] succeeded in 0.1597267749993989s: None
+[2017-09-19 10:35:06,634: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[03d80a0e-3336-456e-9004-d2617cf63890] succeeded in 0.19869585400010692s: None
+[2017-09-19 10:35:09,435: INFO/MainProcess] Received task: main.tasks.check_playing[5a8403de-f4ef-42aa-9778-29a8bf568a98]  
+[2017-09-19 10:35:09,441: INFO/MainProcess] Received task: main.tasks.check_future[4ab7dd23-ac56-4afe-aa45-e09691d19228]  
+[2017-09-19 10:35:09,449: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:09,582: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[5a8403de-f4ef-42aa-9778-29a8bf568a98] succeeded in 0.14611433099980786s: None
+[2017-09-19 10:35:09,637: INFO/ForkPoolWorker-2] Task main.tasks.check_future[4ab7dd23-ac56-4afe-aa45-e09691d19228] succeeded in 0.19538796999950137s: None
+[2017-09-19 10:35:12,441: INFO/MainProcess] Received task: main.tasks.check_future[69102d3a-ff98-4836-aaed-eb24cbb3272c]  
+[2017-09-19 10:35:12,446: INFO/MainProcess] Received task: main.tasks.check_playing[bff04307-975e-4366-860b-08cb42721cd7]  
+[2017-09-19 10:35:12,462: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:12,598: INFO/ForkPoolWorker-3] Task main.tasks.check_future[69102d3a-ff98-4836-aaed-eb24cbb3272c] succeeded in 0.1558668249999755s: None
+[2017-09-19 10:35:12,642: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[bff04307-975e-4366-860b-08cb42721cd7] succeeded in 0.1944755750000695s: None
+[2017-09-19 10:35:15,445: INFO/MainProcess] Received task: main.tasks.check_playing[13c5abf4-cecd-4088-92ba-bb3cadf103cf]  
+[2017-09-19 10:35:15,452: INFO/MainProcess] Received task: main.tasks.check_future[d64a56cd-207b-4cb8-9770-08632cfd3dfb]  
+[2017-09-19 10:35:15,460: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:15,627: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[13c5abf4-cecd-4088-92ba-bb3cadf103cf] succeeded in 0.18072960599965882s: None
+[2017-09-19 10:35:15,700: INFO/ForkPoolWorker-2] Task main.tasks.check_future[d64a56cd-207b-4cb8-9770-08632cfd3dfb] succeeded in 0.24628268299966294s: None
+[2017-09-19 10:35:18,450: INFO/MainProcess] Received task: main.tasks.check_future[a50ca820-1fab-4c4d-bfa3-22febeedbcbe]  
+[2017-09-19 10:35:18,456: INFO/MainProcess] Received task: main.tasks.check_playing[786ce73e-5010-43df-a446-e9c251018b0a]  
+[2017-09-19 10:35:18,469: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:18,580: INFO/ForkPoolWorker-3] Task main.tasks.check_future[a50ca820-1fab-4c4d-bfa3-22febeedbcbe] succeeded in 0.12820862100033992s: None
+[2017-09-19 10:35:18,614: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[786ce73e-5010-43df-a446-e9c251018b0a] succeeded in 0.15635633700003382s: None
+[2017-09-19 10:35:21,457: INFO/MainProcess] Received task: main.tasks.check_playing[aff0a384-535e-4969-b58a-35f7efe75ef2]  
+[2017-09-19 10:35:21,468: INFO/MainProcess] Received task: main.tasks.check_future[737b4038-9fd7-4c65-817b-4e2df30e7ce1]  
+[2017-09-19 10:35:21,479: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:21,763: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[aff0a384-535e-4969-b58a-35f7efe75ef2] succeeded in 0.30410054700041655s: None
+[2017-09-19 10:35:21,873: INFO/ForkPoolWorker-2] Task main.tasks.check_future[737b4038-9fd7-4c65-817b-4e2df30e7ce1] succeeded in 0.4016593690002992s: None
+[2017-09-19 10:35:24,468: INFO/MainProcess] Received task: main.tasks.check_future[49c77853-5d72-4d3f-906f-5cf36227ac81]  
+[2017-09-19 10:35:24,475: INFO/MainProcess] Received task: main.tasks.check_playing[67092e94-804b-4623-b04e-55087ddb319f]  
+[2017-09-19 10:35:24,492: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:24,621: INFO/ForkPoolWorker-3] Task main.tasks.check_future[49c77853-5d72-4d3f-906f-5cf36227ac81] succeeded in 0.15238086600038514s: None
+[2017-09-19 10:35:24,666: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[67092e94-804b-4623-b04e-55087ddb319f] succeeded in 0.1898574919996463s: None
+[2017-09-19 10:35:27,473: INFO/MainProcess] Received task: main.tasks.check_playing[e3e66e90-0d27-403e-a0cf-1caf112dee1f]  
+[2017-09-19 10:35:27,480: INFO/MainProcess] Received task: main.tasks.check_future[a5d49548-cb45-47b5-b208-531f3d44c837]  
+[2017-09-19 10:35:27,487: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:27,613: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[e3e66e90-0d27-403e-a0cf-1caf112dee1f] succeeded in 0.13937044500016782s: None
+[2017-09-19 10:35:27,646: INFO/ForkPoolWorker-2] Task main.tasks.check_future[a5d49548-cb45-47b5-b208-531f3d44c837] succeeded in 0.16514989499955846s: None
+[2017-09-19 10:35:30,482: INFO/MainProcess] Received task: main.tasks.check_future[76d9aace-de19-40ce-98cd-d0645e13011e]  
+[2017-09-19 10:35:30,488: INFO/MainProcess] Received task: main.tasks.check_playing[65f4edc9-723b-4d85-af17-7f7ead0c6b45]  
+[2017-09-19 10:35:30,503: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:30,639: INFO/ForkPoolWorker-3] Task main.tasks.check_future[76d9aace-de19-40ce-98cd-d0645e13011e] succeeded in 0.1557892830005585s: None
+[2017-09-19 10:35:30,673: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[65f4edc9-723b-4d85-af17-7f7ead0c6b45] succeeded in 0.18265773700022692s: None
+[2017-09-19 10:35:33,491: INFO/MainProcess] Received task: main.tasks.check_playing[94f16563-abc0-4058-abd3-a09465dc1e99]  
+[2017-09-19 10:35:33,504: INFO/MainProcess] Received task: main.tasks.check_future[dbb3e231-83e8-4fa2-bb04-726a44b79c4e]  
+[2017-09-19 10:35:33,511: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:33,676: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[94f16563-abc0-4058-abd3-a09465dc1e99] succeeded in 0.1830697900004452s: None
+[2017-09-19 10:35:33,720: INFO/ForkPoolWorker-2] Task main.tasks.check_future[dbb3e231-83e8-4fa2-bb04-726a44b79c4e] succeeded in 0.21422534700013784s: None
+[2017-09-19 10:35:36,497: INFO/MainProcess] Received task: main.tasks.check_future[82fb5114-f0d5-4090-a725-bb7970ecce02]  
+[2017-09-19 10:35:36,503: INFO/MainProcess] Received task: main.tasks.check_playing[30e890e7-ca54-4471-92f4-09fb6ddf48d8]  
+[2017-09-19 10:35:36,516: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:36,712: INFO/ForkPoolWorker-3] Task main.tasks.check_future[82fb5114-f0d5-4090-a725-bb7970ecce02] succeeded in 0.21414300499964156s: None
+[2017-09-19 10:35:36,790: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[30e890e7-ca54-4471-92f4-09fb6ddf48d8] succeeded in 0.28629237199947966s: None
+[2017-09-19 10:35:39,503: INFO/MainProcess] Received task: main.tasks.check_playing[f22cc426-0479-4ebe-890c-c077ac53bb34]  
+[2017-09-19 10:35:39,508: INFO/MainProcess] Received task: main.tasks.check_future[30d52207-c708-4699-b22d-32dc0e40fd8e]  
+[2017-09-19 10:35:39,520: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:39,626: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[f22cc426-0479-4ebe-890c-c077ac53bb34] succeeded in 0.1225237010003184s: None
+[2017-09-19 10:35:39,660: INFO/ForkPoolWorker-2] Task main.tasks.check_future[30d52207-c708-4699-b22d-32dc0e40fd8e] succeeded in 0.15050366000014037s: None
+[2017-09-19 10:35:42,510: INFO/MainProcess] Received task: main.tasks.check_future[ef116710-9e70-461e-8768-eb8a2ad54d2e]  
+[2017-09-19 10:35:42,517: INFO/MainProcess] Received task: main.tasks.check_playing[e862113e-4ccf-45a6-8d29-ac809250fd8e]  
+[2017-09-19 10:35:42,533: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:42,708: INFO/ForkPoolWorker-3] Task main.tasks.check_future[ef116710-9e70-461e-8768-eb8a2ad54d2e] succeeded in 0.19675965999977052s: None
+[2017-09-19 10:35:42,741: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[e862113e-4ccf-45a6-8d29-ac809250fd8e] succeeded in 0.22159022699997877s: None
+[2017-09-19 10:35:45,516: INFO/MainProcess] Received task: main.tasks.check_playing[451dae8a-022c-48d0-96c7-5e00150d51d1]  
+[2017-09-19 10:35:45,523: INFO/MainProcess] Received task: main.tasks.check_future[94a8d628-84cd-456a-82b6-151747251a26]  
+[2017-09-19 10:35:45,531: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:45,679: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[451dae8a-022c-48d0-96c7-5e00150d51d1] succeeded in 0.16126269300002605s: None
+[2017-09-19 10:35:45,723: INFO/ForkPoolWorker-2] Task main.tasks.check_future[94a8d628-84cd-456a-82b6-151747251a26] succeeded in 0.19910990599964862s: None
+[2017-09-19 10:35:48,525: INFO/MainProcess] Received task: main.tasks.check_future[8de336c3-cec1-423e-aafa-3499b58651e7]  
+[2017-09-19 10:35:48,532: INFO/MainProcess] Received task: main.tasks.check_playing[55acda36-d14f-47dc-bb5a-822ed039d6c9]  
+[2017-09-19 10:35:48,547: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:48,704: INFO/ForkPoolWorker-3] Task main.tasks.check_future[8de336c3-cec1-423e-aafa-3499b58651e7] succeeded in 0.17766693599969585s: None
+[2017-09-19 10:35:48,737: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[55acda36-d14f-47dc-bb5a-822ed039d6c9] succeeded in 0.20233241000005364s: None
+[2017-09-19 10:35:51,530: INFO/MainProcess] Received task: main.tasks.check_playing[def09a57-e05c-4aef-98ec-10ca9a845850]  
+[2017-09-19 10:35:51,538: INFO/MainProcess] Received task: main.tasks.check_future[92d68955-cc6a-45a2-adce-a65f10f9a56d]  
+[2017-09-19 10:35:51,547: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:51,720: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[def09a57-e05c-4aef-98ec-10ca9a845850] succeeded in 0.18844985499981703s: None
+[2017-09-19 10:35:51,764: INFO/ForkPoolWorker-2] Task main.tasks.check_future[92d68955-cc6a-45a2-adce-a65f10f9a56d] succeeded in 0.22490244500022527s: None
+[2017-09-19 10:35:54,537: INFO/MainProcess] Received task: main.tasks.check_future[1efe477b-347e-4b19-a259-6b359218f438]  
+[2017-09-19 10:35:54,546: INFO/MainProcess] Received task: main.tasks.check_playing[9ee93de8-959b-446a-af36-0a9199dae1c9]  
+[2017-09-19 10:35:54,567: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:54,756: INFO/ForkPoolWorker-3] Task main.tasks.check_future[1efe477b-347e-4b19-a259-6b359218f438] succeeded in 0.21866573099941888s: None
+[2017-09-19 10:35:54,790: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[9ee93de8-959b-446a-af36-0a9199dae1c9] succeeded in 0.24273438999989594s: None
+[2017-09-19 10:35:57,544: INFO/MainProcess] Received task: main.tasks.check_playing[326b0780-19b3-46a1-8096-a579add0e22e]  
+[2017-09-19 10:35:57,551: INFO/MainProcess] Received task: main.tasks.check_future[a05a5f99-854d-42ed-890d-e9fae14d708e]  
+[2017-09-19 10:35:57,561: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:35:57,570: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400101_Q1_JSON.json?s=534&t=0
+[2017-09-19 10:35:57,649: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[326b0780-19b3-46a1-8096-a579add0e22e] succeeded in 0.10379073700005392s: None
+[2017-09-19 10:35:57,668: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400101_JSON.json?s=534&t=0
+[2017-09-19 10:35:57,757: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400101_JSON.json?s=534&t=0
+[2017-09-19 10:35:57,847: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_STANDINGDATA_JSON.json?s=534&t=0
+[2017-09-19 10:35:58,066: WARNING/ForkPoolWorker-2] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_COMPDETAILS_BKM400101_JSON.json?s=534&t=0
+[2017-09-19 10:35:58,186: INFO/ForkPoolWorker-2] Task main.tasks.add_player[26a89a1c-43e9-43db-ab24-a5b58e650d4d] succeeded in 0.022810043999925256s: True
+[2017-09-19 10:35:58,196: INFO/ForkPoolWorker-2] Task main.tasks.add_player[613dce97-373b-4d4a-a048-ae88535f9943] succeeded in 0.009567052000420517s: True
+[2017-09-19 10:35:58,208: INFO/ForkPoolWorker-2] Task main.tasks.add_player[2e39423b-7961-44fd-880c-b89d8b54a812] succeeded in 0.010196518999691762s: True
+[2017-09-19 10:35:58,219: INFO/ForkPoolWorker-2] Task main.tasks.add_player[8d0164c0-4740-4c68-b723-1f4c6fda2067] succeeded in 0.010241035000035481s: True
+[2017-09-19 10:35:58,230: INFO/ForkPoolWorker-2] Task main.tasks.add_player[bf84341d-86eb-473d-88f6-bda002565a43] succeeded in 0.010273511999912444s: True
+[2017-09-19 10:35:58,241: INFO/ForkPoolWorker-2] Task main.tasks.add_player[595aedce-ba0e-4b3e-82b5-d6b314b9e744] succeeded in 0.010252932999719633s: True
+[2017-09-19 10:35:58,252: INFO/ForkPoolWorker-2] Task main.tasks.add_player[8f435c2f-bc1f-4df1-a1d3-4f54d79150e6] succeeded in 0.010023756000009598s: True
+[2017-09-19 10:35:58,263: INFO/ForkPoolWorker-2] Task main.tasks.add_player[fc627189-e02e-4c3c-8d9b-985a6072e6d5] succeeded in 0.010191917999691213s: True
+[2017-09-19 10:35:58,274: INFO/ForkPoolWorker-2] Task main.tasks.add_player[2f6ef098-06eb-43a0-a3a1-204a1b3cfb07] succeeded in 0.01037144600013562s: True
+[2017-09-19 10:35:58,285: INFO/ForkPoolWorker-2] Task main.tasks.add_player[ad7b84c9-c9f4-4d5f-a3ee-615b0385f0b0] succeeded in 0.01051234500027931s: True
+[2017-09-19 10:35:58,296: INFO/ForkPoolWorker-2] Task main.tasks.add_player[80b8d70e-510f-4a23-9dfc-3e1e890066ee] succeeded in 0.010039971999503905s: True
+[2017-09-19 10:35:58,307: INFO/ForkPoolWorker-2] Task main.tasks.add_player[33bb3bb7-7108-4b21-a45d-19d0febfd4a7] succeeded in 0.010241746000247076s: True
+[2017-09-19 10:35:58,318: INFO/ForkPoolWorker-2] Task main.tasks.add_player[02b34cb2-455e-450d-a7d9-47a2a6c65df7] succeeded in 0.010124225999788905s: True
+[2017-09-19 10:35:58,329: INFO/ForkPoolWorker-2] Task main.tasks.add_player[fb2e7430-a97e-42e5-8e42-75cd6ebb3ec0] succeeded in 0.010515838000173972s: True
+[2017-09-19 10:35:58,340: INFO/ForkPoolWorker-2] Task main.tasks.add_player[903a7e9b-c072-4b60-ac6f-acd566b59011] succeeded in 0.010077439000269806s: True
+[2017-09-19 10:35:58,352: INFO/ForkPoolWorker-2] Task main.tasks.add_player[6ff7a861-a9c7-423a-8183-bcf74670d2ef] succeeded in 0.010564524000074016s: True
+[2017-09-19 10:35:58,363: INFO/ForkPoolWorker-2] Task main.tasks.add_player[bbbfc2f5-523e-4f3b-9837-3d0088517ebf] succeeded in 0.01005308399999194s: True
+[2017-09-19 10:35:58,374: INFO/ForkPoolWorker-2] Task main.tasks.add_player[a4f974a1-7fa8-4290-bb5d-7a53c763f74b] succeeded in 0.01012522600012744s: True
+[2017-09-19 10:35:58,385: INFO/ForkPoolWorker-2] Task main.tasks.add_player[9a53747d-0144-43d5-85e1-0e035e773949] succeeded in 0.010226240000520193s: True
+[2017-09-19 10:35:58,396: INFO/ForkPoolWorker-2] Task main.tasks.add_player[321da24f-b4e0-44b2-b004-4f66489c1fdc] succeeded in 0.010516196000025957s: True
+[2017-09-19 10:35:58,407: INFO/ForkPoolWorker-2] Task main.tasks.add_player[fd00b6cc-a409-4f80-b77f-a36e093366db] succeeded in 0.01075061600022309s: True
+[2017-09-19 10:35:58,418: INFO/ForkPoolWorker-2] Task main.tasks.add_player[d0bb0d77-22cc-4b2f-8df7-eb85c503554e] succeeded in 0.009610277000319911s: True
+[2017-09-19 10:35:58,429: INFO/ForkPoolWorker-2] Task main.tasks.add_player[ed74a6b6-d5dc-4905-8039-36290c79dac7] succeeded in 0.010043089000646432s: True
+[2017-09-19 10:35:58,440: INFO/ForkPoolWorker-2] Task main.tasks.add_player[510e596c-c098-4046-aa01-8474071a0691] succeeded in 0.010636566999892239s: True
+[2017-09-19 10:35:58,536: INFO/ForkPoolWorker-2] Task main.tasks.check_future[a05a5f99-854d-42ed-890d-e9fae14d708e] succeeded in 0.9834624949999125s: None
+[2017-09-19 10:36:00,552: INFO/MainProcess] Received task: main.tasks.check_future[fef7c820-a634-426b-9c46-181476c00491]  
+[2017-09-19 10:36:00,559: INFO/MainProcess] Received task: main.tasks.check_playing[bb8b1505-9173-4481-944b-037957f42694]  
+[2017-09-19 10:36:00,576: INFO/ForkPoolWorker-2] Checking for games in PLAYING state. FOUND: 1
+[2017-09-19 10:36:00,584: INFO/MainProcess] Received task: main.tasks.update_game_info[9c0a9732-5a6f-4605-ac68-0a36b9ec9ff8]  
+[2017-09-19 10:36:00,586: INFO/MainProcess] Received task: main.tasks.get_game_actions[d16658ae-eda9-4cb3-abd7-e74dae1968aa]  
+[2017-09-19 10:36:00,602: INFO/ForkPoolWorker-4] Updating game information. GAME: 12105&BKM400101
+[2017-09-19 10:36:00,602: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAME_BKM400101_JSON.json?s=534&t=0
+[2017-09-19 10:36:00,606: WARNING/ForkPoolWorker-1] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400101_Q1_JSON.json?s=534&t=0
+[2017-09-19 10:36:00,675: INFO/ForkPoolWorker-3] Task main.tasks.check_future[fef7c820-a634-426b-9c46-181476c00491] succeeded in 0.12163926500033995s: None
+[2017-09-19 10:36:00,701: WARNING/ForkPoolWorker-4] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_STANDINGDATA_JSON.json?s=534&t=0
+[2017-09-19 10:36:00,735: WARNING/ForkPoolWorker-1] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400101_Q2_JSON.json?s=534&t=0
+[2017-09-19 10:36:00,765: INFO/ForkPoolWorker-2] Task main.tasks.check_playing[bb8b1505-9173-4481-944b-037957f42694] succeeded in 0.20514517399988108s: None
+[2017-09-19 10:36:00,900: WARNING/ForkPoolWorker-1] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400101_Q3_JSON.json?s=534&t=0
+[2017-09-19 10:36:00,971: INFO/ForkPoolWorker-4] Task main.tasks.update_game_info[9c0a9732-5a6f-4605-ac68-0a36b9ec9ff8] succeeded in 0.38135665400022845s: None
+[2017-09-19 10:36:01,042: WARNING/ForkPoolWorker-1] MAKING NEW REQUEST: https://livecache.sportresult.com/node/db/FIBASTATS_PROD/12105_GAMEACTIONS_BKM400101_Q4_JSON.json?s=534&t=0
+[2017-09-19 10:36:01,254: INFO/ForkPoolWorker-1] ACTION ID: 0 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,274: INFO/ForkPoolWorker-1] ACTION ID: 1 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,296: INFO/ForkPoolWorker-1] ACTION ID: 2 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,329: INFO/ForkPoolWorker-1] ACTION ID: 3 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,340: INFO/ForkPoolWorker-1] ACTION ID: 4 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,352: INFO/ForkPoolWorker-1] ACTION ID: 5 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,363: INFO/ForkPoolWorker-1] ACTION ID: 6 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,374: INFO/ForkPoolWorker-1] ACTION ID: 7 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,385: INFO/ForkPoolWorker-1] ACTION ID: 8 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,396: INFO/ForkPoolWorker-1] ACTION ID: 9 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,407: INFO/ForkPoolWorker-1] ACTION ID: 10 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,418: INFO/ForkPoolWorker-1] ACTION ID: 11 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,429: INFO/ForkPoolWorker-1] ACTION ID: 12 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,440: INFO/ForkPoolWorker-1] ACTION ID: 13 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,451: INFO/ForkPoolWorker-1] ACTION ID: 14 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,462: INFO/ForkPoolWorker-1] ACTION ID: 15 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,474: INFO/ForkPoolWorker-1] ACTION ID: 16 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,485: INFO/ForkPoolWorker-1] ACTION ID: 17 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,496: INFO/ForkPoolWorker-1] ACTION ID: 18 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,507: INFO/ForkPoolWorker-1] ACTION ID: 19 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,518: INFO/ForkPoolWorker-1] ACTION ID: 20 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,529: INFO/ForkPoolWorker-1] ACTION ID: 21 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,540: INFO/ForkPoolWorker-1] ACTION ID: 22 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,551: INFO/ForkPoolWorker-1] ACTION ID: 23 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,562: INFO/ForkPoolWorker-1] ACTION ID: 24 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,573: INFO/ForkPoolWorker-1] ACTION ID: 25 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,584: INFO/ForkPoolWorker-1] ACTION ID: 26 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,596: INFO/ForkPoolWorker-1] ACTION ID: 27 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,606: INFO/ForkPoolWorker-1] ACTION ID: 28 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,617: INFO/ForkPoolWorker-1] ACTION ID: 29 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,629: INFO/ForkPoolWorker-1] ACTION ID: 30 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,640: INFO/ForkPoolWorker-1] ACTION ID: 31 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,651: INFO/ForkPoolWorker-1] ACTION ID: 32 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,662: INFO/ForkPoolWorker-1] ACTION ID: 33 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,673: INFO/ForkPoolWorker-1] ACTION ID: 34 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,684: INFO/ForkPoolWorker-1] ACTION ID: 35 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,695: INFO/ForkPoolWorker-1] ACTION ID: 36 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,706: INFO/ForkPoolWorker-1] ACTION ID: 37 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,717: INFO/ForkPoolWorker-1] ACTION ID: 38 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,728: INFO/ForkPoolWorker-1] ACTION ID: 39 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,739: INFO/ForkPoolWorker-1] ACTION ID: 40 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,750: INFO/ForkPoolWorker-1] ACTION ID: 41 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,761: INFO/ForkPoolWorker-1] ACTION ID: 42 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,772: INFO/ForkPoolWorker-1] ACTION ID: 43 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,784: INFO/ForkPoolWorker-1] ACTION ID: 44 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,795: INFO/ForkPoolWorker-1] ACTION ID: 45 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,806: INFO/ForkPoolWorker-1] ACTION ID: 46 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,817: INFO/ForkPoolWorker-1] ACTION ID: 47 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,828: INFO/ForkPoolWorker-1] ACTION ID: 48 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,839: INFO/ForkPoolWorker-1] ACTION ID: 49 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,850: INFO/ForkPoolWorker-1] ACTION ID: 50 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,861: INFO/ForkPoolWorker-1] ACTION ID: 51 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,872: INFO/ForkPoolWorker-1] ACTION ID: 52 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,883: INFO/ForkPoolWorker-1] ACTION ID: 53 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,894: INFO/ForkPoolWorker-1] ACTION ID: 54 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,905: INFO/ForkPoolWorker-1] ACTION ID: 55 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,916: INFO/ForkPoolWorker-1] ACTION ID: 56 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,928: INFO/ForkPoolWorker-1] ACTION ID: 57 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,939: INFO/ForkPoolWorker-1] ACTION ID: 58 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,950: INFO/ForkPoolWorker-1] ACTION ID: 59 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,961: INFO/ForkPoolWorker-1] ACTION ID: 60 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,972: INFO/ForkPoolWorker-1] ACTION ID: 61 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,983: INFO/ForkPoolWorker-1] ACTION ID: 62 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:01,994: INFO/ForkPoolWorker-1] ACTION ID: 63 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,005: INFO/ForkPoolWorker-1] ACTION ID: 64 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,016: INFO/ForkPoolWorker-1] ACTION ID: 65 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,094: INFO/ForkPoolWorker-1] ACTION ID: 66 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,105: INFO/ForkPoolWorker-1] ACTION ID: 67 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,116: INFO/ForkPoolWorker-1] ACTION ID: 68 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,127: INFO/ForkPoolWorker-1] ACTION ID: 69 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,138: INFO/ForkPoolWorker-1] ACTION ID: 70 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,149: INFO/ForkPoolWorker-1] ACTION ID: 71 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,160: INFO/ForkPoolWorker-1] ACTION ID: 72 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,171: INFO/ForkPoolWorker-1] ACTION ID: 73 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,182: INFO/ForkPoolWorker-1] ACTION ID: 74 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,193: INFO/ForkPoolWorker-1] ACTION ID: 75 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,204: INFO/ForkPoolWorker-1] ACTION ID: 76 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,216: INFO/ForkPoolWorker-1] ACTION ID: 77 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,293: INFO/ForkPoolWorker-1] ACTION ID: 78 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,304: INFO/ForkPoolWorker-1] ACTION ID: 79 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,315: INFO/ForkPoolWorker-1] ACTION ID: 80 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,326: INFO/ForkPoolWorker-1] ACTION ID: 81 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,337: INFO/ForkPoolWorker-1] ACTION ID: 82 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,348: INFO/ForkPoolWorker-1] ACTION ID: 83 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,359: INFO/ForkPoolWorker-1] ACTION ID: 84 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,371: INFO/ForkPoolWorker-1] ACTION ID: 85 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,382: INFO/ForkPoolWorker-1] ACTION ID: 86 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,393: INFO/ForkPoolWorker-1] ACTION ID: 87 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,404: INFO/ForkPoolWorker-1] ACTION ID: 88 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,415: INFO/ForkPoolWorker-1] ACTION ID: 89 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,426: INFO/ForkPoolWorker-1] ACTION ID: 90 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,437: INFO/ForkPoolWorker-1] ACTION ID: 91 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,448: INFO/ForkPoolWorker-1] ACTION ID: 92 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,459: INFO/ForkPoolWorker-1] ACTION ID: 93 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,470: INFO/ForkPoolWorker-1] ACTION ID: 94 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,481: INFO/ForkPoolWorker-1] ACTION ID: 95 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,492: INFO/ForkPoolWorker-1] ACTION ID: 96 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,503: INFO/ForkPoolWorker-1] ACTION ID: 97 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,515: INFO/ForkPoolWorker-1] ACTION ID: 98 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,526: INFO/ForkPoolWorker-1] ACTION ID: 99 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,537: INFO/ForkPoolWorker-1] ACTION ID: 100 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,559: INFO/ForkPoolWorker-1] ACTION ID: 101 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,570: INFO/ForkPoolWorker-1] ACTION ID: 102 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,581: INFO/ForkPoolWorker-1] ACTION ID: 103 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,592: INFO/ForkPoolWorker-1] ACTION ID: 104 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,603: INFO/ForkPoolWorker-1] ACTION ID: 105 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,614: INFO/ForkPoolWorker-1] ACTION ID: 106 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,625: INFO/ForkPoolWorker-1] ACTION ID: 107 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,637: INFO/ForkPoolWorker-1] ACTION ID: 108 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,647: INFO/ForkPoolWorker-1] ACTION ID: 109 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,658: INFO/ForkPoolWorker-1] ACTION ID: 110 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,670: INFO/ForkPoolWorker-1] ACTION ID: 111 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,681: INFO/ForkPoolWorker-1] ACTION ID: 112 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,692: INFO/ForkPoolWorker-1] ACTION ID: 113 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,703: INFO/ForkPoolWorker-1] ACTION ID: 114 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,714: INFO/ForkPoolWorker-1] ACTION ID: 115 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,725: INFO/ForkPoolWorker-1] ACTION ID: 116 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,736: INFO/ForkPoolWorker-1] ACTION ID: 117 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,747: INFO/ForkPoolWorker-1] ACTION ID: 0 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,758: INFO/ForkPoolWorker-1] ACTION ID: 1 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,769: INFO/ForkPoolWorker-1] ACTION ID: 2 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,780: INFO/ForkPoolWorker-1] ACTION ID: 3 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,825: INFO/ForkPoolWorker-1] ACTION ID: 4 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,858: INFO/ForkPoolWorker-1] ACTION ID: 5 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,902: INFO/ForkPoolWorker-1] ACTION ID: 6 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,946: INFO/ForkPoolWorker-1] ACTION ID: 7 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:02,991: INFO/ForkPoolWorker-1] ACTION ID: 8 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,035: INFO/ForkPoolWorker-1] ACTION ID: 9 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,046: INFO/ForkPoolWorker-1] ACTION ID: 10 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,057: INFO/ForkPoolWorker-1] ACTION ID: 11 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,068: INFO/ForkPoolWorker-1] ACTION ID: 12 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,079: INFO/ForkPoolWorker-1] ACTION ID: 13 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,090: INFO/ForkPoolWorker-1] ACTION ID: 14 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,101: INFO/ForkPoolWorker-1] ACTION ID: 15 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,113: INFO/ForkPoolWorker-1] ACTION ID: 16 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,123: INFO/ForkPoolWorker-1] ACTION ID: 17 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,135: INFO/ForkPoolWorker-1] ACTION ID: 18 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,146: INFO/ForkPoolWorker-1] ACTION ID: 19 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,157: INFO/ForkPoolWorker-1] ACTION ID: 20 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,168: INFO/ForkPoolWorker-1] ACTION ID: 21 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,179: INFO/ForkPoolWorker-1] ACTION ID: 22 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,190: INFO/ForkPoolWorker-1] ACTION ID: 23 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,201: INFO/ForkPoolWorker-1] ACTION ID: 24 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,212: INFO/ForkPoolWorker-1] ACTION ID: 25 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,223: INFO/ForkPoolWorker-1] ACTION ID: 26 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,234: INFO/ForkPoolWorker-1] ACTION ID: 27 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,245: INFO/ForkPoolWorker-1] ACTION ID: 28 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,256: INFO/ForkPoolWorker-1] ACTION ID: 29 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,267: INFO/ForkPoolWorker-1] ACTION ID: 30 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,279: INFO/ForkPoolWorker-1] ACTION ID: 31 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,290: INFO/ForkPoolWorker-1] ACTION ID: 32 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,301: INFO/ForkPoolWorker-1] ACTION ID: 33 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,312: INFO/ForkPoolWorker-1] ACTION ID: 34 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,323: INFO/ForkPoolWorker-1] ACTION ID: 35 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,334: INFO/ForkPoolWorker-1] ACTION ID: 36 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,345: INFO/ForkPoolWorker-1] ACTION ID: 37 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,356: INFO/ForkPoolWorker-1] ACTION ID: 38 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,367: INFO/ForkPoolWorker-1] ACTION ID: 39 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,379: INFO/ForkPoolWorker-1] ACTION ID: 40 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,389: INFO/ForkPoolWorker-1] ACTION ID: 41 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,400: INFO/ForkPoolWorker-1] ACTION ID: 42 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,411: INFO/ForkPoolWorker-1] ACTION ID: 43 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,423: INFO/ForkPoolWorker-1] ACTION ID: 44 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,434: INFO/ForkPoolWorker-1] ACTION ID: 45 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,445: INFO/ForkPoolWorker-1] ACTION ID: 46 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,456: INFO/ForkPoolWorker-1] ACTION ID: 47 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,467: INFO/ForkPoolWorker-1] ACTION ID: 48 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,478: INFO/ForkPoolWorker-1] ACTION ID: 49 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,489: INFO/ForkPoolWorker-1] ACTION ID: 50 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,500: INFO/ForkPoolWorker-1] ACTION ID: 51 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,511: INFO/ForkPoolWorker-1] ACTION ID: 52 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,522: INFO/ForkPoolWorker-1] ACTION ID: 53 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,533: INFO/ForkPoolWorker-1] ACTION ID: 54 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,544: INFO/ForkPoolWorker-1] ACTION ID: 55 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,555: INFO/ForkPoolWorker-1] ACTION ID: 56 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,567: INFO/ForkPoolWorker-1] ACTION ID: 57 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,585: INFO/MainProcess] Received task: main.tasks.check_playing[f2ac5d40-ea69-4f21-8801-e83c239dae4a]  
+[2017-09-19 10:36:03,589: INFO/ForkPoolWorker-1] ACTION ID: 58 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,594: INFO/MainProcess] Received task: main.tasks.check_future[852e21dd-4bab-4aa2-ac3a-44575beabf60]  
+[2017-09-19 10:36:03,600: INFO/ForkPoolWorker-1] ACTION ID: 59 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,611: INFO/ForkPoolWorker-1] ACTION ID: 60 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,612: INFO/ForkPoolWorker-3] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:03,622: INFO/ForkPoolWorker-1] ACTION ID: 61 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,688: INFO/ForkPoolWorker-1] ACTION ID: 62 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,755: INFO/ForkPoolWorker-1] ACTION ID: 63 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,821: INFO/ForkPoolWorker-1] ACTION ID: 64 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,822: INFO/ForkPoolWorker-3] Task main.tasks.check_playing[f2ac5d40-ea69-4f21-8801-e83c239dae4a] succeeded in 0.23612229699938325s: None
+[2017-09-19 10:36:03,899: INFO/ForkPoolWorker-1] ACTION ID: 65 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,954: INFO/ForkPoolWorker-1] ACTION ID: 66 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,954: INFO/ForkPoolWorker-2] Task main.tasks.check_future[852e21dd-4bab-4aa2-ac3a-44575beabf60] succeeded in 0.3579270850004832s: None
+[2017-09-19 10:36:03,965: INFO/ForkPoolWorker-1] ACTION ID: 67 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,976: INFO/ForkPoolWorker-1] ACTION ID: 68 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,987: INFO/ForkPoolWorker-1] ACTION ID: 69 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:03,998: INFO/ForkPoolWorker-1] ACTION ID: 70 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,009: INFO/ForkPoolWorker-1] ACTION ID: 71 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,021: INFO/ForkPoolWorker-1] ACTION ID: 72 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,032: INFO/ForkPoolWorker-1] ACTION ID: 73 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,098: INFO/ForkPoolWorker-1] ACTION ID: 74 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,109: INFO/ForkPoolWorker-1] ACTION ID: 75 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,120: INFO/ForkPoolWorker-1] ACTION ID: 76 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,131: INFO/ForkPoolWorker-1] ACTION ID: 77 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,142: INFO/ForkPoolWorker-1] ACTION ID: 78 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,153: INFO/ForkPoolWorker-1] ACTION ID: 79 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,165: INFO/ForkPoolWorker-1] ACTION ID: 80 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,220: INFO/ForkPoolWorker-1] ACTION ID: 81 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,231: INFO/ForkPoolWorker-1] ACTION ID: 82 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,242: INFO/ForkPoolWorker-1] ACTION ID: 83 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,253: INFO/ForkPoolWorker-1] ACTION ID: 84 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,264: INFO/ForkPoolWorker-1] ACTION ID: 85 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,276: INFO/ForkPoolWorker-1] ACTION ID: 86 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,286: INFO/ForkPoolWorker-1] ACTION ID: 87 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,297: INFO/ForkPoolWorker-1] ACTION ID: 88 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,309: INFO/ForkPoolWorker-1] ACTION ID: 89 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,319: INFO/ForkPoolWorker-1] ACTION ID: 90 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,331: INFO/ForkPoolWorker-1] ACTION ID: 91 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,342: INFO/ForkPoolWorker-1] ACTION ID: 92 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,353: INFO/ForkPoolWorker-1] ACTION ID: 93 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,364: INFO/ForkPoolWorker-1] ACTION ID: 94 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,375: INFO/ForkPoolWorker-1] ACTION ID: 95 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,386: INFO/ForkPoolWorker-1] ACTION ID: 96 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,397: INFO/ForkPoolWorker-1] ACTION ID: 97 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,408: INFO/ForkPoolWorker-1] ACTION ID: 98 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,419: INFO/ForkPoolWorker-1] ACTION ID: 99 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,430: INFO/ForkPoolWorker-1] ACTION ID: 100 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,441: INFO/ForkPoolWorker-1] ACTION ID: 101 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,452: INFO/ForkPoolWorker-1] ACTION ID: 102 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,463: INFO/ForkPoolWorker-1] ACTION ID: 103 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,474: INFO/ForkPoolWorker-1] ACTION ID: 104 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,486: INFO/ForkPoolWorker-1] ACTION ID: 105 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,497: INFO/ForkPoolWorker-1] ACTION ID: 106 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,508: INFO/ForkPoolWorker-1] ACTION ID: 107 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,519: INFO/ForkPoolWorker-1] ACTION ID: 108 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,530: INFO/ForkPoolWorker-1] ACTION ID: 109 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,541: INFO/ForkPoolWorker-1] ACTION ID: 110 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,552: INFO/ForkPoolWorker-1] ACTION ID: 111 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,563: INFO/ForkPoolWorker-1] ACTION ID: 112 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,574: INFO/ForkPoolWorker-1] ACTION ID: 113 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,585: INFO/ForkPoolWorker-1] ACTION ID: 114 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,596: INFO/ForkPoolWorker-1] ACTION ID: 115 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,607: INFO/ForkPoolWorker-1] ACTION ID: 116 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,618: INFO/ForkPoolWorker-1] ACTION ID: 117 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,630: INFO/ForkPoolWorker-1] ACTION ID: 118 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,641: INFO/ForkPoolWorker-1] ACTION ID: 119 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,652: INFO/ForkPoolWorker-1] ACTION ID: 120 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,663: INFO/ForkPoolWorker-1] ACTION ID: 121 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,674: INFO/ForkPoolWorker-1] ACTION ID: 122 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,685: INFO/ForkPoolWorker-1] ACTION ID: 123 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,696: INFO/ForkPoolWorker-1] ACTION ID: 124 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,707: INFO/ForkPoolWorker-1] ACTION ID: 125 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,718: INFO/ForkPoolWorker-1] ACTION ID: 126 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,729: INFO/ForkPoolWorker-1] ACTION ID: 127 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,740: INFO/ForkPoolWorker-1] ACTION ID: 0 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,751: INFO/ForkPoolWorker-1] ACTION ID: 1 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,763: INFO/ForkPoolWorker-1] ACTION ID: 2 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,774: INFO/ForkPoolWorker-1] ACTION ID: 3 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,785: INFO/ForkPoolWorker-1] ACTION ID: 4 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,796: INFO/ForkPoolWorker-1] ACTION ID: 5 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,807: INFO/ForkPoolWorker-1] ACTION ID: 6 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,818: INFO/ForkPoolWorker-1] ACTION ID: 7 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,829: INFO/ForkPoolWorker-1] ACTION ID: 8 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,840: INFO/ForkPoolWorker-1] ACTION ID: 9 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,851: INFO/ForkPoolWorker-1] ACTION ID: 10 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,862: INFO/ForkPoolWorker-1] ACTION ID: 11 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,873: INFO/ForkPoolWorker-1] ACTION ID: 12 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,884: INFO/ForkPoolWorker-1] ACTION ID: 13 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,895: INFO/ForkPoolWorker-1] ACTION ID: 14 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,907: INFO/ForkPoolWorker-1] ACTION ID: 15 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,918: INFO/ForkPoolWorker-1] ACTION ID: 16 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,929: INFO/ForkPoolWorker-1] ACTION ID: 17 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,940: INFO/ForkPoolWorker-1] ACTION ID: 18 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,951: INFO/ForkPoolWorker-1] ACTION ID: 19 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,963: INFO/ForkPoolWorker-1] ACTION ID: 20 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,973: INFO/ForkPoolWorker-1] ACTION ID: 21 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,984: INFO/ForkPoolWorker-1] ACTION ID: 22 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:04,995: INFO/ForkPoolWorker-1] ACTION ID: 23 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,006: INFO/ForkPoolWorker-1] ACTION ID: 24 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,017: INFO/ForkPoolWorker-1] ACTION ID: 25 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,030: INFO/ForkPoolWorker-1] ACTION ID: 26 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,040: INFO/ForkPoolWorker-1] ACTION ID: 27 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,051: INFO/ForkPoolWorker-1] ACTION ID: 28 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,062: INFO/ForkPoolWorker-1] ACTION ID: 29 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,073: INFO/ForkPoolWorker-1] ACTION ID: 30 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,084: INFO/ForkPoolWorker-1] ACTION ID: 31 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,095: INFO/ForkPoolWorker-1] ACTION ID: 32 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,106: INFO/ForkPoolWorker-1] ACTION ID: 33 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,172: INFO/ForkPoolWorker-1] ACTION ID: 34 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,183: INFO/ForkPoolWorker-1] ACTION ID: 35 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,194: INFO/ForkPoolWorker-1] ACTION ID: 36 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,206: INFO/ForkPoolWorker-1] ACTION ID: 37 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,217: INFO/ForkPoolWorker-1] ACTION ID: 38 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,228: INFO/ForkPoolWorker-1] ACTION ID: 39 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,305: INFO/ForkPoolWorker-1] ACTION ID: 40 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,317: INFO/ForkPoolWorker-1] ACTION ID: 41 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,327: INFO/ForkPoolWorker-1] ACTION ID: 42 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,338: INFO/ForkPoolWorker-1] ACTION ID: 43 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,350: INFO/ForkPoolWorker-1] ACTION ID: 44 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,361: INFO/ForkPoolWorker-1] ACTION ID: 45 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,394: INFO/ForkPoolWorker-1] ACTION ID: 46 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,405: INFO/ForkPoolWorker-1] ACTION ID: 47 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,417: INFO/ForkPoolWorker-1] ACTION ID: 48 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,427: INFO/ForkPoolWorker-1] ACTION ID: 49 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,438: INFO/ForkPoolWorker-1] ACTION ID: 50 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,449: INFO/ForkPoolWorker-1] ACTION ID: 51 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,460: INFO/ForkPoolWorker-1] ACTION ID: 52 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,471: INFO/ForkPoolWorker-1] ACTION ID: 53 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,482: INFO/ForkPoolWorker-1] ACTION ID: 54 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,493: INFO/ForkPoolWorker-1] ACTION ID: 55 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,505: INFO/ForkPoolWorker-1] ACTION ID: 56 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,516: INFO/ForkPoolWorker-1] ACTION ID: 57 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,527: INFO/ForkPoolWorker-1] ACTION ID: 58 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,538: INFO/ForkPoolWorker-1] ACTION ID: 59 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,549: INFO/ForkPoolWorker-1] ACTION ID: 60 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,560: INFO/ForkPoolWorker-1] ACTION ID: 61 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,571: INFO/ForkPoolWorker-1] ACTION ID: 62 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,582: INFO/ForkPoolWorker-1] ACTION ID: 63 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,593: INFO/ForkPoolWorker-1] ACTION ID: 64 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,604: INFO/ForkPoolWorker-1] ACTION ID: 65 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,615: INFO/ForkPoolWorker-1] ACTION ID: 66 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,626: INFO/ForkPoolWorker-1] ACTION ID: 67 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,637: INFO/ForkPoolWorker-1] ACTION ID: 68 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,649: INFO/ForkPoolWorker-1] ACTION ID: 69 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,659: INFO/ForkPoolWorker-1] ACTION ID: 70 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,671: INFO/ForkPoolWorker-1] ACTION ID: 71 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,682: INFO/ForkPoolWorker-1] ACTION ID: 72 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,693: INFO/ForkPoolWorker-1] ACTION ID: 73 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,704: INFO/ForkPoolWorker-1] ACTION ID: 74 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,715: INFO/ForkPoolWorker-1] ACTION ID: 75 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,726: INFO/ForkPoolWorker-1] ACTION ID: 76 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,737: INFO/ForkPoolWorker-1] ACTION ID: 77 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,748: INFO/ForkPoolWorker-1] ACTION ID: 78 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,759: INFO/ForkPoolWorker-1] ACTION ID: 79 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,770: INFO/ForkPoolWorker-1] ACTION ID: 80 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,781: INFO/ForkPoolWorker-1] ACTION ID: 81 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,793: INFO/ForkPoolWorker-1] ACTION ID: 82 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,804: INFO/ForkPoolWorker-1] ACTION ID: 83 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,815: INFO/ForkPoolWorker-1] ACTION ID: 84 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,826: INFO/ForkPoolWorker-1] ACTION ID: 85 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,837: INFO/ForkPoolWorker-1] ACTION ID: 86 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,848: INFO/ForkPoolWorker-1] ACTION ID: 87 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,859: INFO/ForkPoolWorker-1] ACTION ID: 88 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,870: INFO/ForkPoolWorker-1] ACTION ID: 89 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,881: INFO/ForkPoolWorker-1] ACTION ID: 90 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,892: INFO/ForkPoolWorker-1] ACTION ID: 91 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,903: INFO/ForkPoolWorker-1] ACTION ID: 92 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,914: INFO/ForkPoolWorker-1] ACTION ID: 93 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,925: INFO/ForkPoolWorker-1] ACTION ID: 94 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,937: INFO/ForkPoolWorker-1] ACTION ID: 95 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,947: INFO/ForkPoolWorker-1] ACTION ID: 96 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,959: INFO/ForkPoolWorker-1] ACTION ID: 97 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,970: INFO/ForkPoolWorker-1] ACTION ID: 98 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,981: INFO/ForkPoolWorker-1] ACTION ID: 99 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:05,992: INFO/ForkPoolWorker-1] ACTION ID: 100 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,003: INFO/ForkPoolWorker-1] ACTION ID: 101 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,014: INFO/ForkPoolWorker-1] ACTION ID: 102 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,025: INFO/ForkPoolWorker-1] ACTION ID: 103 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,036: INFO/ForkPoolWorker-1] ACTION ID: 104 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,047: INFO/ForkPoolWorker-1] ACTION ID: 105 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,058: INFO/ForkPoolWorker-1] ACTION ID: 106 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,069: INFO/ForkPoolWorker-1] ACTION ID: 107 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,114: INFO/ForkPoolWorker-1] ACTION ID: 108 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,125: INFO/ForkPoolWorker-1] ACTION ID: 109 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,136: INFO/ForkPoolWorker-1] ACTION ID: 110 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,147: INFO/ForkPoolWorker-1] ACTION ID: 111 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,158: INFO/ForkPoolWorker-1] ACTION ID: 112 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,169: INFO/ForkPoolWorker-1] ACTION ID: 113 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,180: INFO/ForkPoolWorker-1] ACTION ID: 114 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,191: INFO/ForkPoolWorker-1] ACTION ID: 115 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,202: INFO/ForkPoolWorker-1] ACTION ID: 0 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,213: INFO/ForkPoolWorker-1] ACTION ID: 1 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,224: INFO/ForkPoolWorker-1] ACTION ID: 2 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,236: INFO/ForkPoolWorker-1] ACTION ID: 3 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,247: INFO/ForkPoolWorker-1] ACTION ID: 4 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,258: INFO/ForkPoolWorker-1] ACTION ID: 5 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,269: INFO/ForkPoolWorker-1] ACTION ID: 6 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,280: INFO/ForkPoolWorker-1] ACTION ID: 7 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,291: INFO/ForkPoolWorker-1] ACTION ID: 8 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,343: INFO/ForkPoolWorker-1] ACTION ID: 9 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:06,596: INFO/MainProcess] Received task: main.tasks.check_future[06da278c-6c63-4a62-90bf-7cef53c78bcd]  
+[2017-09-19 10:36:06,605: INFO/MainProcess] Received task: main.tasks.check_playing[c9f5428b-4ee5-4f25-b99b-a310128a704a]  
+[2017-09-19 10:36:06,620: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:07,369: INFO/ForkPoolWorker-1] ACTION ID: 10 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,469: INFO/ForkPoolWorker-1] ACTION ID: 11 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,564: INFO/ForkPoolWorker-1] ACTION ID: 12 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,642: INFO/ForkPoolWorker-1] ACTION ID: 13 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,642: INFO/ForkPoolWorker-2] Task main.tasks.check_future[06da278c-6c63-4a62-90bf-7cef53c78bcd] succeeded in 1.0446874919998663s: None
+[2017-09-19 10:36:07,697: INFO/ForkPoolWorker-1] ACTION ID: 14 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,697: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[c9f5428b-4ee5-4f25-b99b-a310128a704a] succeeded in 1.0911567419998391s: None
+[2017-09-19 10:36:07,709: INFO/ForkPoolWorker-1] ACTION ID: 15 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,719: INFO/ForkPoolWorker-1] ACTION ID: 16 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,730: INFO/ForkPoolWorker-1] ACTION ID: 17 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,742: INFO/ForkPoolWorker-1] ACTION ID: 18 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,752: INFO/ForkPoolWorker-1] ACTION ID: 19 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,763: INFO/ForkPoolWorker-1] ACTION ID: 20 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,775: INFO/ForkPoolWorker-1] ACTION ID: 21 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,786: INFO/ForkPoolWorker-1] ACTION ID: 22 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,797: INFO/ForkPoolWorker-1] ACTION ID: 23 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,808: INFO/ForkPoolWorker-1] ACTION ID: 24 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,819: INFO/ForkPoolWorker-1] ACTION ID: 25 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,831: INFO/ForkPoolWorker-1] ACTION ID: 26 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,841: INFO/ForkPoolWorker-1] ACTION ID: 27 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,852: INFO/ForkPoolWorker-1] ACTION ID: 28 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,930: INFO/ForkPoolWorker-1] ACTION ID: 29 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:07,996: INFO/ForkPoolWorker-1] ACTION ID: 30 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,007: INFO/ForkPoolWorker-1] ACTION ID: 31 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,018: INFO/ForkPoolWorker-1] ACTION ID: 32 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,029: INFO/ForkPoolWorker-1] ACTION ID: 33 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,040: INFO/ForkPoolWorker-1] ACTION ID: 34 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,051: INFO/ForkPoolWorker-1] ACTION ID: 35 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,062: INFO/ForkPoolWorker-1] ACTION ID: 36 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,073: INFO/ForkPoolWorker-1] ACTION ID: 37 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,084: INFO/ForkPoolWorker-1] ACTION ID: 38 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,095: INFO/ForkPoolWorker-1] ACTION ID: 39 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,107: INFO/ForkPoolWorker-1] ACTION ID: 40 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,118: INFO/ForkPoolWorker-1] ACTION ID: 41 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,129: INFO/ForkPoolWorker-1] ACTION ID: 42 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,140: INFO/ForkPoolWorker-1] ACTION ID: 43 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,151: INFO/ForkPoolWorker-1] ACTION ID: 44 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,162: INFO/ForkPoolWorker-1] ACTION ID: 45 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,173: INFO/ForkPoolWorker-1] ACTION ID: 46 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,184: INFO/ForkPoolWorker-1] ACTION ID: 47 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,195: INFO/ForkPoolWorker-1] ACTION ID: 48 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,206: INFO/ForkPoolWorker-1] ACTION ID: 49 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,217: INFO/ForkPoolWorker-1] ACTION ID: 50 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,228: INFO/ForkPoolWorker-1] ACTION ID: 51 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,239: INFO/ForkPoolWorker-1] ACTION ID: 52 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,251: INFO/ForkPoolWorker-1] ACTION ID: 53 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,262: INFO/ForkPoolWorker-1] ACTION ID: 54 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,273: INFO/ForkPoolWorker-1] ACTION ID: 55 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,284: INFO/ForkPoolWorker-1] ACTION ID: 56 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,295: INFO/ForkPoolWorker-1] ACTION ID: 57 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,306: INFO/ForkPoolWorker-1] ACTION ID: 58 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,317: INFO/ForkPoolWorker-1] ACTION ID: 59 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,328: INFO/ForkPoolWorker-1] ACTION ID: 60 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,339: INFO/ForkPoolWorker-1] ACTION ID: 61 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,350: INFO/ForkPoolWorker-1] ACTION ID: 62 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,361: INFO/ForkPoolWorker-1] ACTION ID: 63 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,372: INFO/ForkPoolWorker-1] ACTION ID: 64 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,384: INFO/ForkPoolWorker-1] ACTION ID: 65 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,395: INFO/ForkPoolWorker-1] ACTION ID: 66 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,407: INFO/ForkPoolWorker-1] ACTION ID: 67 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,417: INFO/ForkPoolWorker-1] ACTION ID: 68 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,428: INFO/ForkPoolWorker-1] ACTION ID: 69 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,439: INFO/ForkPoolWorker-1] ACTION ID: 70 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,450: INFO/ForkPoolWorker-1] ACTION ID: 71 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,461: INFO/ForkPoolWorker-1] ACTION ID: 72 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,473: INFO/ForkPoolWorker-1] ACTION ID: 73 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,483: INFO/ForkPoolWorker-1] ACTION ID: 74 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,494: INFO/ForkPoolWorker-1] ACTION ID: 75 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,507: INFO/ForkPoolWorker-1] ACTION ID: 76 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,517: INFO/ForkPoolWorker-1] ACTION ID: 77 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,528: INFO/ForkPoolWorker-1] ACTION ID: 78 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,539: INFO/ForkPoolWorker-1] ACTION ID: 79 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,550: INFO/ForkPoolWorker-1] ACTION ID: 80 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,561: INFO/ForkPoolWorker-1] ACTION ID: 81 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,572: INFO/ForkPoolWorker-1] ACTION ID: 82 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,583: INFO/ForkPoolWorker-1] ACTION ID: 83 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,594: INFO/ForkPoolWorker-1] ACTION ID: 84 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,606: INFO/ForkPoolWorker-1] ACTION ID: 85 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,616: INFO/ForkPoolWorker-1] ACTION ID: 86 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,627: INFO/ForkPoolWorker-1] ACTION ID: 87 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,639: INFO/ForkPoolWorker-1] ACTION ID: 88 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,649: INFO/ForkPoolWorker-1] ACTION ID: 89 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,660: INFO/ForkPoolWorker-1] ACTION ID: 90 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,673: INFO/ForkPoolWorker-1] ACTION ID: 91 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,683: INFO/ForkPoolWorker-1] ACTION ID: 92 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,694: INFO/ForkPoolWorker-1] ACTION ID: 93 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,705: INFO/ForkPoolWorker-1] ACTION ID: 94 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,716: INFO/ForkPoolWorker-1] ACTION ID: 95 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,727: INFO/ForkPoolWorker-1] ACTION ID: 96 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,738: INFO/ForkPoolWorker-1] ACTION ID: 97 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,749: INFO/ForkPoolWorker-1] ACTION ID: 98 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,760: INFO/ForkPoolWorker-1] ACTION ID: 99 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,771: INFO/ForkPoolWorker-1] ACTION ID: 100 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,782: INFO/ForkPoolWorker-1] ACTION ID: 101 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,794: INFO/ForkPoolWorker-1] ACTION ID: 102 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,804: INFO/ForkPoolWorker-1] ACTION ID: 103 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,816: INFO/ForkPoolWorker-1] ACTION ID: 104 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,827: INFO/ForkPoolWorker-1] ACTION ID: 105 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,838: INFO/ForkPoolWorker-1] ACTION ID: 106 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,849: INFO/ForkPoolWorker-1] ACTION ID: 107 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,860: INFO/ForkPoolWorker-1] ACTION ID: 108 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,871: INFO/ForkPoolWorker-1] ACTION ID: 109 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,882: INFO/ForkPoolWorker-1] ACTION ID: 110 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,893: INFO/ForkPoolWorker-1] ACTION ID: 111 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,904: INFO/ForkPoolWorker-1] ACTION ID: 112 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,915: INFO/ForkPoolWorker-1] ACTION ID: 113 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,926: INFO/ForkPoolWorker-1] ACTION ID: 114 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:08,937: INFO/ForkPoolWorker-1] ACTION ID: 115 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,004: INFO/ForkPoolWorker-1] ACTION ID: 116 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,070: INFO/ForkPoolWorker-1] ACTION ID: 117 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,081: INFO/ForkPoolWorker-1] ACTION ID: 118 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,092: INFO/ForkPoolWorker-1] ACTION ID: 119 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,103: INFO/ForkPoolWorker-1] ACTION ID: 120 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,114: INFO/ForkPoolWorker-1] ACTION ID: 121 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,126: INFO/ForkPoolWorker-1] ACTION ID: 122 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,137: INFO/ForkPoolWorker-1] ACTION ID: 123 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,148: INFO/ForkPoolWorker-1] ACTION ID: 124 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,159: INFO/ForkPoolWorker-1] ACTION ID: 125 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,170: INFO/ForkPoolWorker-1] ACTION ID: 126 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,181: INFO/ForkPoolWorker-1] ACTION ID: 127 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,192: INFO/ForkPoolWorker-1] ACTION ID: 128 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,203: INFO/ForkPoolWorker-1] ACTION ID: 129 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,214: INFO/ForkPoolWorker-1] ACTION ID: 130 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,225: INFO/ForkPoolWorker-1] ACTION ID: 131 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,236: INFO/ForkPoolWorker-1] ACTION ID: 132 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,247: INFO/ForkPoolWorker-1] ACTION ID: 133 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,259: INFO/ForkPoolWorker-1] ACTION ID: 134 ALL ACTIONS: <QuerySet []>
+[2017-09-19 10:36:09,368: INFO/ForkPoolWorker-1] Task main.tasks.get_game_actions[d16658ae-eda9-4cb3-abd7-e74dae1968aa] succeeded in 8.778031139000632s: None
+[2017-09-19 10:36:09,601: INFO/MainProcess] Received task: main.tasks.check_playing[b8ed90ef-60c4-4897-b28e-e5a5ad37c653]  
+[2017-09-19 10:36:09,610: INFO/MainProcess] Received task: main.tasks.check_future[3f23f685-810c-4caf-83ff-f4cb389187d3]  
+[2017-09-19 10:36:09,616: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:09,800: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[b8ed90ef-60c4-4897-b28e-e5a5ad37c653] succeeded in 0.19818768000004638s: None
+[2017-09-19 10:36:09,845: INFO/ForkPoolWorker-1] Task main.tasks.check_future[3f23f685-810c-4caf-83ff-f4cb389187d3] succeeded in 0.23409020000053715s: None
+[2017-09-19 10:36:12,609: INFO/MainProcess] Received task: main.tasks.check_future[1d2a4843-abd8-406c-ab8f-47cd2cd33c4b]  
+[2017-09-19 10:36:12,618: INFO/MainProcess] Received task: main.tasks.check_playing[f8fdddec-d892-47f3-921d-ec503ed957ff]  
+[2017-09-19 10:36:12,637: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:12,737: INFO/ForkPoolWorker-4] Task main.tasks.check_future[1d2a4843-abd8-406c-ab8f-47cd2cd33c4b] succeeded in 0.12665857800038793s: None
+[2017-09-19 10:36:12,770: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[f8fdddec-d892-47f3-921d-ec503ed957ff] succeeded in 0.15155107000009593s: None
+[2017-09-19 10:36:15,614: INFO/MainProcess] Received task: main.tasks.check_playing[ba28f53f-f607-4c38-9471-f74fe6f91927]  
+[2017-09-19 10:36:15,619: INFO/MainProcess] Received task: main.tasks.check_future[b0a2f3de-6ca2-4e7d-bb0b-f402ee2a81e9]  
+[2017-09-19 10:36:15,629: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:15,729: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[ba28f53f-f607-4c38-9471-f74fe6f91927] succeeded in 0.1142953309999939s: None
+[2017-09-19 10:36:15,763: INFO/ForkPoolWorker-1] Task main.tasks.check_future[b0a2f3de-6ca2-4e7d-bb0b-f402ee2a81e9] succeeded in 0.14203620600073918s: None
+[2017-09-19 10:36:18,621: INFO/MainProcess] Received task: main.tasks.check_future[55141e54-92d8-4e42-9045-5dda90c3e4de]  
+[2017-09-19 10:36:18,628: INFO/MainProcess] Received task: main.tasks.check_playing[72d930fc-9d54-4436-8820-d36197d7a235]  
+[2017-09-19 10:36:18,642: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:18,745: INFO/ForkPoolWorker-4] Task main.tasks.check_future[55141e54-92d8-4e42-9045-5dda90c3e4de] succeeded in 0.12209715199969651s: None
+[2017-09-19 10:36:18,778: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[72d930fc-9d54-4436-8820-d36197d7a235] succeeded in 0.14662531100020715s: None
+[2017-09-19 10:36:21,630: INFO/MainProcess] Received task: main.tasks.check_playing[d40d82af-43aa-42bb-b37c-f7fc58ab1ef7]  
+[2017-09-19 10:36:21,638: INFO/MainProcess] Received task: main.tasks.check_future[811a6e92-64cf-4375-ad88-af7b47411a62]  
+[2017-09-19 10:36:21,645: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:21,781: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[d40d82af-43aa-42bb-b37c-f7fc58ab1ef7] succeeded in 0.14986527299970476s: None
+[2017-09-19 10:36:21,826: INFO/ForkPoolWorker-1] Task main.tasks.check_future[811a6e92-64cf-4375-ad88-af7b47411a62] succeeded in 0.18581700699996873s: None
+[2017-09-19 10:36:24,638: INFO/MainProcess] Received task: main.tasks.check_future[8235bc85-12cf-4334-9868-de758927bba6]  
+[2017-09-19 10:36:24,647: INFO/MainProcess] Received task: main.tasks.check_playing[b7252dd8-772a-47ad-b547-f15c5ad53e9b]  
+[2017-09-19 10:36:24,671: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:24,774: INFO/ForkPoolWorker-4] Task main.tasks.check_future[8235bc85-12cf-4334-9868-de758927bba6] succeeded in 0.13217665600041073s: None
+[2017-09-19 10:36:24,807: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[b7252dd8-772a-47ad-b547-f15c5ad53e9b] succeeded in 0.15840245800063713s: None
+[2017-09-19 10:36:27,646: INFO/MainProcess] Received task: main.tasks.check_playing[7cff7bd6-5565-4069-915d-819088f31c80]  
+[2017-09-19 10:36:27,657: INFO/MainProcess] Received task: main.tasks.check_future[37810e45-0190-48d0-b8a5-1792d4de9f71]  
+[2017-09-19 10:36:27,669: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:27,787: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[7cff7bd6-5565-4069-915d-819088f31c80] succeeded in 0.13884404500004166s: None
+[2017-09-19 10:36:27,821: INFO/ForkPoolWorker-1] Task main.tasks.check_future[37810e45-0190-48d0-b8a5-1792d4de9f71] succeeded in 0.16255196800011618s: None
+[2017-09-19 10:36:30,652: INFO/MainProcess] Received task: main.tasks.check_future[7bdd0861-5aaf-4e62-9e9d-62105b480487]  
+[2017-09-19 10:36:30,658: INFO/MainProcess] Received task: main.tasks.check_playing[1c6187fe-e117-4bac-9b9c-0f09e9acb07d]  
+[2017-09-19 10:36:30,675: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:30,803: INFO/ForkPoolWorker-4] Task main.tasks.check_future[7bdd0861-5aaf-4e62-9e9d-62105b480487] succeeded in 0.14865202199962368s: None
+[2017-09-19 10:36:30,847: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[1c6187fe-e117-4bac-9b9c-0f09e9acb07d] succeeded in 0.18710142899999482s: None
+[2017-09-19 10:36:33,659: INFO/MainProcess] Received task: main.tasks.check_playing[9bfcf38e-efe1-4b67-a0c9-e91a6f77f792]  
+[2017-09-19 10:36:33,664: INFO/MainProcess] Received task: main.tasks.check_future[0f726a9e-a107-49bb-8dce-289c87e9e95e]  
+[2017-09-19 10:36:33,674: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:33,816: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[9bfcf38e-efe1-4b67-a0c9-e91a6f77f792] succeeded in 0.15646218900019448s: None
+[2017-09-19 10:36:33,861: INFO/ForkPoolWorker-1] Task main.tasks.check_future[0f726a9e-a107-49bb-8dce-289c87e9e95e] succeeded in 0.1951357360003385s: None
+[2017-09-19 10:36:36,664: INFO/MainProcess] Received task: main.tasks.check_future[0084454e-f063-4f02-b9e8-ee0a9bcb42b4]  
+[2017-09-19 10:36:36,669: INFO/MainProcess] Received task: main.tasks.check_playing[366443f6-95ae-4a05-be46-c5d9fdb39702]  
+[2017-09-19 10:36:36,689: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:36,785: INFO/ForkPoolWorker-4] Task main.tasks.check_future[0084454e-f063-4f02-b9e8-ee0a9bcb42b4] succeeded in 0.1205382259995531s: None
+[2017-09-19 10:36:36,819: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[366443f6-95ae-4a05-be46-c5d9fdb39702] succeeded in 0.14689022599941381s: None
+[2017-09-19 10:36:39,669: INFO/MainProcess] Received task: main.tasks.check_playing[2042f710-158d-4d04-b0cd-77e33463a53b]  
+[2017-09-19 10:36:39,675: INFO/MainProcess] Received task: main.tasks.check_future[5f5d3b0f-5748-44cf-a665-21f6300b5b84]  
+[2017-09-19 10:36:39,687: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:39,799: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[2042f710-158d-4d04-b0cd-77e33463a53b] succeeded in 0.12864401199931308s: None
+[2017-09-19 10:36:39,833: INFO/ForkPoolWorker-1] Task main.tasks.check_future[5f5d3b0f-5748-44cf-a665-21f6300b5b84] succeeded in 0.15512013500028843s: None
+[2017-09-19 10:36:42,679: INFO/MainProcess] Received task: main.tasks.check_future[4443b94c-8ed5-478d-bb3a-c954385ffbbe]  
+[2017-09-19 10:36:42,690: INFO/MainProcess] Received task: main.tasks.check_playing[2c04b96f-005a-436e-bbbc-0d4a46e92237]  
+[2017-09-19 10:36:42,704: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:42,836: INFO/ForkPoolWorker-4] Task main.tasks.check_future[4443b94c-8ed5-478d-bb3a-c954385ffbbe] succeeded in 0.15480452700012393s: None
+[2017-09-19 10:36:42,936: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[2c04b96f-005a-436e-bbbc-0d4a46e92237] succeeded in 0.24486645799970574s: None
+[2017-09-19 10:36:45,687: INFO/MainProcess] Received task: main.tasks.check_playing[ca7a2aaf-4c53-4a02-9631-0a133694387f]  
+[2017-09-19 10:36:45,695: INFO/MainProcess] Received task: main.tasks.check_future[5afd4b1c-c1fd-4c51-9e2a-52640b8bf489]  
+[2017-09-19 10:36:45,705: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:45,841: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[ca7a2aaf-4c53-4a02-9631-0a133694387f] succeeded in 0.15261228300005314s: None
+[2017-09-19 10:36:45,874: INFO/ForkPoolWorker-1] Task main.tasks.check_future[5afd4b1c-c1fd-4c51-9e2a-52640b8bf489] succeeded in 0.1783170290000271s: None
+[2017-09-19 10:36:48,694: INFO/MainProcess] Received task: main.tasks.check_future[6048bf15-2dbe-41fd-ab2e-85dabe1abd95]  
+[2017-09-19 10:36:48,700: INFO/MainProcess] Received task: main.tasks.check_playing[aeecdecd-6bed-4c55-8b48-b409b057b5fc]  
+[2017-09-19 10:36:48,721: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:48,844: INFO/ForkPoolWorker-4] Task main.tasks.check_future[6048bf15-2dbe-41fd-ab2e-85dabe1abd95] succeeded in 0.1477306380002119s: None
+[2017-09-19 10:36:48,877: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[aeecdecd-6bed-4c55-8b48-b409b057b5fc] succeeded in 0.17579473799924017s: None
+[2017-09-19 10:36:51,698: INFO/MainProcess] Received task: main.tasks.check_playing[c929121c-5dc4-40c8-a6ba-d3c640628968]  
+[2017-09-19 10:36:51,703: INFO/MainProcess] Received task: main.tasks.check_future[fe583cf6-27b8-4010-ae43-dd6d713f7ca6]  
+[2017-09-19 10:36:51,712: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:51,871: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[c929121c-5dc4-40c8-a6ba-d3c640628968] succeeded in 0.1720987779999632s: None
+[2017-09-19 10:36:51,905: INFO/ForkPoolWorker-1] Task main.tasks.check_future[fe583cf6-27b8-4010-ae43-dd6d713f7ca6] succeeded in 0.2003745620004338s: None
+[2017-09-19 10:36:54,706: INFO/MainProcess] Received task: main.tasks.check_future[752f44f1-def1-433e-ae1a-ebe2d1369b3c]  
+[2017-09-19 10:36:54,716: INFO/MainProcess] Received task: main.tasks.check_playing[e27c315e-4b29-49d5-be76-3a0b44483fc1]  
+[2017-09-19 10:36:54,735: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:54,830: INFO/ForkPoolWorker-4] Task main.tasks.check_future[752f44f1-def1-433e-ae1a-ebe2d1369b3c] succeeded in 0.12195188500027143s: None
+[2017-09-19 10:36:54,863: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[e27c315e-4b29-49d5-be76-3a0b44483fc1] succeeded in 0.14503793699987s: None
+[2017-09-19 10:36:57,714: INFO/MainProcess] Received task: main.tasks.check_playing[d767f3fa-8ce5-4e73-9033-fa81fd074968]  
+[2017-09-19 10:36:57,721: INFO/MainProcess] Received task: main.tasks.check_future[9004234d-8e30-4a01-8f74-9732157f8ea6]  
+[2017-09-19 10:36:57,733: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:36:57,855: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[d767f3fa-8ce5-4e73-9033-fa81fd074968] succeeded in 0.13892033799947967s: None
+[2017-09-19 10:36:57,889: INFO/ForkPoolWorker-1] Task main.tasks.check_future[9004234d-8e30-4a01-8f74-9732157f8ea6] succeeded in 0.16552058399975067s: None
+[2017-09-19 10:37:00,719: INFO/MainProcess] Received task: main.tasks.check_future[2152963b-b2ea-4f42-a9bd-d2b19c35c3ea]  
+[2017-09-19 10:37:00,728: INFO/MainProcess] Received task: main.tasks.check_playing[8d273267-bed0-4e8a-8da5-428befcea365]  
+[2017-09-19 10:37:00,742: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:37:00,879: INFO/ForkPoolWorker-4] Task main.tasks.check_future[2152963b-b2ea-4f42-a9bd-d2b19c35c3ea] succeeded in 0.1591380929994557s: None
+[2017-09-19 10:37:00,924: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[8d273267-bed0-4e8a-8da5-428befcea365] succeeded in 0.19427205600004527s: None
+[2017-09-19 10:37:03,727: INFO/MainProcess] Received task: main.tasks.check_playing[a593844d-be6c-4eef-b1cb-b9c70e03be98]  
+[2017-09-19 10:37:03,735: INFO/MainProcess] Received task: main.tasks.check_future[1fc004bc-8d54-4d29-9f9b-464c99aced0a]  
+[2017-09-19 10:37:03,749: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:37:03,861: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[a593844d-be6c-4eef-b1cb-b9c70e03be98] succeeded in 0.1309096380000483s: None
+[2017-09-19 10:37:03,894: INFO/ForkPoolWorker-1] Task main.tasks.check_future[1fc004bc-8d54-4d29-9f9b-464c99aced0a] succeeded in 0.15703233699969132s: None
+[2017-09-19 10:37:06,733: INFO/MainProcess] Received task: main.tasks.check_future[0205794d-b1ab-4d6e-8c58-731042e920b1]  
+[2017-09-19 10:37:06,743: INFO/MainProcess] Received task: main.tasks.check_playing[d5073bfa-59d7-469e-b129-b528dbc75b4c]  
+[2017-09-19 10:37:06,766: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:37:06,863: INFO/ForkPoolWorker-4] Task main.tasks.check_future[0205794d-b1ab-4d6e-8c58-731042e920b1] succeeded in 0.128524830999595s: None
+[2017-09-19 10:37:06,897: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[d5073bfa-59d7-469e-b129-b528dbc75b4c] succeeded in 0.15120307200049865s: None
+[2017-09-19 10:37:09,741: INFO/MainProcess] Received task: main.tasks.check_playing[89567c8a-bf3d-41bf-9dd7-d33c5c971f11]  
+[2017-09-19 10:37:09,748: INFO/MainProcess] Received task: main.tasks.check_future[63036ccf-7d0e-4bd7-b58f-b1ec0f2dcc22]  
+[2017-09-19 10:37:09,757: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:37:09,855: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[89567c8a-bf3d-41bf-9dd7-d33c5c971f11] succeeded in 0.11203146499974537s: None
+[2017-09-19 10:37:09,888: INFO/ForkPoolWorker-1] Task main.tasks.check_future[63036ccf-7d0e-4bd7-b58f-b1ec0f2dcc22] succeeded in 0.13885323499926017s: None
+[2017-09-19 10:37:12,746: INFO/MainProcess] Received task: main.tasks.check_future[0f509973-c1f9-4e3f-be86-b4beb8c3925d]  
+[2017-09-19 10:37:12,751: INFO/MainProcess] Received task: main.tasks.check_playing[cbe85501-00ef-414d-8262-04c849c59733]  
+[2017-09-19 10:37:12,765: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:37:13,014: INFO/ForkPoolWorker-4] Task main.tasks.check_future[0f509973-c1f9-4e3f-be86-b4beb8c3925d] succeeded in 0.2668473110006744s: None
+[2017-09-19 10:37:13,060: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[cbe85501-00ef-414d-8262-04c849c59733] succeeded in 0.3076599380001426s: None
+[2017-09-19 10:37:15,749: INFO/MainProcess] Received task: main.tasks.check_playing[ceaae953-9b8e-4ded-bac0-0ab8d0887631]  
+[2017-09-19 10:37:15,754: INFO/MainProcess] Received task: main.tasks.check_future[84922359-1e85-4085-918b-c91d7cb71877]  
+[2017-09-19 10:37:15,767: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:37:15,885: INFO/ForkPoolWorker-1] Task main.tasks.check_future[84922359-1e85-4085-918b-c91d7cb71877] succeeded in 0.12939960600033373s: None
+[2017-09-19 10:37:15,885: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[ceaae953-9b8e-4ded-bac0-0ab8d0887631] succeeded in 0.13418095699944388s: None
+[2017-09-19 10:37:18,757: INFO/MainProcess] Received task: main.tasks.check_future[7d6037a3-fd89-4b3d-8bdc-7d6c9d197edd]  
+[2017-09-19 10:37:18,766: INFO/MainProcess] Received task: main.tasks.check_playing[21ba941a-0f19-4768-9498-154a1a276168]  
+[2017-09-19 10:37:18,779: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:37:18,909: INFO/ForkPoolWorker-4] Task main.tasks.check_future[7d6037a3-fd89-4b3d-8bdc-7d6c9d197edd] succeeded in 0.1504553680006211s: None
+[2017-09-19 10:37:18,953: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[21ba941a-0f19-4768-9498-154a1a276168] succeeded in 0.1857660269997723s: None
+[2017-09-19 10:37:21,764: INFO/MainProcess] Received task: main.tasks.check_playing[4980ee35-7e4f-44c4-89a4-86da529a8459]  
+[2017-09-19 10:37:21,775: INFO/MainProcess] Received task: main.tasks.check_future[b51c87fe-1ff4-484f-9c91-779317451031]  
+[2017-09-19 10:37:21,787: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:37:21,923: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[4980ee35-7e4f-44c4-89a4-86da529a8459] succeeded in 0.1561919730002046s: None
+[2017-09-19 10:37:21,968: INFO/ForkPoolWorker-1] Task main.tasks.check_future[b51c87fe-1ff4-484f-9c91-779317451031] succeeded in 0.19183605299986084s: None
+[2017-09-19 10:37:24,772: INFO/MainProcess] Received task: main.tasks.check_future[f7fb81fc-a075-4e5b-b898-9c7f89109f5a]  
+[2017-09-19 10:37:24,779: INFO/MainProcess] Received task: main.tasks.check_playing[ca91e2d9-fcf2-4bf8-a2ca-40755d9fa507]  
+[2017-09-19 10:37:24,799: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:37:24,926: INFO/ForkPoolWorker-4] Task main.tasks.check_future[f7fb81fc-a075-4e5b-b898-9c7f89109f5a] succeeded in 0.15262412499942002s: None
+[2017-09-19 10:37:24,970: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[ca91e2d9-fcf2-4bf8-a2ca-40755d9fa507] succeeded in 0.1869913959999394s: None
+[2017-09-19 10:37:27,779: INFO/MainProcess] Received task: main.tasks.check_playing[10f7a4ec-fd84-4f3b-bef2-b5d399738472]  
+[2017-09-19 10:37:27,785: INFO/MainProcess] Received task: main.tasks.check_future[6a003339-b457-415e-bb21-826435423132]  
+[2017-09-19 10:37:27,792: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:37:27,929: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[10f7a4ec-fd84-4f3b-bef2-b5d399738472] succeeded in 0.14885152899933018s: None
+[2017-09-19 10:37:27,963: INFO/ForkPoolWorker-1] Task main.tasks.check_future[6a003339-b457-415e-bb21-826435423132] succeeded in 0.17634293499941123s: None
+[2017-09-19 10:37:30,786: INFO/MainProcess] Received task: main.tasks.check_future[f5f5af74-9ccc-4d80-ad7c-22298310d003]  
+[2017-09-19 10:37:30,793: INFO/MainProcess] Received task: main.tasks.check_playing[678501f1-4d3c-42e8-a3d1-1091ac63f68a]  
+[2017-09-19 10:37:30,813: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:37:30,943: INFO/ForkPoolWorker-4] Task main.tasks.check_future[f5f5af74-9ccc-4d80-ad7c-22298310d003] succeeded in 0.15612436199990043s: None
+[2017-09-19 10:37:30,987: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[678501f1-4d3c-42e8-a3d1-1091ac63f68a] succeeded in 0.19340316000034363s: None
+[2017-09-19 10:37:33,792: INFO/MainProcess] Received task: main.tasks.check_playing[a98825b7-bc55-4e99-b2bc-3b1f3c9e2768]  
+[2017-09-19 10:37:33,797: INFO/MainProcess] Received task: main.tasks.check_future[77eb247d-33c9-4966-a284-a1d9a9d7b5ef]  
+[2017-09-19 10:37:33,807: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:37:33,956: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[a98825b7-bc55-4e99-b2bc-3b1f3c9e2768] succeeded in 0.16333579299953271s: None
+[2017-09-19 10:37:33,990: INFO/ForkPoolWorker-1] Task main.tasks.check_future[77eb247d-33c9-4966-a284-a1d9a9d7b5ef] succeeded in 0.1910859290001099s: None
+[2017-09-19 10:37:36,800: INFO/MainProcess] Received task: main.tasks.check_future[896ec017-f3dd-4196-b366-a42ed24f4de8]  
+[2017-09-19 10:37:36,808: INFO/MainProcess] Received task: main.tasks.check_playing[ad015d68-c571-418e-8b99-b9533e42cc40]  
+[2017-09-19 10:37:36,832: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 10:37:36,938: INFO/ForkPoolWorker-4] Task main.tasks.check_future[896ec017-f3dd-4196-b366-a42ed24f4de8] succeeded in 0.13662448300055985s: None
+[2017-09-19 10:37:36,993: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[ad015d68-c571-418e-8b99-b9533e42cc40] succeeded in 0.1838036489998558s: None

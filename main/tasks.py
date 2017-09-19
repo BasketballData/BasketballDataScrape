@@ -1,5 +1,6 @@
 import logging
 import time
+import json
 
 from django.db import IntegrityError
 
@@ -34,6 +35,10 @@ def add_player(player_info):
 @shared_task
 def get_game_actions(code, period=None):
     """ Gets all actions and stores to database """
+    action_text_json = None
+    with open('main/utils/actions.json') as f:
+        action_text_json = json.load(f)
+
     current_game = models.Game.objects.get(code=code)
     game = Fiba_Game(code)
     actions = game.get_actions(period)
@@ -72,6 +77,29 @@ def get_game_actions(code, period=None):
         except Exception as e:
             logger.info("ERROR IN ACTION UID. %s" % e)
             return int(action['Id'])
+    
+    def _get_action_text(action):
+        action_text = action.get('Action', '')
+        if not action_text:
+            action_name = '%s|%s|%s|%s|%s'
+            action_code = action.get('AC', '')
+            action_z1 = action.get('Z1', '')
+            action_z2 = action.get('Z2', '')
+            action_z3 = action.get('Z3', '')
+            action_su = action.get('SU', '')
+            action_name = action_name % (
+                                        action_code,
+                                        action_z1,
+                                        action_z2,
+                                        action_z3,
+                                        action_su)
+            try:
+                action_text = action_text_json['content']['full']['actions'][action_name]
+                return action_text
+            except:
+                return action_text
+        return action_text
+
 
     current_score = {'team_a': 0, 'team_b': 0}
 
@@ -84,13 +112,13 @@ def get_game_actions(code, period=None):
             current_score['team_b'] = splited_score[1]
         
         action_uid = _get_action_uid(action)
-        if not action_uid in all_actions: # ERROR HERE. NEED TO GET ACTION FIRST
+        if not action_uid in all_actions:
             logger.info('ACTION ID: %s ALL ACTIONS: %s' % (action_uid, all_actions))
             # Maybe add this to separate Celery tasks (?)
             models.Actions.objects.create(
                 game=current_game,
                 action_code=action.get('AC', ''),
-                action_text=action.get('Action', ''),
+                action_text=_get_action_text(action),
                 action_uid=action_uid,
                 time=action.get('Time', ''),
                 epoch_time=_clean_time(action.get('GT', '')),
@@ -103,6 +131,7 @@ def get_game_actions(code, period=None):
                 team=_get_team(action.get('T1', '')),
                 team_a_score=current_score['team_a'],
                 team_b_score=current_score['team_b'],
+                period=action.get('action_period')
             )
 
 @shared_task
@@ -162,7 +191,12 @@ def check_playing():
     logger.info('Checking for games in PLAYING state. FOUND: %s' % len(games))
     for game in games:
         update_game_info.delay(game.pk)
-        get_game_actions.delay(game.code, game.current_period)
+        if game.init_scrape:
+            get_game_actions.delay(game.code)
+            game.init_scrape = False
+            game.save()
+        else:
+            get_game_actions.delay(game.code, game.current_period)
 
 
 @shared_task

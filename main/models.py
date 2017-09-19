@@ -45,6 +45,7 @@ class Game(models.Model):
     start_time = models.BigIntegerField(default=0, blank=True, null=True)
     location = models.ForeignKey(Location, blank=True, null=True)
     time = models.CharField(max_length=30, blank=True)
+    init_scrape = models.BooleanField(default=True)
 
     def save(self, force_insert=False, force_update=False):
         if not self.team_a or not self.team_b:
@@ -96,6 +97,7 @@ class Player(models.Model):
     last_name = models.CharField(max_length=300)
     team = models.ForeignKey(Team, on_delete=models.CASCADE)
     headshot = models.CharField(max_length=500)
+    shirt_number = models.IntegerField()
 
     def get_full_name(self):
         return self.first_name + ' ' + self.last_name
@@ -119,9 +121,11 @@ class Actions(models.Model):
                                 related_name='%(class)s_subs_in') # C2 | On SUBS Player field -OUT subs_in +IN
     plus_minus = models.CharField(max_length=30,blank=True, null=True)
     team = models.ForeignKey(Team, blank=True, null=True)
+    period = models.CharField(max_length=30,blank=True, null=True)
 
     class Meta:
-        ordering = ['-action_uid']
+        ordering = ['-period', '-action_uid']
+        verbose_name = "Action"
 
     def get_utc_time(self):
         return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(self.epoch_time))

@@ -128,6 +128,7 @@ class Fiba_Game:
                     'first_name': value['FirstName'],
                     'last_name': value['Name'],
                     'headshot': value['HeadShot'],
+                    'shirt_number': value['Bib'],
                     'team_unique_id': value['ParentId']
                 }
                 players.append(player)
@@ -159,7 +160,14 @@ class Fiba_Game:
                 response = self._make_request(BASE_ACTIONS_INFO, self.league, self.game, start_period)
                 if not response:
                     break
-                actions = actions + response['content']['full']['Items']
+
+                actions_temp = response['content']['full']['Items']
+                actions_full = []
+                for action in actions_temp:
+                    action['action_period'] = start_period.strip('_')
+                    actions_full.append(action)
+
+                actions = actions + actions_full
                 for item in response['content']['full']['Items']:
                     if item['AC'] == 'ENDG':
                         # Game Ended
@@ -179,8 +187,12 @@ class Fiba_Game:
             # Get particular period
             period = period + '_'
             response = self._make_request(BASE_ACTIONS_INFO, self.league, self.game, period)
-            actions = response['content']['full']['Items']
-            return actions
+            actions_temp = response['content']['full']['Items']
+            actions_full = []
+            for action in actions_temp:
+                action['action_period'] = period.strip('_')
+                actions_full.append(period)
+            return actions_full
     
     def data_available(self):
         """ 
