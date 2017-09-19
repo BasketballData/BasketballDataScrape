@@ -5130,3 +5130,388 @@ AttributeError: 'str' object has no attribute 'get'
 [2017-09-19 12:10:29,698: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
 [2017-09-19 12:10:30,201: INFO/ForkPoolWorker-1] Task main.tasks.check_future[3eeb62c8-8d1b-4719-b106-e4cc863777a4] succeeded in 0.5197014620007394s: None
 [2017-09-19 12:10:30,311: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[8d9c5ece-7c5e-47db-aad1-b57dd5654ccd] succeeded in 0.6241949240011309s: None
+[2017-09-19 12:10:32,684: INFO/MainProcess] Received task: main.tasks.check_playing[559aeadf-2460-49c6-8761-efb037038e58]  
+[2017-09-19 12:10:32,690: INFO/MainProcess] Received task: main.tasks.check_future[f1086bf2-10ad-4fb5-81cc-7fdac14da15c]  
+[2017-09-19 12:10:32,699: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:10:32,808: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[559aeadf-2460-49c6-8761-efb037038e58] succeeded in 0.12297912199937855s: None
+[2017-09-19 12:10:32,841: INFO/ForkPoolWorker-4] Task main.tasks.check_future[f1086bf2-10ad-4fb5-81cc-7fdac14da15c] succeeded in 0.15011656699971354s: None
+[2017-09-19 12:10:35,691: INFO/MainProcess] Received task: main.tasks.check_future[285c2576-a491-4634-9240-b4c80f9e1997]  
+[2017-09-19 12:10:35,700: INFO/MainProcess] Received task: main.tasks.check_playing[e9684e55-c520-4a37-ad27-5345dbfe2a48]  
+[2017-09-19 12:10:35,717: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:10:35,868: INFO/ForkPoolWorker-1] Task main.tasks.check_future[285c2576-a491-4634-9240-b4c80f9e1997] succeeded in 0.17424025800028176s: None
+[2017-09-19 12:10:35,901: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[e9684e55-c520-4a37-ad27-5345dbfe2a48] succeeded in 0.1997759549994953s: None
+[2017-09-19 12:10:38,696: INFO/MainProcess] Received task: main.tasks.check_playing[dfca600e-cad4-49d4-ade4-5e60f58297e0]  
+[2017-09-19 12:10:38,703: INFO/MainProcess] Received task: main.tasks.check_future[1165abb8-e94c-4405-8285-607cb011eb05]  
+[2017-09-19 12:10:38,710: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:10:38,815: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[dfca600e-cad4-49d4-ade4-5e60f58297e0] succeeded in 0.11708125199947972s: None
+[2017-09-19 12:10:38,859: INFO/ForkPoolWorker-4] Task main.tasks.check_future[1165abb8-e94c-4405-8285-607cb011eb05] succeeded in 0.1542281339989131s: None
+[2017-09-19 12:10:41,705: INFO/MainProcess] Received task: main.tasks.check_future[288b577c-b30c-4215-8359-8f0d69f3cc80]  
+[2017-09-19 12:10:41,718: INFO/MainProcess] Received task: main.tasks.check_playing[86802950-b559-486e-8f21-cf54af120ff4]  
+[2017-09-19 12:10:41,731: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:10:41,851: INFO/ForkPoolWorker-1] Task main.tasks.check_future[288b577c-b30c-4215-8359-8f0d69f3cc80] succeeded in 0.14333346400053415s: None
+[2017-09-19 12:10:41,884: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[86802950-b559-486e-8f21-cf54af120ff4] succeeded in 0.16498477899949648s: None
+[2017-09-19 12:10:44,711: INFO/MainProcess] Received task: main.tasks.check_playing[5dc2fc16-3c7d-4f1d-9181-d47fe11d5eca]  
+[2017-09-19 12:10:44,717: INFO/MainProcess] Received task: main.tasks.check_future[6024ab16-15fc-4290-b6f0-d27e5640afcd]  
+[2017-09-19 12:10:44,726: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:10:44,843: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[5dc2fc16-3c7d-4f1d-9181-d47fe11d5eca] succeeded in 0.13049675000002026s: None
+[2017-09-19 12:10:44,875: INFO/ForkPoolWorker-4] Task main.tasks.check_future[6024ab16-15fc-4290-b6f0-d27e5640afcd] succeeded in 0.1571287749993644s: None
+[2017-09-19 12:10:47,720: INFO/MainProcess] Received task: main.tasks.check_future[ab04cd46-6e95-43e5-8614-95b84870fe10]  
+[2017-09-19 12:10:47,729: INFO/MainProcess] Received task: main.tasks.check_playing[038c6fb2-9fb2-4410-b400-3e522babc118]  
+[2017-09-19 12:10:47,745: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:10:47,912: INFO/ForkPoolWorker-1] Task main.tasks.check_future[ab04cd46-6e95-43e5-8614-95b84870fe10] succeeded in 0.1909361070011073s: None
+[2017-09-19 12:10:47,972: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[038c6fb2-9fb2-4410-b400-3e522babc118] succeeded in 0.24166489600065688s: None
+[2017-09-19 12:10:50,725: INFO/MainProcess] Received task: main.tasks.check_playing[d5d428f6-4fbb-4fff-b776-2bbd11757e04]  
+[2017-09-19 12:10:50,732: INFO/MainProcess] Received task: main.tasks.check_future[6a4cfe06-83e0-4aa0-97ab-9cace5cdce89]  
+[2017-09-19 12:10:50,743: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:10:50,882: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[d5d428f6-4fbb-4fff-b776-2bbd11757e04] succeeded in 0.15581099400151288s: None
+[2017-09-19 12:10:50,937: INFO/ForkPoolWorker-4] Task main.tasks.check_future[6a4cfe06-83e0-4aa0-97ab-9cace5cdce89] succeeded in 0.20390781899914145s: None
+[2017-09-19 12:10:53,732: INFO/MainProcess] Received task: main.tasks.check_future[9bf4e816-3328-4761-8661-664fd2dcd9d4]  
+[2017-09-19 12:10:53,740: INFO/MainProcess] Received task: main.tasks.check_playing[96476bdc-c340-467f-a348-0f6b6a9e2680]  
+[2017-09-19 12:10:53,754: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:10:53,873: INFO/ForkPoolWorker-1] Task main.tasks.check_future[9bf4e816-3328-4761-8661-664fd2dcd9d4] succeeded in 0.1394968250006059s: None
+[2017-09-19 12:10:53,907: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[96476bdc-c340-467f-a348-0f6b6a9e2680] succeeded in 0.16471357499904116s: None
+[2017-09-19 12:10:56,738: INFO/MainProcess] Received task: main.tasks.check_playing[5ccd0beb-b305-4a6e-9394-6f268060073d]  
+[2017-09-19 12:10:56,744: INFO/MainProcess] Received task: main.tasks.check_future[57cce5d7-03b6-49aa-8130-5c9997b96766]  
+[2017-09-19 12:10:56,753: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:10:57,055: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[5ccd0beb-b305-4a6e-9394-6f268060073d] succeeded in 0.3158079969998653s: None
+[2017-09-19 12:10:57,090: INFO/ForkPoolWorker-4] Task main.tasks.check_future[57cce5d7-03b6-49aa-8130-5c9997b96766] succeeded in 0.3453026890001638s: None
+[2017-09-19 12:10:59,743: INFO/MainProcess] Received task: main.tasks.check_future[8b852dad-ddc1-4f3c-afa8-5393013c46bf]  
+[2017-09-19 12:10:59,750: INFO/MainProcess] Received task: main.tasks.check_playing[5c1152b1-cb57-476c-af62-e3202d57f4c1]  
+[2017-09-19 12:10:59,767: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:10:59,871: INFO/ForkPoolWorker-1] Task main.tasks.check_future[8b852dad-ddc1-4f3c-afa8-5393013c46bf] succeeded in 0.1265542919991276s: None
+[2017-09-19 12:10:59,904: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[5c1152b1-cb57-476c-af62-e3202d57f4c1] succeeded in 0.15290328300034162s: None
+[2017-09-19 12:11:02,752: INFO/MainProcess] Received task: main.tasks.check_playing[bd78eb2a-415e-452d-a508-3aca18e96890]  
+[2017-09-19 12:11:02,763: INFO/MainProcess] Received task: main.tasks.check_future[01f45fe8-cbf7-4589-9614-1aa4b0e0bfae]  
+[2017-09-19 12:11:02,774: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:02,908: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[bd78eb2a-415e-452d-a508-3aca18e96890] succeeded in 0.1536781519989745s: None
+[2017-09-19 12:11:02,952: INFO/ForkPoolWorker-4] Task main.tasks.check_future[01f45fe8-cbf7-4589-9614-1aa4b0e0bfae] succeeded in 0.18662152300021262s: None
+[2017-09-19 12:11:05,758: INFO/MainProcess] Received task: main.tasks.check_future[42e84d09-127c-45c1-878c-577d9fb44d25]  
+[2017-09-19 12:11:05,766: INFO/MainProcess] Received task: main.tasks.check_playing[3705715b-4d91-4885-b079-02541d9a9f7c]  
+[2017-09-19 12:11:05,784: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:05,921: INFO/ForkPoolWorker-1] Task main.tasks.check_future[42e84d09-127c-45c1-878c-577d9fb44d25] succeeded in 0.1619116319998284s: None
+[2017-09-19 12:11:06,021: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[3705715b-4d91-4885-b079-02541d9a9f7c] succeeded in 0.25416841600053885s: None
+[2017-09-19 12:11:08,766: INFO/MainProcess] Received task: main.tasks.check_playing[a4f9b604-d4ad-4729-be6c-cc70d7722a8a]  
+[2017-09-19 12:11:08,772: INFO/MainProcess] Received task: main.tasks.check_future[628245dc-abff-467f-878a-28e423854f9b]  
+[2017-09-19 12:11:08,782: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:08,916: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[a4f9b604-d4ad-4729-be6c-cc70d7722a8a] succeeded in 0.1477292130002752s: None
+[2017-09-19 12:11:08,959: INFO/ForkPoolWorker-4] Task main.tasks.check_future[628245dc-abff-467f-878a-28e423854f9b] succeeded in 0.186215016999995s: None
+[2017-09-19 12:11:11,774: INFO/MainProcess] Received task: main.tasks.check_future[88ee59c5-cfd8-407b-90dd-606e2a0594f1]  
+[2017-09-19 12:11:11,781: INFO/MainProcess] Received task: main.tasks.check_playing[ac9b42a6-64bf-4ae2-a4a0-3c3e7b951c0e]  
+[2017-09-19 12:11:11,796: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:11,929: INFO/ForkPoolWorker-1] Task main.tasks.check_future[88ee59c5-cfd8-407b-90dd-606e2a0594f1] succeeded in 0.15297382199969434s: None
+[2017-09-19 12:11:11,962: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[ac9b42a6-64bf-4ae2-a4a0-3c3e7b951c0e] succeeded in 0.17898983700069948s: None
+[2017-09-19 12:11:14,779: INFO/MainProcess] Received task: main.tasks.check_playing[1072d0ee-027b-4203-aafa-70f6487dee0f]  
+[2017-09-19 12:11:14,785: INFO/MainProcess] Received task: main.tasks.check_future[572d67df-ea66-4110-a9bd-3d340d0849d4]  
+[2017-09-19 12:11:14,792: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:14,932: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[1072d0ee-027b-4203-aafa-70f6487dee0f] succeeded in 0.15173681799933547s: None
+[2017-09-19 12:11:14,976: INFO/ForkPoolWorker-4] Task main.tasks.check_future[572d67df-ea66-4110-a9bd-3d340d0849d4] succeeded in 0.19033006499921612s: None
+[2017-09-19 12:11:17,788: INFO/MainProcess] Received task: main.tasks.check_future[06271398-fafb-406d-aadf-68120656ba2a]  
+[2017-09-19 12:11:17,798: INFO/MainProcess] Received task: main.tasks.check_playing[5da79523-ea83-4eff-bbe3-82f0be7d5d73]  
+[2017-09-19 12:11:17,814: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:17,957: INFO/ForkPoolWorker-1] Task main.tasks.check_future[06271398-fafb-406d-aadf-68120656ba2a] succeeded in 0.16698075400017842s: None
+[2017-09-19 12:11:18,001: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[5da79523-ea83-4eff-bbe3-82f0be7d5d73] succeeded in 0.20105020299888565s: None
+[2017-09-19 12:11:20,794: INFO/MainProcess] Received task: main.tasks.check_playing[c5a629e5-e0a0-47f4-aeec-7d72ad14db21]  
+[2017-09-19 12:11:20,803: INFO/MainProcess] Received task: main.tasks.check_future[0c758573-6c77-4059-bb8b-49b8ae919ce9]  
+[2017-09-19 12:11:20,812: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:20,961: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[c5a629e5-e0a0-47f4-aeec-7d72ad14db21] succeeded in 0.16540764099954686s: None
+[2017-09-19 12:11:21,007: INFO/ForkPoolWorker-4] Task main.tasks.check_future[0c758573-6c77-4059-bb8b-49b8ae919ce9] succeeded in 0.20259069900021132s: None
+[2017-09-19 12:11:23,798: INFO/MainProcess] Received task: main.tasks.check_future[6ffc1d61-3288-491b-9d48-324217805795]  
+[2017-09-19 12:11:23,805: INFO/MainProcess] Received task: main.tasks.check_playing[9a23149b-abf4-4a00-a033-67503820da1b]  
+[2017-09-19 12:11:23,819: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:23,966: INFO/ForkPoolWorker-1] Task main.tasks.check_future[6ffc1d61-3288-491b-9d48-324217805795] succeeded in 0.16655427900150244s: None
+[2017-09-19 12:11:24,021: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[9a23149b-abf4-4a00-a033-67503820da1b] succeeded in 0.21459626700016088s: None
+[2017-09-19 12:11:26,803: INFO/MainProcess] Received task: main.tasks.check_playing[8fd75765-4ab9-45f7-b1b2-dc79512f618a]  
+[2017-09-19 12:11:26,810: INFO/MainProcess] Received task: main.tasks.check_future[1482ca10-a1e3-4a61-871e-3f2cd980de86]  
+[2017-09-19 12:11:26,817: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:27,013: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[8fd75765-4ab9-45f7-b1b2-dc79512f618a] succeeded in 0.20887789500011422s: None
+[2017-09-19 12:11:27,069: INFO/ForkPoolWorker-4] Task main.tasks.check_future[1482ca10-a1e3-4a61-871e-3f2cd980de86] succeeded in 0.2575055999986944s: None
+[2017-09-19 12:11:29,810: INFO/MainProcess] Received task: main.tasks.check_future[fbbe8960-bcc4-45bd-8f92-1b40659a4915]  
+[2017-09-19 12:11:29,818: INFO/MainProcess] Received task: main.tasks.check_playing[cec00be4-5622-4e74-975a-415fe5355ca6]  
+[2017-09-19 12:11:29,839: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:29,997: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[cec00be4-5622-4e74-975a-415fe5355ca6] succeeded in 0.17666440299944952s: None
+[2017-09-19 12:11:29,997: INFO/ForkPoolWorker-1] Task main.tasks.check_future[fbbe8960-bcc4-45bd-8f92-1b40659a4915] succeeded in 0.18480737100071565s: None
+[2017-09-19 12:11:32,819: INFO/MainProcess] Received task: main.tasks.check_playing[4651871d-3792-425b-9dd0-0815c32d0b19]  
+[2017-09-19 12:11:32,825: INFO/MainProcess] Received task: main.tasks.check_future[7df702c8-112d-4b2e-b1d0-3a7879ce6311]  
+[2017-09-19 12:11:32,835: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:33,067: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[4651871d-3792-425b-9dd0-0815c32d0b19] succeeded in 0.24697714299873041s: None
+[2017-09-19 12:11:33,201: INFO/ForkPoolWorker-4] Task main.tasks.check_future[7df702c8-112d-4b2e-b1d0-3a7879ce6311] succeeded in 0.3739154389986652s: None
+[2017-09-19 12:11:35,824: INFO/MainProcess] Received task: main.tasks.check_future[184bd0c0-17de-4f5b-a67d-804ca2e36dfc]  
+[2017-09-19 12:11:35,831: INFO/MainProcess] Received task: main.tasks.check_playing[6eda8e29-8c03-4c8e-8163-4dc85dfb7694]  
+[2017-09-19 12:11:35,845: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:36,272: INFO/ForkPoolWorker-1] Task main.tasks.check_future[184bd0c0-17de-4f5b-a67d-804ca2e36dfc] succeeded in 0.44739873300022737s: None
+[2017-09-19 12:11:36,338: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[6eda8e29-8c03-4c8e-8163-4dc85dfb7694] succeeded in 0.5058205829991493s: None
+[2017-09-19 12:11:38,830: INFO/MainProcess] Received task: main.tasks.check_playing[7097f023-c1a4-4ce6-a716-b4d829cd0ee6]  
+[2017-09-19 12:11:38,839: INFO/MainProcess] Received task: main.tasks.check_future[fa50fbe6-d9d9-498a-88a7-093034296891]  
+[2017-09-19 12:11:38,848: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:39,026: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[7097f023-c1a4-4ce6-a716-b4d829cd0ee6] succeeded in 0.19509180000022752s: None
+[2017-09-19 12:11:39,071: INFO/ForkPoolWorker-4] Task main.tasks.check_future[fa50fbe6-d9d9-498a-88a7-093034296891] succeeded in 0.2306075670003338s: None
+[2017-09-19 12:11:41,839: INFO/MainProcess] Received task: main.tasks.check_future[d07b9e64-3d3a-43a3-9035-32cfe193a6f3]  
+[2017-09-19 12:11:41,847: INFO/MainProcess] Received task: main.tasks.check_playing[dd041e86-19e4-4b03-8b87-3541271b75e8]  
+[2017-09-19 12:11:41,860: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:42,200: INFO/ForkPoolWorker-1] Task main.tasks.check_future[d07b9e64-3d3a-43a3-9035-32cfe193a6f3] succeeded in 0.3590709350010002s: None
+[2017-09-19 12:11:42,278: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[dd041e86-19e4-4b03-8b87-3541271b75e8] succeeded in 0.43027518399867404s: None
+[2017-09-19 12:11:44,846: INFO/MainProcess] Received task: main.tasks.check_playing[acc9fc74-567a-4053-8e57-63f703107532]  
+[2017-09-19 12:11:44,852: INFO/MainProcess] Received task: main.tasks.check_future[735ec94e-0878-4fa9-9a17-62e6b29ff882]  
+[2017-09-19 12:11:44,860: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:44,994: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[acc9fc74-567a-4053-8e57-63f703107532] succeeded in 0.14658289999897534s: None
+[2017-09-19 12:11:45,038: INFO/ForkPoolWorker-4] Task main.tasks.check_future[735ec94e-0878-4fa9-9a17-62e6b29ff882] succeeded in 0.18449400099962077s: None
+[2017-09-19 12:11:47,852: INFO/MainProcess] Received task: main.tasks.check_future[02a3a041-adb9-4fab-aa06-8c889fb4bd06]  
+[2017-09-19 12:11:47,859: INFO/MainProcess] Received task: main.tasks.check_playing[278ab7e9-5092-4e83-9073-732d38da5eb0]  
+[2017-09-19 12:11:47,872: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:48,053: INFO/ForkPoolWorker-1] Task main.tasks.check_future[02a3a041-adb9-4fab-aa06-8c889fb4bd06] succeeded in 0.20006871400073578s: None
+[2017-09-19 12:11:48,129: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[278ab7e9-5092-4e83-9073-732d38da5eb0] succeeded in 0.2691032350012392s: None
+[2017-09-19 12:11:50,862: INFO/MainProcess] Received task: main.tasks.check_playing[063da30e-1705-4c20-99fc-24d10573ab4e]  
+[2017-09-19 12:11:50,873: INFO/MainProcess] Received task: main.tasks.check_future[a912b852-19a2-45f3-9fe8-317a726f4744]  
+[2017-09-19 12:11:50,894: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:51,089: INFO/ForkPoolWorker-4] Task main.tasks.check_future[a912b852-19a2-45f3-9fe8-317a726f4744] succeeded in 0.2148768110000674s: None
+[2017-09-19 12:11:51,212: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[063da30e-1705-4c20-99fc-24d10573ab4e] succeeded in 0.3477019839992863s: None
+[2017-09-19 12:11:53,869: INFO/MainProcess] Received task: main.tasks.check_future[09bdb12e-aefd-45a8-9674-b48d5ef62130]  
+[2017-09-19 12:11:53,883: INFO/MainProcess] Received task: main.tasks.check_playing[cb9af99f-2971-43da-b73b-241f2c34c515]  
+[2017-09-19 12:11:53,902: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:54,026: INFO/ForkPoolWorker-1] Task main.tasks.check_future[09bdb12e-aefd-45a8-9674-b48d5ef62130] succeeded in 0.15572363799947198s: None
+[2017-09-19 12:11:54,071: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[cb9af99f-2971-43da-b73b-241f2c34c515] succeeded in 0.1860512640014349s: None
+[2017-09-19 12:11:56,878: INFO/MainProcess] Received task: main.tasks.check_playing[dc32a79a-bdd1-419e-8848-6e409a744375]  
+[2017-09-19 12:11:56,886: INFO/MainProcess] Received task: main.tasks.check_future[884b7dcf-5b11-4c06-a4b5-be718901c1fa]  
+[2017-09-19 12:11:56,898: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:11:57,041: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[dc32a79a-bdd1-419e-8848-6e409a744375] succeeded in 0.16192332599894144s: None
+[2017-09-19 12:11:57,085: INFO/ForkPoolWorker-4] Task main.tasks.check_future[884b7dcf-5b11-4c06-a4b5-be718901c1fa] succeeded in 0.19769670300047437s: None
+[2017-09-19 12:11:59,883: INFO/MainProcess] Received task: main.tasks.check_future[62e1291f-1ab8-4406-bb02-b92e888c55f9]  
+[2017-09-19 12:11:59,889: INFO/MainProcess] Received task: main.tasks.check_playing[51888196-4250-49e1-8e53-0ec49d2d9526]  
+[2017-09-19 12:11:59,901: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:00,066: INFO/ForkPoolWorker-1] Task main.tasks.check_future[62e1291f-1ab8-4406-bb02-b92e888c55f9] succeeded in 0.18193084000085946s: None
+[2017-09-19 12:12:00,122: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[51888196-4250-49e1-8e53-0ec49d2d9526] succeeded in 0.2322698340012721s: None
+[2017-09-19 12:12:02,890: INFO/MainProcess] Received task: main.tasks.check_playing[68cfc949-1597-43d3-a172-4a8a0d745977]  
+[2017-09-19 12:12:02,899: INFO/MainProcess] Received task: main.tasks.check_future[6fa64dee-476a-4f8e-91b9-c38025a488b1]  
+[2017-09-19 12:12:02,907: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:03,081: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[68cfc949-1597-43d3-a172-4a8a0d745977] succeeded in 0.18962935299896344s: None
+[2017-09-19 12:12:03,125: INFO/ForkPoolWorker-4] Task main.tasks.check_future[6fa64dee-476a-4f8e-91b9-c38025a488b1] succeeded in 0.2254936760000419s: None
+[2017-09-19 12:12:05,895: INFO/MainProcess] Received task: main.tasks.check_future[4847d404-55da-47c2-b6ba-5ad4d3974316]  
+[2017-09-19 12:12:05,902: INFO/MainProcess] Received task: main.tasks.check_playing[dc87abe3-df9a-4bbf-9a1c-f7b76dab0e27]  
+[2017-09-19 12:12:05,916: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:06,051: INFO/ForkPoolWorker-1] Task main.tasks.check_future[4847d404-55da-47c2-b6ba-5ad4d3974316] succeeded in 0.15465274399866757s: None
+[2017-09-19 12:12:06,095: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[dc87abe3-df9a-4bbf-9a1c-f7b76dab0e27] succeeded in 0.19136220900145418s: None
+[2017-09-19 12:12:08,904: INFO/MainProcess] Received task: main.tasks.check_playing[6a5abe0f-88c0-445d-8247-c36a3c0231e3]  
+[2017-09-19 12:12:08,911: INFO/MainProcess] Received task: main.tasks.check_future[7091881a-f984-4080-bffe-dbfe07165db0]  
+[2017-09-19 12:12:08,922: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:09,088: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[6a5abe0f-88c0-445d-8247-c36a3c0231e3] succeeded in 0.18238763399858726s: None
+[2017-09-19 12:12:09,144: INFO/ForkPoolWorker-4] Task main.tasks.check_future[7091881a-f984-4080-bffe-dbfe07165db0] succeeded in 0.23068808899915894s: None
+[2017-09-19 12:12:11,909: INFO/MainProcess] Received task: main.tasks.check_future[8589fc2f-3ad6-4074-85e5-0076d367f628]  
+[2017-09-19 12:12:11,915: INFO/MainProcess] Received task: main.tasks.check_playing[1f634c12-0454-46c1-a458-6ed8185e453f]  
+[2017-09-19 12:12:11,928: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:12,059: INFO/ForkPoolWorker-1] Task main.tasks.check_future[8589fc2f-3ad6-4074-85e5-0076d367f628] succeeded in 0.14845965699896624s: None
+[2017-09-19 12:12:12,103: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[1f634c12-0454-46c1-a458-6ed8185e453f] succeeded in 0.18708623000020452s: None
+[2017-09-19 12:12:14,918: INFO/MainProcess] Received task: main.tasks.check_playing[29bf0d3f-14de-4794-a028-89e10c5876c1]  
+[2017-09-19 12:12:14,926: INFO/MainProcess] Received task: main.tasks.check_future[860012a5-934c-4a3a-a9f8-ba9d9a5d4182]  
+[2017-09-19 12:12:14,936: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:15,083: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[29bf0d3f-14de-4794-a028-89e10c5876c1] succeeded in 0.1639061119985854s: None
+[2017-09-19 12:12:15,128: INFO/ForkPoolWorker-4] Task main.tasks.check_future[860012a5-934c-4a3a-a9f8-ba9d9a5d4182] succeeded in 0.1990304360006121s: None
+[2017-09-19 12:12:17,928: INFO/MainProcess] Received task: main.tasks.check_future[4c892e7b-869f-4904-b964-bcfce3ae346d]  
+[2017-09-19 12:12:17,938: INFO/MainProcess] Received task: main.tasks.check_playing[df52e224-aed9-479f-a99b-367916b579c2]  
+[2017-09-19 12:12:17,955: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:18,109: INFO/ForkPoolWorker-1] Task main.tasks.check_future[4c892e7b-869f-4904-b964-bcfce3ae346d] succeeded in 0.1792474409994611s: None
+[2017-09-19 12:12:18,153: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[df52e224-aed9-479f-a99b-367916b579c2] succeeded in 0.2136362609999196s: None
+[2017-09-19 12:12:20,937: INFO/MainProcess] Received task: main.tasks.check_playing[bf136869-b3c7-4bf7-bb77-9458967710ed]  
+[2017-09-19 12:12:20,945: INFO/MainProcess] Received task: main.tasks.check_future[7aa604a4-77cf-4f6a-9060-1cbba3db6b05]  
+[2017-09-19 12:12:20,955: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:21,091: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[bf136869-b3c7-4bf7-bb77-9458967710ed] succeeded in 0.15171006699893042s: None
+[2017-09-19 12:12:21,135: INFO/ForkPoolWorker-4] Task main.tasks.check_future[7aa604a4-77cf-4f6a-9060-1cbba3db6b05] succeeded in 0.18829137700049614s: None
+[2017-09-19 12:12:23,943: INFO/MainProcess] Received task: main.tasks.check_future[5e055bfb-09f5-47e4-9417-188ac1e0732a]  
+[2017-09-19 12:12:23,948: INFO/MainProcess] Received task: main.tasks.check_playing[79d90121-3a96-419e-bbcc-551a7ca671cc]  
+[2017-09-19 12:12:23,960: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:24,093: INFO/ForkPoolWorker-1] Task main.tasks.check_future[5e055bfb-09f5-47e4-9417-188ac1e0732a] succeeded in 0.14968851200137578s: None
+[2017-09-19 12:12:24,138: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[79d90121-3a96-419e-bbcc-551a7ca671cc] succeeded in 0.1882210239982669s: None
+[2017-09-19 12:12:26,950: INFO/MainProcess] Received task: main.tasks.check_playing[0d4e0d72-4ee3-4ab0-89b7-5c13b11feb5d]  
+[2017-09-19 12:12:26,960: INFO/MainProcess] Received task: main.tasks.check_future[5679cacc-e284-43fc-941e-5c79aaa27d19]  
+[2017-09-19 12:12:26,966: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:27,140: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[0d4e0d72-4ee3-4ab0-89b7-5c13b11feb5d] succeeded in 0.18898751599954267s: None
+[2017-09-19 12:12:27,184: INFO/ForkPoolWorker-4] Task main.tasks.check_future[5679cacc-e284-43fc-941e-5c79aaa27d19] succeeded in 0.22378196099998604s: None
+[2017-09-19 12:12:29,954: INFO/MainProcess] Received task: main.tasks.check_future[63d67395-ddc0-480f-944d-eda156a2a6be]  
+[2017-09-19 12:12:29,960: INFO/MainProcess] Received task: main.tasks.check_playing[d1704ec7-37ce-4481-be38-b7965ca1f0a2]  
+[2017-09-19 12:12:29,975: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:30,110: INFO/ForkPoolWorker-1] Task main.tasks.check_future[63d67395-ddc0-480f-944d-eda156a2a6be] succeeded in 0.15496775999963575s: None
+[2017-09-19 12:12:30,165: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[d1704ec7-37ce-4481-be38-b7965ca1f0a2] succeeded in 0.2026998880010069s: None
+[2017-09-19 12:12:32,964: INFO/MainProcess] Received task: main.tasks.check_playing[88e1cb2d-c8d7-422e-a06e-aacb809f9cb5]  
+[2017-09-19 12:12:32,974: INFO/MainProcess] Received task: main.tasks.check_future[f3c9e508-a7e0-491e-b952-22f5abd82b90]  
+[2017-09-19 12:12:32,985: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:33,125: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[88e1cb2d-c8d7-422e-a06e-aacb809f9cb5] succeeded in 0.15938413300136745s: None
+[2017-09-19 12:12:33,170: INFO/ForkPoolWorker-4] Task main.tasks.check_future[f3c9e508-a7e0-491e-b952-22f5abd82b90] succeeded in 0.19437191799988796s: None
+[2017-09-19 12:12:35,969: INFO/MainProcess] Received task: main.tasks.check_future[ca728df1-cd28-48ad-97aa-c4ef09c72d3c]  
+[2017-09-19 12:12:35,978: INFO/MainProcess] Received task: main.tasks.check_playing[7b800e32-ca6c-4b0a-b536-7d66a4b9d433]  
+[2017-09-19 12:12:35,991: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:36,128: INFO/ForkPoolWorker-1] Task main.tasks.check_future[ca728df1-cd28-48ad-97aa-c4ef09c72d3c] succeeded in 0.15712464799980808s: None
+[2017-09-19 12:12:36,172: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[7b800e32-ca6c-4b0a-b536-7d66a4b9d433] succeeded in 0.19264928299890016s: None
+[2017-09-19 12:12:38,978: INFO/MainProcess] Received task: main.tasks.check_playing[bb635ccf-b77f-44b9-a8e1-580b2d9885f1]  
+[2017-09-19 12:12:38,987: INFO/MainProcess] Received task: main.tasks.check_future[e3a78d3c-7cea-4a88-9436-903656ce3804]  
+[2017-09-19 12:12:38,995: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:39,186: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[bb635ccf-b77f-44b9-a8e1-580b2d9885f1] succeeded in 0.20637372199962556s: None
+[2017-09-19 12:12:39,231: INFO/ForkPoolWorker-4] Task main.tasks.check_future[e3a78d3c-7cea-4a88-9436-903656ce3804] succeeded in 0.24255629899926134s: None
+[2017-09-19 12:12:41,983: INFO/MainProcess] Received task: main.tasks.check_future[26e7b289-2eca-41c8-a782-873245ffd4a5]  
+[2017-09-19 12:12:41,988: INFO/MainProcess] Received task: main.tasks.check_playing[f47cc2a4-3581-4934-9393-b150ef9b18ce]  
+[2017-09-19 12:12:42,001: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:42,133: INFO/ForkPoolWorker-1] Task main.tasks.check_future[26e7b289-2eca-41c8-a782-873245ffd4a5] succeeded in 0.14905330099827552s: None
+[2017-09-19 12:12:42,178: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[f47cc2a4-3581-4934-9393-b150ef9b18ce] succeeded in 0.1884698510002636s: None
+[2017-09-19 12:12:45,006: INFO/MainProcess] Received task: main.tasks.check_playing[d7755b97-357b-4a33-9d2f-90c4a90dbd63]  
+[2017-09-19 12:12:45,011: INFO/MainProcess] Received task: main.tasks.check_future[e987c227-edbc-454e-a7eb-9e3dcfd97f3b]  
+[2017-09-19 12:12:45,019: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:45,171: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[d7755b97-357b-4a33-9d2f-90c4a90dbd63] succeeded in 0.16298050200020953s: None
+[2017-09-19 12:12:45,215: INFO/ForkPoolWorker-4] Task main.tasks.check_future[e987c227-edbc-454e-a7eb-9e3dcfd97f3b] succeeded in 0.20236403399940173s: None
+[2017-09-19 12:12:48,012: INFO/MainProcess] Received task: main.tasks.check_future[95b8f1cc-7b4e-4308-a012-331f66f9c79b]  
+[2017-09-19 12:12:48,018: INFO/MainProcess] Received task: main.tasks.check_playing[fe91c2cd-77d4-45c6-b36d-935054eb2fd2]  
+[2017-09-19 12:12:48,033: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:48,162: INFO/ForkPoolWorker-1] Task main.tasks.check_future[95b8f1cc-7b4e-4308-a012-331f66f9c79b] succeeded in 0.14847517599991988s: None
+[2017-09-19 12:12:48,207: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[fe91c2cd-77d4-45c6-b36d-935054eb2fd2] succeeded in 0.18674601599923335s: None
+[2017-09-19 12:12:51,017: INFO/MainProcess] Received task: main.tasks.check_playing[b13e52ee-fb35-405e-8905-0d4561b51272]  
+[2017-09-19 12:12:51,026: INFO/MainProcess] Received task: main.tasks.check_future[15fc3b37-8c68-4c9b-bd95-7c8d0680a405]  
+[2017-09-19 12:12:51,034: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:51,187: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[b13e52ee-fb35-405e-8905-0d4561b51272] succeeded in 0.16790105999825755s: None
+[2017-09-19 12:12:51,231: INFO/ForkPoolWorker-4] Task main.tasks.check_future[15fc3b37-8c68-4c9b-bd95-7c8d0680a405] succeeded in 0.2034178369995061s: None
+[2017-09-19 12:12:54,025: INFO/MainProcess] Received task: main.tasks.check_future[31072815-cb0a-4893-b12c-f15328e16392]  
+[2017-09-19 12:12:54,031: INFO/MainProcess] Received task: main.tasks.check_playing[32af470c-d41e-4cf7-8854-6e7121a07120]  
+[2017-09-19 12:12:54,044: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:54,168: INFO/ForkPoolWorker-1] Task main.tasks.check_future[31072815-cb0a-4893-b12c-f15328e16392] succeeded in 0.14163505599935888s: None
+[2017-09-19 12:12:54,212: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[32af470c-d41e-4cf7-8854-6e7121a07120] succeeded in 0.1793588099990302s: None
+[2017-09-19 12:12:57,032: INFO/MainProcess] Received task: main.tasks.check_playing[a5feca94-8c03-4c03-b1ec-fbaef8eb25ad]  
+[2017-09-19 12:12:57,042: INFO/MainProcess] Received task: main.tasks.check_future[104fc4b2-9fef-43bf-af69-5abe956ed84c]  
+[2017-09-19 12:12:57,049: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:12:57,193: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[a5feca94-8c03-4c03-b1ec-fbaef8eb25ad] succeeded in 0.1602344170005381s: None
+[2017-09-19 12:12:57,238: INFO/ForkPoolWorker-4] Task main.tasks.check_future[104fc4b2-9fef-43bf-af69-5abe956ed84c] succeeded in 0.1937648019993503s: None
+[2017-09-19 12:13:00,039: INFO/MainProcess] Received task: main.tasks.check_future[1f0471cd-706e-4a00-bbf5-39477685640c]  
+[2017-09-19 12:13:00,048: INFO/MainProcess] Received task: main.tasks.check_playing[0452f0cd-21e3-4d01-b834-c7939d884848]  
+[2017-09-19 12:13:00,060: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:00,185: INFO/ForkPoolWorker-1] Task main.tasks.check_future[1f0471cd-706e-4a00-bbf5-39477685640c] succeeded in 0.14487080500111915s: None
+[2017-09-19 12:13:00,230: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[0452f0cd-21e3-4d01-b834-c7939d884848] succeeded in 0.18099744800019835s: None
+[2017-09-19 12:13:03,047: INFO/MainProcess] Received task: main.tasks.check_playing[28e501aa-ea8a-4b26-8148-89efe3ee2e46]  
+[2017-09-19 12:13:03,055: INFO/MainProcess] Received task: main.tasks.check_future[2dad935c-1296-4534-887c-d7f96542aa98]  
+[2017-09-19 12:13:03,060: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:03,233: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[28e501aa-ea8a-4b26-8148-89efe3ee2e46] succeeded in 0.18425258599927474s: None
+[2017-09-19 12:13:03,287: INFO/ForkPoolWorker-4] Task main.tasks.check_future[2dad935c-1296-4534-887c-d7f96542aa98] succeeded in 0.23098616800052696s: None
+[2017-09-19 12:13:06,052: INFO/MainProcess] Received task: main.tasks.check_future[bae84d67-ee1b-413e-a57f-c892a9463043]  
+[2017-09-19 12:13:06,062: INFO/MainProcess] Received task: main.tasks.check_playing[376a9326-4111-4898-8033-0a06f3313cc7]  
+[2017-09-19 12:13:06,074: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:06,235: INFO/ForkPoolWorker-1] Task main.tasks.check_future[bae84d67-ee1b-413e-a57f-c892a9463043] succeeded in 0.18139787400104979s: None
+[2017-09-19 12:13:06,290: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[376a9326-4111-4898-8033-0a06f3313cc7] succeeded in 0.22737230899838323s: None
+[2017-09-19 12:13:09,058: INFO/MainProcess] Received task: main.tasks.check_playing[c3bdcb88-d151-4278-b729-3d9ed1fd104a]  
+[2017-09-19 12:13:09,066: INFO/MainProcess] Received task: main.tasks.check_future[1952ca10-5886-4441-a023-e768bb8d2775]  
+[2017-09-19 12:13:09,073: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:09,205: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[c3bdcb88-d151-4278-b729-3d9ed1fd104a] succeeded in 0.14622929399956774s: None
+[2017-09-19 12:13:09,250: INFO/ForkPoolWorker-4] Task main.tasks.check_future[1952ca10-5886-4441-a023-e768bb8d2775] succeeded in 0.18203107900080795s: None
+[2017-09-19 12:13:12,067: INFO/MainProcess] Received task: main.tasks.check_future[0bc2317a-2b5d-4e08-b560-e0478afca89d]  
+[2017-09-19 12:13:12,077: INFO/MainProcess] Received task: main.tasks.check_playing[49d94df8-8442-445f-9a3b-fda59161c49c]  
+[2017-09-19 12:13:12,096: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:12,230: INFO/ForkPoolWorker-1] Task main.tasks.check_future[0bc2317a-2b5d-4e08-b560-e0478afca89d] succeeded in 0.16110099900106434s: None
+[2017-09-19 12:13:12,274: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[49d94df8-8442-445f-9a3b-fda59161c49c] succeeded in 0.19533855700137792s: None
+[2017-09-19 12:13:15,075: INFO/MainProcess] Received task: main.tasks.check_playing[aac9e766-4d55-4502-a3e0-4ea9ac3974c5]  
+[2017-09-19 12:13:15,083: INFO/MainProcess] Received task: main.tasks.check_future[10ae4517-bf68-4d4c-8f65-2af8b3a49249]  
+[2017-09-19 12:13:15,091: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:15,224: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[aac9e766-4d55-4502-a3e0-4ea9ac3974c5] succeeded in 0.1473827239988168s: None
+[2017-09-19 12:13:15,268: INFO/ForkPoolWorker-4] Task main.tasks.check_future[10ae4517-bf68-4d4c-8f65-2af8b3a49249] succeeded in 0.1841975650004315s: None
+[2017-09-19 12:13:18,082: INFO/MainProcess] Received task: main.tasks.check_future[6f283f04-8361-47ba-ad97-c969372eaf1e]  
+[2017-09-19 12:13:18,090: INFO/MainProcess] Received task: main.tasks.check_playing[add90c8d-09ec-4282-8792-d15a2e7d04f0]  
+[2017-09-19 12:13:18,105: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:18,227: INFO/ForkPoolWorker-1] Task main.tasks.check_future[6f283f04-8361-47ba-ad97-c969372eaf1e] succeeded in 0.14405898400036676s: None
+[2017-09-19 12:13:18,261: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[add90c8d-09ec-4282-8792-d15a2e7d04f0] succeeded in 0.1690076719987701s: None
+[2017-09-19 12:13:21,089: INFO/MainProcess] Received task: main.tasks.check_playing[d341b2d2-c466-4444-925a-5dbaf1209a66]  
+[2017-09-19 12:13:21,096: INFO/MainProcess] Received task: main.tasks.check_future[52565f0c-ba6e-4f01-a2fc-390c5c320880]  
+[2017-09-19 12:13:21,103: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:21,219: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[d341b2d2-c466-4444-925a-5dbaf1209a66] succeeded in 0.12893454200093402s: None
+[2017-09-19 12:13:21,252: INFO/ForkPoolWorker-4] Task main.tasks.check_future[52565f0c-ba6e-4f01-a2fc-390c5c320880] succeeded in 0.1555083930015826s: None
+[2017-09-19 12:13:24,097: INFO/MainProcess] Received task: main.tasks.check_future[85019f18-3d62-4f82-a895-e638fb4e5432]  
+[2017-09-19 12:13:24,103: INFO/MainProcess] Received task: main.tasks.check_playing[f0d97e0d-d050-4f91-8101-22958dd773e4]  
+[2017-09-19 12:13:24,117: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:24,211: INFO/ForkPoolWorker-1] Task main.tasks.check_future[85019f18-3d62-4f82-a895-e638fb4e5432] succeeded in 0.11231439699986367s: None
+[2017-09-19 12:13:24,255: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[f0d97e0d-d050-4f91-8101-22958dd773e4] succeeded in 0.15076737699928344s: None
+[2017-09-19 12:13:27,105: INFO/MainProcess] Received task: main.tasks.check_playing[6a2aff00-2122-4086-810e-8c34040b1012]  
+[2017-09-19 12:13:27,117: INFO/MainProcess] Received task: main.tasks.check_future[8516db14-c818-493e-8354-35fc56e82a9a]  
+[2017-09-19 12:13:27,125: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:27,224: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[6a2aff00-2122-4086-810e-8c34040b1012] succeeded in 0.1167088549991604s: None
+[2017-09-19 12:13:27,257: INFO/ForkPoolWorker-4] Task main.tasks.check_future[8516db14-c818-493e-8354-35fc56e82a9a] succeeded in 0.1386245150006289s: None
+[2017-09-19 12:13:30,115: INFO/MainProcess] Received task: main.tasks.check_future[203a397b-ceaa-49fc-98bc-d6fd2eaafcdb]  
+[2017-09-19 12:13:30,123: INFO/MainProcess] Received task: main.tasks.check_playing[1f20dff6-a1f5-464b-ae30-30a866aa558f]  
+[2017-09-19 12:13:30,141: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:30,271: INFO/ForkPoolWorker-1] Task main.tasks.check_future[203a397b-ceaa-49fc-98bc-d6fd2eaafcdb] succeeded in 0.15465070100071898s: None
+[2017-09-19 12:13:30,315: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[1f20dff6-a1f5-464b-ae30-30a866aa558f] succeeded in 0.18945121800061315s: None
+[2017-09-19 12:13:33,123: INFO/MainProcess] Received task: main.tasks.check_playing[107738fb-5064-4be2-a42b-6bedc143cea3]  
+[2017-09-19 12:13:33,133: INFO/MainProcess] Received task: main.tasks.check_future[94174476-39dd-4038-ac77-50a2f313ee7f]  
+[2017-09-19 12:13:33,144: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:33,264: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[107738fb-5064-4be2-a42b-6bedc143cea3] succeeded in 0.13855352899918216s: None
+[2017-09-19 12:13:33,297: INFO/ForkPoolWorker-4] Task main.tasks.check_future[94174476-39dd-4038-ac77-50a2f313ee7f] succeeded in 0.16199553499973263s: None
+[2017-09-19 12:13:36,129: INFO/MainProcess] Received task: main.tasks.check_future[66591d6c-44e6-4c9a-aff3-fbf23d6d496f]  
+[2017-09-19 12:13:36,136: INFO/MainProcess] Received task: main.tasks.check_playing[af9791f7-0e41-4433-a81c-23b86d01f257]  
+[2017-09-19 12:13:36,149: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:36,266: INFO/ForkPoolWorker-1] Task main.tasks.check_future[66591d6c-44e6-4c9a-aff3-fbf23d6d496f] succeeded in 0.13669057299921406s: None
+[2017-09-19 12:13:36,300: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[af9791f7-0e41-4433-a81c-23b86d01f257] succeeded in 0.16294148600172775s: None
+[2017-09-19 12:13:39,133: INFO/MainProcess] Received task: main.tasks.check_playing[96788634-9456-4c2d-ab4f-c66e40be69b9]  
+[2017-09-19 12:13:39,140: INFO/MainProcess] Received task: main.tasks.check_future[daf5282b-3769-498b-9372-33efaaf28bd1]  
+[2017-09-19 12:13:39,148: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:39,280: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[96788634-9456-4c2d-ab4f-c66e40be69b9] succeeded in 0.1450556889994914s: None
+[2017-09-19 12:13:39,324: INFO/ForkPoolWorker-4] Task main.tasks.check_future[daf5282b-3769-498b-9372-33efaaf28bd1] succeeded in 0.18326754100053222s: None
+[2017-09-19 12:13:42,139: INFO/MainProcess] Received task: main.tasks.check_future[d4cff9b9-e389-4217-8d82-8904089e232d]  
+[2017-09-19 12:13:42,145: INFO/MainProcess] Received task: main.tasks.check_playing[5b83db59-125a-46e3-a079-cf3b3920dc43]  
+[2017-09-19 12:13:42,157: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:42,261: INFO/ForkPoolWorker-1] Task main.tasks.check_future[d4cff9b9-e389-4217-8d82-8904089e232d] succeeded in 0.12000777499997639s: None
+[2017-09-19 12:13:42,294: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[5b83db59-125a-46e3-a079-cf3b3920dc43] succeeded in 0.1476906770003552s: None
+[2017-09-19 12:13:45,147: INFO/MainProcess] Received task: main.tasks.check_playing[3d32a9f6-5eff-4f04-95a9-edd2c40ef7a3]  
+[2017-09-19 12:13:45,155: INFO/MainProcess] Received task: main.tasks.check_future[3ec7bcf7-de41-4eab-b4fc-2c82ea14ac3d]  
+[2017-09-19 12:13:45,162: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:45,275: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[3d32a9f6-5eff-4f04-95a9-edd2c40ef7a3] succeeded in 0.1267012230000546s: None
+[2017-09-19 12:13:45,308: INFO/ForkPoolWorker-4] Task main.tasks.check_future[3ec7bcf7-de41-4eab-b4fc-2c82ea14ac3d] succeeded in 0.15177592400141293s: None
+[2017-09-19 12:13:48,158: INFO/MainProcess] Received task: main.tasks.check_future[eaf00d6f-4312-455e-acb5-fe44c2cb5b78]  
+[2017-09-19 12:13:48,164: INFO/MainProcess] Received task: main.tasks.check_playing[09c27616-fdde-4081-a259-6376a5a7f7a8]  
+[2017-09-19 12:13:48,179: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:48,300: INFO/ForkPoolWorker-1] Task main.tasks.check_future[eaf00d6f-4312-455e-acb5-fe44c2cb5b78] succeeded in 0.14071289300045464s: None
+[2017-09-19 12:13:48,333: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[09c27616-fdde-4081-a259-6376a5a7f7a8] succeeded in 0.1676459899990732s: None
+[2017-09-19 12:13:51,162: INFO/MainProcess] Received task: main.tasks.check_playing[1bbc47b9-27bf-4577-9c09-28533aacd4af]  
+[2017-09-19 12:13:51,168: INFO/MainProcess] Received task: main.tasks.check_future[ed49db46-7e44-4d13-a409-c5ba5ffe34f1]  
+[2017-09-19 12:13:51,177: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:51,370: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[1bbc47b9-27bf-4577-9c09-28533aacd4af] succeeded in 0.20705857599932642s: None
+[2017-09-19 12:13:51,423: INFO/ForkPoolWorker-4] Task main.tasks.check_future[ed49db46-7e44-4d13-a409-c5ba5ffe34f1] succeeded in 0.254596628001309s: None
+[2017-09-19 12:13:54,168: INFO/MainProcess] Received task: main.tasks.check_future[cfa33f73-43dc-41cf-a1c1-16a650f220f9]  
+[2017-09-19 12:13:54,174: INFO/MainProcess] Received task: main.tasks.check_playing[1e1b2827-1f86-42e0-bca6-6ae07d392799]  
+[2017-09-19 12:13:54,186: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:54,275: INFO/ForkPoolWorker-1] Task main.tasks.check_future[cfa33f73-43dc-41cf-a1c1-16a650f220f9] succeeded in 0.10515981000025931s: None
+[2017-09-19 12:13:54,295: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[1e1b2827-1f86-42e0-bca6-6ae07d392799] succeeded in 0.11999103400012245s: None
+[2017-09-19 12:13:57,175: INFO/MainProcess] Received task: main.tasks.check_playing[6a6e2377-7062-4569-8097-97d36ce8b862]  
+[2017-09-19 12:13:57,182: INFO/MainProcess] Received task: main.tasks.check_future[6995852d-244e-4140-bcf6-d19a3cb747ae]  
+[2017-09-19 12:13:57,191: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:13:57,631: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[6a6e2377-7062-4569-8097-97d36ce8b862] succeeded in 0.4542754309986776s: None
+[2017-09-19 12:13:57,834: INFO/ForkPoolWorker-4] Task main.tasks.check_future[6995852d-244e-4140-bcf6-d19a3cb747ae] succeeded in 0.6511778379990574s: None
+[2017-09-19 12:14:00,182: INFO/MainProcess] Received task: main.tasks.check_future[b6674ed2-cc91-485f-aba5-f019ed343715]  
+[2017-09-19 12:14:00,188: INFO/MainProcess] Received task: main.tasks.check_playing[a6c38b06-74ae-4b30-b188-eccef80603d6]  
+[2017-09-19 12:14:00,201: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:14:00,338: INFO/ForkPoolWorker-1] Task main.tasks.check_future[b6674ed2-cc91-485f-aba5-f019ed343715] succeeded in 0.15444974199999706s: None
+[2017-09-19 12:14:00,382: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[a6c38b06-74ae-4b30-b188-eccef80603d6] succeeded in 0.19290117399941664s: None
+[2017-09-19 12:14:03,190: INFO/MainProcess] Received task: main.tasks.check_playing[084045c8-5fc2-408b-84b1-e49f860ce969]  
+[2017-09-19 12:14:03,196: INFO/MainProcess] Received task: main.tasks.check_future[5df71b1e-f4e6-4a20-909f-ae4dbfe67cdd]  
+[2017-09-19 12:14:03,207: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:14:03,308: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[084045c8-5fc2-408b-84b1-e49f860ce969] succeeded in 0.11690690000068571s: None
+[2017-09-19 12:14:03,341: INFO/ForkPoolWorker-4] Task main.tasks.check_future[5df71b1e-f4e6-4a20-909f-ae4dbfe67cdd] succeeded in 0.144534446999387s: None
+[2017-09-19 12:14:06,194: INFO/MainProcess] Received task: main.tasks.check_future[713f99ff-701c-4fcb-b3fe-53abb25a3240]  
+[2017-09-19 12:14:06,199: INFO/MainProcess] Received task: main.tasks.check_playing[786ca5f9-6d37-4657-9098-4b5b08e759e0]  
+[2017-09-19 12:14:06,214: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:14:06,333: INFO/ForkPoolWorker-1] Task main.tasks.check_future[713f99ff-701c-4fcb-b3fe-53abb25a3240] succeeded in 0.13749655299943697s: None
+[2017-09-19 12:14:06,378: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[786ca5f9-6d37-4657-9098-4b5b08e759e0] succeeded in 0.17683409900018887s: None
+[2017-09-19 12:14:09,201: INFO/MainProcess] Received task: main.tasks.check_playing[b92b4e0a-25f1-4388-bd25-57ffaa2ed465]  
+[2017-09-19 12:14:09,211: INFO/MainProcess] Received task: main.tasks.check_future[29b51240-7990-4f73-8825-360523153201]  
+[2017-09-19 12:14:09,216: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:14:09,370: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[b92b4e0a-25f1-4388-bd25-57ffaa2ed465] succeeded in 0.1678542350000498s: None
+[2017-09-19 12:14:09,414: INFO/ForkPoolWorker-4] Task main.tasks.check_future[29b51240-7990-4f73-8825-360523153201] succeeded in 0.20227896100004727s: None
+[2017-09-19 12:14:12,207: INFO/MainProcess] Received task: main.tasks.check_future[bafcd48f-de31-4b34-9a13-e14e4753e812]  
+[2017-09-19 12:14:12,213: INFO/MainProcess] Received task: main.tasks.check_playing[a8eab741-fd1a-4d9c-b051-fe8956755f60]  
+[2017-09-19 12:14:12,227: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:14:12,351: INFO/ForkPoolWorker-1] Task main.tasks.check_future[bafcd48f-de31-4b34-9a13-e14e4753e812] succeeded in 0.14324269499957154s: None
+[2017-09-19 12:14:12,384: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[a8eab741-fd1a-4d9c-b051-fe8956755f60] succeeded in 0.17016514700117114s: None
+[2017-09-19 12:14:15,213: INFO/MainProcess] Received task: main.tasks.check_playing[6d5d167a-7b5e-4637-a509-776d8a446185]  
+[2017-09-19 12:14:15,224: INFO/MainProcess] Received task: main.tasks.check_future[d9623b3e-ee53-4b70-aedf-32e70fcb02e6]  
+[2017-09-19 12:14:15,230: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:14:15,376: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[6d5d167a-7b5e-4637-a509-776d8a446185] succeeded in 0.16180040300059773s: None
+[2017-09-19 12:14:15,421: INFO/ForkPoolWorker-4] Task main.tasks.check_future[d9623b3e-ee53-4b70-aedf-32e70fcb02e6] succeeded in 0.19475333400077943s: None
+[2017-09-19 12:14:18,222: INFO/MainProcess] Received task: main.tasks.check_future[7521756b-f1ca-4088-944f-0483a46afb35]  
+[2017-09-19 12:14:18,235: INFO/MainProcess] Received task: main.tasks.check_playing[1c992005-4c91-45bc-9989-051914a1e8de]  
+[2017-09-19 12:14:18,252: INFO/ForkPoolWorker-4] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:14:18,379: INFO/ForkPoolWorker-1] Task main.tasks.check_future[7521756b-f1ca-4088-944f-0483a46afb35] succeeded in 0.15485616299883986s: None
+[2017-09-19 12:14:18,426: INFO/ForkPoolWorker-4] Task main.tasks.check_playing[1c992005-4c91-45bc-9989-051914a1e8de] succeeded in 0.18926844899942807s: None
+[2017-09-19 12:14:21,229: INFO/MainProcess] Received task: main.tasks.check_playing[32442b22-443e-4823-aa79-d2325d476de4]  
+[2017-09-19 12:14:21,237: INFO/MainProcess] Received task: main.tasks.check_future[2d625005-c6f6-435f-b249-6f293ed95fef]  
+[2017-09-19 12:14:21,246: INFO/ForkPoolWorker-1] Checking for games in PLAYING state. FOUND: 0
+[2017-09-19 12:14:21,383: INFO/ForkPoolWorker-1] Task main.tasks.check_playing[32442b22-443e-4823-aa79-d2325d476de4] succeeded in 0.15185122799994133s: None
+[2017-09-19 12:14:21,427: INFO/ForkPoolWorker-4] Task main.tasks.check_future[2d625005-c6f6-435f-b249-6f293ed95fef] succeeded in 0.18859620500006713s: None
