@@ -168,6 +168,7 @@ class Fiba_Game:
                     actions_full.append(action)
 
                 actions = actions + actions_full
+
                 for item in response['content']['full']['Items']:
                     if item['AC'] == 'ENDG':
                         # Game Ended
@@ -191,7 +192,7 @@ class Fiba_Game:
             actions_full = []
             for action in actions_temp:
                 action['action_period'] = period.strip('_')
-                actions_full.append(period)
+                actions_full.append(action)
             return actions_full
     
     def data_available(self):
@@ -201,14 +202,18 @@ class Fiba_Game:
         """
         available = {
             'game_info': False,
-            'game_actions': False
+            'game_actions': False,
+            'game_comp_details': False
         }
         response_game_actions = self._make_request(BASE_ACTIONS_INFO, self.league, self.game, "Q1_")
         response_game = self._make_request(BASE_GAME_INFO, self.league, self.game)
+        response_comp = self._make_request(BASE_COMP_DETAILS, self.league, self.game)
         if response_game_actions:
             available['game_actions'] = True
         if response_game:
             available['game_info'] = True
+        if response_comp:
+            available['game_comp_details'] = True
         return available
     
     def get_schedule(self):

@@ -50,24 +50,26 @@ class Game(models.Model):
     def save(self, force_insert=False, force_update=False):
         if not self.team_a or not self.team_b:
             game = Fiba_Game(self.code)
-            team_a_temp, team_b_temp = game.get_teams()
-            team_a, _ = Team.objects.get_or_create(code=team_a_temp['code'],
-                                                defaults=team_a_temp)
-            team_a.save()
-            team_b, _ = Team.objects.get_or_create(code=team_b_temp['code'],
-                                    defaults=team_b_temp)
-            team_b.save()
-            self.team_a = team_a
-            self.team_b = team_b
-        if self.team_a_score == "" or self.team_b_score == "":
-            game = Fiba_Game(self.code)
-            info = game.get_info()
-            if self.team_a.code == info['team_a']['team_a_uid']:
-                self.team_a_score = info['team_a']['team_a_score']
-                self.team_b_score = info['team_b']['team_b_score']
-            else:
-                self.team_b_score = info['team_a']['team_a_score']
-                self.team_a_score = info['team_b']['team_b_score']
+            data_available = game.data_available()
+            if data_available['game_comp_details']:
+                team_a_temp, team_b_temp = game.get_teams()
+                team_a, _ = Team.objects.get_or_create(code=team_a_temp['code'],
+                                                    defaults=team_a_temp)
+                team_a.save()
+                team_b, _ = Team.objects.get_or_create(code=team_b_temp['code'],
+                                        defaults=team_b_temp)
+                team_b.save()
+                self.team_a = team_a
+                self.team_b = team_b
+        # if self.team_a_score == "" or self.team_b_score == "":
+        #     game = Fiba_Game(self.code)
+        #     info = game.get_info()
+        #     if self.team_a.code == info['team_a']['team_a_uid']:
+        #         self.team_a_score = info['team_a']['team_a_score']
+        #         self.team_b_score = info['team_b']['team_b_score']
+        #     else:
+        #         self.team_b_score = info['team_a']['team_a_score']
+        #         self.team_a_score = info['team_b']['team_b_score']
         super(Game, self).save(force_insert, force_update)
 
     def __str__(self):
@@ -108,6 +110,7 @@ class Actions(models.Model):
     action_code = models.CharField(max_length=30) # AC
     action_text = models.CharField(max_length=100, blank=True, null=True) # Action
     action_uid = models.IntegerField(default=0, blank=True, null=True) # Id
+    action_local_uid = models.CharField(max_length=30, unique=True, blank=True, null=True)
     time = models.CharField(max_length=30, blank=True, null=True) # Time
     epoch_time = models.BigIntegerField(blank=True, null=True)
     player = models.ForeignKey(Player, blank=True, null=True,

@@ -19,7 +19,7 @@ class PlayerAdmin(admin.ModelAdmin):
 admin.site.register(Player, PlayerAdmin)
 
 class ActionsAdmin(admin.ModelAdmin):
-    list_display = ['game', 'action_uid', 'action_code', 'period', 'time']
+    list_display = ['game', 'action_uid', 'action_local_uid', 'action_code', 'period', 'time']
     ordering = ('game','period' ,'-time')
 admin.site.register(Actions, ActionsAdmin)
 

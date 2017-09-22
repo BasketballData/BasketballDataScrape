@@ -42,6 +42,7 @@ def get_game_actions(code, period=None):
     current_game = models.Game.objects.get(code=code)
     game = Fiba_Game(code)
     actions = game.get_actions(period)
+    #logger.info('THIS IS ACTION: %s' % actions)
     #teams = models.Team.objects.filter(code=code)
     teams = []
     teams.append(current_game.team_a)
@@ -75,7 +76,7 @@ def get_game_actions(code, period=None):
         try:
             return int(action['ListIndex'])
         except Exception as e:
-            logger.info("ERROR IN ACTION UID. %s" % e)
+            #logger.info("ERROR IN ACTION UID. %s" % e)
             return int(action['Id'])
     
     def _get_action_text(action):
@@ -103,8 +104,9 @@ def get_game_actions(code, period=None):
 
     current_score = {'team_a': 0, 'team_b': 0}
 
-    all_actions = models.Actions.objects.filter(game=current_game).values_list('action_uid', flat=True)
+    all_actions = models.Actions.objects.filter(game=current_game).values_list('action_local_uid', flat=True)
     for action in actions:
+        #logger.info('MMM THIS IS ACTION: %s' % action)
         score = action.get('Score', None)
         if score:
             splited_score = score.split('-')
@@ -112,14 +114,19 @@ def get_game_actions(code, period=None):
             current_score['team_b'] = splited_score[1]
         
         action_uid = _get_action_uid(action)
-        if not action_uid in all_actions:
-            logger.info('ACTION ID: %s ALL ACTIONS: %s' % (action_uid, all_actions))
+        action_period = action.get('action_period', '')
+        # Constructing unique id from game code, period, action id/index
+        action_local_uid = current_game.code + action_period + str(action_uid)
+
+        if not action_local_uid in all_actions:
+            #logger.info('ACTION ID: %s ALL ACTIONS: %s' % (action_uid, all_actions))
             # Maybe add this to separate Celery tasks (?)
             models.Actions.objects.create(
                 game=current_game,
                 action_code=action.get('AC', ''),
                 action_text=_get_action_text(action),
                 action_uid=action_uid,
+                action_local_uid=action_local_uid,
                 time=action.get('Time', ''),
                 epoch_time=_clean_time(action.get('GT', '')),
                 shot_x=action.get('SX', 0),
@@ -131,7 +138,7 @@ def get_game_actions(code, period=None):
                 team=_get_team(action.get('T1', '')),
                 team_a_score=current_score['team_a'],
                 team_b_score=current_score['team_b'],
-                period=action.get('action_period')
+                period=action.get('action_period', '')
             )
 
 @shared_task
@@ -156,6 +163,23 @@ def check_future():
         time_now = int(time.time())
         time_game = current_game.start_time / 1000
         time_difference = time_game - time_now
+
+        if time_difference < 600:
+            if not current_game.team_a or not current_game.team_b:
+                game = Fiba_Game(current_game.code)
+                data_available = game.data_available()
+                if data_available['game_comp_details']:
+                    team_a_temp, team_b_temp = game.get_teams()
+                    team_a, _ = Team.objects.get_or_create(code=team_a_temp['code'],
+                                                        defaults=team_a_temp)
+                    team_a.save()
+                    team_b, _ = Team.objects.get_or_create(code=team_b_temp['code'],
+                                            defaults=team_b_temp)
+                    team_b.save()
+                    current_game.team_a = team_a
+                    current_game.team_b = team_b
+                    current_game.save()
+
         if time_difference < 60:
             game = Fiba_Game(current_game.code)
             available = game.data_available()
