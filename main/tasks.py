@@ -170,10 +170,10 @@ def check_future():
                 data_available = game.data_available()
                 if data_available['game_comp_details']:
                     team_a_temp, team_b_temp = game.get_teams()
-                    team_a, _ = Team.objects.get_or_create(code=team_a_temp['code'],
+                    team_a, _ = models.Team.objects.get_or_create(code=team_a_temp['code'],
                                                         defaults=team_a_temp)
                     team_a.save()
-                    team_b, _ = Team.objects.get_or_create(code=team_b_temp['code'],
+                    team_b, _ = models.Team.objects.get_or_create(code=team_b_temp['code'],
                                             defaults=team_b_temp)
                     team_b.save()
                     current_game.team_a = team_a
@@ -201,7 +201,7 @@ def check_future():
                 except:
                     pass
             players = game.get_players()
-            if len(players) > 9:
+            if len(players) > 5:
                 for player in players:
                     add_player.apply([player])
                 current_game.status = "playing"
