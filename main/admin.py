@@ -14,14 +14,14 @@ admin.site.register(Team, TeamAdmin)
 
 class PlayerAdmin(admin.ModelAdmin):
     list_display = [ 'last_name', 'first_name', 'team']
-    search_fields = ('first_name', 'last_name', 'team', 'code')
+    search_fields = ('first_name', 'last_name', 'team__name', 'code')
     ordering = ('last_name',)
 admin.site.register(Player, PlayerAdmin)
 
 class ActionsAdmin(admin.ModelAdmin):
     list_display = ['game', 'action_uid', 'action_local_uid', 'action_code', 'period', 'time']
     ordering = ('game','period' ,'-time')
-    search_fields = ('game',)
+    search_fields = ('game__code',)
 admin.site.register(Actions, ActionsAdmin)
 
 class LocationAdmin(admin.ModelAdmin):
