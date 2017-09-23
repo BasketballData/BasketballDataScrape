@@ -91,6 +91,13 @@ class Game(models.Model):
             full_xml += "<q%s>%s-%s</q%s>" % (q, a, b, q)
             q += 1
         return full_xml
+    
+    def utc_start(self):
+        if self.start_time:
+            return time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(self.start_time / 1000))
+        else:
+            return "Unknown"
+
 
 
 class Player(models.Model):

@@ -3,7 +3,7 @@ from main.models import Game, Player, Team, Actions, Location
 
 # Register your models here.
 class GameAdmin(admin.ModelAdmin):
-    list_display = ['code', 'team_a', 'team_b', 'status', 'team_a_score', 'team_b_score']
+    list_display = ['code', 'team_a', 'team_b', 'status', 'team_a_score', 'team_b_score', 'utc_start']
     ordering = ('code',)
 admin.site.register(Game, GameAdmin)
 
