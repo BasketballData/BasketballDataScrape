@@ -231,6 +231,24 @@ class Fiba_Game:
         else:
             return None
         
+    def check_exists(self):
+        game_exists = {
+            'league': False,
+            'game': False
+        }
+        response = self._make_request(BASE_SCHEDULE, self.league)
+        if not response:
+            return game_exists
+        else:
+            game_exists['league'] = True
+            try:
+                game_code = self.game.replace('_', '')
+                game = response['content']['full']['Units'][game_code]
+                game_exists['game'] = True
+                return game_exists
+            except:
+                return game_exists
+
 
     def _make_request(self, endpoint, league, game='', period=''):
         """ Base function for making requests to FIBA """
