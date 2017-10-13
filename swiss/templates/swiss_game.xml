@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+<gameinfo>
+    <teama>{{ info.tm.1.name }}</teama>
+    <teamaflag>{{ info.tm.1.logoT.url }}</teamaflag>
+    <teamb>{{ info.tm.2.name }}</teamb>
+    <teambflag>{{ info.tm.2.logoT.url }}</teambflag>
+    <location>No info</location>
+    <quarter>{{ info.period }}</quarter>
+    <score>{{ info.tm.1.full_score }} - {{ info.tm.2.full_score }}</score>
+    <time>{{ info.clock }}</time>
+    <teamfoulA>{{ info.tm.1.fouls }}</teamfoulA>
+    <teamfoulB>{{ info.tm.2.fouls }}</teamfoulB>
+    {% if info.tm.1.p1_score %}<q1>{{ info.tm.1.p1_score }} - {{ info.tm.2.p1_score }}</q1>{% endif %}
+    {% if info.tm.1.p2_score %}<q2>{{ info.tm.1.p2_score }} - {{ info.tm.2.p2_score }}</q2>{% endif %}
+    {% if info.tm.1.p3_score %}<q3>{{ info.tm.1.p3_score }} - {{ info.tm.2.p3_score }}</q3>{% endif %}
+    {% if info.tm.1.p4_score %}<q4>{{ info.tm.1.p4_score }} - {{ info.tm.2.p4_score }}</q4>{% endif %}
+    {% if info.tm.1.p5_score %}<q5>{{ info.tm.1.p5_score }} - {{ info.tm.2.p5_score }}</q5>{% endif %}
+    {% if info.tm.1.p6_score %}<q6>{{ info.tm.1.p6_score }} - {{ info.tm.2.p6_score }}</q6>{% endif %}
+</gameinfo>
+<playbyplay>
+{% for action in info.pbp %}
+    <event>
+        <Score>{{ action.s1 }} - {{ action.s2 }}</Score>
+        <Action>{{ action.actionType }}</Action> 
+        <ActionText>{{ action.subType }} {{ action.actionType }}</ActionText>
+        <PlayerID>No Info</PlayerID>
+        <PlayerName>{{ action.scoreboardName }}</PlayerName>
+        <PlayerNo>{{ action.shirtNumber }}</PlayerNo>
+        <PlayerPic>No Info</PlayerPic>
+        <Player2ID>No Info</Player2ID>
+        <Player2Name>No Info</Player2Name>
+        <Player2No>No Info</Player2No>   
+        <ScoreTeamA>{{ action.s1 }}</ScoreTeamA>
+        <ScoreTeamB>{{ action.s2 }}</ScoreTeamB>
+        <PlusMinus>{% if action.success == 1 %}+{% else %}-{% endif %}</PlusMinus>
+        <ShotCoordX>No info</ShotCoordX>
+        <ShotCoordY>No info</ShotCoordY>
+        <TeamID>No info</TeamID>
+        <TeamName>{% if action.tno == 1 %}{{ info.tm.1.name }}{% elif action.tno == 2 %}{{ info.tm.2.name }}{% endif %}</TeamName>
+        <ClockTime>{{ action.gt }}</ClockTime>
+        <UTCTime>No info</UTCTime>
+        <Quarter>{{ action.period }}</Quarter>
+    </event>
+{% endfor %}
+</playbyplay>
+</document>

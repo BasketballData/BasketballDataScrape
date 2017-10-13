@@ -67,3 +67,7 @@ https://livecache.sportresult.com/node/db/FIBASTATS_PROD/13229_COMPDETAILS_13554
 
 https://livecache.sportresult.com/node/db/FIBASTATS_PROD/13229_GAMEACTIONS_13554-A-2_OT1_JSON.json?s=75&t=0
 
+### SWISS
+http://www.fibalivestats.com/data/competition/19426.json
+http://www.fibalivestats.com/data/750130/data.json
+

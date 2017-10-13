@@ -16,8 +16,10 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from main import views as main_views
+from swiss import views as swiss_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^swiss/(?P<game>.*)/$', swiss_views.get_game,),
     url(r'^(?P<game>.*)/$', main_views.get_game,),
 ]
